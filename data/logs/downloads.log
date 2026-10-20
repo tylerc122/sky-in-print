@@ -6,3 +6,100 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
 {"year": 1849, "windows": ["ordinary_1849_04"], "scans": 2889, "articles": 91990, "candidates": 217, "issues": 709, "newspapers": 69}
 1849 filtered; archive deleted
 1851 downloaded and verified
+{"year": 1851, "windows": ["ordinary_1851_02"], "scans": 4328, "articles": 130640, "candidates": 359, "issues": 1026, "newspapers": 93}
+1851 filtered; archive deleted
+1852 downloaded and verified
+{"year": 1852, "windows": ["ordinary_1852_04"], "scans": 4961, "articles": 165241, "candidates": 645, "issues": 1200, "newspapers": 103}
+1852 filtered; archive deleted
+1863 downloaded and verified
+{"year": 1863, "windows": ["ordinary_1863_07"], "scans": 8895, "articles": 228280, "candidates": 681, "issues": 2321, "newspapers": 173}
+1863 filtered; archive deleted
+1870 downloaded and verified
+{"year": 1870, "windows": ["falls_1870s"], "scans": 67193, "articles": 1912551, "candidates": 1330, "issues": 15234, "newspapers": 225}
+1870 filtered; archive deleted
+1871 downloaded and verified
+{"year": 1871, "windows": ["falls_1870s"], "scans": 66912, "articles": 1899494, "candidates": 1366, "issues": 15452, "newspapers": 235}
+1871 filtered; archive deleted
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/src/skyinprint/run_pilot_downloads.py", line 56, in <module>
+    run(y)
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/src/skyinprint/run_pilot_downloads.py", line 42, in run
+    p = hf_hub_download(MAN["repo"], fname, repo_type="dataset", revision=MAN["revision"], local_dir=raw)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 276, in _inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1026, in hf_hub_download
+    return _hf_hub_download_to_local_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1505, in _hf_hub_download_to_local_dir
+    _download_to_tmp_and_move(
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 2016, in _download_to_tmp_and_move
+    xet_get(
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 589, in xet_get
+    with session.new_file_download_group(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Task error: File reconstruction error: CAS Client Error: Request error: HTTP status client error (403 Forbidden), domain: https://us.aws.cdn.hf.co/xorbs/default/9249df792e4f272579a35fa11c7d128b3be2d7f0edfc0770bf3dcfbb2d156930
+1844 done already
+1849 done already
+1851 done already
+1852 done already
+1863 done already
+1870 done already
+1871 done already
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/src/skyinprint/run_pilot_downloads.py", line 56, in <module>
+    run(y)
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/src/skyinprint/run_pilot_downloads.py", line 42, in run
+    p = hf_hub_download(MAN["repo"], fname, repo_type="dataset", revision=MAN["revision"], local_dir=raw)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 276, in _inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1026, in hf_hub_download
+    return _hf_hub_download_to_local_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1505, in _hf_hub_download_to_local_dir
+    _download_to_tmp_and_move(
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 2016, in _download_to_tmp_and_move
+    xet_get(
+  File "/Users/tylercollo/dev/sandbox/data_and_dat/sky_catalog/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 589, in xet_get
+    with session.new_file_download_group(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Task error: File reconstruction error: CAS Client Error: Format error: I/O error: error decoding response body
+attempt 1 failed, retrying in 60s
+1844 done already
+1849 done already
+1851 done already
+1852 done already
+1863 done already
+1870 done already
+1871 done already
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1872 downloaded and verified
+{"year": 1872, "windows": ["falls_1870s"], "scans": 74854, "articles": 2088240, "candidates": 1520, "issues": 17415, "newspapers": 254}
+1872 filtered; archive deleted
+1873 downloaded and verified
+=== restart Tue Oct 20 10:41:57 EDT 2026
+1844 done already
+1849 done already
+1851 done already
+1852 done already
+1863 done already
+1870 done already
+1871 done already
+1872 done already
+1873 downloaded and verified
+{"year": 1873, "windows": ["falls_1870s"], "scans": 81391, "articles": 2129899, "candidates": 1481, "issues": 19012, "newspapers": 268}
+1873 filtered; archive deleted
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.

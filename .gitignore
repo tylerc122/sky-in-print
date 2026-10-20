@@ -9,3 +9,6 @@ data/work/
 __pycache__/
 *.pyc
 .DS_Store
+
+# private endpoints
+local.env
