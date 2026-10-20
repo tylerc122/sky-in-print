@@ -15,8 +15,7 @@ from pathlib import Path
 from skyinprint import flint
 
 ROOT = Path(__file__).resolve().parents[2]
-PROMPT = (ROOT / "prereg" / "triage_prompt.md").read_text()
-PROMPT_SHA = hashlib.sha256(PROMPT.encode()).hexdigest()
+PROMPT_FILE = "triage_prompt_v2.md"
 MAX_CHARS = 3500
 FIELDS = {"observation", "type", "when_text", "where_text", "stones_reported", "secondhand", "doubtful", "quote"}
 TYPES = {"aurora", "fireball", "meteorite_fall", "meteor_shower", "comet", "eclipse", "other_sky", "none"}
@@ -47,8 +46,13 @@ def main():
     ap.add_argument("--limit", type=int)
     ap.add_argument("--sample", type=int)
     ap.add_argument("--seed", type=int, default=20261020)
-    ap.add_argument("--out", default="triage.jsonl")
+    ap.add_argument("--prompt", default=PROMPT_FILE)
+    ap.add_argument("--out")
     a = ap.parse_args()
+    global PROMPT, PROMPT_SHA
+    PROMPT = (ROOT / "prereg" / a.prompt).read_text()
+    PROMPT_SHA = hashlib.sha256(PROMPT.encode()).hexdigest()
+    a.out = a.out or ("triage_" + Path(a.prompt).stem.replace("triage_prompt", "").strip("_") + ".jsonl").replace("triage_.jsonl", "triage.jsonl")
     d = ROOT / "data" / "work" / a.year
     cands = [json.loads(l) for l in open(d / "candidates.jsonl")]
     if a.sample:
