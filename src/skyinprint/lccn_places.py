@@ -22,6 +22,17 @@ for p in glob.glob("data/work/*/titles.json"):
     titles.update(json.load(open(p)))
 todo = [l for l in sorted(titles) if l not in done or done[l].get("status") != "200"]
 print(len(titles), "newspapers;", len(todo), "to look up")
+def save():
+    """Write the whole table atomically, so a crash never loses finished lookups."""
+    tmp = OUT.with_suffix(".tmp")
+    with open(tmp, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        for k in sorted(done):
+            w.writerow({c: done[k].get(c, "") for c in cols})
+    tmp.replace(OUT)
+
+
 s = requests.Session()
 for i, lccn in enumerate(todo):
     row = {"lccn": lccn, "title": titles[lccn]["title"], "state": titles[lccn]["state"], "city": "", "lat": "", "lon": "", "status": ""}
@@ -46,10 +57,7 @@ for i, lccn in enumerate(todo):
     done[lccn] = row
     if i % 25 == 0:
         print(i, lccn, row["city"], row["lat"], row["status"], flush=True)
+        save()
     time.sleep(4)
-with open(OUT, "w", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=cols)
-    w.writeheader()
-    for k in sorted(done):
-        w.writerow({c: done[k].get(c, "") for c in cols})
+save()
 print("written", len(done))
