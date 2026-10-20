@@ -1,0 +1,44 @@
+New England Auroral Observations 1720 - 1948
+
+  Directory name: new_england_auroral_obs_1720_1948;
+  NSSDC Data Set ID: SPIO-00375;
+  Old NSSDC ID: GE-11C;
+
+This digital data set contains observations of auroras in New England during the
+period 1740 through 1948. The observations were transcribed from a variety of
+sources by S.M. Silverman, and are from various locations in the states of
+Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and
+Vermont. The data are in time order in 18 ASCII files, originally contained on
+three PC diskettes. The volume is approximately 3.6 MBytes as stored in
+word-processor RTF form, or about 2.7 MBytes in plain ASCII text. 
+
+Additional information is available via the web page at and following
+<http://nssdc.gsfc.nasa.gov/space/auroral/auroral.html>.
+Under the heading "Other NSSDC Resources", select Auroral Observations, Ancient and Modern".
+The files in this directory are presented in two formats: Rich Text Format (RTF) and simple 
+ASCII text. The degrees symbol and possibly a few others may be rendered correctly in the RTF
+version, but not in the simple ASCII text version. Otherwise, the two files in each pair are
+the same. Each file name is indicative of the start time of the file. (The "ane" in the file
+names presumably stands for "Aurora -- New England".)
+
+  File Name   Time Span
+
+ane720t       1720 - 1797
+ane800t       1802 - 1849
+ane850t       1850 - 1859
+ane860t       1860 - 1864
+ane865t       1865 - 1869
+ane870t1      1870 - 1871
+ane870t2      1872 - 1874
+ane875t       1875 - 1879
+ane880t1      1880 - 1882
+ane88t2       1882 - 1883
+ane885t       1885 - 1889
+ane890t       1890 - 1894
+ane895t       1895 - 1899
+ane900t       1900 - 1909
+ane910t       1910 - 1919
+ane920t       1920 - 1929
+ane930t       1930 - 1939
+ane940t       1940 - 1948
+

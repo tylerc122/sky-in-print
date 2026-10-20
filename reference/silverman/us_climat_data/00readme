@@ -1,0 +1,32 @@
+This data set contains auroral notations abstracted by Sam Silverman from the Climatological
+Data of the United States, for the years 1914-1948. Additional related digital files and 
+digitally-reproduced paper documents are also included. These consist of: 
+
+(1) 13 files of notations, separated into four time groups: 1914-1923, 1924-1932, 1933-1940, 
+and 1941-1948. For each group there is a file of notes (name = notesusN.txt), a file of the 
+place names (cities) and dates of the observations (name = cld1423.txt and similar), and a 
+list of the place names and their geographic locations (name = pl1423.txt and similar). For
+the 1924-1932 interval, there is also a file listing city, state, and county of the
+observations (co2432.txt).  THESE FILES ARE ALL AVAILABLE NOW.
+
+(2) three-page report (RTF format) entitled: "Aurora of 7 March 1918: Notes". In two places 
+    there is a note saying "See attached copy", which appears to refer to item (4) below.
+
+(3) Observer_reports_7mar1918: seven pages of copies (apparently all from Popular Astronomy,
+    vol. 26 (1918).
+
+(4) quarterly_cvr_ltr_aug_2000.txt, the cover letter for 1st quarterly report (item 3 below).
+    This letter also refers to a pre-print of a journal article. The article citation is:
+    S.M. Silverman and E.W. Cliver, Low-latitude auroras: the magnetic storm of 14-15 May 
+    1921, Journal of Atmospheric and Solar-Terrestrial Physics, vol. 63, pp. 523-535, 2001.
+
+(5) quarterly_rept_july_2000.txt, the two-page 1st quarterly report, with four references; 
+
+(6) four accompanying tables listing locations where the 7 March 1918 and 11 August 1919
+    aurorae were observed;
+  (a) table_aurora_11aug1919_europe.txt
+  (b) table_aurora_11aug1919_us.txt
+  (c) table_aurora_7mar1918_us.txt
+  (d) table_aurora_7mar1918_europe.txt
+
+[This data set is now complete -- July 16, 2002. HKH]

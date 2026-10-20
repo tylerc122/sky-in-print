@@ -1,0 +1,754 @@
+          NOTES: CLIMATOLOGICAL DATA -- U.S. -- 1924-1932
+
+Number of Records:
+
+1924  654                       1925   899                      1926 1509
+1927 1277                       1928  1164                      1929 1174
+1930 2057                       1931  1183                      1932 1370
+
+Total, 1924-1932: 11,287 records.
+
+Notes:
+
+General:
+
+GNIS: Geographic Names Information System, U.S. Geological Survey.
+
+Ohio: 1924: Notes the publication of a book by William H. 
+Alexander, "Climatological History of Ohio," published by the 
+Engineering Experiment Station, O.S.U., Columbus.
+
+
+Locations: 
+
+Alabama: There are two Madisons. Station in Climatological Data is 
+in Madison County, 34.42, -86.45.
+
+Colorado: Le Roy (near) is in Logan County; P.O. Fleming (1925). 
+North Lake, 7/7/28: No county given. There are several features 
+listen in GNIS: a lake, 40.43, -106.41, and trail, 40.45, -106.43, 
+both in Routt County; a dam and reservoir, same coordinates, 
+37.14, -105.02, in Las Animas County. Because of wide differences, 
+ambiguities since dam sites often used, but users of lake and 
+trail may have been source, no coordinates are listed in 
+tabulation. Rugh Ranch, Laramie County, P.O.: Logcabin: GNIS does 
+not have listing for Logcabin, so coordinates for County, from 
+Getty, 40.40, -105.28, have been used.
+
+District of Columbia: (1926:) Washington: Weather Bureau Building, 
+24th and M Streets.
+
+Maryland: Ferry Landing, Calvert County. P.O.: Owings;            
+Pleasant Hill, Baltimore County. P.O.: Owings Mills. (1926:) 
+Fallston, Harford County, P.O.: Bagley.
+
+Michigan: Ruse, Marquette County: no listing found, so county 
+coordinates, 46.32, -87.38, have been used. Sack Bay has been 
+taken as Sac Bay.
+
+Minnesota: Minnibigoshish, Itasca County, RFD 41375, Deer River = 
+coordinates 47.20, -93.48, Itasca County. Coordinates have been 
+taken, however, as those of Winnibigoshish Dam, Cass County, 
+47.26, -93.03. Big Falls is in Koochiching County (1930). Pigeon 
+River Bridge, Cook County, Mineral Center (1925).
+
+Montana: Barthelmess Ranch, Southern Custer County; Goldbutte, 
+Toole County; Mineota, Hill County, Rudyard; Sentinel Butte Pass, 
+Garfield County, Phon; Sioux Pass (near), Richland County;  Upper 
+Yaak River, Lincoln County, Yaak (1925). Dry Land Experiment 
+Station, Jefferson County, P.O.: Cardwell; Barthelmess Ranch: 
+Custer County, P.O.: Coalwood; Sarpy Creek: Treasure County, P.O.: 
+Hysham. (April 1926). Cutbank, 8/14/29, taken as Cut Bank, as 
+listed in GNIS. Phillipsburg, 7/22/27, taken as typo for 
+Philipsburg. Sioux City, July, 1928, taken as error for Sioux 
+Pass. "Sioux City" occurs only in the July 1928 listing, but there 
+is no such place in the list of stations, and Sioux Pass, which is 
+listed, has been in tabulation of auroras for considerable time 
+both before and after this date. Sun River Canyon, Teton County, 
+2/27/29: Coordinates taken as those of Sun River Pass, GNIS, 
+47.57, -112.59. White River, 9/13/28: No White River is listed, 
+taken as typo for White Water, which has numerous auroral 
+notations.  
+
+	During this period, 1924-1932, Lewiston occurs only once, on 
+10/20/32. But Lewiston is not included in the list of stations. 
+GNIS does list a Lewiston in Montana, Jefferson County, 46.28 N, 
+111.59 W, but it is listed as historical. Lewiston has therefore 
+been taken as a typo for Lewistown, 47.04 N, 109.25 W,  which is 
+included in the list of stations.
+
+North Dakota: Dogden Butte taken as Butte in GNIS, which gives the 
+history of the name as originally Dogden for Dog Den Buttes, but 
+changed to Butte by John Scroth, Postmaster in 1927. 
+Climatological Data combines the two names and lists it as Dogden 
+Butte. Metigoshi, 12/18/27, taken as typo for Metigoshe. Powers 
+Lake, Burke County (1925). Stowers, Adams County, P.O.: Lemmon, 
+coordinates 46.07, -102.56. But coordinates taken as those of 
+Stowers Cemetery, 46.03, -102.01 (GNIS) (1928). Oaks, occurring 
+only once, on 5/16/30, has been assumed to be a typo for Oakes, a 
+frequent source of auroral notations. Carlson, occurring only in 
+March 1930, is not included in the list of stations, and has been 
+taken as a typo for Carson, which is well represented in the list 
+of auroras.
+
+South Dakota: Bellefourche, Butte County: coordinates taken as 
+those of Belle Fourche, 44.40, -103.51, GNIS. Cedar View, 
+Washabaugh County, taken as same as Cedarview. P.O given as 
+Kodaka. GNIS does not give coordinates for either Kodaka or 
+Washabaugh County. Getty lists Washabaugh County, with a GNIS 
+I.D., but without coordinates. 
+
+Utah: Hole-in-the-Rock Ranger Station, 10/17/28: no county is 
+given, or other identifying information. Not in GNIS. Maybe the 
+historical section of the National Park Service can identify, but 
+have not tried this.
+
+Virginia: Massinacac, Buckingham County, P.O.: Guinea Mills 
+(1925).
+
+Washington: Gunn's Ranch, 1929: Climatological Data gives no 
+county, but does include in Methow drainage basin. GNIS gives 
+several features under Methow, all in Okanogan County - 
+coordinates have been taken as those of Methow Valley, 48.39, -
+120.32, a former watercourse is at 48.02, -119.53, and an 
+inhabited place at 48.07, -120.00. Stockdill's Ranch, Okanogan 
+County, 1929: coordinates taken as those of the county, 48.33, 
+-119.44.
+
+Wyoming: Clarkelen, Campbell County: no listing found, coordinates 
+taken as those of the county, 44.15, -105.33, Getty.  Middle Fork 
+(near), Fremont County; Quaking Aspen Creek, Park County; 
+Rockypoint now (1925) one word, not two. Pathfinder, Natrona 
+County: coordinates taken as those for Pathfinder Dam, 42.28, -
+106.51, GNIS. Ervay, Natrona County, coordinates have been taken 
+as those of Ervay Basin, 42.55 N, 107.26 W.
+
+Specific: 
+
+1924: 
+
+	January: Ohio: No Auroras or Thunderstorms were reported.
+
+	February: Michigan: Newberry: Auroral arch, low in north, 
+10:00 p.m. on the 10th.
+
+		New York: Auroras: None.
+
+	April: Michigan: Port Huron: A bright aurora was observed on 
+the evening of the 27th. It was very brilliant at 9:05 p.m., but 
+gradually faded.
+
+		Montana: No auroras were observed during the month.
+
+		Ohio: Auroras: None.
+
+		South Dakota: no auroras were recorded.
+
+	May: Michigan: Ludington: Rather bright aurora on the 21st, 9 
+to 11 p.m. C.H. Eshleman.
+
+		Michigan: Marquette: A very beautiful and unusual aurora 
+was visible on the 21st. H.R. Patrick.
+
+	June: Minnesota: No auroras were observed during the month.
+
+		Ohio: Auroras:- 4th (1, Hamilton, 6:00 p.m.)
+		South Dakota: No auroras were reported as observed 
+during the month.
+
+	September: New York: 2d, 1; 4th, 1; 5th, 1; 7th, 2; 22d, 1; 
+23d, 14; 24th, 3; 25th, 1.
+
+	October: South Dakota: Auroras were observed at 2 stations on 
+the 22d, 12 stations on the 23d, 5 stations on the 24th, and 1 
+station on the 26th.
+
+	November: New York: Auroras: None.
+
+		Ohio: No Auroras were reported.
+
+	December: New York: Auroras: None.
+
+		Ohio: No Auroras were reported.
+
+1925:
+
+	January: New York: Auroras: 19th, 3.
+
+		Ohio: Auroras:- None were reported.
+
+	March: Michigan: Munising: Aurora on 23rd. Several broad 
+bands (white), spreading fan-like over the heavens from one point 
+in the western horizon where the sun sets. Albert Oas.
+
+		New York: Auroras: None.
+
+		South Dakota: No auroras were observed.
+
+	April: New York: Auroras: None.
+
+		South Dakota: No auroras were observed.
+
+	June: New York: Auroras: 13th, 2; 16th,3; 17th, 1; 23d, 1; 
+24th, 1.
+
+		Ohio: Auroras:- None.
+
+[Note that AFRL Library does not have Climatological Data for 
+July-September 1925. Available at Cabot Science Library, Harvard, 
+which, however, starts with volume 5, the earlier volumes being 
+available at AFRL. Note also that the 1925 volume at Cabot which I 
+consulted had a number of pages cut out.]
+
+	July: Ohio: Auroras: None.
+
+	September: Indiana: Table gives 20th, 3; 21st, 3; 24th, 1.
+
+		Michigan: Displays of aurora were numerous and of 
+sufficient strength to seriously interfere with telegraph 
+transmission on the 23-24th; the light from this display was equal 
+to a two-thirds full moon; the display of the 20-21st was also 
+fine.
+			Ludington: Brilliant aurora 23-24th; bright 
+vertical streaks and flashes in the north. C.E. Eshleman, Weather 
+Bureau Office.
+
+		Montana: ... Denton, "nearly every night in third week"
+
+		New York: Auroras: 14th, 12; 15th, 3; 17th, 2; 20th, 2; 
+21st, 3; 23d, 4; 24th, 1; 25th, 2. 
+
+		South Dakota: Auroras were observed at 24 stations 
+during the month. The dates on which they were observed are as 
+follows: 1,2,14,15,16,17,19,20,21,22,23,24, and 25th.
+
+	October: New York: Auroras: 13th, 2; 14th, 2; 16th, 1; 21st, 
+1; 23d, 3.
+
+	November: Indiana: Table of auroras gives for 8th, 5; 9th, 3.
+		Michigan: A fine display of aurora was observed over 
+most of the State from the 7th to the 9th inclusive, that on the 
+8th being the most brilliant, with colored streamers and waiving 
+[sic] clouds.
+
+			Newberry: 8th, brilliant aurora northward to 
+zenith. John Brown.
+
+			Ludington: Aurora the 8th; vertical streamers, 
+bluish and greenish, flashing and lateral movement. C.H. Eshleman.
+
+		New York: Auroras: 8th, 1; 9th, 2; 10th, 3.
+
+		South Dakota: Auroras were observed at one station on 
+the 7th, 23 stations on the 8th, 18 stations on the 9th, nine 
+stations on the 10th, and two stations on the 11th.
+
+	December: New York: Auroras: None.
+
+		Ohio: Auroras:- None.
+
+1926:
+
+	January: Michigan: Port Huron: An aurora was observed on the 
+22nd and two large sun spots were noted on the 23rd. Weather 
+Bureau Office.
+
+		New York: Auroras: 13th, 1; 23d, 1.
+
+		Ohio: Auroras:- None.
+
+	February: New York: Auroras: 6th, 1; 10th, 1; 11th, 2; 22d, 
+1; 23d, 4; 24th, 2.
+
+		Ohio: Auroras:- None.
+
+	March: Indiana: Table gives one station for 6th, 10th, 17th; 
+two stations for the 9th.
+
+		New York: Auroras: 5th, 6; 6th, 1; 9th, 7; 10th, 1; 
+11th, 3; 17th, 1; 18th, 1; 20th, 1; 21st, 2.
+
+	April: Indiana: Table gives 14th, 2; 15th, 5; 16th, 1; 17th, 
+1.
+
+		Michigan: A brilliant aurora was observed throughout the 
+State on the night of the 14-15th. Less pronounced displays were 
+reported on the 5, 6, 112, 13, 16, 17.
+
+			Saugatuck: Wonderful aurora 9:00 p.m. to midnight 
+of the 14th. Northwest sky filled with great streamers extending 
+from horizon to zenith and one-fourth of the heavens lit up as by 
+moonlight.  T.B. Dates.
+
+			Port Huron: Remarkable aurora observed on the late 
+evening of the 14th. Weather Bureau Office.
+
+			Charlevoix: Very bright aurora on the 14th. O. 
+Smith.
+
+			Vanderbilt: Bright aurora on the 14th.
+
+		Missouri: Aurora.-- Observed at several northern 
+stations the evening of the 15th.
+
+	May: Indiana: Table gives 3d, 2; 4th, 2; 5th, 1.
+
+		Michigan: Ludington: Pronounced aurora on the night of 
+the 9th-10th. Slight auroras on the 3rd, 10th and 11th. C.H. 
+Eshleman.
+
+		New York: Auroras: 2d, 1; 3d, 1; 4th, 3; 5th, 2; 6th, 1; 
+8th, 3; 9th, 6; 10th, 1; 11th, 2; 12th, 1; 16th, 1, 19th, 1.
+
+	June: Michigan: Grand Haven: A faint aurora was observed on 
+the evening of the 1st. H.E. Heyer.
+			Port Huron: A brilliant aurora was observed on the 
+evening of the 1st.
+
+		New York: Table gives 1st, 9; 4th, 2; 5th, 1; 8th, 2; 
+12th, 21; 15th, 1; 18th, 1.
+		South Dakota: Auroras were observed at 10 stations on 
+the 1st, 2 on the 2d, 1 on the 6th, 5 on the 7th, and 7 on the 
+8th.
+
+	July: Ohio: Auroras: None.
+
+		New York: Auroras:  5th, 2; 6th, 3; 12th, 1; 13th, 2; 
+14th, 10; 15th, 2; 16th, 1; 17th, 1; 19th, 2.
+
+		Oklahoma: A brilliant aurora was observed between 8.00 
+p.m. and 9.20 p.m. on the 14th at Kenton and Boise City, Cimarron 
+County and at Hooker, Texas County. 
+
+		South Dakota: Auroras were observed at 1 station on the 
+6th, 1 on the 7th, 23 on the 14th, 6 on the 15th, 5 on the 16th, 
+and 1 on the 17th.
+
+		Utah: Auroras were reported from stations and on dates 
+as follows: Duchesne, 14, (brilliant); International, 14, 15; 
+Manti, 14 (quite dim); Moab, 14, Oak City, 14; Ogden, 14, 
+(brilliant); Randolph, 14; Salt Lake City, 14; Smithfield, 15.
+
+		Washington: Auroras were noted on several dates, but the 
+one on the 14th was the most brilliant and generally observed.
+
+	August: New York: Table gives: 1st, 1; 8th, 1; 9th, 2; 30th, 
+1.
+
+		Ohio: Auroras: None.
+
+	September: South Dakota: Auroras were observed at 13 stations 
+on the 8th and at 2 stations on the 9th.
+
+	October: Indiana: Table gives: 13th, 1; 14th, 9; 15th, 6.
+
+		Michigan: A brilliant aurora was noted at most stations 
+in the State on the evening of the 14th.
+
+		New York: Table gives: 2d, 2; 3d, 1; 8th, 1; 11th, 1; 
+14th, 11; 15th, 19; 16th, 9.
+
+		South Dakota: Auroras were observed at 2 stations on the 
+6th, 1 station on the 12th, 12 stations on the 14th, and 8 
+stations on the 15th.
+
+	December: New York: Table gives: 2d, 1; 4th, 2.
+
+1927:
+
+	January: Ohio: Auroras: None.
+		Iowa: p. 7. Description of meteor of January 2, 1927. 
+"Most of the observers made no mention of noise of any sort, but 
+it was reported at Fort Dodge that there was a 'lot of noise from 
+it,' and at other places where it was heard it was described as a 
+'swishing' or 'hissing' sound."
+
+	February: New York: Table gives: 28th, 2.
+
+		Ohio: Auroras: None.
+
+  	March: New York: Table gives: 9th, 1; 10th, 2; 25th, 1; 27th, 
+2.
+
+		South Dakota: Auroras were observed as follows: on the 
+6th at three stations; on the 7th, 8th, 9th, 13th, 25th, 26th, and 
+31st, at one station; on the 14th and 29th, at two stations; and 
+on the 27th at 9 stations.
+
+	April: New York: Table gives: 1st, 1; 2d, 1; 4th, 1; 7th, 2; 
+15th, 1; 27th, 1; 29th, 8; 30th, 3.
+
+		Ohio: Auroras: None.
+
+	May: New York: Table gives: 3d, 1; 4th, 2; 7th, 2.
+
+	June: New York: Table gives: 1st, 1; 2d, 1; 26th, 2.
+
+		Ohio: Auroras: None.
+
+	July: Indiana: Table gives: 21st, 2.
+
+		Michigan: Paw Paw, Van Buren County: Bright aurora on 
+the 22nd. Edward Sherrod.
+
+		Ohio: Auroras: None.
+
+		South Dakota: Auroras were observed at one station on 
+the 1st, 6th, and 7th; at nine on the 21st; at four on the 22nd; 
+at two on the 23rd and 27th; and at one on the 24th.
+
+	August: Michigan: Newberry: Brilliant aurora on the 19th and 
+21st. John Brown.
+
+		New York: Table gives: 2d, 1; 3d, 2; 5th, 1; 20th, 2; 
+21st, 1.
+
+		South Dakota: Auroras were observed as follows: 2nd, 3 
+stations; 3d, 1; 6th, 1; 18th, 1; 19th 3; 20th, 10; 21st, 6; 22nd, 
+2; 23rd, 1; 28th, 4; 29th, 1; 30th, 2.
+
+	September: New York: Table gives: 8th, 2; 10th, 1; 26th, 2.
+
+	October: Indiana: Table gives: 22d, 4; 23d, 1.
+		New York: Table gives: 11th, 1; 12th, 1; 22d, 4; 23d, 4; 
+24th, 1; 29th, 1; 30th, 1.
+
+		Ohio: Philo No. 1, Philo No. 2 both in Muskingum County.
+
+		South Dakota: Auroras occured at one station on the 4th, 
+7th, 16th, 19th and 20th, four on the 21st, twelve on the 22nd, 
+eight on the 23rd, seven on the 24th, three on the 25th, and three 
+on the 26th.
+
+	November: Ohio: Auroras: None.
+
+	December: Ohio: Auroras: None.
+
+		South Dakota: Auroras occurred at two stations on the 
+2nd, one on the 13th, one on the 15th, six on the 18th, three on 
+the 19th, one on the 21st, one on the 27th, and two on the 30th.
+
+1928:
+
+	January: Ohio: Auroras: None.
+
+	February: New England: Auroras. - None.
+
+		Ohio: Auroras: None.
+
+	March: New England: Auroras. - None.
+
+		Ohio: Auroras: None.
+
+		New York: Table gives: 7th, 2; 10th, 1; 20th, 1.
+
+	June: Ohio: Auroras: None.
+
+	July: Arkansas: AURORA: ... 7th, entire State.
+
+		Illinois: An aurora was observed over the State on the 
+7th, being the first record of this phenomenon at the Cairo 
+station.
+
+		Indiana: Table gives: 7th, 8; 8th, 3.
+
+		Missouri: Aurora. - Brilliant on 7th, visible all over 
+the State.
+
+		Montana: [List of auroras gives Sioux City, but there is 
+no Sioux City in the list of stations. Taken as Sioux Pass, which 
+has reported auroras over many years.]
+
+		New York: Table gives: 7th, 14; 8th, 2; 11th, 1; 21st, 
+2.
+		Ohio: Auroras. 6th (2); 7th (16); 8th (4); 9th (1); 16th 
+(1).
+
+		South Dakota: Auroras were observed at 6 stations on the 
+7th, 5 stations on the 8th, 2 stations on the 9th, 1 station on 
+the 12th, 2 stations on the 20th, 11 stations on the 21st, 2 
+stations on the 22d and 1 station on the 27th.
+
+		Texas: Auroras: Observed generally in west and northwest 
+on the night of 7-8th.
+
+	August: New York: Table gives: 11th, 1; 12th, 3; 223d, 1; 
+26th, 4; 27th, 2; 31st, 1.
+
+		South Dakota: Auroras were observed at 1 station on the 
+10th, 4 stations on the 11th, 1 station on the 12th, 7 stations on 
+the 25th, 2 stations on the 26th, and 1 station on the 27th.
+
+	September: Montana: [Aurora list gives White River, which is 
+not in the list of stations. Taken as White Water, which has noted 
+auroras for a long time.]
+
+		New York: Table gives: 7th, 6; 8th, 7; 9th, 4; 15th, 1; 
+23d, 1.
+
+	October: Indiana: Table gives: 18th, 2.
+
+		Kansas: A display of the Aurora Borealis was reported at 
+Garnett and Pomona on the 17th and at a large number of stations 
+on the early morning of the 18th.
+
+		Michigan: Ruse (near): Aurora observed on the night of 
+the 24th-25th. Forest Experiment Station.
+
+		New York: Table gives: 6th, 1; 14th, 1; 24th, 2; 25th, 
+1.
+
+		South Dakota: Auroras were observed at one station on 
+the 4th, two on the 5th, eight on the 6th, two on the 7th, one on 
+the 12th, one on the 15th, two on the 18th, one on the 22d, 14 on 
+the 24th and three on the 25th.
+
+	November: Ohio: Auroras: None.
+
+	December: Ohio: Auroras: None.
+
+1929:
+
+	January: Ohio: Auroras: None.
+
+		South Dakota: Auroras were observed at ... and nine 
+other stations on the 8th.
+	February: Indiana: Table gives: 27th, 2.
+
+		Michigan: A brilliant aurora was observed over most of 
+the state during the evening of the 27th.
+
+			Newberry: Splendid auroral display on the evening 
+of the 27th, continuing past midnight. The illuminated, waving 
+tapestry effects were beyond description. John Brown.
+
+			Sack Bay: Brilliant auroral display on the 27th. 
+Adella M. Elliott.
+
+		Ohio: Auroras: None.
+
+	March: Michigan: Port Huron: A brilliant auroral display was 
+observed on the 16th. R.C. West.
+
+		New York: Table gives: 11th, 5; 12th, 11; 16th, 3; 17th, 
+2; 21st, 1; 28th, 1; 29th, 1; 30th, 1.
+
+		South Dakota: Auroras were observed at four stations on 
+the 7th, one on the 8th, one on the 10th, two on the 11th, twelve 
+on the 15th, nine on the 16th, two on the 17th, two on the 18th, 
+one on the 20th, five on the 28th, and four on the 29th.
+
+	April: Ohio: Auroras: None.
+
+	May: Ohio: Auroras: None.
+
+	June: Ohio: Auroras: None.
+
+	July: Michigan: Newberry: Aurora of moderate brilliancy 
+observed on the 14th ... John Brown.
+
+		New York: Table gives: 1st, 1; 14th, 2; 15th, 3; 16th, 
+1.
+
+	August: Ohio: Auroras: None.
+
+		South Dakota: No auroras were observed during the month.
+
+	September: New York: Table gives: 21st, 2; 22d, 3.
+
+	October: New York: Table gives: 8th, 1; 9th, 1; 10th, 1; 
+18th, 2; 28th, 2.
+
+		Ohio: Auroras: None.
+
+	November: Michigan: Port Huron: An auroral display was 
+observed during the early morning of the third. R.C. West.
+
+		New England: Auroras: - None.
+
+		Ohio: Auroras: None.
+
+		South Dakota: Auroras were observed at nine stations on 
+the 2d, ...
+
+		Texas: Auroras: Stratford, 8, 2 a.m.
+
+	December: Ohio: Auroras: None.
+
+		South Dakota: Auroras were observed at 6 stations on the 
+3d, 11 on the 4th, 4 on the 5th, 1 on the 6th, 3 on the 21st, 2 on 
+the 22d, and 1 on the 23d.
+
+1930:
+
+	January: New York: Table gives: 4th, 2.
+
+		Ohio: Auroras: None.
+
+		South Dakota: Auroras were observed at 4 stations on the 
+4th, 1 on the 5th, 2 on the 6th, 1 on the 15th, 1 on the 18th, 2 
+on the 20th, 2 on the 28th, 3 on the 29th, and 1 on the 31st.
+
+	February: Michigan: Mio: Auroras observed on 13th and 15th. 
+Consumers Power Company.
+
+	March: [missing from AFRL Research Library, as well as 
+Alabama through California for April. Available at Cabot Science 
+Library, Harvard University.]
+
+		Colorado: North Lake, no county given, listed as in 
+Purgatoire drainage basin.
+
+		Michigan: Luther: Very bright aurora on the 21st. George 
+Angell.
+
+		South Dakota: Auroras were observed at 2 stations on the 
+1st, 1 each on the 2d, 12th, 17th, 22d, 23d, 24th, 25th, 26th, 
+28th, and 30th, and 3 each on the 11th, 21st, 27th, and 28th.
+
+	April: Indiana: Table gives: 7th, 1; 8th, 2; 10th, 1; 18th, 
+1.
+
+		Ohio: Auroras: None.
+
+	May: Indiana: Table gives: 4th, 4; 30th, 3; 21st, 1.
+
+		New York: Table gives: 3d, 2; 4th, 8; 5th, 3; 7th, 1; 
+12th, 1; 16th, 1; 17th, 1; 31st, 4.
+
+		South Dakota: Auroras were observed at 2 stations on the 
+3d, 3 on the 4th, 1 each on the 5th, 6th, 9th, 11th, 18th, 19th, 
+20th, and 23d, 3 on the 16th, 2 on the 17th, 3 on the 29th, 10 on 
+the 30th, and 6 on the 31st.
+
+	June: Indiana: Table gives: 1st, 3.
+
+		New York: Table gives: 1st, 2; 26th, 1; 28th, 1.
+
+		South Dakota: Auroras were observed at 3 stations on the 
+1st, 1 on the 2d, 1 on the 7th, 3 on the 15th, 6 on the 16th, 2 on 
+the 17th, 1 on the 25th, 5 on the 26th, 8 on the 27th, 6 on the 
+28th, and 1 on the 29th.
+
+		[Washington: pages out of order in copy at AFRL.]
+
+	July: New York: Table gives: 24th, 2; 25th, 1.
+
+		South Dakota: Auroras were observed at 1 station on the 
+1st, 1 on the 2d, 2 on the 9th, 3 on the 10th, 1 on the 11th, 1 on 
+the 13th, 1 on the 20th, 6 on the 24th, 5 on the 25th, 3 on the 
+26th, 2 on the 30th, and 1 on the 31st.
+
+	August: Michigan: Painesdale: Very peculiar aurora on the 
+23d. Looked like a beam of light from a search light, from east to 
+west. H.T. Mercer.
+
+ 		Ohio: Auroras: None.
+
+	September: Indiana: Table gives: 18th, 1; 19th, 3; 29th, 5.
+
+		New York: Table gives: 17th, 1; 18th, 6; 19th, 3; 28th, 
+2; 29th, 4; 30th, 1.
+
+		South Dakota: Auroras were observed at two stations on 
+the 1st, 2 on the 2d, 3 on the 3d, 2 on the 4th, 1 each on the 
+14th, 18th, 20th, and 25th, 4 on the 24th, 2 on the 27th, 16 on 
+the 28th, 22 on the 29th, and 9 on the 20th [sic - probably typo 
+for the 30th, and taken as such].
+
+	October: New York: Table gives: 1 each on the 1st, 4th, 12th, 
+13th, 14th, 25th, 2 on the 18th, 3 on the 26th.
+
+	November: Ohio: Auroras: None.
+
+	December: Ohio: Auroras: None.
+
+1931:
+
+	January: Ohio: Auroras: None.
+		Texas: Waco, Winters (near), 4.
+
+	February: Ohio: Auroras: None.
+
+	March: Ohio: Auroras: None.
+	  	Alpawa Ranch, WA is in Asotin County.
+	  	Ervay, WY is in Natrona County.
+
+	April: Ohio: Auroras: None.
+
+	May: New York: Table gives: 3 on the 6th, 1 on the 7th.
+
+		Ohio: Auroras: None.
+
+		South Dakota: Auroras were observed at 7 stations on the 
+6th, 5 on the 7th, 3 on the 11th, 3 on the 12th, 1 on the 13th, 8 
+on the 14th, and 4 on the 15th.
+
+	June: New England: Auroras: None.
+
+	July: New England: Auroras: None.
+
+		Ohio: Auroras: None.
+
+	August: Ohio: Auroras: None.
+
+	September: Michigan: Luther: Brilliant aurora observed on the 
+3d. George Angell.
+
+			Mackinaw: Auroras observed on the 3d, 5th, 13th, 
+14th and 16th.
+
+		New York: Table gives: 1 on the 4th, 2 on the 16th.
+
+		South Dakota: Auroras were observed at 10 stations on 
+the 3rd, 6 on the 4th, 3 on the 5th, 1 on the 6th, 3 on the 8th, 2 
+on the 9th, 3 on the 14th, 1 on the 15th, 8 on the 16th, 4 on the 
+17th, 4 on the 20th, 2 on the 21st, and 1 on the 28th.
+
+	October: South Dakota: Auroras were observed at 3 stations on 
+the 1st, 1 on the 2nd, 2 on the 3rd, 6 on the 4th, 5 on the 5th, 1 
+on the 13th, 1 on the 14th, 1 on the 16th, 1 on the 17th, 2 on the 
+18th, 1 on the 19th, 1 on the 29th, and 1 on the 30th.
+
+	November: Montana: Oheim taken as typo for Opheim.
+
+		Washington: A faint auroral display was observed at 
+Ephrata on the 3d.
+
+	December: New York: Table gives: 1 on the 28th, 1 on the 
+29th, and 2 on the 30th.
+
+		South Dakota: No auroras were observed during the month.
+
+1932:
+
+	February: South Dakota: Post Office address for Cedar View is 
+given as Kodaka.
+
+	March: Ohio: Auroras: None.
+
+	May: Missouri: At Fulton, 10.30 to 11 p.m. on 29th.
+
+		South Dakota: Auroras were observed at 1 station each on 
+the 2nd, 5th, 10th, and 11th, 2 each on the 24th, 28th, and 30th, 
+3 on the 27th, and 5 on the 29th.
+
+	June: New England: Auroras:- None.
+
+		South Dakota: No auroras were observed during the month.
+
+	July: Montana: Kishinehn Ranger Station given as being in 
+Glacier National Park.
+
+		Ohio: Auroras: None.
+
+	October: South Dakota: Auroras were observed at 1 station on 
+the 19th, 15 stations on the 20th, 4 stations on the 21st, 1 
+station on the 22ndm, and 3 stations on the 31st.
+
+	December: Missouri: Auroras:- None.
+
+
+1
+
+

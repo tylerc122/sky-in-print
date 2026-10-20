@@ -1,0 +1,360 @@
+                              AURORAL OBSERVATIONS: UNITED STATES
+
+                                           1933-1940
+
+	                            LOCATIONS OF OBSERVATIONS
+
+  CITY                      STATE                COUNTY                     LAT    LONG
+
+                           ARKANSAS                                        34.55  -93.00
+EUREKA SPRINGS             ARKANSAS              CARROLL                   36.24  -93.44
+HARRISON                   ARKANSAS              BOONE                     36.14  -93.06
+MOUNTAIN HOME              ARKANSAS              BAXTER                    36.20  -92.23
+MOUNTAINBURG               ARKANSAS              CRAWFORD                  35.38  -94.10
+SUBIACO                    ARKANSAS              LOGAN                     35.18  -93.38
+NORTH LAKE                 COLORADO              LAS ANIMAS                37.14 -105.02
+WASHINGTON                 DISTRICT OF COLUMBIA  DISTRICT OF COLUMBIA      38.53  -77.02
+LAKE [COUNTY]              FLORIDA               LAKE                      28.47  -81.47
+SOUTHWARD TO LAKE COUNTY   FLORIDA                                          0.00    0.00
+                           IDAHO                                           44.40 -115.00
+                           INDIANA                                         40.10  -86.30
+                           IOWA                                            42.10  -93.40
+                           KANSAS                                          38.40  -99.15
+FLORENCE                   KANSAS                MARION                    38.15  -96.56
+GARNETT                    KANSAS                ANDERSON                  38.17  -95.15
+OVERBROOK                  KANSAS                OSAGE                     38.47  -95.33
+SUBLETTE                   KANSAS                HASKELL                   37.29 -100.51
+SHREVEPORT                 LOUISIANA             CADDO                     32.29  -93.45
+ANNAPOLIS                  MARYLAND              ANNE ARUNDEL              38.59  -76.30
+FROSTBURG                  MARYLAND              ALLEGANY                  39.39  -78.56
+GRANTSVILLE                MARYLAND              GARRETT                   39.42  -79.09
+LA PLATA                   MARYLAND              CHARLES                   38.32  -76.59
+PRINCESS ANNE              MARYLAND              SOMERSET                  38.12  -75.42
+                           MARYLAND-DELAWARE                                0.00    0.00
+                           MINNESOTA                                       46.05  -95.03
+ANGUS                      MINNESOTA             POLK                      48.04  -96.42
+ARGYLE                     MINNESOTA             MARSHALL                  48.20  -96.49
+ARTICHOKE LAKE             MINNESOTA             BIGSTONE                  45.21  -96.08
+BEARDSLEY                  MINNESOTA             BIG STONE                 45.34  -96.43
+BEMIDJI                    MINNESOTA             BELTRAMI                  47.28  -94.52
+BIG FALLS                  MINNESOTA             KOOCHICHING               48.11  -93.48
+BRAINERD                   MINNESOTA             CROW WING                 46.21  -94.12
+COLLEGEVILLE               MINNESOTA             STEARNS                   45.36  -94.22
+DETROIT LAKES              MINNESOTA             BECKER                    46.49  -95.51
+DULUTH                     MINNESOTA             SAINT LOUIS               46.47  -92.06
+FAIRMONT                   MINNESOTA             MARTIN                    43.39  -94.27
+GULL LAKE DAM              MINNESOTA             CASS                      46.25  -94.21
+HALLOCK                    MINNESOTA             KITTSON                   48.46  -96.56
+MAPLE PLAIN                MINNESOTA             HENNEPIN                  45.00  -93.39
+MAPLEPLAIN                 MINNESOTA             HENNEPIN                  45.00  -93.39
+MEADOWLANDS                MINNESOTA             SAINT LOUIS               47.04  -92.44
+MINNEAPOLIS                MINNESOTA             HENNEPIN                  44.59  -93.16
+MINNEAPOLIS W.B.           MINNESOTA             HENNEPIN                  44.59  -93.16
+MIZPAH                     MINNESOTA             KOOCHICHING               47.55  -94.12
+MOORHEAD                   MINNESOTA             CLAY                      46.52  -96.46
+MORA                       MINNESOTA             KANABEC                   45.53  -93.18
+NEW LONDON                 MINNESOTA             KANDIYOHI                 45.18   94.57
+ORR                        MINNESOTA             SAINT LOUIS               48.03  -92.50
+PARK RAPIDS                MINNESOTA             HUBBARD                   46.55  -95.04
+PIGEON RIVER BRIDGE        MINNESOTA             COOK                      48.01  -89.42
+PINE RIVER DAM             MINNESOTA             CROW WING                 46.40  -94.07
+RED LAKE FALLS             MINNESOTA             RED LAKE                  47.53  -96.16
+SANDY LAKE DAM             MINNESOTA             AITKIN                    46.47  -93.20
+TOWER                      MINNESOTA             SAINT LOUIS               47.48  -92.16
+TRACY                      MINNESOTA             LYON                      44.14  -95.37
+VIRGINIA                   MINNESOTA             SAINT LOUIS               47.31  -92.32
+WHEATON                    MINNESOTA             TRAVERSE                  45.48  -96.30
+WINNIBIGOSHISH             MINNESOTA             CASS                      47.26  -94.03
+                           MISSOURI                                        38.27  -93.10
+KANSAS CITY                MISSOURI              JACKSON                   39.06  -94.34
+                           MONTANA                                         46.47 -110.40
+ASHLAND (NEAR)             MONTANA               ROSEBUD                   45.36 -106.16
+AUGUSTA                    MONTANA               LEWIS AND CLARK           47.30 -112.23
+BABB (NEAR)                MONTANA               GLACIER                   48.52 -113.26
+BILLINGS                   MONTANA               YELLOWSTONE               45.47 -108.30
+BIRCH CREEK                MONTANA               JUDITH BASIN              47.23 -110.36
+BIRCH CREEK CAMP           MONTANA               BEAVERHEAD                45.25 -112.43
+BROWNING                   MONTANA               GLACIER                   48.33 -113.00
+BRUNELDA                   MONTANA               GARFIELD                  46.54 -107.16
+BUSTEED                    MONTANA               STILLWATER                45.57 -109.21
+BUTTE                      MONTANA               SILVER BOW                46.00 -112.32
+CASCADE (NEAR)             MONTANA               CASCADE                   47.16 -111.42
+CIRCLE (NEAR)              MONTANA               MCCONE                    47.25 -105.36
+COLSTRIP                   MONTANA               ROSEBUD                   45.53 -106.37
+CONRAD                     MONTANA               PONDERA                   48.10 -111.57
+CONWAY'S RANCH             MONTANA               MADISON                   45.19 -111.56
+COPPER                     MONTANA               MEAGHER                   46.37 -110.40
+CULBERTSON (NEAR)          MONTANA               ROOSEVELT                 48.09 -104.31
+DARBY (NEAR)               MONTANA               RAVALLI                   46.01 -114.10
+DILLON                     MONTANA               BEAVERHEAD                45.12 -112.38
+DRUMMOND                   MONTANA               GRANITE                   46.40 -113.09
+DRY LAND EXPERIMENT STATIONMONTANA               JEFFERSON                 45.51 -111.57
+DUNKIRK (NEAR)             MONTANA               TOOLE                     48.29 -111.40
+FAIRVIEW                   MONTANA               RICHLAND                  47.51 -104.02
+FLATWILLOW (NEAR)          MONTANA               PETROLEUM                 46.50 -108.24
+FORKS (NEAR)               MONTANA               PHILLIPS                  48.44 -107.29
+FORSYTH                    MONTANA               ROSEBUD                   46.16 -106.41
+FORT PECK                  MONTANA               VALLEY                    48.01 -106.27
+FORTINE                    MONTANA               LINCOLN                   48.46 -114.54
+FRAZER                     MONTANA               VALLEY                    48.03 -106.03
+GARLAND                    MONTANA               CUSTER                    46.03 -105.56
+GOLDBUTTE                  MONTANA               TOOLE                     48.52 -111.23
+GRASS RANGE                MONTANA               FERGUS                    47.02 -108.48
+GREAT FALLS                MONTANA               CASCADE                   47.30 -111.17
+HAVRE                      MONTANA               HILL                      48.33 -109.41
+HELENA                     MONTANA               LEWIS AND CLARK           46.36 -112.02
+HERON                      MONTANA               SANDERS                   48.04 -115.57
+HIGHWOOD                   MONTANA               CHOUTEAU                  47.35 -110.47
+INGOMAR (NEAR)             MONTANA               ROSEBUD                   46.35 -107.22
+JOPLIN                     MONTANA               LIBERTY                   48.34 -110.46
+JOPLIN (NEAR)              MONTANA               LIBERTY                   48.34 -110.46
+KALISPELL                  MONTANA               FLATHEAD                  48.11 -114.18
+LEWISTOWN                  MONTANA               FERGUS                    47.03 -109.25
+LIBBY                      MONTANA               LINCOLN                   48.23 -115.33
+LOTHAIR                    MONTANA               LIBERTY                   48.28 -111.13
+LOWETH                     MONTANA               MEAGHER                   46.22 -110.42
+LYTLE                      MONTANA               PONDERA                   48.02 -111.50
+MALTA                      MONTANA               PHILLIPS                  48.21 -107.52
+MEDICINE LAKE              MONTANA               SHERIDAN                  48.30 -104.30
+MILDRED                    MONTANA               PRAIRIE                   46.41 -104.58
+MILES CITY                 MONTANA               CUSTER                    46.25 -105.50
+OPHEIM                     MONTANA               VALLEY                    48.51 -106.24
+OUTLOOK                    MONTANA               SHERIDAN                  48.53 -104.47
+OVANDO                     MONTANA               POWELL                    47.01 -113.07
+PAXTON (NEAR)              MONTANA               DAWSON                    47.38 -105.20
+PLEVNA                     MONTANA               FALLON                    46.25 -104.31
+POLSON                     MONTANA               LAKE                      47.41 -114.09
+RAPELJE                    MONTANA               STILLWATER                45.58 -109.15
+RED LODGE (NEAR)           MONTANA               CARBON                    45.11 -109.15
+ROCK SPRINGS (NEAR)        MONTANA               ROSEBUD                   46.49 -106.15
+ROUNDUP                    MONTANA               MUSSELSHELL               46.27 -108.32
+SAHARA                     MONTANA               GOLDEN VALLEY             46.45 -109.09
+SAINT IGNATIUS             MONTANA               LAKE                      47.19 -114.05
+SARPY CREEK                MONTANA               TREASURE                  45.38 -107.00
+SENTINEL BUTTE PASS        MONTANA               GARFIELD                  47.31 -106.34
+SNOWBELT                   MONTANA               DAWSON                    47.15 -104.52
+STANFORD                   MONTANA               JUDITH BASIN              47.09 -110.13
+STEVENSVILLE               MONTANA               RAVALLI                   46.31 -114.06
+STEVENSVILLE (NEAR)        MONTANA               RAVALLI                   46.31 -114.06
+SUMMIT                     MONTANA               FLATHEAD                  48.14 -113.34
+TELEGRAPH CREEK            MONTANA               PHILLIPS                  47.47 -107.38
+THOMPSON FALLS             MONTANA               SANDERS                   47.36 -115.21
+TURNER                     MONTANA               BLAINE                    48.51 -108.24
+UPPER YAAK RIVER           MONTANA               LINCOLN                   48.50 -115.42
+VALENTINE                  MONTANA               FERGUS                    47.19 -108.25
+WINIFRED                   MONTANA               FERGUS                    47.33 -109.22
+WYOLA                      MONTANA               BIG HORN                  45.08 -107.23
+                           NEBRASKA                                        41.30 -101.15
+ELY                        NEVADA                WHITE PINE                39.15 -114.53
+INDIAN SPRINGS             NEVADA                CLARK                     36.34 -115.40
+PIOCHE                     NEVADA                LINCOLN                   37.56 -114.27
+SAN JACINTO                NEVADA                ELKO                      41.52 -114.40
+                           NEW ENGLAND                                      0.00    0.00
+                           NEW MEXICO                                      35.20 -104.45
+                           NORTH CAROLINA                                  35.45  -81.00
+CHARLOTTE                  NORTH CAROLINA        MECKLENBURG               35.13  -80.51
+CONCORD                    NORTH CAROLINA        CABARRUS                  35.25  -80.35
+                           NORTH DAKOTA                                    47.25 -102.20
+ARNEGARD                   NORTH DAKOTA          MCKENZIE                  47.48 -103.26
+BISMARCK                   NORTH DAKOTA          BURLEIGH                  46.48 -100.47
+BOTTINEAU                  NORTH DAKOTA          BOTTINEAU                 48.49 -100.26
+CARRINGTON                 NORTH DAKOTA          FOSTER                    47.27  -99.07
+CARSON                     NORTH DAKOTA          GRANT                     46.25 -101.34
+COOPERSTOWN                NORTH DAKOTA          GRIGGS                    47.47  -98.08
+CORINTH                    NORTH DAKOTA          WILLIAMS                  48.37 -103.20
+CROSBY                     NORTH DAKOTA          DIVIDE                    48.55 -103.18
+DEVILS LAKE                NORTH DAKOTA          RAMSEY                    48.07  -98.52
+DOGDEN BUTTE               NORTH DAKOTA          MCLEAN                    47.50 -100.40
+DRAKE                      NORTH DAKOTA          MCHENRY                   47.55 -100.22
+ECKMAN                     NORTH DAKOTA          BOTTINEAU                 48.39 -101.03
+EDMORE                     NORTH DAKOTA          RAMSEY                    48.25  -98.27
+ELLENDALE                  NORTH DAKOTA          DICKEY                    46.00  -98.32
+EPPING                     NORTH DAKOTA          WILLIAMS                  48.16 -103.21
+FESSENDEN                  NORTH DAKOTA          WELLS                     47.39  -99.38
+FORT YATES                 NORTH DAKOTA          SIOUX                     46.06 -100.38
+FOXHOLM                    NORTH DAKOTA          WARD                      48.22 -101.34
+GACKLE                     NORTH DAKOTA          LOGAN                     46.37  -99.08
+GRAND FORKS                NORTH DAKOTA          GRAND FORKS               47.56  -97.02
+HANNAH                     NORTH DAKOTA          CAVALIER                  48.58  -98.41
+HANSBORO                   NORTH DAKOTA          TOWNER                    48.57  -99.23
+HETTINGER                  NORTH DAKOTA          ADAMS                     46.00 -102.38
+HOWARD                     NORTH DAKOTA          WILLIAMS                  48.37 -103.56
+MANDAN                     NORTH DAKOTA          MORTON                    46.50 -100.53
+MCCLUSKY                   NORTH DAKOTA          SHERIDAN                  47.29 -100.26
+MCLEOD                     NORTH DAKOTA          RANSOM                    46.24  -97.18
+MINOT                      NORTH DAKOTA          WARD                      48.14 -101.18
+MOHALL                     NORTH DAKOTA          RENVILLE                  48.46 -101.30
+NAPOLEON                   NORTH DAKOTA          LOGAN                     46.31  -99.46
+NEW ENGLAND                NORTH DAKOTA          HETTINGER                 46.32 -102.52
+NEW SALEM                  NORTH DAKOTA          MORTON                    46.51 -101.25
+OAKES                      NORTH DAKOTA          DICKEY                    46.08  -98.05
+PARSHALL                   NORTH DAKOTA          MOUNTRAIL                 47.57 -102.08
+PEMBINA                    NORTH DAKOTA          PEMBINA                   48.58  -97.15
+PETERSBURG                 NORTH DAKOTA          NELSON                    48.01  -98.00
+PETTIBONE                  NORTH DAKOTA          KIDDER                    47.07  -99.31
+RICHARDTON                 NORTH DAKOTA          STARK                     46.53 -102.19
+RUGBY                      NORTH DAKOTA          PIERCE                    48.22 -100.00
+SHARON                     NORTH DAKOTA          STEELE                    47.35  -97.53
+STANTON                    NORTH DAKOTA          MERCER                    47.19 -101.22
+STEELE                     NORTH DAKOTA          KIDDER                    46.51  -99.55
+STOWERS                    NORTH DAKOTA          ADAMS                     46.03 -102.01
+TAGUS                      NORTH DAKOTA          MOUNTRAIL                 48.21 -101.56
+TOWNER                     NORTH DAKOTA          MCHENRY                   48.21 -100.24
+TROTTERS                   NORTH DAKOTA          GOLDEN VALLEY             47.19 -103.55
+TUTTLE                     NORTH DAKOTA          KIDDER                    47.09  -93.39
+VELVA                      NORTH DAKOTA          MCHENRY                   48.03 -100.56
+WILLISTON                  NORTH DAKOTA          WILLIAMS                  48.08 -103.38
+WILLOW CITY                NORTH DAKOTA          BOTTINEAU                 48.36 -100.17
+                           OHIO                                            40.25  -83.25
+ASHLAND                    OHIO                  ASHLAND                   40.52  -82.19
+CALDWELL                   OHIO                  NOBLE                     39.45  -81.31
+COLUMBUS                   OHIO                  FRANKLIN                  39.58  -83.00
+DAYTON                     OHIO                  MONTGOMERY                39.45  -84.12
+HAMILTON                   OHIO                  BUTLER                    39.24  -84.34
+HIRAM                      OHIO                  PORTAGE                   41.19  -81.09
+MONTPELIER                 OHIO                  WILLIAMS                  41.35  -84.36
+TOLEDO                     OHIO                  LUCAS                     41.40  -83.33
+VICKERY                    OHIO                  SANDUSKY                  41.23  -82.56
+WARREN                     OHIO                  TRUMBULL                  41.14  -80.49
+                           OKLAHOMA                                        35.10  -97.05
+ANDERSON                   SOUTH CAROLINA        ANDERSON                  34.30  -82.39
+BISHOPVILLE                SOUTH CAROLINA        LEE                       34.13  -80.15
+CHARLESTON                 SOUTH CAROLINA        CHARLESTON                32.47  -79.56
+CHESTER                    SOUTH CAROLINA        CHESTER                   34.42  -81.13
+COLUMBIA                   SOUTH CAROLINA        RICHLAND                  34.00  -81.01
+CONWAY                     SOUTH CAROLINA        HORRY                     33.50  -79.03
+MILEY                      SOUTH CAROLINA        HAMPTON                   32.57  -81.02
+NEWBERRY                   SOUTH CAROLINA        NEWBERRY                  34.16  -81.37
+ROCK HILL                  SOUTH CAROLINA        FAIRFIELD                 34.15  -81.15
+ROCK HILL (WINTHROP COLLEGESOUTH CAROLINA        FAIRFIELD                 34.15  -81.15
+SPARTANBURG                SOUTH CAROLINA        SPARTANBURG               34.57  -81.56
+THROUGHOUT                 SOUTH CAROLINA                                   0.00    0.00
+                           SOUTH DAKOTA                                    44.30 -102.40
+ABERDEEN                   SOUTH DAKOTA          BROWN                     45.28  -98.29
+ANDOVER                    SOUTH DAKOTA          DAY                       45.25  -97.54
+ARDMORE                    SOUTH DAKOTA          FALL RIVER                43.01 -103.39
+BELLEFOURCHE               SOUTH DAKOTA          BUTTE                     44.40 -103.51
+BRITTON                    SOUTH DAKOTA          MARSHALL                  45.47  -97.45
+BROOKINGS                  SOUTH DAKOTA          BROOKINGS                 44.19  -96.48
+CANISTOTA                  SOUTH DAKOTA          MCCOOK                    43.36  -97.17
+CEDAR VIEW                 SOUTH DAKOTA          JACKSON                   43.50 -101.31
+COTTONWOOD                 SOUTH DAKOTA          JACKSON                   43.58 -101.54
+CUSTER                     SOUTH DAKOTA          CUSTER                    43.46 -103.36
+DOWLING                    SOUTH DAKOTA          HAAKON                    44.20 -101.59
+DUMONT                     SOUTH DAKOTA          LAWRENCE                  44.19 -103.48
+DUPREE                     SOUTH DAKOTA          ZIEBACH                   45.03 -101.36
+EUREKA                     SOUTH DAKOTA          MCPHERSON                 45.46  -99.37
+FAIRFAX                    SOUTH DAKOTA          GREGORY                   43.02  -98.53
+FAULKTON                   SOUTH DAKOTA          FAULK                     45.02  -99.07
+FLANDREAU                  SOUTH DAKOTA          MOODY                     44.03  -96.36
+FORESTBURG                 SOUTH DAKOTA          SANBORN                   44.01  -98.06
+GELHAUS FARM               SOUTH DAKOTA          DAY                       45.20  -97.31
+GLENHAM                    SOUTH DAKOTA          WALWORTH                  45.31 -100.16
+GREGORY                    SOUTH DAKOTA          GREGORY                   43.14  -99.26
+HARDY RANGER STATION       SOUTH DAKOTA          LAWRENCE                  44.21 -103.46
+HOPEWELL                   SOUTH DAKOTA          STANLEY                   44.26 -100.48
+HOWARD                     SOUTH DAKOTA          MINER                     44.01  -97.32
+HURON                      SOUTH DAKOTA          BEADLE                    44.22  -98.13
+LA DELLE                   SOUTH DAKOTA          SPINK                     44.40  -98.07
+LEMMON                     SOUTH DAKOTA          PERKINS                   45.56 -102.10
+LEOLA                      SOUTH DAKOTA          MCPHERSON                 45.43  -98.56
+LUDLOW                     SOUTH DAKOTA          HARDING                   45.50 -103.22
+MCINTOSH                   SOUTH DAKOTA          CORSON                    45.55 -101.21
+MELLETTE                   SOUTH DAKOTA          SPINK                     44.56  -98.19
+MENNO                      SOUTH DAKOTA          HUTCHINSON                43.14  -97.35
+MILBANK                    SOUTH DAKOTA          GRANT                     45.13  -96.38
+MITCHELL                   SOUTH DAKOTA          DAVISON                   43.42  -98.02
+NEWELL                     SOUTH DAKOTA          BUTTE                     44.42 -103.25
+ONIDA                      SOUTH DAKOTA          SULLY                     44.42 -100.03
+OTTUMWA                    SOUTH DAKOTA          HAAKON                    44.14 -101.21
+PARKSTON                   SOUTH DAKOTA          HUTCHINSON                43.23  -97.59
+PIERRE                     SOUTH DAKOTA          HUGHES                    44.22 -100.21
+PINE RIDGE                 SOUTH DAKOTA          SHANNON                   43.02 -102.33
+POLLOCK                    SOUTH DAKOTA          CAMPBELL                  45.54 -100.17
+PUKWANA                    SOUTH DAKOTA          BRULE                     43.47  -99.11
+RAPID CITY                 SOUTH DAKOTA          PENNINGTON                44.05 -103.15
+RAYMOND                    SOUTH DAKOTA          CLARK                     44.55  -97.56
+REDIG                      SOUTH DAKOTA          HARDING                   45.16 -103.33
+REDIG (NEAR)               SOUTH DAKOTA          HARDING                   45.16 -103.33
+REVA                       SOUTH DAKOTA          HARDING                   45.32 -103.05
+ROCHFORD                   SOUTH DAKOTA          PENNINGTON                44.07 -103.43
+ROSCOE                     SOUTH DAKOTA          EDMUNDS                   45.26  -99.20
+STROOL                     SOUTH DAKOTA          PERKINS                   45.30 -102.48
+TIMBER LAKE                SOUTH DAKOTA          DEWEY                     45.26 -101.04
+VICTOR                     SOUTH DAKOTA          ROBERTS                   45.52  -96.50
+VIVIAN                     SOUTH DAKOTA          LYMAN                     43.56 -100.18
+WAGNER                     SOUTH DAKOTA          CHARLES MIX               43.05  -98.18
+WATERTOWN                  SOUTH DAKOTA          CODINGTON                 44.53  -97.06
+WEBSTER                    SOUTH DAKOTA          DAY                       45.20  -97.31
+WEBSTER (NEAR)             SOUTH DAKOTA          DAY                       45.20  -97.31
+CHATTANOOGA                TENNESSEE             HAMILTON                  35.02  -85.18
+KNOXVILLE                  TENNESSEE             KNOX                      35.58  -83.55
+LEWISBURG                  TENNESSEE             MARSHALL                  35.27  -86.47
+LYNNVILLE                  TENNESSEE             GILES                     35.22  -87.00
+MARTIN                     TENNESSEE             WEAKLEY                   36.21  -88.51
+MEMPHIS                    TENNESSEE             SHELBY                    35.07  -90.00
+MEMPHIS AIRPORT            TENNESSEE             SHELBY                    35.03  -89.59
+MORRISTOWN                 TENNESSEE             HAMBLEN                   36.13  -83.17
+NASHVILLE                  TENNESSEE             DAVIDSON                  36.10  -86.44
+PULASKI                    TENNESSEE             GILES                     35.12  -87.02
+SKY HARBOR                 TENNESSEE             RUTHERFORD                35.51  -86.24
+TULLAHOMA                  TENNESSEE             COFFEE                    35.22  -86.13
+                           TEXAS                                           30.55 -100.30
+AMARILLO                   TEXAS                 POTTER                    35.13 -101.50
+CENTRAL                    TEXAS                                            0.00    0.00
+FOLLETT                    TEXAS                 LIPSCOMB                  36.26 -100.08
+FORT WORTH                 TEXAS                 TARRANT                   32.44  -97.19
+HENRIETTA                  TEXAS                 CLAY                      33.49  -98.12
+MOUNT LOCKE                TEXAS                 JEFF DAVIS                30.40 -104.01
+NEW BRAUNFELS              TEXAS                 COMAL                     29.42  -98.07
+VEGA                       TEXAS                 OLDHAM                    35.15 -102.26
+                           UTAH                                            39.15 -112.40
+BLANDING                   UTAH                  SAN JUAN                  37.37 -109.29
+MIDVALE                    UTAH                  SALT LAKE                 40.37 -111.54
+SALT LAKE CITY             UTAH                  SALT LAKE                 40.44 -111.53
+                           VIRGINIA                                        38.07  -78.50
+MANASSAS                   VIRGINIA              MANASSAS (CITY)           38.45  -77.29
+NEW CANTON                 VIRGINIA              BUCKINGHAM                37.42  -78.18
+                           WASHINGTON                                      47.25 -121.27
+BIG FOUR                   WASHINGTON            SNOHOMISH                 48.04 -121.30
+BLAINE                     WASHINGTON            WHATCOM                   49.00 -122.45
+CHENEY                     WASHINGTON            SPOKANE                   47.29 -117.34
+CHESAW                     WASHINGTON            OKANOGAN                  48.57 -119.03
+CONCONULLY                 WASHINGTON            OKANOGAN                  48.33 -119.45
+DAYTON                     WASHINGTON            COLUMBIA                  46.19 -117.58
+ELLENSBURG                 WASHINGTON            KITTITAS                  47.00 -120.33
+EPHRATA                    WASHINGTON            GRANT                     47.19 -119.33
+EVERETT                    WASHINGTON            SNOHOMISH                 47.59 -122.12
+EXTREME EASTERN PORTIONS OFWASHINGTON                                       0.00    0.00
+FELTS FIELD                WASHINGTON            SPOKANE                   47.41 -117.19
+GUNN RANCH                 WASHINGTON            OKANOGAN                  48.39 -120.32
+LACROSSE                   WASHINGTON            WHITMAN                   46.49 -117.52
+LEMASKY LAKE               WASHINGTON                                       0.00    0.00
+OLGA                       WASHINGTON            SAN JUAN                  48.37 -122.50
+OROVILLE                   WASHINGTON            OKANOGAN                  48.56 -119.26
+PASCO                      WASHINGTON            FRANKLIN                  46.14 -119.06
+PEOLA                      WASHINGTON            GARFIELD                  46.19 -117.29
+PORT ANGELES               WASHINGTON            CLALLAM                   48.07 -123.26
+SAN JUAN ISLANDS           WASHINGTON            SAN JUAN                  48.35 -122.58
+SOUTHEASTERN               WASHINGTON                                       0.00    0.00
+SPOKANE                    WASHINGTON            SPOKANE                   47.39 -117.24
+STOCKDILL RANCH            WASHINGTON            OKANOGAN                  48.28  119.43
+TATOOSH ISLAND             WASHINGTON            CLALLAM                   48.24 -124.44
+WAHLUKE                    WASHINGTON            BENTON                    46.43 -119.32
+WALLA WALLA                WASHINGTON            WALLA WALLA               46.04 -118.21
+WHITE SALMON               WASHINGTON            KLICKITAT                 45.44 -121.29
+                           WEST VIRGINIA                                   38.45  -81.35
+ELKINS                     WEST VIRGINIA         RANDOLPH                  38.56  -79.51
+                           WISCONSIN                                       44.43  -91.15
+                           WYOMING                                         42.40 -108.15
+CLARKELEN (NEAR)           WYOMING               CAMPBELL                  44.15 -105.33
+DULL CENTER                WYOMING               CONVERSE                  43.25 -104.59
+DULL CENTER (NEAR)         WYOMING               CONVERSE                  43.25 -104.59
+FORT LARAMIE (NEAR)        WYOMING               GOSHEN                    42.13 -104.31
+ROCKYPOINT                 WYOMING               CAMPBELL                  44.54 -105.05
+ROSS (NEAR)                WYOMING               CAMPBELL                  44.15 -105.33
+SHERIDAN                   WYOMING               SHERIDAN                  44.48 -106.57
+TOWER FALLS                WYOMING               PARK                      44.53 -110.23
+YELLOWSTONE PARK           WYOMING                                         44.45 -110.35
+ 
+

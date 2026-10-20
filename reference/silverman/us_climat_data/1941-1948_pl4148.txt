@@ -1,0 +1,79 @@
+                                  LOCATIONS
+
+                                UNITED STATES
+
+                                 1941 - 1948
+
+
+CITY               STATE                COUNTY                 LAT     LONG
+
+                   ALABAMA                                     32.45  -87.05
+                   ARIZONA                                     34.20 -112.15
+                   COLORADO                                    39.08 -105.05
+WASHINGTON         DISTRICT OF COLUMBIA DISTRICT OF COLUMBIA   38.54  -77.02
+                   FLORIDA                                     28.20  -81.3 
+                   IDAHO                                       44.40 -115.00
+                   INDIANA                                     40.10  -86.30
+                   IOWA                                        42.10  -93.40
+                   KANSAS                                      38.40  -99.15
+ANNAPOLIS          MARYLAND             ANNE ARUNDEL           39.00  -76.25
+CHEWSVILLE         MARYLAND             WASHINGTON             39.39  -77.38
+CLEAR SPRING       MARYLAND             WASHINGTON             39.39  -77.56
+GRANTSVILLE        MARYLAND             GARRETT                39.42  -79.09
+ROCK HALL          MARYLAND             KENT                   39.08  -76.14
+                   MARYLAND-DELAWARE                               
+                   MICHIGAN                                    44.05  -85.30
+                   MINNESOTA                                   46.05  -95.03
+                   MISSOURI                                    38.27  -93.10
+ROLLA              MISSOURI             PHELPS                 37.57  -91.46
+                   MONTANA                                     46.47 -110.40
+                   NEBRASKA                                    41.30 -101.15
+                   NEVADA                                      39.30 -123.20
+NORTH FORK         NEVADA               HUMBOLDT               41.27 -117.09
+PIOCHE             NEVADA               LINCOLN                37.56 -114.27
+RENO AIRPORT       NEVADA               WASHOE                 39.40 -119.53
+                   NEW ENGLAND                                      
+                   NEW MEXICO                                  35.20 -104.45
+ARCOLA             NORTH CAROLINA       WARREN                 36.17  -77.59
+CANTON             NORTH CAROLINA       HAYWOOD                35.32  -82.50
+CROSSNORE          NORTH CAROLINA       AVERY                  36.01  -81.56
+GREENSBORO         NORTH CAROLINA       GUILFORD               36.04  -79.48
+MOUNT GILEAD       NORTH CAROLINA       MONTGOMERY             35.13  -80.00
+NASHVILLE          NORTH CAROLINA       NASH                   35.58  -77.58
+PARKER             NORTH CAROLINA       ASHE                   36.27  -81.41
+RALEIGH            NORTH CAROLINA       WAKE                   35.46  -78.37
+WILMINGTON         NORTH CAROLINA       NEW HANOVER            34.14  -77.57
+WILSON             NORTH CAROLINA       WILSON                 35.43  -77.55
+                   NORTH DAKOTA                                47.25 -102.20
+                   OHIO                                        40.25  -83.25
+                   OKLAHOMA                                    35.10  -97.05
+                   PENNSYLVANIA                                41.05  -78.45
+                   SOUTH CAROLINA                              34.07  -81.07
+ANDERSON           SOUTH CAROLINA       ANDERSON               34.30  -82.39
+COLUMBIA           SOUTH CAROLINA       RICHLAND               34.00  -81.00
+                   SOUTH DAKOTA                                44.30 -102.40
+GELHAUS FARM       SOUTH DAKOTA         DAY                    45.20  -97.31
+MOBRIDGE           SOUTH DAKOTA         WALWORTH               45.32 -100.26
+POLLOCK            SOUTH DAKOTA         CAMPBELL               45.54 -100.17
+REDIG              SOUTH DAKOTA         HARDING                45.16 -103.33
+WESSINGTON SPRINGS SOUTH DAKOTA         JERAULD                44.05  -98.34
+                   TENNESSEE                                   35.55  -88.03
+COVINGTON          TENNESSEE            TIPTON                 35.34  -89.39
+MARTIN             TENNESSEE            WEAKLEY                36.21  -88.51
+BLANDING           UTAH                 SAN JUAN               37.38 -109.29
+BONANZA            UTAH                 UINTAH                 40.01 -109.11
+                   VIRGINIA                                    38.07  -78.50
+CHARLOTTESVILLE    VIRGINIA             CHARLOTTESVILLE (CITY) 38.02  -78.29
+MANASSAS           VIRGINIA             MANASSAS (CITY)        38.45  -77.29
+NORFOLK            VIRGINIA             NORFOLK (CITY)         36.51  -76.17
+NORFOLK AIRPORT    VIRGINIA             NORFOLK (CITY)         36.50  -76.17
+PINNACLES          VIRGINIA             PATRICK                36.40  -80.26
+RICHMOND           VIRGINIA             RICHMOND (CITY)        37.33  -77.28
+                   WASHINGTON                                  47.25 -121.27
+SPOKANE            WASHINGTON           SPOKANE                47.39 -117.23
+WAPATO             WASHINGTON           YAKIMA                 46.27 -120.25
+                   WEST VIRGINIA                               38.45  -81.35
+                   WISCONSIN                                   44.43  -91.15
+                   WYOMING                                     42.40 -108.15
+
+

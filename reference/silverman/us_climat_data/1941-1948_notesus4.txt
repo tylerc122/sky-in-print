@@ -1,0 +1,546 @@
+                        NOTES: UNITED STATES
+
+                             1941-1948
+
+Number of Records:
+
+1941  1055    		1942  530			1943  368
+1944   179   		1945  160			1946  407
+1947   390   		1948   99
+
+Total, 1941-1948:
+
+The volume including data for April to June 1944 is not in the 
+AFRL Research Library.
+
+Note that with 1937 most states have now stopped giving specific 
+locations of auroral observations. The trend had started earlier, 
+e.g., with North Dakota. For 1941-1948 only occasional reports of 
+specific sites are found.
+
+Beginning with January 1943 both Montana and North Dakota stopped 
+noting auroral activity altogether. Possibly this was because of 
+manpower shortage caused by the war, and saving of time in 
+abstracting and reporting large amounts of data, but this is only 
+a speculation on my part. South Dakota followed suit in June of 
+1943. In October 1943 Wisconsin began tabulating the dates of 
+auroral occurrence and the number of stations reporting for each 
+date tabulated.
+
+During this period I have again relied largely on GNIS for 
+geographic coordinates of sites not previously listed. Where the 
+site is not listed on GNIS, but where a Post Office address is 
+given in Climatological Data, I have used coordinates of the Post 
+Office. Where neither the site nor a Post Office address is given, 
+but the county has been listed in Climatological Data (true almost 
+always) I have averaged the latitudes and longitudes of the 
+extremes of the coordinates for populated places given in GNIS, or 
+used the coordinates for the county given in the Getty Thesaurus 
+of Geographic Names. 
+
+There is a minimum of activity in 1942 and 1943, especially in the 
+first months of 1943. Even taking account of the lower level of 
+reporting from North Dakota and Montana the level seems to be even 
+lower than in the period immediately following the prolonged solar 
+activity minimum of the early 1900s.
+
+Locations:
+
+1941:
+
+	January:  North Dakota: Table gives one station for 2, 4, 5, 
+8, 9, 16, 17; two for 18, 23, 27, 28, 29, 30; and three for 6.
+
+	February: Indiana: Table gives two stations for 28.
+		North Dakota: Table gives one station for 9, 10, 12, 15-
+17, 20, 22, 25; two for 3, 23; three for 4, 8, 24; four for 6, 7, 
+21, 28; and 6 for 5.
+
+	March: Indiana: Table gives one station for 7, 30; three for 
+29; seven for 1.
+
+		North Dakota: Table gives one station for 3, 4, 10, 22, 
+23, 26; two for 1; three for 24; five for 14, 27; ten for 13, 31; 
+eleven for 28; fifteen for 30; and nineteen for 29.
+
+		Tennessee: Auroras: (two or more places) 1.
+
+		Washington: Auroras were observed from nine stations on 
+various dates. H.E.T.
+
+	April: Indiana: Table gives one station for 28; two for 24.
+
+		North Dakota: Table gives one station for 19, 20; and 
+six for 24, 25.
+
+	May: North Dakota: Table gives one station for 16, 17, 29, 
+30; two for 3, 4, 25; three for 22; and seven for 22, 23.
+
+	June: North Dakota: Table gives one station for 1, 18; two 
+for 15, 21, 26, 28, 29; four for 13, 14, 20; and five for 19.
+
+		Washington: Auroras were observed from Colville, 
+Ellensburg and Olga on several dates. H.E.T.
+
+	July: Indiana: Table gives one station for 6, 18; two for 5.
+
+		North Dakota: Table gives one station for 6, 7, 17, 25, 
+28, 29; two for 19; three for 3, 23; four for 15, 16; five for 4; 
+six for 5, 20; and seven for 21, 22.
+
+		Ohio: Table gives one station for 4, 19; six for 5.
+
+	August: North Dakota: Table gives one station for 5, 6, 9, 
+11, 23, 25; two for 18, 20, 29; three for 1, 2, 3, 30; four for 
+19, 21, 28, 31; seven for 26, 27; and eight for 4.
+
+	September: Alabama: An unusual feature of the month was a 
+display of the aurora borealis, which was plainly visible 
+throughout the State on the night of the 18th.
+
+		Arizona: On the 18th and 19th a prominent auroral 
+display was observed in all parts of the State except the southern 
+quarter.
+
+		Florida: (1) An aurora during the night of the 18-19th 
+was seen over portions of north Florida where the skies were not 
+too cloudy. Some interruption of communications occurred, but no 
+serious disruptions resulted.
+		  (2) AURORA:- Observed at many stations in northern 
+Florida where skies were sufficiently clear the night of the 18-
+19th.
+
+		Indiana: Table gives one station for 10, 11, 16, 29; 
+twelve for 17; seventeen for 19; and thirty six for 18.
+
+		Iowa: On the night of the 18th one of the most brilliant 
+and beautiful auroral displays in many years was observed in all 
+parts of the State. The display began early in the evening and 
+continued until near midnight. At its height the lights and 
+streamers covered about four-fifths of the sky and the glow 
+extended southward until the southern edge was only about 20o above 
+the southern horizon. The brilliance was described by some 
+observers as being equal to that of the moon when it is about 
+three-quarters full. This office has received a number of 
+excellent detailed descriptions of the phenomenon made by 
+cooperative observers who carefully noted changing aspects of the 
+aurora throughout the display. However, space does not permit 
+publication of these reports and they are being filed for future 
+reference and study. The auroral disturbance caused some 
+interruption of telephone, telegraph and radio for short periods. 
+Auroras were also observed on the 10th, 11th, 17th, 19th, 20th and 
+27th, but did not approach the display of the 18th in brilliance.
+
+		Kansas: A fine display of the Aurora Borealis was 
+reported over the State on the night of the 18th and 19th. A few 
+places reported seeing this phenomenon on one or two other nights 
+during the month.
+
+		Maryland-Delaware: Auroras: Night 17-18th; brilliant, 
+spectacular, and unusual, night 18-19.
+
+		Michigan: A remarkable aurora borealis was observed 
+Thursday night, September 18th. O.W.C.
+
+		New Mexico: Several observers reported seeing the Aurora 
+Borealis on the evening of the 18th. P.H.T.
+
+		North Dakota: Table gives one station for 2, 22, 23, 25; 
+two for 16, 20, 26, 30; four for 13, 28, 29; five for 15; six for 
+1, 14; fifteen for 17; and twenty two for 18, 19.
+
+		Ohio: A brilliant display of aurora borealis was 
+observed during the evening of the 18th. Many observers stated 
+that it was the finest display they had ever seen.
+
+		Pennsylvania: Auroras were observed on various dates, 
+but the display on the 18-19th was one of the most unusual 
+displays of record. The most brilliant, colorful, and inspiring 
+portion of the display occurred at approximately 7:50 p.m. on the 
+18th, when the fingers, streamers, and pulsating arcs and rays 
+covered the sky, producing a conical or umbrella effect with the 
+focal point about 70o above the southern horizon.
+
+		South Carolina: Auroras - Observed many places evening 
+18th.
+
+		Tennessee: Auroras: Throughout the State, night of 18th-
+19th.
+
+		Virginia: A remarkably brilliant aurora was observed on 
+the night of the 18th over the entire State.
+
+		Washington: Auroral activity was strong on the 18th and 
+19th; being observed from a number of stations scattered over the 
+entire State, notwithstanding the amount of cloudiness.
+
+		West Virginia: Table gives three stations for 17; sevent 
+stations for 19; and 24 stations for 18.
+
+	October: North Dakota: Table gives one station for 5, 9, 17, 
+20, 27, 28; two for 19, 26; three for 12, 16, 18, 22, 23, 24; four 
+for 10, 13, 30; six for 14; ten for 11; eleven for 15; and 20 for 
+31.
+
+	November: North Dakota: Table gives one station for 14, 15, 
+24, 25; two for 6, 26; three for 2; five for 11, 23; six for 27, 
+28; eight for 22; nine for 10; and thirteen for 1.
+
+		Pennsylvania: Auroras were observed at scattered 
+stations toward the end of the month.
+
+	December: North Dakota: Table gives one station for 20, 29; 
+two for 2, 19, 28; three for 14, 15; four for 1, 16; six for 13, 
+17; and eight for 18. 
+
+1942: Note the minimum in auroral sightings during this period, 
+especially in June and July.
+
+	January: North Dakota: Table gives one station for 11-14, 20, 
+21, 26; two for 24; three for 22, 25; five for 15, 23; seven for 
+16, 18, 19; and thirteen for 17.
+
+	February: North Dakota: Table gives one station for 12, 17, 
+25, 26; two for 6, 24; three for 16; and five for 15.
+
+		South Dakota: No auroras were observed during the month.
+
+	March: North Dakota: Table gives one station for 5, 6, 23; 
+two for 7; three for 12; four for 2, 13, 18, 22; five for 1; six 
+for 9; seven for 19, 20; ten for 8; and thirteen for 21.
+
+	April: North Dakota: Table gives one station for 2, 3, 9, 11, 
+18, 19, 24; two for 8, 15; three for 7, 10, 17; and four for 16.
+	May: North Dakota: Table gives one station for 13, 15; two 
+for 4, 28; and three for 5, 14, 27.
+
+	June: Iowa: Aurora: None.
+
+	August: North Dakota: Table gives one station for 7, 17; and 
+two for 16.
+
+	September: North Dakota: Table gives one station for 4, 15, 
+18, 19, 21, 24; two for 5, 10; three for 3, 16, 22; four for 9, 
+25; five for 6, 13; nine for 8, 17; ten for 2; twelve for 30; 
+fifteen for 7; twenty one for 1; and twenty six for 14.
+
+	October: North Dakota: Table gives six stations for 20.
+
+	November: Iowa: Aurora: None.
+
+		North Dakota: Table gives one station for 5, 15, 19, 26, 
+27, 28; two for 4, 6, 16, 20; three for 24; seven for 9; fifteen 
+for 1, 8; and twenty three for 7.
+
+	December: Iowa: Aurora: None.
+
+1943:
+
+	January: South Dakota: No auroras were observed during the 
+month.
+
+	May: Iowa: Aurora: None.
+
+	July: Iowa: Aurora: None.
+
+	August: Maryland: Grantsville, 30, 31 (very brilliant).
+
+		Michigan: Auroral displays were reported on several 
+nights, with one of rather unusual type seen in most sections on 
+the night of the 30th.
+
+	September: Iowa: Aurora: None.
+
+	October: Wisconsin: Table gives one station for 1, 4, 9, 24, 
+25, 30; two for 2, 3, 8; four for 29; five for 26, 28; and eight 
+for 27.
+
+	November: Iowa: Aurora: None.
+
+		Wisconsin: Table gives one station for 2, 22, 23, 24, 
+26, 28; two for 18; and three for 19.
+
+	December: Iowa: Aurora: None.
+
+1944:
+
+	January: Iowa: Aurora: None.
+		Wisconsin: Table lists no auroras.
+
+	February: Iowa: Aurora: None.
+
+		Wisconsin: Table lists no auroras.
+
+	March: Iowa: Aurora: None.
+
+		Wisconsin: Table gives one station for 26; five for 25; 
+and seven for 18.
+
+	April: Wisconsin: Table gives one station for 27; and two for 
+1, 2.
+
+	May: Iowa: Aurora: None.
+
+		Wisconsin: Table gives none.
+
+	June: Iowa: Aurora: None.
+
+	July: Iowa: Aurora: None.
+
+	October: Indiana: Table gives one station for 15; and two for 
+14.
+
+		Wisconsin: Table gives one station for 10, 15, 17; two 
+for 17; and fourteen for 14. [This letter seems likely to be an 
+error - perhaps repeating the date by mistake.]
+
+		Utah: A critical labor shortage was relieved by the use 
+of prisoners of war, Indians, Japanese internees, and school 
+students, and harvesting progressed without serious delay. [This 
+is noted here as indicating the war time labor shortage, which may 
+be a factor in the cessation of recording auroras in North and 
+South Dakota, and Montana - perhaps in an effort to reduce the 
+amount of time to collate and record auroral data.]
+
+	November: Iowa: Aurora: None.
+
+		[Wisconsin: no auroras listed in Table. Similar results 
+often seen in Indiana and other states, but I have not noted them. 
+I note these for Wisconsin because of the long record of auroras 
+for this state, so that the negative result indicates that they 
+were still being noted when seen.]
+
+	December: Missouri: Aurora: Observed locally on 19th.
+
+		Wisconsin: Table gives one station for 18, 19; and two 
+for 13, 17.
+
+1945:
+
+	February: New England: Auroras.- None.
+
+		Wisconsin: Table shows none.
+
+	March: Wisconsin: Table shows none.
+
+	April: Wisconsin: Table shows none.
+
+	May: Wisconsin: Table shows none.
+
+	June: Wisconsin: Table shows none.
+
+	August: Indiana: Table gives two stations for 27.
+
+		Wisconsin: Table gives one station for 22, 28; four for 
+27; and five for 1.
+
+	October: Virginia: The aurora was observed at Charlottesville 
+on the 27th.
+
+		Wisconsin: Table gives one station for 12; and ten for 
+27.
+
+	November: Wisconsin: Table shows none.
+
+	December: Wisconsin: Table shows none.
+
+1946:
+
+	January: Pennsylvania begins listing auroral occurrence in 
+tabular form.
+
+	February: Indiana: Table gives four stations for 7.
+
+		Pennsylvania: Table gives one station for 20, 21, 28; 
+three for 8; and four for 7.
+
+		South Carolina: Aurora Borealis.- Observed at 6 a.m., on 
+the 7th by several persons near Columbia.
+
+		Wisconsin: Table gives one station for 6, 8, 19, 27, 28; 
+two for 7; thre for 21; and five for 20.
+
+	March: Colorado: Table gives one station for 22, 24; and four 
+for 24.
+
+		Indiana: Table gives one station for 25, 27, 28; and two 
+for 23.
+
+		Maryland-Delaware: Auroras.- Night, 23, early morning, 
+28.
+
+		North Dakota: Brilliant auroral displays were observed 
+on the 24th, 25th, 27th, and 28th.
+
+		Pennsylvania: Table gives one station for 26; five for 
+24, 25, 27; ten for 28; and twenty two for 23.
+
+		Wisconsin: Table gives one station for 11, 29; seven for 
+26; twelve for 23; thirteen for 28; fourteen for 25; fifteen for 
+24; and nineteen for 27.
+
+	April: Pennsylvania: Table gives one station for 1, 6; two 
+for 7; three for 23; and four for 24.
+
+		Virginia: The aurora borealis was observed on April 23d 
+at Manassas and Pinnacles.
+
+		Wisconsin: Table gives one station for 14, 15; two for 
+6, 25; three for 22; nine for 24; and eighteen for 23.
+
+	May: Wisconsin: Table gives one station for 5, 8, 9, 10, 31; 
+two for 22; and four for 21.
+
+	July: Indiana: Table gives five stations for 26; and six for 
+27.
+
+		Oklahoma: A brilliant meteor was observed in the western 
+sky at 8:23 p.m. CST, on July 21st, and an unusual auroral display 
+on the night of July 26th.
+
+		Pennsylvania: Table gives fourteen stations for 27; and 
+twenty four for 26.
+
+		Wisconsin: Table gives one station for 14, 24; two for 
+25; five for 27; and ten for 26.
+
+	August: Pennsylvania: Table gives two stations for 31; and 
+three for 30.
+
+		Wisconsin: Table gives one station for 21, 24, 31; and 
+ten for 30.
+
+	September: Indiana: Table gives one station for 16, 17, 21, 
+29; and three for 22.
+
+		Pennsylvania: Table gives one station for 19, 23, 27, 
+28; two for 22; four for 18; and seven for 17.
+
+		Virginia: Table gives one station for 16, 18, 21; and 
+two for 17.
+
+		Wisconsin: Table gives one station for 19, 28; two for 
+23; three for 27, 30; five for 22; six for 16, 21; nine for 29; 
+twelve for 18; and fourteen for 17.
+
+	October: Indiana: Table gives two stations for 26.
+
+		Pennsylvania: Table gives one station for 25; two for 
+27; and five for 26.
+		Virginia: The aurora borealis was observed at Manassas 
+on the 26th.
+
+		Wisconsin: Table gives one station for 1, 3, 6, 15, 20; 
+two for 2, 4, 5, 19; three for 25, 27; seven for 31; and nine for 
+26.
+
+	November: Wisconsin: Table gives one station for 1, 26, 30; 
+and two for 11.
+
+	December: Wisconsin: Table gives two stations for 18.
+
+1947: 
+
+	January: Wisconsin: Table gives one station for 16, 31; three 
+for 26; five for 24; and six for 25.
+
+	March: Nebraska: Table gives one station for 3, 22, 25; and 
+two for 27.
+
+		Virginia: The aurora borealis was observed at Richmond 
+during the early morning hours of the 15th.
+
+		Wisconsin: Table gives ones station for 8, 14, 19, 20, 
+23, 24; two for 4, 9, 15, 17, 21, 22, 28, 30; three for 25; four 
+for 16; five for 27; and six for 3, 26, 29.
+
+	April: Wisconsin: Table gives one station for 2, 9, 13-19; 
+and two for 20.
+
+	May: Pennsylvania: Table gives two stations for 22, 24.
+
+		Utah: A brilliant display of Northern Lights was 
+reported from Blanding and Bonanza in the early morning hours of 
+the 24th.
+
+		Wisconsin: Table gives one station for 16, 31; two for 
+22; three for 15, 23; and four for 24.
+
+	June: Missouri: 13; observed locally at Cuba.
+
+		Wisconsin: Table gives one station for 10, 16; two for 
+7, 9, 17; and three for 8, 18, 24, 25.
+
+	July: Wisconsin: Table gives one station for 25; two for 18, 
+19, 23; and three for 17, 22.
+
+	August: Wisconsin: Table gives one station for 13, 20-22, 24, 
+25, 27; two for 12, 23, 26; three for 11; four for 17; six for 15; 
+and seven for 16.
+
+	September: Indiana: Table gives one station for 13, 16; and 
+three for 14.
+
+		Nebraska: Table gives one station for 12, 25; and two 
+for 13, 24.
+
+		Pennsylvania: Table gives one station for 2, 11, 17, 18, 
+25; two for 6, 13, 16, 23; and three for 12.
+
+		Wisconsin: Table gives one station for 3, 11; two for 6, 
+19, 26, 30; three for 12, 15, 18, 21; five for 22, 23; seven for 
+16, 17; eight for 14; fifteen for 13, 25; and seventeen for 24.
+
+	October: Pennsylvania: Table gives one station for 1, 3, 9, 
+15, 20; and two for 2, 10, 11.
+
+		Wisconsin: Table gives one station for 2, 3, 7, 12; two 
+for 15, 18, 21; three for 1, 13, 19, 20, 22; four for 10, 11, 14; 
+six for 8; and seven for 9.
+
+	November: Wisconsin: Table gives one station for 8, 11; three 
+for 10; and seven for 9.
+
+	December: New England: Auroras.- None.
+
+1948:
+
+	January: Wisconsin: Table gives one station for 3, 5, 6, 21; 
+and two for 2.
+
+	February: Wisconsin: Table gives one station for 2, 3, 15-17; 
+and two for 29.
+
+		Wyoming: Table gives one station for 27, 29; and two for 
+15.
+
+	March: Colorado: Table gives one station for 29, 20; and two 
+for 14.
+
+		Pennsylvania: Table gives one station for 12; three for 
+15.
+
+		Virginia: At Charlottesville the aurora borealis was 
+observed on the 15th.
+
+		Wisconsin: Table gives one station for 1-3, 15; two for 
+11; three for 14; four for 13; and six for 12.
+
+	April: Wisconsin: Table gives one station for 14, 21; two for 
+12; and three for 13.
+
+Several stations have a new format which doesn't note auroras.
+
+	May: Wisconsin: Table gives one station for 12, 13, 20, 22, 
+23, 25, 29; two for 21, 24, 28; three for 8, 16; four for 6, 31; 
+and six for 7, 15.
+		Wyoming: Table gives one station for 19; three for 15, 
+16.
+
+More stations use new format.
+
+	June: Most stations now use the new format which, generally 
+at least, does not include auroral notations. Thus there are no 
+longer any auroral reports from, e.g., New England, Pennsylvania, 
+Wisconsin, in addition to defections in prior years. No longer 
+considered worthwhile to search in later volumes.

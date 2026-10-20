@@ -1,0 +1,792 @@
+          NOTES: CLIMATOLOGICAL DATA -- U.S. -- 1914-1923
+
+Number of Records:
+
+1914   96			1915  260			1916  397
+1917	 280			1918  575			1919  531
+1920	 545			1921 1001			1922  937
+1923  413			Total, 1914-1923: 5035 records
+
+
+Notes:
+
+General:
+
+	Note that many states for which one would expect many auroral 
+notations, such as South Dakota, Minnesota, etc., etc., generally 
+have none in the early years, except occasionally for large 
+events. One possibility is that they are too common to be remarked 
+as special events. Another is that for some sections they were not 
+considered of interest. In any event, a search of the weather 
+bureau journals for these states is indicated for a more complete 
+record.
+
+	Washington, D.C. is often cited in both the Maryland-Delaware 
+and Virginia reports. Have not checked on whether they draw on the 
+same or different observers, and not sure how to do this. Data for 
+Moorhead, Minnesota are sometimes also found in the North Dakota 
+section.
+
+	The aurora of March 7, 1918 was seen as far south as Florida, 
+but the maximum aa for the neighboring interval was 105 on March 
+8. There were hardly any observations in Europe -- possibly the 
+war there had some effect on this. In any event the occurrence of 
+visual aurora so far south with such a low aa is very unusual and 
+bears further investigation. One possibility is of a very short 
+duration, but intense storm, with timing of maximum occurrence 
+such that it would have been preferentially seen in the United 
+States. The magnetic storm of August 11-12, 1919 had a maximum aa 
+of 230, but observations in the U.S. do not go very far south, 
+only to Washington, D.C. and Maryland. Perhaps the timing of the 
+maximum was inauspicious. The aurora of March 22, 1920 was visible 
+as far south as Alabama and New Mexico, with maximum aa of 269 on 
+the 22nd.
+
+	In the following any information given in the originals which 
+is more than the mere fact of an aurora, has been transcribed 
+verbatim. Sometimes a table is given which gives the date and the 
+number of stations reporting aurora on that date. The number of 
+stations is an indication of the intensity of the aurora, and is 
+useful in that regard. These are given below as, e.g.: 7th, 2; 
+8th, 5; etc. etc.
+
+Locations:
+
+	Some locations are too small to be towns or such. Several 
+states include post office addresses for such places. Some are 
+listed below. Counties are given as part of the data in the 
+reports. Some are listed below to help in identifying locations. 
+
+	Several sources have been used to obtain latitudes and 
+longitudes: Encyclopedia Brittanica; Getty Art Museum, Thesaurus 
+of Geographic Names; and the Geographic Names Information System 
+(GNIS), U.S. Geological Survey. Coordinates were not always 
+available for the smaller locations. For these basically two 
+methods were used. For some a post office address is given in the 
+data. Coordinates for these were then used for the location. For 
+all sites the counties in which they were is listed in the 
+tabulations of data. Where no coordinates were available for the 
+location or a post office address, the coordinates of the county 
+were used -- these could be obtained from the Getty Thesaurus. 
+Where this provided no datum, the range of coordinates were 
+obtained from the GNIS listing of populated places in the county, 
+and the average of this range was used. Coordinates for States 
+were taken from the Encyclopedia Brittanica. These are useful only 
+as indicating a more general sense of position, but not for 
+detailed work. Coordinates were not estimated for entries such as 
+the "Northern" part of a state. These estimates are left for the 
+user.
+
+Minnesota: Artichoke Lake, Big Stone County, Correll; Red Lake 
+Falls, Red Lake County.
+
+Montana: Bennett Farms, Daniels County, near Coal Creek; [another 
+entry, 1922:] Bennett Farms, Scobey; Brenner, Grant; Flathead 
+Creek, Wilsall; Frazer, Valley County; Hebgen Dam, Gallatin 
+County, Cliff Lake; Hercules Ranch, Custer County, Mizpah; Lytle, 
+Brady; Minneota, Northwestern Hill County; Nelson Reservoir, Saco; 
+Red Lodge, Carbon County; Renova, Whitehall; Sentinel Butte Pass, 
+Phon; Upper Yaak River, Troy; White Water, Phillips County.
+
+	The range of coordinates for Custer County was 45.50 to 
+46.38, averaging 46.14; -104.47 to -106.08, averaging -105.28. The 
+range of coordinates Dawson County was 46.53 to 47.38, averaging 
+47.15; -104.23 to -105.20, averaging 104.52.
+
+New Mexico: The range of coordinates for Mora County was 35.47 to 
+36.14, averaging 36.00; -104.26 to -105.26, averaging -104.56. The 
+range for Roosevelt County was 33.37 to 34.27, averaging 34.02, -
+103.07 to -103.47, averaging 103.27. The coordinates for Southern 
+Roosevelt County were taken as the lower limits of these, 33.37, -
+103.27. The coordinates for Otero County were 32.00 to 33.19, -
+105.04 to -106.19; coordinates for Northeast Otero County were 
+taken as the northern and eastern limits, 33.19, -105.04.
+
+North Dakota: Berthold Agency, Elbowoods; Energy, Underwood; Grand 
+Forks, University; Lamoine, Tuttle; Park River, Walsh County; 
+Power, Leonard; McKinney, Tolley; Howard, Grenora.
+Wyoming: Dutch Joe, Fremont County; Nine Mile Creek, Johnson 
+County.
+
+Specific:
+
+1914: 
+
+	March: New Mexico: An auroral display was seen at Ratom on 
+the morning of the 23rd, the first seen in New Mexico in many 
+years.
+
+	July: New York: Auroral displays were observed on the 29th 
+and 30th. The former was of marked interest because of the 
+pulsating character of the streamers.
+
+	September: Ludington, MI: An aurora was observed between 8:30 
+p.m. and 9:30 p.m. of the 30th, consisting primarily of beams and 
+streamers of quivering greenish white light, reaching from near 
+the northern horizon nearly to the zenith, and visible during the 
+bright moonlight.
+
+1915: 
+
+	June: Ohio: An unusually brilliant aurora was seen by 
+observers in the northern part of the State on the night of the 
+16th.
+
+	October: Michigan: Many auroral displays were observed over 
+the northern part of the State during the month. Some of these 
+were unusually beautiful and well defined.
+
+	November: Idaho: An aurora was observed at many places in all 
+parts of the State during the night of the 5th-6th.
+
+		Maryland-Delaware: Observed over the section at night of 
+the 5th.
+
+		Minnesota: Auroral displays were observed over the whole 
+State on the night of the 5th-6th.
+
+1916:
+
+	March: Maryland-Delaware: Lake Montebello, 9. [State in which 
+Lake Montebello situated not listed.] [Getty gives it as in 
+Maryland.]
+
+	April: Ohio: A number of observers in the northern part of 
+the State report the occurrence on the 28th and 29th of an auroral 
+display of unusual character and beauty. It was observed at the 
+following stations: Ashland, 28th; Fremont, 29th; Geneva, 29th; 
+Hiram, 29th; Sandusky, 29th; Tiffin, 28th, and Vickery, 28th and 
+29th.
+
+	The remarks of eye-witnesses to the display are interesting.
+	"Peculiar formation." -- Mr. Brandt, Ashland.
+
+	"A peculiar aurora: a wide stripe across the sky in colors, 
+about the situation of the 'Milky Way.' Also the northern lights 
+the same night, the 29th." -- Mr. Parker, Geneva.
+
+	"9 to 11 p.m., 29th. This aurora consisted of white, cloud-
+like belts which rose first in the north, then shifted to the 
+northwest and finally there was a single belt rising about N 65o W 
+and extending nearly through the zenith to a corresponding point S 
+65o E. No other streamers were visible at that time. The sky near 
+the horizon in the north was slightly brighter than elsewhere." -- 
+Prof. Colton, Hiram.
+
+	"A remarkable aurora on the 28th." -- Prof. Sonnedecker, 
+Tiffin.
+
+	"An unusually beautiful display of northern lights was 
+witnessed Friday night (28th) between nine o'clock and midnight. 
+At times from 15 to 20 broad bands or streamers extended nearly to 
+the zenith. They would then disappear, leaving only a glow just 
+above the northern horizon. Then they would flash up again, only 
+to recede again." -- Daily Advertiser, Tiffin.
+
+	May: New Jersey: On the 28th of April 1916, the aurora was 
+observed at Layton, Newton, Plainfield, and Sandy Hook, from about 
+9 p.m. to midnight. The phenomenon appeared like a long trail of 
+whitish smoke, or a band of narrow white cloud, shading to a 
+greenish-yellow, and extending in a curving arch, from the west-
+northwest into the east.
+
+	August: 
+
+		Iowa: A brilliant display of the aurora borealis 
+occurred on the night of the 26th-27th. The phenomenon was visible 
+in all parts of the State. The illumination was first observed 
+about dusk and it continued past 12 o'clock midnight of the 26th. 
+The most marked features of the display were the flashing of the 
+streamers and the appearance of a whitish band of light. At times 
+the streamers extended upward past the zenith and many degrees to 
+the southward. In country districts away from the lights of cities 
+and towns the auroral light was reported to have covered a large 
+part of the sky. The display was most pronounced between 8:30 p.m. 
+and 9 p.m. The band of whitish light had a width of from 2 to 3 
+degrees and when first seen, about 9 p.m., extended almost across 
+the sky from horizon to horizon, one end being a few degrees south 
+of east and the other, at the opposite side of the sky. The crown 
+or top of the band passed almost through the zenith. The whole 
+band was drifting southward and slowly fading. By 9:15 p.m. it had 
+vanished, the crown having moved southward about 20o. 
+
+		Kansas: The aurora borealis was reported as having been 
+seen between 8.00 p.m. and midnight of the 26th at St. Joseph, 
+Holton, Topeka, Lebo, Oketo, Harrison, Lincoln and Salina, and was 
+probably visible also at intervening places in the northeastern 
+part of the State. The streamers from this were observed at times 
+extending as high as 45o above the northern horizon.
+
+		Maryland-Delaware: 26th Easton (brilliant 8 p.m. to 10 
+p.m.); Lake Montebello (brilliant 8 p.m. of 6th to 1 a.m. of 
+27th.)
+
+		Minnesota: Brilliant auroras were observed on the 26th, 
+28th and 29th.
+
+		Ohio: 
+
+THE AURORA OF AUGUST 26, 1916
+
+	Mr. William Arthur, cooperative observer at Washington, C.H., 
+writes under date of August 27, 1916, as follows:
+
+	"By great good fortune an observation came to me. At 10 
+minutes past 11 o'clock last night, on my way home, I turned to 
+scan the heavens and as my gaze turned to the north the scene was 
+fairly startling.. A magnificent aurora waved. Long, fine 
+threadlike lines of pure white light shot up almost to the zenith, 
+then curving to the east grew faint. At the same time broad waves, 
+silver white, rolled up from the horizon of dense black cloud 
+edged with the same brilliant white and undershot with vivid 
+flashes of lightning: like the swell of water of a calm ocean, 
+themselves growing fainter as they advanced, and dissapearing as 
+they reached the feathery curve. Beneath this, or rather on the 
+face of the light, seemed to move faint, dark streamer-bands that 
+moved in an easterly direction at more speed than the white light 
+producing an effect difficult to describe.
+
+	Memories of other auroras pass before my mind's eye, all 
+splendid in individuality, but this one was a spectacle to last a 
+lifetime of memories in 20 minutes of existence."
+
+	This auroral display was also witnessed by the observers at 
+Cadiz, Fremont, Geneva, Marion, Put-in-Bay, and Tiffin. The 
+observer at Circleville reports an aurora on the 29th and at 
+Wickliffe on the 23rd and the 27th.
+
+		Washington: A remarkably brilliant aurora on the night 
+of the 26th was observed in many parts of the State.
+
+		West Virginia: An aurora was observed during the evening 
+of the 26th.
+
+		Wyoming: Aurora at 12 stations on the 2d, 26th, and 
+27th, the illumination on the 26th being exceptionally brilliant.
+
+	September: New Jersey: The aurora was observed on the 2d, 
+4th, and 30th; the last being "brilliant, with large beams of 
+light shooting upward from an arch, lasting about an hour and a 
+half. Palisades Park."
+
+		Ohio: The observers at the following stations report an 
+aurora on the 30th, viz: Catawba Island, Kensington, Kenton, 
+Milton Reservoir, North Bass Island, Port Clinton, Upper Sandusky 
+and Vickery. Mr Edwin C. Neal, observer at Catawba Island, 
+describes this aurora in the following words:
+
+	"The auroral display of September 30 was very unusual and 
+beautiful. It was like two great white paths in the shape of 
+rainbows and between the two was a dense black horizon. The 
+display began about 8:30 p.m. and continued until 10:30 p.m." 
+
+	October: Ohio: Writing under date of October 13, 1916, the 
+observer at Cadiz, Ohio, Mr. H.B. McConnell, thus describes "a 
+curious phenomenon in the sky" and asks an opinion as to what it 
+was:
+
+	Lat night just as it grew dark a band of white appeared 
+stretching across the sky. It formed a streak from the northern 
+horizon to the southern, and was about a degree and a half in 
+width, possibly a little wider in the middle portion. The sky was 
+clear at the time, and the phenomenon was plainly visible as the 
+moon rose to meet and cross it. Stars could be seen shining 
+through it. It was thin and tenuous like a comet's tail, and some 
+people imagined that they saw pulsations along its length. It 
+gradually disappeared below the horizon, it first being seen at an 
+angle of about 70 degrees. I thought of the aurora at first until 
+I saw it reached across the sky to the southern horizon, and then 
+decided it was a curious and very rare cloud formation, as there 
+might have been a strong north and south air current at the height 
+of the clouds. The wind was south at the surface of the ground.
+
+	(Probably an auroral display that assumed a very unusual 
+form. -- W.H.A.) [Probably William H. Alexander, Meteorologist and 
+Section Director.]
+
+1917:
+
+	January: Wyoming: aurora was reported from 6 stations on 4 
+dates, mostly on the 4th.
+
+	August: Iowa: 8th, 9th, 14th, 15th, and 25th, those of the 
+9th and 25th being particularly bright in some sections of the 
+State.
+
+
+		Ohio: 
+
+AN AURORAL DISPLAY AT CINCINNATI, OHIO
+
+	The following delightful account of an aurora at Cincinnati 
+was furnished by Mr. W. C. Devereaux, Meteorologist, in charge of 
+the Weather Bureau station at that place.
+
+	"A moderately bright display of the aurora borealis was 
+observed at the Abbe Meteorological Observatory from 8:35 to 8:52 
+p.m. August 25th. It was first observed as a low arc of milky 
+white light across the northern sky extending from horizon to 
+horizon, the middle of the arc being about 15 degrees above the 
+horizon. The arc was brightest at 8:40 and gradually spread 
+upwards and slowly disappeared after that time. At 8:42 a dim 
+white patch of light appeared about 5 degrees above the arc and in 
+the north-northeast. This patch increased in size rapidly and 
+became quivering beams of pinkish red light radiating from the 
+center of the patch. The vertical and horizontal beams became 
+quite prominent and formed a well defined cross. The faint red 
+glow gradually merged into the white glow forming the arc below 
+and the whole disappeared between 8:45 and 8:52 p.m. There was no 
+display of colored light in the northwest above the arc at any 
+time. The sky at the time was clear but no stars could be seen 
+below the arc, probably due to the smoke in the valley. Stars were 
+visible through the arc of light and also through the colored 
+glow.
+
+	December: Kansas: On the 18th at 5.00 a.m., brilliant 
+northern lights were observed at Hill City.
+
+1918:
+
+	March: Florida: On the evening of the 7 an aurora was 
+observed by the observers at Bartow, Merritts Island, Okeechobee, 
+and St. Petersburg.
+
+	The official in charge at Miami reports on the phenomenon as 
+follows: An aurora, the first of record at this station, occurred 
+during the early part of the night of the 7-8, being observed by 
+many persons between the hours of 9.15 P.M. and 10 P.M. 
+Description by several observers indicates that the phenomenon 
+appeared as a brilliant illumination of the northern sky, the 
+color being dull red. The altitude of the crown above the north 
+point of the horizon apparently was between 15o and 20o. No 
+streamers or bands were observed.
+
+	The official in charge at Tampa reports the phenomenon 
+observed locally, but not by a member of the observing force. It 
+was seen between 9.15 P.M. and 10 P.M., appearing as a red glow in 
+the northern sky; no streamers were observed. No reports were 
+received indicating that the phenomenon was seen elsewhere in the 
+State.
+
+		Illinois:
+
+AURORA BOREALIS
+
+[Observed at Springfield, Ill., March 7, 1918, by H. Merrill 
+Wills, Observer.]
+
+	An auroral display, probably the most brilliant ever 
+witnessed in this part of the country, was observed from 6:48 p.m. 
+of March 7th to about 10:40 p.m. The phenomenon consisted, at 
+first, of a perfectly formed arch of pale green light stretching 
+across the northern sky from horizon to horizon. This band was 
+about 15o wide. About 7:30 two spots appeared simultaneously at 
+either end of the arch, extending upward in pulsating streamers of 
+light until a secondary arch or semicircle was transcribed across 
+the sky. This arch moved slowly southward, its crown eventually 
+passing through and slightly beyond the zenith, where it rested 
+for some time. The extremities of the upper arch remained at the 
+east and west horizons long after the crown of the arch had 
+disappeared, and these two sections became quite luminous at 
+intervals during the continuance of the display. In the primary 
+arch the altitude of the crown was 35o, and the azimuth, 195o; the 
+azimuth of the western extremity was 130o, and of the eastern, 
+260o. The crown of the secondary arch passed through the zenith to 
+a point 80o above the south horizon; the azimuth of the western 
+extremity was 105o, and of the eastern, 285o.
+
+	At intervals, streamers of soft vibrating radiance, the hues 
+ranging from deep rose to purple, yellow, white and green, 
+extended upward from the main arch in sunburst effect, and were 
+most pronounced a little to the west of north. Fields of dull 
+crimson came into view intermittently, the brightest glows 
+appearing in the west about 9:50, in the east about 9:55, and in 
+the north about 10:00 p.m. All of these roseate illuminations, 
+which would subside every few minutes to again appear in increased 
+brilliance, were confined to the region lying between the two 
+arches. There remained but slight traces of the luminosity at 
+10:30 and it had entirely disappeared at 10:42 p.m. Telegraph 
+wires running north and south were noticeably affected during the 
+display, but not those running east and west. The wires would 
+alternately go out of commission and then return to normal.
+
+		Indiana: 
+
+	Aurora of March 7, 1918.-- A very brilliant aurora was seen 
+in all parts of the State during the evening and night of the 7th. 
+Numerous descriptions were received from observers over the State, 
+of which extracts taken from the accounts furnished by Prof. T.P. 
+Irving, observer at Notre Dame, and Mr. J.F. Bradley, observer at 
+Valparaiso, are fairly representative: The aurora began about 7 
+p.m. with a pinkish-yellow glow and, rising toward the zenith, by 
+7:20 p.m. had developed an arch which was about 60 degrees above 
+the horizon. By 7:30 p.m. three areas of white lights had formed 
+in the south, the center one being very vivid. Between those areas 
+and the main arch, from 7:20 p.m. to 7:35 p.m., rather faint 
+streamers of light formed in the west, passing across the sky to 
+the east, the passage occupying about six minutes. The main arch 
+rose steadily, reaching a maximum at 9:00 p.m. about 20 degrees 
+south of the zenith. By 9:30 p.m. the arch had begun to recede and 
+the white areas to fade, and by 10:00 p.m. the colors of the arch 
+began to change to white. When last seen, at 11:10 p.m., the arch, 
+which had become dim, had receded to about 25 degrees above the 
+north horizon.		E.W.H.
+
+		Iowa:  See attached copy.
+
+		Kansas: A brilliant display of the aurora borealis, said 
+to have been the finest seen in many years, was observed in 
+practically all parts of the State early in the evening of the 
+7th.
+
+		Kentucky: An aurora borealis was visible generally over 
+the State from 8 to 11 p.m. The display was on of the most 
+brilliant ever seen in this latitude.
+
+		Maryland-Delaware: Over entire section, night, 7-8.
+
+		Missouri: Exceptionally brilliant, and observed from all 
+parts of the State, on the evening of the 7th. Also see attached 
+copy.
+
+		New Jersey: A very notable display of the aurora 
+occurred on the night of the 7th-8th.
+
+		New Mexico: A very brilliant and beautiful display of 
+aurora was seen by many observers over our eastern counties on the 
+evening of the 7th. The display filled a large part of the 
+northern sky, and was visible from about 7:30 till 10:30 o'clock. 
+It was visible as far south as southern Roosevelt and northeast 
+Otero counties.
+
+		Ohio: See attached copy.
+
+		Tennessee: For several hours during the evening of the 
+7th a brilliant display of the Aurora Borealis, or "northern 
+lights," was observed from all parts of the section.
+
+		Texas: An Aurora Borealis was observed at many stations 
+over the entire State between 9 p.m. and 10 p.m., March 7.
+
+		Virginia: Richmond: A bright aurora was visible from 
+early evening of the 7th until after midnight. During most of this 
+time the display consisted of a simple arc of greenish-yellow hue, 
+but after 11 p.m. bright streamers were observed extending toward 
+the zenith.
+
+			Norfolk: Auroras were observed on the 6th and 7th, 
+but not by any member of the office force.
+
+			Lynchburg: An auroral disply of unusual brilliancy 
+occurred on the night of the 7th. At 8:15 p.m., when first 
+observed, it was of the arc form, extending east and west through 
+about 50o and to an altitude of about 18o. The arc separated a 
+bright silvery glow from the dark sky above it. Along the arc was 
+a red fringe with patches of deep red. No streamers were then 
+present. The intensity of the illumination increased to its 
+maximum at 10 p.m. and afterwards decreased until 11 p.m., when it 
+has almost entirely disappeared. Soon after 9 p.m. the rays 
+gradually appeared and the arc became fainter, and finally the 
+northern skies were filled with diffused light, chiefly red and 
+yellow, and many rays, some of which converged. One of the most 
+striking features observed was a ray about 3o wide that came from a 
+point due north and gradually rose to the zenith. While the 
+display was at its best the diffused light reached and azimuth 
+east and west of 45o and an altitude of 80o, and at times 90o, when 
+the light reached the zenith.
+
+			Washington, D.C. -- A brilliant aurora was observed 
+from 7 p.m. of the 7th to about 2 a.m. of the 8th.
+
+		West Virginia: An aurora was observed generally 
+throughout the State on the evening of the 7th.
+
+		Wyoming: Auroras were observed on the 7th at [places 
+omitted here, listed in tabulation] ... on the 8th at [places 
+omitted here] ... and on the 11th at Verona, as well as on the 
+10th, 12th, 16th and 22d at one or more of the stations mentioned.
+
+	April: New England: Auroras (dates and number of observers 
+reporting on each): Maine -- 3d, 3; 4th, 1; 5th, 5; 6th, 3; 7th, 
+10th, 11th, 30th, 1. New Hampshire -- 4th, 2; 5th, 6; 6th, 5; 
+25th, 2. Vermont -- 3d, 11th, 1; 4th, 3; 5th, 5; 6th, 4; 10th, 2. 
+Massachusetts -- 5th, 5; 6th, 7th, 25th, 1. Rhode Island -- 5th, 
+6th, 1. Connecticut -- 4th, 1; 5th, 3; 6th, 1; 7th, 2.
+
+	October: Iowa: An unusually brilliant aurora was observed 
+during the night of the 8th-9th at Oskaloosa and some other 
+stations.
+
+	November: Indiana: Valparaiso.-- On the 29th an aurora was 
+first observed at 6.15 p.m. as a faint white glow just above the 
+horizon, extending from 20o W to 30o E. About 6.45 p.m. it 
+developed faint rays which reached a maximum altitude of 20o. The 
+phenomenon faded out about 7.50 p.m. -- J. F. Bradley.
+
+1919:
+
+	February: New Jersey: The aurora was observed on the 20th, 
+and very generally on the 27th.
+
+	October: Missouri: At two stations, on the 1st.
+
+	November: Arizona: The first aurora reported in a number of 
+years was observed by Ranger R.D. Rowley, at Marquette Ranger 
+Station, on the 29th.
+
+1920:
+
+	March: Arizona: A brilliant aurora was observed from 
+Pinedale, Navajo County, and Pinto, Apache County. [No date given 
+-- probably 22d, as for Alabama and many other places.]
+
+		Arkansas: The Aurora Borealis was observed the 22nd, 
+from about 9:00 p.m. to 9:30 p.m. at Booneville, Grannis, Little 
+Rock, Lutherville, Ozark, Searcy and Warren.
+
+		Idaho: Boise King: A most brilliant and spectacular 
+display of Northern Lights on the night of the 22d. -- Arthur W. 
+Stevens.
+
+		Indiana: A brilliant aurora was visible throughout the 
+State on the night of March 22 and attracted practically universal 
+attention and interest.
+
+		Kansas: An aurora was observed on the evening of the 22d 
+in practically every part of the State. At Topeka and Pratt it was 
+merely a diffuse light in the north, but the Yates Center observer 
+reported that the complete auroral arch was visible and almost as 
+bright as a rainbow.
+
+		Louisiana: [note that Vicksburg, Mississippi data are 
+included in the Louisiana section.] 
+
+		Maryland-Delaware: Over section, brilliant, 22-23; 
+Fallston, Ferry Landing, La Plata, and Washington, D.C., faint, 
+24.
+
+		Michigan: The two marked features of the month were the 
+brilliant aurora, observed generally throughout the State on the 
+night of the 22nd-23d, and the very destructive tornadoes ...
+
+		Pennsylvania: On the night of the 22d there was a very 
+unusual auroral display, which was observed in practically all 
+parts of the State. The observer at Freeland reported it lasting 
+from 7:10 p.m. to 3:45 a.m., with an alitude varying from 35o to 
+52o. He stated that the magnetic needle was deflected to more than 
+32o west.
+
+		Texas: Auroras were observed from many stations in the 
+northern portion of the state on the 22.
+
+		West Virginia: An aurora was observed generally 
+throughout the state during the evening of the 22d and early 
+morning of the 23rd.
+
+	September: Indiana: [Date, Number of stations]: 13th, 1; 
+28th, 1.
+		Minnesota: Auroras were observed at ... Cloquet 
+(remarkable) 28th; ... Redwood Falls, 15th and 28th, the latter 
+being of a very brilliant green, with red streamers ...
+
+		Montana: ... Valentine, frequently (dates not given); 
+... Dunkirk, 28 and other dates, not specified, during preceding 
+two weeks; ...
+
+	October: Indiana: [Dates, Number of stations]: 29th, 2.
+
+1921:
+
+	January: Michigan: On the morning of the 22nd a peculiar 
+electrical condition prevailed in the southeastern part of the 
+State; telegraph service was interrupted, and the wires were not 
+cleared until 1 p.m. 
+[Note: not included in auroral database.]
+
+		Montana: Auroras: None observed during the month.
+
+		New York: Auroras: None reported.
+
+		South Dakota: Auroras reported as observed at Bison on 
+nearly every clear night.
+
+	February: New York: Auroras: None reported.
+
+	May: Arizona: The brilliant aurora of the 14th was observed 
+in all sections.
+
+		Arkansas: 14th, 5 [stations]
+
+		Georgia: The aurora of the 14th was observed as far 
+south as Macon.
+
+		Indiana: A widely observed aurora, accompanied by a 
+magnetic storm that seriously interrupted wire communication, 
+occurred in the early night of the 14-15th.
+
+		Montana: ... Upper Yaak River, date not given.
+
+		West Virginia: An aurora was observed generally 
+throughout the State on the night of the 14-15th.
+
+	July: Montana: No auroras were reported during the month.
+
+		New York: Auroras: None.
+
+	August: South Dakota: No auroras were observed.
+
+	September: Illinois: An aurora was seen by several of the 
+observers on the 28th.
+
+		Indiana: Auroras.-- 2d, 1; 28th, 1. [Date, number of 
+stations reporting]
+
+		Michigan: Faint auroras were reported on the 1st and 2nd 
+and a more brilliant display was observed generally on the 28th.
+
+	October: Indiana: 17th, 1; 18th, 1 [Date, number of stations 
+reporting]
+
+	December: Ohio: The observer at Peebles, Mr. M.D. Hibbs (Jay 
+Bird, P.O.), reports having seen an AURORA at 5:30 p.m., on the 
+25th.
+
+1922:
+
+	January: From Alabama through Indiana the bottom third of the 
+pages are torn diagonally across and missing, but there does not 
+seem to be anything of interest there.
+
+		Michigan: The display was very fine over the Upper 
+Peninsula on the 24th.
+
+		New York: Auroras: 10th, 1; 23d, 2; 24th, 4; 25th, 1; 
+26th, 1; 27th, 1; 28th, 1; 30th, 1.
+
+		Ohio: No AURORAS were reported.
+
+	February: Michigan: A faint display of auroras was observed 
+at a few stations on the 19th-21st. [Only the 19th entered in the 
+database because of a possible typo for the 21st. But then there 
+would be an aurora on the 20th.]
+
+		Ohio: No AURORAS were reported.
+
+	April: New York: Auroras: 13th, 1; 17th, 1; 19th, 1; 21st, 3; 
+22d, 2; 23d, 1; 24th, 3; 25th, 2; 26th, 1.
+
+	May: Indiana: Aurora.-- 20th, 1.
+
+		Michigan: The aurora on the 20th at Ludington lasted 
+from 8 p.m. to midnight and consisted of a yellowish arch, 
+altitude, 20o, azimuth 160o to 240o. From 10:15 p.m. to 10:30 p.m. 
+there were bright spots and rays, blue, green and red. This same 
+display was noted also at Newberry.
+
+	June: New York: Auroras: None.
+
+		Ohio: No AURORAS were reported.
+
+		Wyoming: Auroras: None were reported.
+
+	July: Michigan: Auroral displays were observed quite 
+generally on the nights of the 25th-28th, the display at Port 
+Huron on the 27th being bright with streamers.
+		New York: Auroras: 13th, 1; 14th, 2; 15th, 1; 27th, 3; 
+28th, 1.
+
+		Ohio: AURORAS: None reported.
+
+	August: Michigan: Auroral displays were reported on the 18th, 
+19th, 23rd and 26th, that of the 18th being good.
+
+		Washington: Auroras.-- No auroras were observed.
+
+	September: Michigan: Auroral glows were observed from the 
+10th-16th and on the 20th all being faint.
+
+		South Dakota: No auroras were observed.
+
+	November: Indiana: Auroras.-- 23d, 1.
+
+		Michigan: No auroras were reported.
+
+	December: Michigan: No auroras were reported.
+
+		New York: Auroras: None.
+
+1923:
+
+	January: Michigan: No auroras were observed but the 
+continuous cloud mantle would have precluded their observation, 
+had they occurred. R.M.D.
+
+		Montana: No auroras were recorded during the month.
+
+		Ohio: No AURORAS were reported.
+
+		South Dakota: No auroras were recorded during the month.
+
+	February: Minnesota: ... at Grand Rapids on the 17th (very 
+bright) ...
+
+	March: Indiana: 30th, 1.
+
+		Montana: Upper Yaak River (date not given).
+
+		New York: 24th, 12; 25th, 3; 26th, 1.
+
+	April: Ohio: Auroras:-- None.
+
+	May: Michigan: Bright aurora was observed over the Upper 
+Peninsula on the 6th.
+
+		Ohio: Auroras:-- None.
+
+	June: Iowa: The following dates were listed, but are not 
+entered in the database since they seem very questionable for this 
+location at this period: 16,18,19,20,21,22,23,24,25,28.
+
+		Ohio: Auroras:- None.
+
+	July: Michigan: Newberry: Aurora at 10:00 p.m., July 1st, 
+mostly vertical and well-defined beams. On the 22nd irregular 
+aurora in the northeast from 10:30 p.m. and later. John Brown.
+
+		New York: 1st, 1; 6th, 2; 7th, 2; 11th, 1; 20th, 1; 22d, 
+1.
+
+		Ohio: Auroras:- None.
+
+	August: Ohio: No auroras were reported.
+
+		South Dakota: No auroras were observed.
+
+	September: Michigan: The displays of aurora on the 9th and 
+26th were brighter than usual, and quite generally seen over the 
+state.
+
+		Michigan: Deer Park: Northern lights observed at 8:30 
+p.m. on the 9th. Aro Moykkynen.
+
+		Michigan: Newberry: auroral displays on the 9, 12, 26 
+and 28th, the ones on the 9th and 26th being distinct. John Brown.
+
+		Michigan: Omer: Bright northern lights the 10th.
+
+		Ohio: Auroras: None.
+
+	October: New York: 4th, 1; 7th, 1; 15th, 4; 16th, 9; 17th, 3; 
+26th, 1.
+
+		Ohio: Auroras: None.
+
+	November: Michigan: There no thunderstorms or bright displays 
+of aurora.
+
+		New York: Auroras: None.
+
+		Ohio: Auroras: None.
+
+	December: Ohio: Auroras: None.
+

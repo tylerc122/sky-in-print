@@ -1,0 +1,683 @@
+                  AURORAL OBSERVATIONS: COUNTIES
+
+                    UNITED STATES: 1924-1932
+
+  CITY				  STATE			   COUNTY
+
+MADISON                    ALABAMA               MADISON               
+KAYENTA                    ARIZONA               NAVAJO                
+FRESNO [COUNTY]            CALIFORNIA            FRESNO                
+CALHAN                     COLORADO              EL PASO               
+COLLBRAN                   COLORADO              MESA                  
+DENVER                     COLORADO              DENVER                
+ELK CREEK                  COLORADO              JEFFERSON             
+GRAND JUNCTION             COLORADO              MESA                  
+HOLLY                      COLORADO              PROWERS               
+LE ROY                     COLORADO              LOGAN                 
+MESA VERDE                 COLORADO              MONTEZUMA             
+NORTH LAKE                 COLORADO              LAS ANIMAS                 
+PEARL                      COLORADO              JACKSON               
+PUEBLO                     COLORADO              PUEBLO                
+RUGH RANCH                 COLORADO              LARIMER               
+SAPINERO                   COLORADO              GUNNISON              
+STEAMBOAT SPRINGS          COLORADO              ROUTT                 
+SUNBEAM (NEAR)             COLORADO              MOFFAT                
+HARTFORD                   CONNECTICUT           HARTFORD              
+NEW HAVEN                  CONNECTICUT           NEW HAVEN             
+DELAWARE CITY              DELAWARE              NEWCASTLE             
+MILLSBORO                  DELAWARE              SUSSEX                
+WASHINGTON                 DISTRICT OF COLUMBIA  DISTRICT OF COLUMBIA  
+TAMPA                      FLORIDA               HILLSBOROUGH          
+                           ILLINOIS                                    
+CAIRO                      ILLINOIS              ALEXANDER             
+                           INDIANA                                     
+BERNE                      INDIANA               ADAMS                 
+                           IOWA                                        
+ALDEN                      KANSAS                RICE                  
+ATWOOD                     KANSAS                RAWLINS               
+BISON                      KANSAS                RUSH                  
+BURR OAK                   KANSAS                JEWELL                
+CAWKER CITY                KANSAS                MITCHELL              
+CONCORDIA                  KANSAS                CLOUD                 
+DODGE CITY                 KANSAS                FORD                  
+FLORENCE                   KANSAS                MARION                
+GARNETT                    KANSAS                ANDERSON              
+GOVE                       KANSAS                GOVE                  
+HANOVER                    KANSAS                WASHINGTON            
+HILL CITY                  KANSAS                GRAHAM                
+HOXIE                      KANSAS                SHERIDAN              
+HUTCHINSON                 KANSAS                RENO                  
+KANSAS CITY                KANSAS                WYANDOTTE             
+LARNED                     KANSAS                PAWNEE                
+LINCOLN                    KANSAS                LINCOLN               
+NEWTON                     KANSAS                HARVEY                
+NORTON                     KANSAS                NORTON                
+OKETO                      KANSAS                MARSHALL              
+PITTSBURG                  KANSAS                CRAWFORD              
+POMONA                     KANSAS                FRANKLIN              
+SALINA                     KANSAS                SALINE                
+TOPEKA                     KANSAS                SHAWNEE               
+WICHITA                    KANSAS                SEDGWICK              
+CALHOUN                    LOUISIANA             OUACHITA              
+NATCHITOCHES               LOUISIANA             NATCHITOCHES          
+NORTH BRIDGTON             MAINE                 CUMBERLAND            
+OLDTOWN                    MAINE                 PENOBSCOT             
+PORTLAND                   MAINE                 CUMBERLAND            
+VAN BUREN                  MAINE                 AROOSTOOK             
+BALTIMORE                  MARYLAND              BALTIMORE             
+FALLSTON                   MARYLAND              HARFORD               
+FERRY LANDING              MARYLAND              CALVERT               
+FROSTBURG                  MARYLAND              ALLEGANY              
+GRANTSVILLE                MARYLAND              GARRETT               
+NEWBURG                    MARYLAND              CHARLES               
+PLEASANT HILL              MARYLAND              BALTIMORE             
+BLUE HILL                  MASSACHUSETTS         NORFOLK               
+CONCORD                    MASSACHUSETTS         MIDDLESEX             
+FALL RIVER                 MASSACHUSETTS         BRISTOL               
+NEW BEDFORD                MASSACHUSETTS         BRISTOL               
+ROCKPORT                   MASSACHUSETTS         ESSEX                 
+WORCESTER                  MASSACHUSETTS         WORCESTER             
+ALBION                     MICHIGAN              CALHOUN               
+BLOOMINGDALE               MICHIGAN              VAN BUREN             
+CHARLEVOIX                 MICHIGAN              CHARLEVOIX            
+DEER PARK                  MICHIGAN              LUCE                  
+GRAND HAVEN                MICHIGAN              OTTAWA                
+HARRISVILLE                MICHIGAN              ALCONA                
+HOUGHTON LAKE              MICHIGAN              ROSCOMMON             
+LANSING                    MICHIGAN              INGHAM                
+LUDINGTON                  MICHIGAN              MASON                 
+LUTHER                     MICHIGAN              LAKE                  
+MACKINAW                   MICHIGAN              EMMET                 
+MARQUETTE                  MICHIGAN              MARQUETTE             
+MILFORD (NEAR)             MICHIGAN              OAKLAND               
+MIO                        MICHIGAN              OSCODA                
+MUNISING                   MICHIGAN              ALGER                 
+NEWBERRY                   MICHIGAN              LUCE                  
+PAINESDALE                 MICHIGAN              HOUGHTON              
+PAW PAW                    MICHIGAN              VAN BUREN             
+PORT HURON                 MICHIGAN              SAINT CLAIR           
+RUSE (NEAR)                MICHIGAN              MARQUETTE             
+SACK BAY                   MICHIGAN              DELTA                 
+SAUGATUCK                  MICHIGAN              ALLEGAN               
+VANDERBILT                 MICHIGAN              OTSEGO                
+AH-GWAH-CHING              MINNESOTA             CASS                  
+ANGUS                      MINNESOTA             POLK                  
+ARGYLE                     MINNESOTA             MARSHALL              
+ARTICHOKE LAKE             MINNESOTA             BIGSTONE              
+BAUDETTE                   MINNESOTA             LAKE OF THE WOODS     
+BEMIDJI                    MINNESOTA             BELTRAMI              
+BIG FALLS                  MINNESOTA             KOOCHICHING           
+BIGFORK                    MINNESOTA             ITASCA                
+BRAINERD                   MINNESOTA             CROW WING             
+CANBY                      MINNESOTA             YELLOW MEDICINE       
+CHASKA                     MINNESOTA             CARVER                
+CHATFIELD                  MINNESOTA             FILLMORE              
+CLOQUET                    MINNESOTA             CARLTON               
+COLLEGEVILLE               MINNESOTA             STEARNS               
+CROOKSTON                  MINNESOTA             POLK                  
+DETROIT                    MINNESOTA             BECKER                
+DETROIT LAKES              MINNESOTA             BECKER                
+DULUTH                     MINNESOTA             SAINT LOUIS           
+FAIRMONT                   MINNESOTA             MARTIN                
+FARIBAULT                  MINNESOTA             RICE                  
+FERGUS FALLS               MINNESOTA             OTTER TAIL            
+GONVICK                    MINNESOTA             CLEARWATER            
+GRAND MEADOW               MINNESOTA             MOWER                 
+GRAND RAPIDS               MINNESOTA             ITASCA                
+GULL LAKE DAM              MINNESOTA             CASS                  
+HALLOCK                    MINNESOTA             KITTSON               
+ISABELLA                   MINNESOTA             LAKE                  
+ITASCA STATE PARK          MINNESOTA             CLEARWATER            
+MAHNOMEN                   MINNESOTA             MAHNOMEN              
+MAPLEPLAIN                 MINNESOTA             HENNEPIN              
+MEADOWLANDS                MINNESOTA             SAINT LOUIS           
+MILACA                     MINNESOTA             MILLE LACS            
+MILAN                      MINNESOTA             CHIPPEWA              
+MINNEAPOLIS                MINNESOTA             HENNEPIN              
+MINNEAPOLIS NO. 1          MINNESOTA             HENNEPIN              
+MINNEAPOLIS W.B.           MINNESOTA             HENNEPIN              
+MINNEAPOLIS WEATHER BUREAU MINNESOTA             HENNEPIN              
+MINNEAPOLIS, NO. 1         MINNESOTA             HENNEPIN              
+MINNEAPOLIS, NO. 2         MINNESOTA             HENNEPIN              
+MINNEAPOLIS, W.B.          MINNESOTA             HENNEPIN              
+MIZPAH                     MINNESOTA             KOOCHICHING           
+MONTEVIDEO                 MINNESOTA             CHIPPEWA              
+MOORHEAD                   MINNESOTA             CLAY                  
+MORA                       MINNESOTA             KANABEC               
+MORRIS                     MINNESOTA             STEVENS               
+NEW LONDON                 MINNESOTA             KANDIYOHI             
+ORR                        MINNESOTA             SAINT LOUIS           
+PIGEON RIVER BRIDGE        MINNESOTA             COOK                  
+PINE RIVER DAM             MINNESOTA             CROW WING             
+RED LAKE                   MINNESOTA             BELTRAMI              
+RED LAKE FALLS             MINNESOTA             RED LAKE              
+REDBY                      MINNESOTA             BELTRAMI              
+REDWOOD FALLS              MINNESOTA             REDWOOD               
+SAINT CLOUD                MINNESOTA             STEARNS               
+SAINT PAUL                 MINNESOTA             RAMSEY                
+SANDY LAKE DAM             MINNESOTA             AITKIN                
+THIEF RIVER FALLS          MINNESOTA             PENNINGTON            
+TOWER                      MINNESOTA             SAINT LOUIS           
+TRACY                      MINNESOTA             LYON                  
+TWO HARBORS                MINNESOTA             LAKE                  
+WADENA                     MINNESOTA             WADENA                
+WASKISH                    MINNESOTA             BELTRAMI              
+WHEATON                    MINNESOTA             TRAVERSE              
+WILLMAR                    MINNESOTA             KANDIYOHI             
+WINNEBAGO                  MINNESOTA             FARIBAULT             
+WINNIBIGOSHISH             MINNESOTA             CASS                  
+WINONA                     MINNESOTA             WINONA                
+WORTHINGTON                MINNESOTA             NOBLES                
+ZUMBROTA                   MINNESOTA             GOODHUE               
+CAIRO                      MISSOURI              RANDOLPH              
+DOWNING                    MISSOURI              SCHUYLER              
+FULTON                     MISSOURI              CALLAWAY              
+HAILEY                     MISSOURI              BARRY                 
+HANNIBAL                   MISSOURI              MARION                
+KIRKSVILLE                 MISSOURI              ADAIR                 
+SAINT JOSEPH               MISSOURI              BUCHANAN              
+SAINT LOUIS                MISSOURI              SAINT LOUIS           
+SALEM                      MISSOURI              DENT                  
+TARKIO                     MISSOURI              ATCHISON              
+WARRENTON                  MISSOURI              WARREN                
+ADEL                       MONTANA               CASCADE               
+ASHLAND                    MONTANA               ROSEBUD               
+ASHLAND (NEAR)             MONTANA               ROSEBUD               
+AUGUSTA                    MONTANA               LEWIS AND CLARK       
+BABB                       MONTANA               GLACIER               
+BABB (NEAR)                MONTANA               GLACIER               
+BAKER                      MONTANA               FALLON                
+BALLANTINE                 MONTANA               YELLOWSTONE           
+BARTHELMESS RANCH          MONTANA               CUSTER                
+BIDDLE                     MONTANA               POWDER RIVER          
+BILLINGS                   MONTANA               YELLOWSTONE           
+BROWNING                   MONTANA               GLACIER               
+BUSBY                      MONTANA               BIGHORN               
+BUSTEED                    MONTANA               STILLWATER            
+CARTER                     MONTANA               CARTER                
+CARTER (NEAR)              MONTANA               CARTER                
+CASCADE                    MONTANA               CASCADE               
+CASCADE (NEAR)             MONTANA               CASCADE               
+CHOTEAU                    MONTANA               TETON                 
+CIRCLE (NEAR)              MONTANA               MCCONE                
+COLSTRIP                   MONTANA               ROSEBUD               
+COLUMBIA FALLS             MONTANA               FLATHEAD              
+CONRAD                     MONTANA               PONDERA               
+CONWAY'S RANCH             MONTANA               MADISON               
+CROW AGENCY                MONTANA               BIG HORN              
+CUT BANK                   MONTANA               GLACIER               
+CUTBANK                    MONTANA               GLACIER               
+DARBY                      MONTANA               RAVALLI               
+DAYTON                     MONTANA               LAKE                  
+DILLON                     MONTANA               BEAVERHEAD            
+DRUMMOND                   MONTANA               GRANITE               
+DRY LAND EXPERIMENT STATIONMONTANA               JEFFERSON             
+DUNKIRK                    MONTANA               TOOLE                 
+DUNKIRK (NEAR)             MONTANA               TOOLE                 
+EAST ANACONDA              MONTANA               DEER LODGE            
+EKALAKA                    MONTANA               CARTER                
+EMORY                      MONTANA               GOLDEN VALLEY         
+ENNIS                      MONTANA               MADISON               
+EUREKA                     MONTANA               LINCOLN               
+FAIRVIEW                   MONTANA               RICHLAND              
+FLATHEAD CREEK             MONTANA               GALLATIN              
+FLATWILLOW                 MONTANA               PETROLEUM             
+FLATWILLOW (NEAR)          MONTANA               PETROLEUM             
+FORKS (NEAR)               MONTANA               PHILLIPS              
+FORTINE                    MONTANA               LINCOLN               
+FOSTER                     MONTANA               BIG HORN              
+FRAZER                     MONTANA               VALLEY                
+GARLAND                    MONTANA               CUSTER                
+GERALDINE                  MONTANA               CHOUTEAU              
+GLASGOW                    MONTANA               VALLEY                
+GLENDIVE                   MONTANA               DAWSON                
+GOLDBUTTE                  MONTANA               TOOLE                 
+GRANT                      MONTANA               BEAVERHEAD            
+GREAT FALLS                MONTANA               CASCADE               
+HAMILTON                   MONTANA               RAVALLI               
+HARLEM                     MONTANA               BLAINE                
+HAUGAN                     MONTANA               MINERAL               
+HAVRE                      MONTANA               HILL                  
+HAYS                       MONTANA               BLAINE                
+HEBGEN DAM                 MONTANA               GALLATIN              
+HELENA                     MONTANA               LEWIS AND CLARK       
+HERON                      MONTANA               SANDERS               
+HIGHWOOD                   MONTANA               CHOUTEAU              
+HOBSON                     MONTANA               JUDITH BASIN          
+HYSHAM                     MONTANA               TREASURE              
+INGOMAR                    MONTANA               ROSEBUD               
+INGOMAR (NEAR)             MONTANA               ROSEBUD               
+JOPLIN                     MONTANA               LIBERTY               
+JORDAN                     MONTANA               GARFIELD              
+KALISPELL                  MONTANA               FLATHEAD              
+KINREAD                    MONTANA               LIBERTY               
+KIPPEN                     MONTANA               TOOLE                 
+KISHENEHN RANGER STATION   MONTANA               FLATHEAD              
+KNOWLTON                   MONTANA               CUSTER                
+LEWISTON                   MONTANA               JEFFERSON             
+LEWISTOWN                  MONTANA               FERGUS                
+LIBBY                      MONTANA               LINCOLN               
+LIVINGSTON                 MONTANA               PARK                  
+LOTHAIR                    MONTANA               LIBERTY               
+LOWETH                     MONTANA               MEAGHER               
+LUSTRE                     MONTANA               VALLEY                
+LYTLE                      MONTANA               PONDERA               
+MALTA                      MONTANA               PHILLIPS              
+MEDICINE LAKE              MONTANA               SHERIDAN              
+MILDRED                    MONTANA               PRAIRIE               
+MILES CITY                 MONTANA               CUSTER                
+MISSOULA                   MONTANA               MISSOULA              
+MISSOULA (NEAR)            MONTANA               MISSOULA              
+MYSTIC LAKE                MONTANA               STILLWATER            
+OPHEIM                     MONTANA               VALLEY                
+OUTLOOK                    MONTANA               SHERIDAN              
+OVANDO                     MONTANA               POWELL                
+PAXTON                     MONTANA               DAWSON                
+PAXTON (NEAR)              MONTANA               DAWSON                
+PHILIPSBURG                MONTANA               GRANITE               
+PLEASANT VALLEY            MONTANA               FLATHEAD              
+PLEASANT VALLEY (NEAR)     MONTANA               FLATHEAD              
+PLEVNA                     MONTANA               FALLON                
+POLSON                     MONTANA               LAKE                  
+POPLAR                     MONTANA               ROOSEVELT             
+RED LODGE                  MONTANA               CARBON                
+RED LODGE (NEAR)           MONTANA               CARBON                
+RENOVA                     MONTANA               JEFFERSON             
+ROCK SPRINGS               MONTANA               ROSEBUD               
+ROCK SPRINGS (NEAR)        MONTANA               ROSEBUD               
+ROUNDUP                    MONTANA               MUSSELSHELL           
+SAINT IGNATIUS             MONTANA               LAKE                  
+SARPY CREEK                MONTANA               TREASURE              
+SCOBEY                     MONTANA               DANIELS               
+SENTINEL BUTTE PASS        MONTANA               GARFIELD              
+SIOUX PASS                 MONTANA               RICHLAND              
+SIOUX PASS (NEAR)          MONTANA               RICHLAND              
+SNOWBELT                   MONTANA               DAWSON                
+STEVENSVILLE               MONTANA               RAVALLI               
+SUN RIVER CANYON           MONTANA               TETON                 
+SUPERIOR                   MONTANA               MINERAL               
+SWEET GRASS                MONTANA               TOOLE                 
+SWEET GRASS (NEAR)         MONTANA               TOOLE                 
+TELEGRAPH CREEK            MONTANA               PHILLIPS              
+THOMPSON FALLS             MONTANA               SANDERS               
+TURNER                     MONTANA               BLAINE                
+UPPER YAAK RIVER           MONTANA               LINCOLN               
+VALENTINE                  MONTANA               FERGUS                
+VALIER                     MONTANA               PONDERA               
+VIRGINIA CITY              MONTANA               MADISON               
+WHEATON                    MONTANA               MUSSELSHELL           
+WHITE WATER                MONTANA               PHILIPS               
+WIBAUX                     MONTANA               WIBAUX                
+WINIFRED                   MONTANA               FERGUS                
+WYOLA                      MONTANA               BIG HORN              
+BERLIN                     NEW HAMPSHIRE         COOS                  
+BETHLEHEM                  NEW HAMPSHIRE         GRAFTON               
+FRANKLIN                   NEW HAMPSHIRE         MERRIMACK             
+GLENCLIFF                  NEW HAMPSHIRE         GRAFTON               
+HANOVER                    NEW HAMPSHIRE         GRAFTON               
+PLYMOUTH                   NEW HAMPSHIRE         GRAFTON               
+HAMMONTON                  NEW JERSEY            ATLANTIC              
+LAYTON                     NEW JERSEY            SUSSEX                
+MOORESTOWN                 NEW JERSEY            BURLINGTON            
+NEW BRUNSWICK              NEW JERSEY            MIDDLESEX             
+NEWTON                     NEW JERSEY            SUSSEX                
+PLAINFIELD                 NEW JERSEY            UNION                 
+RIDGEFIELD                 NEW JERSEY            BERGEN                
+SANDY HOOK                 NEW JERSEY            MONMOUTH              
+TRENTON                    NEW JERSEY            MERCER                
+CANTON                     NEW YORK              SAINT LAWRENCE        
+GABRIELS                   NEW YORK              FRANKLIN              
+HEMLOCK                    NEW YORK              LIVINGSTON            
+ITHACA                     NEW YORK              TOMPKINS              
+JAMESTOWN                  NEW YORK              CHAUTAUQUA            
+LITTLE FALLS               NEW YORK              HERKIMER              
+LOCKPORT                   NEW YORK              NIAGARA               
+NEW LISBON                 NEW YORK              OTSEGO                
+PORT JERVIS                NEW YORK              ORANGE                
+ROXBURY                    NEW YORK              DELAWARE              
+SILVER BAY                 NEW YORK              WARREN                
+WANAKENA                   NEW YORK              SAINT LAWRENCE        
+WAPPINGERS FALLS           NEW YORK              DUTCHESS              
+YORK                       NEW YORK              LIVINGSTON            
+ARNEGARD                   NORTH DAKOTA          MCKENZIE              
+ASHLEY                     NORTH DAKOTA          MCINTOSH              
+BEACH                      NORTH DAKOTA          GOLDEN VALLEY         
+BERTHOLD AGENCY            NORTH DAKOTA          MCLEAN                
+BISMARCK                   NORTH DAKOTA          BURLEIGH              
+BOTTINEAU                  NORTH DAKOTA          BOTTINEAU             
+BOWMAN                     NORTH DAKOTA          BOWMAN                
+CARSON                     NORTH DAKOTA          GRANT                 
+COOPERSTOWN                NORTH DAKOTA          GRIGGS                
+CROSBY                     NORTH DAKOTA          DIVIDE                
+DEVILS LAKE                NORTH DAKOTA          RAMSEY                
+DICKINSON                  NORTH DAKOTA          STARK                 
+DOGDEN                     NORTH DAKOTA          MCLEAN                
+DOGDEN BUTTE               NORTH DAKOTA          MCLEAN                
+DONNYBROOK                 NORTH DAKOTA          WARD                  
+DRAKE                      NORTH DAKOTA          MCHENRY               
+DUNN CENTER                NORTH DAKOTA          DUNN                  
+ECKMAN                     NORTH DAKOTA          BOTTINEAU             
+EDMORE                     NORTH DAKOTA          RAMSEY                
+ELLENDALE                  NORTH DAKOTA          DICKEY                
+ENERGY                     NORTH DAKOTA          MCLEAN                
+EPPING                     NORTH DAKOTA          WILLIAMS              
+FESSENDEN                  NORTH DAKOTA          WELLS                 
+FINLEY                     NORTH DAKOTA          STEELE                
+FORMAN                     NORTH DAKOTA          SARGENT               
+FOXHOLM                    NORTH DAKOTA          WARD                  
+FRYBURG                    NORTH DAKOTA          BILLINGS              
+FULLERTON                  NORTH DAKOTA          DICKEY                
+GACKLE                     NORTH DAKOTA          LOGAN                 
+GARRISON                   NORTH DAKOTA          MCLEAN                
+GRAFTON                    NORTH DAKOTA          WALSH                 
+GRAND FORKS                NORTH DAKOTA          GRAND FORKS           
+HANNAH                     NORTH DAKOTA          CAVALIER              
+HANSBORO                   NORTH DAKOTA          TOWNER                
+HETTINGER                  NORTH DAKOTA          ADAMS                 
+HOWARD                     NORTH DAKOTA          WILLIAMS              
+KENMARE                    NORTH DAKOTA          WARD                  
+LAMOINE                    NORTH DAKOTA          KIDDER                
+LARIMORE                   NORTH DAKOTA          GRAND FORKS           
+LINTON                     NORTH DAKOTA          EMMONS                
+MANDAN                     NORTH DAKOTA          MORTON                
+MARMARTH                   NORTH DAKOTA          SLOPE                 
+MCCLUSKY                   NORTH DAKOTA          SHERIDAN              
+MCHENRY                    NORTH DAKOTA          FOSTER                
+MCKINNEY                   NORTH DAKOTA          RENVILLE              
+MCLEOD                     NORTH DAKOTA          RANSOM                
+MELVILLE                   NORTH DAKOTA          FOSTER                
+METIGOSHE                  NORTH DAKOTA          BOTTINEAU             
+MINOT                      NORTH DAKOTA          WARD                  
+MINTO                      NORTH DAKOTA          WALSH                 
+MOTT                       NORTH DAKOTA          HETTINGER             
+NAPOLEON                   NORTH DAKOTA          LOGAN                 
+NEW ENGLAND                NORTH DAKOTA          HETTINGER             
+NEW SALEM                  NORTH DAKOTA          MORTON                
+OAKES                      NORTH DAKOTA          DICKEY                
+PARSHALL                   NORTH DAKOTA          MOUNTRAIL             
+PEMBINA                    NORTH DAKOTA          PEMBINA               
+PETERSBURG                 NORTH DAKOTA          NELSON                
+PETTIBONE                  NORTH DAKOTA          KIDDER                
+POWER                      NORTH DAKOTA          RICHLAND              
+POWERS LAKE                NORTH DAKOTA          BURKE                 
+RICHARDTON                 NORTH DAKOTA          STARK                 
+RUGBY                      NORTH DAKOTA          PIERCE                
+SANISH                     NORTH DAKOTA          MOUNTRAIL             
+SHARON                     NORTH DAKOTA          STEELE                
+STANTON                    NORTH DAKOTA          MERCER                
+STEELE                     NORTH DAKOTA          KIDDER                
+STOWERS                    NORTH DAKOTA          ADAMS                 
+TAGUS                      NORTH DAKOTA          MOUNTRAIL             
+TOWNER                     NORTH DAKOTA          MCHENRY               
+TROTTERS                   NORTH DAKOTA          GOLDEN VALLEY         
+TURTLE LAKE                NORTH DAKOTA          MCLEAN                
+VALLEY CITY                NORTH DAKOTA          BARNES                
+VELVA                      NORTH DAKOTA          MCHENRY               
+VERONA                     NORTH DAKOTA          LAMOURE               
+WASHBURN                   NORTH DAKOTA          MCLEAN                
+WESTHOPE                   NORTH DAKOTA          BOTTINEAU             
+WILLISTON                  NORTH DAKOTA          WILLIAMS              
+WILLOW CITY                NORTH DAKOTA          BOTTINEAU             
+AKRON                      OHIO                  SUMMIT                
+AMESVILLE                  OHIO                  ATHENS                
+ASHLAND                    OHIO                  ASHLAND               
+BANGORVILLE                OHIO                  RICHLAND              
+BOWLING GREEN              OHIO                  WOOD                  
+CADIZ                      OHIO                  HARRISON              
+CATAWBA ISLAND             OHIO                  OTTAWA                
+CHARLESTOWN                OHIO                  PORTAGE               
+CHILO                      OHIO                  CLERMONT              
+CIRCLEVILLE                OHIO                  PICKAWAY              
+CLEVELAND                  OHIO                  CUYAHOGA              
+COLUMBUS                   OHIO                  FRANKLIN              
+DAYTON                     OHIO                  MONTGOMERY            
+DELAWARE                   OHIO                  DELAWARE              
+DEMOS                      OHIO                  BELMONT               
+HAMILTON                   OHIO                  BUTLER                
+HILLSBORO                  OHIO                  HIGHLAND              
+HIRAM                      OHIO                  PORTAGE               
+LAKESIDE                   OHIO                  FAIRFIELD             
+LONDON                     OHIO                  MADISON               
+MADISON                    OHIO                  LAKE                  
+MANSFIELD                  OHIO                  RICHLAND              
+MILLPORT                   OHIO                  COLUMBIANA            
+MONTPELIER                 OHIO                  WILLIAMS              
+MOUNT HEALTHY              OHIO                  HAMILTON              
+NORTH BASS ISLAND          OHIO                  OTTAWA                
+OCTA                       OHIO                  FAYETTE               
+OXFORD                     OHIO                  BUTLER                
+PATASKALA                  OHIO                  LICKING               
+PHILO                      OHIO                  MUSKINGUM             
+PHILO NO. 2                OHIO                  MUSKINGUM             
+SANDUSKY                   OHIO                  ERIE                  
+TIFFIN                     OHIO                  SENECA                
+TOBOSO                     OHIO                  LICKING               
+TOLEDO                     OHIO                  LUCAS                 
+URBANA                     OHIO                  CHAMPAIGN             
+VAN WERT                   OHIO                  VAN WERT              
+VICKERY                    OHIO                  SANDUSKY              
+WAPAKONETA                 OHIO                  AUGLAIZE              
+WASHINGTON COURT HOUSE     OHIO                  FAYETTE               
+WILLOUGHBY                 OHIO                  LAKE                  
+WILMINGTON                 OHIO                  CLINTON               
+BOISE CITY                 OKLAHOMA              CIMARRON              
+HOOKER                     OKLAHOMA              TEXAS                 
+KENTON                     OKLAHOMA              CIMARRON              
+BRISTOL                    RHODE ISLAND          BRISTOL               
+KINGSTON                   RHODE ISLAND          WASHINGTON            
+ARDMORE                    SOUTH DAKOTA          FALL RIVER            
+ASHTON                     SOUTH DAKOTA          SPINK                 
+BELLEFOURCHE               SOUTH DAKOTA          BUTTE                 
+BOWDLE                     SOUTH DAKOTA          EDMUNDS               
+BRITTON                    SOUTH DAKOTA          MARSHALL              
+BROOKINGS                  SOUTH DAKOTA          BROOKINGS             
+CAMP CROOK                 SOUTH DAKOTA          HARDING               
+CANISTOTA                  SOUTH DAKOTA          MCCOOK                
+CASTLEWOOD                 SOUTH DAKOTA          HAMLIN                
+CEDAR VIEW                 SOUTH DAKOTA          WASHABAUGH                
+COLOME                     SOUTH DAKOTA          TRIPP                 
+COTTONWOOD                 SOUTH DAKOTA          JACKSON               
+CROW CREEK                 SOUTH DAKOTA          BUFFALO               
+DOWLING                    SOUTH DAKOTA          HAAKON                
+DUPREE                     SOUTH DAKOTA          ZIEBACH               
+EALES                      SOUTH DAKOTA          POTTER                
+ELM SPRINGS                SOUTH DAKOTA          MEADE                 
+FAITH                      SOUTH DAKOTA          MEADE                 
+FAULKTON                   SOUTH DAKOTA          FAULK                 
+FLANDREAU                  SOUTH DAKOTA          MOODY                 
+GETTYSBURG                 SOUTH DAKOTA          POTTER                
+GLENHAM                    SOUTH DAKOTA          WALWORTH              
+GREGORY                    SOUTH DAKOTA          GREGORY               
+HERMOSA                    SOUTH DAKOTA          CUSTER                
+HOPEWELL                   SOUTH DAKOTA          STANLEY               
+HOWARD                     SOUTH DAKOTA          MINER                 
+HURON                      SOUTH DAKOTA          BEADLE                
+IPSWICH                    SOUTH DAKOTA          EDMUNDS               
+KADOKA                     SOUTH DAKOTA          JACKSON               
+LA DELLE                   SOUTH DAKOTA          SPINK                 
+LEMMON                     SOUTH DAKOTA          PERKINS               
+LUDLOW                     SOUTH DAKOTA          HARDING               
+MCINTOSH                   SOUTH DAKOTA          CORSON                
+MCLAUGHLIN                 SOUTH DAKOTA          CORSON                
+MEADOW                     SOUTH DAKOTA          PERKINS               
+MELLETE                    SOUTH DAKOTA          SPINK                 
+MENNO                      SOUTH DAKOTA          HUTCHINSON            
+MIDLAND                    SOUTH DAKOTA          HAAKON                
+MILLER                     SOUTH DAKOTA          HAND                  
+MITCHELL                   SOUTH DAKOTA          DAVISON               
+NEWELL                     SOUTH DAKOTA          BUTTE                 
+ONIDA                      SOUTH DAKOTA          SULLY                 
+OTTUMWA                    SOUTH DAKOTA          HAAKON                
+PARKSTON                   SOUTH DAKOTA          HUTCHINSON            
+PIERRE                     SOUTH DAKOTA          HUGHES                
+POLLOCK                    SOUTH DAKOTA          CAMPBELL              
+RAPID CITY                 SOUTH DAKOTA          PENNINGTON            
+REDFIELD                   SOUTH DAKOTA          SPINK                 
+REDIG                      SOUTH DAKOTA          HARDING               
+ROCHFORD                   SOUTH DAKOTA          PENNINGTON            
+ROSLYN                     SOUTH DAKOTA          DAY                   
+SIOUX FALLS                SOUTH DAKOTA          MINNEHAHA             
+SORUM                      SOUTH DAKOTA          PERKINS               
+SPEARFISH                  SOUTH DAKOTA          LAWRENCE              
+STROOL                     SOUTH DAKOTA          PERKINS               
+STROOL (NEAR)              SOUTH DAKOTA          PERKINS               
+TYNDALL                    SOUTH DAKOTA          BON HOMME             
+VERMILLION                 SOUTH DAKOTA          CLAY                  
+VICTOR                     SOUTH DAKOTA          ROBERTS               
+VIVIAN                     SOUTH DAKOTA          LYMAN                 
+WATERTOWN                  SOUTH DAKOTA          CODINGTON             
+WEBSTER                    SOUTH DAKOTA          DAY                   
+YANKTON                    SOUTH DAKOTA          YANKTON               
+BOLIVAR                    TENNESSEE             HARDEMAN              
+COOKEVILLE                 TENNESSEE             PUTNAM                
+CROSSVILLE                 TENNESSEE             CUMBERLAND            
+KNOXVILLE                  TENNESSEE             KNOX                  
+LEWISBURG                  TENNESSEE             MARSHALL              
+LYNNVILLE                  TENNESSEE             GILES                 
+MCMINNVILLE                TENNESSEE             WARREN                
+NASHVILLE                  TENNESSEE             DAVIDSON              
+SKY HARBOR                 TENNESSEE             RUTHERFORD            
+GROESBECK                  TEXAS                 LIMESTONE             
+
+STRATFORD                  TEXAS                 SHERMAN               
+WACO                       TEXAS                 MCLENNAN              
+WINTERS (NEAR)             TEXAS                 RUNNELS               
+BENMORE                    UTAH                  TOOELE                
+DUCHESNE                   UTAH                  DUCHESNE              
+ELBERTA                    UTAH                  UTAH                  
+ENTERPRISE                 UTAH                  MORGAN                
+HOLE-IN-THE-ROCK RANGER STAUTAH                                        
+IBAPAH                     UTAH                  TOOELE                
+INTERNATIONAL              UTAH                  TOOELE                
+KANOSH                     UTAH                  MILLARD               
+MANTI                      UTAH                  SANPETE               
+MOAB                       UTAH                  GRAND                 
+MORGAN                     UTAH                  MORGAN                
+OAK CITY                   UTAH                  MILLARD               
+OGDEN                      UTAH                  WEBER                 
+PARK VALLEY                UTAH                  BOX ELDER             
+PRICE                      UTAH                  CARBON                
+RANDOLPH                   UTAH                  RICH                  
+SALT LAKE CITY             UTAH                  SALT LAKE             
+SMITHFIELD                 UTAH                  CACHE                 
+BURLINGTON                 VERMONT               CHITTENDEN            
+ENOSBURG FALLS             VERMONT               FRANKLIN              
+NORTHFIELD                 VERMONT               WASHINGTON            
+WOODSTOCK                  VERMONT               WINDSOR               
+ASHLAND                    VIRGINIA              HANOVER               
+CALLAVILLE                 VIRGINIA              BRUNSWICK             
+CAPE HENRY                 VIRGINIA              VIRGINIA BEACH (CITY) 
+CHARLOTTESVILLE            VIRGINIA              CHARLOTTESVILLE (CITY)
+CHRISTCHURCH               VIRGINIA              MIDDLESEX             
+DAHLGREN                   VIRGINIA              KING GEORGE           
+DALE ENTERPRISE            VIRGINIA              ROCKINGHAM            
+DAMASCUS                   VIRGINIA              WASHINGTON            
+HOPEWELL                   VIRGINIA              FAUQUIER              
+LYNCHBURG                  VIRGINIA              LYNCHBURG             
+MASSINACAC                 VIRGINIA              BUCKINGHAM            
+NEW CANTON                 VIRGINIA              BUCKINGHAM            
+RICHMOND                   VIRGINIA              RICHMOND (CITY)       
+TROY                       VIRGINIA              FLUVANNA              
+WALLACETON                 VIRGINIA              CHESAPEAKE (CITY)     
+ALPAWA RANCH               WASHINGTON            ASOTIN                
+ANATONE                    WASHINGTON            ASOTIN                
+BELLINGHAM                 WASHINGTON            WHATCOM               
+CHESAW                     WASHINGTON            OKANOGAN              
+CONCONULLY                 WASHINGTON            OKANOGAN              
+EPHRATA                    WASHINGTON            GRANT                 
+FORKS                      WASHINGTON            CLALLAM               
+FRIDAY HARBOR              WASHINGTON            SAN JUAN              
+GUNN RANCH                 WASHINGTON            OKANOGAN              
+GUNN'S RANCH               WASHINGTON            OKANOGAN              
+HARTLINE                   WASHINGTON            GRANT                 
+HATTON                     WASHINGTON            ADAMS                 
+INDEX                      WASHINGTON            SNOHOMISH             
+KETTLE FALLS               WASHINGTON            STEVENS               
+LACROSSE                   WASHINGTON            WHITMAN               
+LAKESIDE                   WASHINGTON            CHELAN                
+LAURIER                    WASHINGTON            FERRY                 
+LESTER                     WASHINGTON            KING                  
+NEAH BAY                   WASHINGTON            CLALLAM               
+NEWPORT                    WASHINGTON            KING                  
+NORTH HEAD                 WASHINGTON            PACIFIC               
+OKANOGAN                   WASHINGTON            OKANOGAN              
+OLGA                       WASHINGTON            SAN JUAN              
+OMAK                       WASHINGTON            OKANOGAN              
+PEOLA                      WASHINGTON            GARFIELD              
+PORT ANGELES               WASHINGTON            CLALLAM               
+REPUBLIC                   WASHINGTON            FERRY                 
+ROSALIA                    WASHINGTON            WHITMAN               
+RUFF                       WASHINGTON            GRANT                 
+SEATTLE                    WASHINGTON            KING                  
+SIXPRONG                   WASHINGTON            KLICKITAT             
+SNOQUALMIE FALLS           WASHINGTON            KING                  
+STOCKDILL RANCH            WASHINGTON            OKANOGAN              
+STOCKDILL'S RANCH          WASHINGTON            OKANOGAN              
+SULLIVAN LAKE              WASHINGTON            PEND OREILLE          
+WALLA WALLA                WASHINGTON            WALLA WALLA           
+WELLPINIT                  WASHINGTON            STEVENS               
+WENATCHEE                  WASHINGTON            CHELAN                
+WHITE SALMON               WASHINGTON            KLICKITAT             
+WINTHROP                   WASHINGTON            OKANOGAN              
+BAYARD                     WEST VIRGINIA         GRANT                 
+BENS RUN                   WEST VIRGINIA         TYLER                 
+ELKINS                     WEST VIRGINIA         RANDOLPH              
+MORGANTOWN                 WEST VIRGINIA         MONONGALIA            
+PERRY                      WEST VIRGINIA         HARDY                 
+PIEDMONT                   WEST VIRGINIA         MERCER                
+TERRA ALTA                 WEST VIRGINIA         PRESTON               
+AFTON (NEAR)               WYOMING               LINCOLN               
+BARNUM                     WYOMING               JOHNSON               
+BORDER                     WYOMING               LINCOLN               
+CHEYENNE                   WYOMING               LARAMIE               
+CLARK                      WYOMING               PARK                  
+CLARKELEN (NEAR)           WYOMING               CAMPBELL              
+CODY                       WYOMING               PARK                  
+COLONY                     WYOMING               CROOK                 
+CRANDALL CREEK             WYOMING               PARK                  
+DEAVER                     WYOMING               BIG HORN              
+DIVERSION DAM              WYOMING               FREMONT               
+DIXON                      WYOMING               CARBON                
+DOME LAKE                  WYOMING               SHERIDAN              
+ECHETA                     WYOMING               CAMPBELL              
+EDEN                       WYOMING               SWEETWATER            
+ERVAY                      WYOMING               NATRONA               
+FORT LARAMIE (NEAR)        WYOMING               GOSHEN                
+GILLETTE                   WYOMING               CAMPBELL              
+GILLETTE (NEAR)            WYOMING               CAMPBELL              
+KENDALL                    WYOMING               SUBLETTE              
+LANDER                     WYOMING               FREMONT               
+LOVELL                     WYOMING               BIG HORN              
+MARSHALL                   WYOMING               ALBANY                
+MIDDLE FORK                WYOMING               FREMONT               
+MIDDLE FORK (NEAR)         WYOMING               FREMONT               
+NINE MILE CREEK            WYOMING               JOHNSON               
+NINE MILE CREEK (NEAR)     WYOMING               JOHNSON               
+OSHOTO (NEAR)              WYOMING               CROOK                 
+PATHFINDER                 WYOMING               NATRONA               
+PAVILLION                  WYOMING               FREMONT               
+PINEDALE                   WYOMING               SUBLETTE              
+POWELL                     WYOMING               PARK                  
+QUAKING ASPEN CREEK        WYOMING               PARK                  
+RAWLINS                    WYOMING               CARBON                
+RECLUSE                    WYOMING               CAMPBELL              
+RIVERTON                   WYOMING               FREMONT               
+ROCHELLE (NEAR)            WYOMING               WESTON                
+ROCKY POINT                WYOMING               CAMPBELL              
+ROCKYPOINT                 WYOMING               CAMPBELL              
+ROSS                       WYOMING               CAMPBELL              
+ROSS (NEAR)                WYOMING               CAMPBELL              
+SALT CREEK                 WYOMING               NATRONA               
+SARATOGA                   WYOMING               CARBON                
+SHERIDAN                   WYOMING               SHERIDAN              
+SOUTH PASS CITY            WYOMING               FREMONT               
+SUNDANCE                   WYOMING               CROOK                 
+TOWER FALLS                WYOMING               PARK                  
+UPTON                      WYOMING               WESTON                
+WHEATLAND                  WYOMING               PLATTE                
+YELLOWSTONE PARK           WYOMING                                     
+
+
+1
+
+

@@ -1,0 +1,69 @@
+This directory contains data sets that report auroral observations of pre-computer times, 
+taken from a variety of sources, and covering a wide span of time, from 666 BCE to 
+the 1950s. The data set full titles, short directory titles, their NSSDC IDs (new
+and old), and their very brief descriptions are as follows:
+
+1. Silverman catalog of ancient auroral observations, 666BCE to 1951.
+     cat_ancient_auroral_obs_666bce_1951;
+     SPIO-00376; 
+     GE-11D;
+
+This data set is a collection of files provided by Sam M. Silverman. They contain reports
+of auroral observations from antiquity to modern but pre-computer times, i.e., from 666 BCE
+to 1951. There are also separate reports from Greenland, Iceland, and the Faroes, for the 
+years 1840-1967. 
+
+Additional miscellaneous files provide documentary information pertaining to these specific 
+data files, plus a variety of notes and a bibliography. Among the documentary information 
+are lists of locations of the Asian and Greco-Roman sites, with coordinates, and in many 
+cases with alternate location names.
+
+-------------------------------------------------------------------------------------------
+2. Complete 7/16/02.
+   Auroral Notations from "Climatological Data of the United States". 
+     auroral_notes_us_climat_data;
+     SPIO-00373;
+     GE-11E;
+
+This data set contains auroral notations abstracted by Sam Silverman from the Climatological
+Data of the United States, for the years 1914-1948. Additional related digital files and 
+digitally-reproduced paper documents are also included.
+
+-------------------------------------------------------------------------------------------
+3. Complete 7/16/02.
+   Auroral Notations from "Canadian Monthly Weather Review".
+     auroral_notes_canadian_monthly_weather_review;
+     SPIO-00377;
+     GE-11F;
+
+This data set contains auroral notations from "Canadian Monthly Weather Review" for 1880 - 1928,
+abstracted by Sam Silverman under NASA Contract NASW-00022. 
+
+-------------------------------------------------------------------------------------------
+4. Complete 7/26/02.
+   New England Auroral Observations 1720 - 1948.
+     new_england_auroral_obs_1720_1948;
+     SPIO-00375;
+     GE-11C;
+
+-------------------------------------------------------------------------------------------
+5. Complete 7/17/02.
+   Daily Aauroral Reports, Southeastern Canada and Northeastern US, 1848-1853
+     daily_auroral_repts_se_canada_ne_us_1848_1853;
+     SPIO-00374; 
+     GE-11B;
+
+The full data set consists of hardcopy of handwritten logs kept by a network of observers. 
+Example scanned images are available here, but for only four pages, out of ~1900 pages. 
+
+If you are interested in using these data, please contact NSSDC to discuss methods of 
+obtaining the data. Initially, due to constrained resources, NSSDC is not making scanned 
+copies of all of the log pages. 
+
+-------------------------------------------------------------------------------------------
+Additional information is available via the web page at and following
+http://nssdc.gsfc.nasa.gov/space/auroral/auroral.html
+with the title "Auroral Observations, Ancient and Modern".
+
+
+Updated 9/07/05  HKH

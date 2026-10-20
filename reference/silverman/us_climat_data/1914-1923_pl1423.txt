@@ -1,0 +1,690 @@
+              CLIMATOLOGICAL DATA OF THE UNITED STATES
+
+                LOCATIONS WHERE AURORA WERE OBSERVED
+
+                             1914-1923
+
+   CITY                   STATE                     LAT    LONG
+
+                         ALABAMA                   32.45  -87.05
+BIRMINGHAM               ALABAMA                   33.31  -86.49
+MADISON                  ALABAMA                   34.41  -86.44
+MONTGOMERY               ALABAMA                   32.22  -86.18
+TROY                     ALABAMA                   31.48  -85.58
+ALL OVER                 ARIZONA                   34.20 -112.15
+MARQUETTE RANGER STATION ARIZONA                                
+                         ARKANSAS                  34.55  -93.00
+BOONEVILLE               ARKANSAS                  35.08  -93.55
+CALICO ROCK              ARKANSAS                  36.07  -92.08
+GRANNIS                  ARKANSAS                  34.14  -94.20
+LITTLE ROCK              ARKANSAS                  34.45  -92.17
+LUTHERVILLE              ARKANSAS                  35.29  -93.17
+OZARK                    ARKANSAS                  35.29  -93.49
+POCAHONTAS               ARKANSAS                  36.15  -90.58
+SEARCY                   ARKANSAS                  35.15  -91.44
+WARREN                   ARKANSAS                  33.36  -92.04
+FORT ROSS                CALIFORNIA                38.31 -123.14
+NORTHERN                 CALIFORNIA                             
+THROUGHOUT               CALIFORNIA                37.08 -120.35
+DENVER                   COLORADO                  39.44 -104.59
+                         CONNECTICUT               41.32  -72.53
+BRIDGEPORT               CONNECTICUT               41.10  -73.12
+CANTON                   CONNECTICUT               41.49  -72.53
+DANIELSON                CONNECTICUT               41.48  -71.53
+FALLS VILLAGE            CONNECTICUT               41.57  -73.22
+HARTFORD                 CONNECTICUT               41.45  -72.41
+LAKE KONOMOC             CONNECTICUT               41.24  -72.10
+NEW HAVEN                CONNECTICUT               41.18  -72.56
+NORWALK                  CONNECTICUT               41.07  -73.25
+SOUTHINGTON              CONNECTICUT               41.36  -72.52
+WATERBURY                CONNECTICUT               41.33  -73.03
+                         DELAWARE                  39.10  -75.10
+SEAFORD                  DELAWARE                  38.38  -75.37
+WASHINGTON               DISTRICT OF COLUMBIA      38.53  -77.02
+BARTOW                   FLORIDA                   27.54  -81.50
+MERRITTS ISLAND          FLORIDA                   28.32  -80.40
+MIAMI                    FLORIDA                   25.46  -80.12
+OKEECHOBEE               FLORIDA                   27.14  -80.50
+SAINT PETERSBURG         FLORIDA                   27.46  -82.41
+TAMPA                    FLORIDA                   27.57  -82.27
+MACON                    GEORGIA                   32.50  -83.37
+                         IDAHO                     44.40 -115.00
+ALL PARTS OF             IDAHO                     44.40 -115.00
+BOISE KING               IDAHO                     43.18 -115.26
+SOUTHERN                 IDAHO                                  
+                         ILLINOIS                  40.20  -89.15
+ELGIN                    ILLINOIS                  42.02  -88.17
+GENERALLY OVER           ILLINOIS                  40.20  -89.15
+SPRINGFIELD              ILLINOIS                  39.48  -89.38
+THROUGHOUT               ILLINOIS                  40.20  -89.15
+                         INDIANA                   40.10  -86.30
+BERNE                    INDIANA                   40.39  -84.57
+NOTRE DAME               INDIANA                   41.41  -86.15
+THROUGHOUT               INDIANA                   40.10  -86.30
+VALPARAISO               INDIANA                   41.28  -87.04
+WINONA LAKE              INDIANA                   41.13  -85.49
+                         IOWA                      42.10  -93.40
+ALL PARTS OF             IOWA                      42.10  -93.40
+ALLISON                  IOWA                      42.45  -92.47
+ALTA                     IOWA                      42.40  -95.17
+ATLANTIC                 IOWA                      41.24  -95.01
+DES MOINES               IOWA                      41.36  -93.37
+DUBUQUE                  IOWA                      42.30  -90.40
+INDIANOLA                IOWA                      41.21  -93.33
+INWOOD                   IOWA                      43.18  -96.26
+KEOKUK                   IOWA                      40.24  -91.23
+NORA SPRINGS             IOWA                      43.08  -93.00
+NORTHERN                 IOWA                                   
+OSKALOOSA                IOWA                      41.17  -92.38
+PELLA                    IOWA                      41.24  -92.55
+WASHTA                   IOWA                      42.34  -95.43
+WAUKEE                   IOWA                      41.36  -93.53
+ALL PARTS OF             KANSAS                    38.40  -99.15
+HARRISON                 KANSAS                    39.51  -98.18
+HILL CITY                KANSAS                    39.22  -99.50
+HOLTON                   KANSAS                    39.28  -95.44
+LEBO                     KANSAS                    38.25  -95.51
+LINCOLN                  KANSAS                    39.02  -98.08
+OKETO                    KANSAS                    39.58  -96.36
+PRATT                    KANSAS                    37.39  -98.44
+SAINT JOSEPH             KANSAS                    39.31  -97.24
+SALINA                   KANSAS                    38.50  -97.37
+TOPEKA                   KANSAS                    39.03  -95.41
+YATES CENTER             KANSAS                    37.53  -95.44
+                         KENTUCKY                  37.37  -86.15
+GENERALLY OVER           KENTUCKY                  37.37  -86.15
+ABBEVILLE                LOUISIANA                 29.58  -92.08
+HAMMOND                  LOUISIANA                 30.30  -90.28
+LAKESIDE                 LOUISIANA                 30.22  -91.06
+NEW ORLEANS              LOUISIANA                 29.57  -90.04
+                         MAINE                     45.10  -69.55
+ASHLAND                  MAINE                     46.38  -68.24
+BAR HARBOR               MAINE                     44.23  -68.12
+BRIDGTON                 MAINE                     44.03  -70.43
+CORNISH                  MAINE                     43.48  -70.48
+EASTPORT                 MAINE                     44.54  -66.59
+HOWE BROOK               MAINE                     46.18  -68.12
+JACKMAN                  MAINE                     45.37  -70.15
+LEWISTON                 MAINE                     44.06  -70.13
+MADISON                  MAINE                     44.48  -69.53
+MILLINOCKET              MAINE                     45.39  -68.43
+MILO                     MAINE                     45.15  -68.59
+NORTH BRIDGTON           MAINE                     44.06  -70.42
+PATTEN                   MAINE                     46.00  -68.27
+PORTLAND                 MAINE                     43.39  -70.15
+PRESQUE ISLE             MAINE                     46.41  -68.01
+RUMFORD                  MAINE                     44.33  -70.33
+VAN BUREN                MAINE                     47.09  -67.56
+                         MARYLAND                  39.22  -77.05
+BALTIMORE (L. MONTEBELLO)MARYLAND                  39.20  -76.35
+BAUGHMANS VALLEY         MARYLAND                  39.34  -76.59
+CHEWSVILLE               MARYLAND                  39.38  -77.38
+COLEMAN                  MARYLAND                  39.20  -76.04
+EASTON                   MARYLAND                  38.46  -76.05
+FALLSTON                 MARYLAND                  39.31  -76.25
+FERRY LANDING            MARYLAND                  38.43  -76.41
+FREDERICK                MARYLAND                  39.25  -77.25
+FRIENDSVILLE             MARYLAND                  39.40  -79.24
+GRANTSVILLE              MARYLAND                  39.42  -79.09
+GREEN SPRING FURNACE     MARYLAND                  39.37  -77.58
+LA PLATA                 MARYLAND                  38.32  -76.58
+LAKE MONTEBELLO          MARYLAND                  39.20  -76.35
+LAUREL                   MARYLAND                  39.06  -76.51
+PRINCESS ANNE            MARYLAND                  38.12  -75.42
+PUBLIC LANDING           MARYLAND                  38.09  -75.17
+SOLOMONS                 MARYLAND                  38.19  -76.27
+SUDLERSVILLE             MARYLAND                  39.11  -75.52
+TOWSON                   MARYLAND                  39.24  -76.36
+WOODSTOCK                MARYLAND                  39.20  -76.52
+OVER SECTION             MARYLAND-DELAWARE                      
+                         MASSACHUSETTS             42.20  -72.27
+AMHERST                  MASSACHUSETTS             42.23  -72.32
+BAKER'S BRIDGE           MASSACHUSETTS             42.25  -71.20
+BLUE HILL                MASSACHUSETTS             42.14  -71.06
+BOSTON                   MASSACHUSETTS             42.22  -71.04
+BROCKTON                 MASSACHUSETTS             42.05  -71.02
+CONCORD                  MASSACHUSETTS             42.28  -71.21
+FALL RIVER               MASSACHUSETTS             41.42  -71.09
+FITCHBURG                MASSACHUSETTS             42.35  -71.48
+HINGHAM                  MASSACHUSETTS             42.15  -70.53
+HYDE PARK                MASSACHUSETTS             42.15  -71.08
+LAWRENCE                 MASSACHUSETTS             42.42  -71.10
+LEOMINSTER               MASSACHUSETTS             42.32  -71.46
+NANTUCKET                MASSACHUSETTS             41.17  -70.06
+NEW BEDFORD              MASSACHUSETTS             41.38  -70.56
+ROCKPORT                 MASSACHUSETTS             42.39  -70.37
+RUTLAND                  MASSACHUSETTS             42.22  -71.57
+SOMERSET                 MASSACHUSETTS             41.46  -71.08
+SPRINGFIELD              MASSACHUSETTS             42.06  -72.35
+WESTBORO                 MASSACHUSETTS             42.16  -71.37
+                         MICHIGAN                  44.05  -85.30
+ALL OVER                 MICHIGAN                  44.05  -85.30
+ALMA                     MICHIGAN                  43.23  -84.39
+ARMADA                   MICHIGAN                  42.51  -82.53
+DEER PARK                MICHIGAN                  46.40  -85.37
+ESCANABA                 MICHIGAN                  45.45  -87.04
+GENERALLY IN             MICHIGAN                  44.05  -85.30
+HOUGHTON                 MICHIGAN                  47.07  -88.34
+JOHANNESBURG             MICHIGAN                  44.59  -84.27
+LUDINGTON                MICHIGAN                  43.57  -86.27
+LUTHER                   MICHIGAN                  44.02  -85.41
+MARQUETTE                MICHIGAN                  46.33  -87.24
+MUNISING                 MICHIGAN                  46.25  -86.39
+NEWBERRY                 MICHIGAN                  46.21  -85.31
+OMER                     MICHIGAN                  44.03  -83.51
+OTSEGO                   MICHIGAN                  42.28  -85.42
+PORT HURON               MICHIGAN                  42.58  -82.26
+S.S. MARIE               MICHIGAN                               
+SACK BAY                 MICHIGAN                  45.39  -86.41
+UPPER PENINSULA          MICHIGAN                               
+                         MINNESOTA                 46.05  -95.03
+ARGYLE                   MINNESOTA                 48.20  -96.49
+ARTICHOKE LAKE           MINNESOTA                 45.21  -96.08
+BEMIDJI                  MINNESOTA                 47.28  -94.53
+BRAINERD                 MINNESOTA                 46.21  -94.12
+CANBY                    MINNESOTA                 44.42  -96.16
+CLOQUET                  MINNESOTA                 46.43  -92.28
+COLLEGEVILLE             MINNESOTA                 45.36  -94.22
+CROOKSTON                MINNESOTA                 47.46  -96.36
+DETROIT                  MINNESOTA                 46.49  -95.51
+DULUTH                   MINNESOTA                 46.47  -92.06
+FERGUS FALLS             MINNESOTA                 46.17  -96.05
+GONVICK                  MINNESOTA                 47.44  -95.31
+GRAND RAPIDS             MINNESOTA                 47.14  -93.32
+HINCKLEY                 MINNESOTA                 46.01  -92.57
+LUVERNE                  MINNESOTA                 43.39  -96.13
+MAPLEPLAIN               MINNESOTA                 45.00  -93.39
+MEADOWLANDS              MINNESOTA                 47.04  -92.44
+MILACA                   MINNESOTA                 45.45  -93.39
+MINNEAPOLIS              MINNESOTA                 44.59  -93.16
+MINNEAPOLIS, NO. 2       MINNESOTA                 44.59  -93.16
+MINNEAPOLIS, W.B.        MINNESOTA                 44.59  -93.16
+MONTEVIDEO               MINNESOTA                 44.57  -95.43
+MOORHEAD                 MINNESOTA                 46.52  -96.46
+MORA                     MINNESOTA                 45.53  -93.18
+MORRIS                   MINNESOTA                 45.35  -95.55
+NEW LONDON               MINNESOTA                 45.18  -94.57
+NEW ULM                  MINNESOTA                 44.19  -94.28
+NORDEN                   MINNESOTA                 48.14  -93.47
+PIPESTONE                MINNESOTA                 44.00  -96.19
+RED LAKE                 MINNESOTA                 47.53  -95.01
+RED LAKE FALLS           MINNESOTA                 47.53  -96.16
+REDWOOD FALLS            MINNESOTA                 44.32  -95.07
+SAINT CLOUD              MINNESOTA                 45.34  -94.09
+SAINT PAUL               MINNESOTA                 44.56  -93.06
+TRACY                    MINNESOTA                 44.14  -95.37
+TWO HARBORS              MINNESOTA                 47.01  -91.40
+WASKISH                  MINNESOTA                 48.10  -94.31
+WHEATON                  MINNESOTA                 45.48  -96.30
+WILLMAR                  MINNESOTA                 45.07  -95.03
+WORTHINGTON              MINNESOTA                 43.37  -95.36
+ZUMBROTA                 MINNESOTA                 44.18  -92.40
+ANGUILLA                 MISSISSIPPI               32.58  -90.49
+HOLLY BLUFF              MISSISSIPPI               32.49  -90.42
+HOLLY SPRINGS            MISSISSIPPI               31.19  -89.59
+VICKSBURG                MISSISSIPPI               32.21  -90.53
+                         MISSOURI                  38.27  -93.10
+ALL PARTS OF             MISSOURI                  38.27  -93.10
+BIRCHTREE                MISSOURI                  37.09  -91.23
+CARUTHERSVILLE           MISSOURI                  36.12  -89.39
+COLUMBIA                 MISSOURI                  38.57  -92.20
+KIRKSVILLE               MISSOURI                  40.12  -92.35
+LOUISIANA                MISSOURI                  39.26  -91.03
+MACON                    MISSOURI                  39.44  -92.28
+MEXICO                   MISSOURI                  39.10  -91.53
+SAINT CATHERINE          MISSOURI                  39.52  -93.07
+SAINT JOSEPH             MISSOURI                  39.46  -94.51
+SPRINGFIELD              MISSOURI                  37.13  -93.18
+UNIONVILLE               MISSOURI                  40.29  -93.00
+WARRENSBURG              MISSOURI                  38.46  -93.44
+AUGUSTA                  MONTANA                   47.30 -112.23
+BAKER                    MONTANA                   46.22 -104.17
+BALLANTINE               MONTANA                   45.57 -108.09
+BENNETT FARMS            MONTANA                   48.47 -105.25
+BENNETT'S RANCH          MONTANA                   48.47 -105.25
+BIDDLE                   MONTANA                   45.06 -105.20
+BRENNER                  MONTANA                   45.01 -113.04
+BRIDGER                  MONTANA                   45.18 -108.55
+BROADUS                  MONTANA                   45.27 -105.24
+BUSTEED                  MONTANA                   45.57 -109.21
+CARTER                   MONTANA                   47.47 -110.57
+CASCADE                  MONTANA                   47.16 -111.42
+CHOTEAU                  MONTANA                   47.49 -112.11
+CONRAD                   MONTANA                   48.10 -111.57
+DAYTON                   MONTANA                   47.52 -114.17
+DEER LODGE               MONTANA                   46.24 -112.44
+DENTON                   MONTANA                   47.19 -109.57
+DUNKIRK                  MONTANA                   48.29 -111.40
+FLATHEAD CREEK           MONTANA                   45.58 -110.54
+FLATWILLOW               MONTANA                   46.50 -108.24
+FORTINE                  MONTANA                   48.46 -114.54
+FOSTER                   MONTANA                   45.56 -107.35
+FRAZER                   MONTANA                   48.03 -106.03
+GARLAND                  MONTANA                   46.03 -105.56
+GERALDINE                MONTANA                   47.36 -110.16
+GLASGOW                  MONTANA                   48.12 -106.38
+GOLDBUTTE                MONTANA                   48.52 -111.23
+HAVRE                    MONTANA                   48.33 -109.41
+HAYS                     MONTANA                   47.59 -108.41
+HEBGEN DAM               MONTANA                   44.52 -111.20
+HELENA                   MONTANA                   46.36 -112.02
+HERCULES RANCH           MONTANA                   46.03 -105.34
+HIGHWOOD                 MONTANA                   47.35 -110.47
+HOBSON                   MONTANA                   47.00 -109.52
+KNOBLES RANCH            MONTANA                   48.55 -111.31
+KNOWLTON                 MONTANA                   46.21 -105.05
+LEWISTON                 MONTANA                   46.28 -111.59
+LIBBY                    MONTANA                   48.23 -115.33
+LYTLE                    MONTANA                   48.02 -111.50
+MEDICINE LAKE            MONTANA                   48.30 -104.30
+MILDRED                  MONTANA                   46.41 -104.58
+MILES CITY               MONTANA                   46.25 -105.50
+MINNEOTA                 MONTANA                   48.53 -110.40
+MISSOULA                 MONTANA                   46.52 -114.00
+MOUNT SILCOX             MONTANA                   47.38 -115.16
+OUTLOOK                  MONTANA                   48.53 -104.47
+PHILIPSBURG              MONTANA                   46.20 -113.17
+PINE GROVE               MONTANA                   48.00 -108.41
+PLAINS                   MONTANA                   47.28 -114.53
+PLEVNA                   MONTANA                   46.25 -104.31
+POPLAR                   MONTANA                   48.07 -105.12
+RED LODGE                MONTANA                   45.11 -109.15
+RENOVA                   MONTANA                   45.49 -112.08
+ROCK SPRINGS             MONTANA                   46.49 -106.15
+ROUNDUP                  MONTANA                   46.27 -108.32
+SAINT IGNATIUS           MONTANA                   47.19 -114.05
+SENTINEL BUTTE PASS      MONTANA                   47.31 -106.34
+SHELBY                   MONTANA                   48.30 -111.51
+SIDNEY                   MONTANA                   47.73 -104.09
+SNOWBELT                 MONTANA                   47.15 -104.52
+SPRINGBROOK              MONTANA                   47.25 -104.52
+UPPER YAAK RIVER         MONTANA                   48.50 -115.42
+UTICA                    MONTANA                   46.58 -110.06
+VALENTINE                MONTANA                   47.19 -108.25
+VALIER                   MONTANA                   48.18 -112.15
+WHITE SULPHUR SPRINGS    MONTANA                   46.32 -110.54
+WHITE WATER              MONTANA                   48.45 -107.37
+WIBAUX                   MONTANA                   46.59 -104.11
+WINIFRED                 MONTANA                   47.33 -109.22
+                         NEBRASKA                  41.30 -101.15
+                         NEVADA                    39.30 -123.20
+MANY STATIONS            NEW ENGLAND                            
+SCATTERED STATIONS       NEW ENGLAND                            
+THROUGHOUT THE SECTION   NEW ENGLAND                            
+                         NEW HAMPSHIRE             43.45  -71.40
+ALSTEAD CENTER           NEW HAMPSHIRE             43.07  -72.20
+BENTON                   NEW HAMPSHIRE             44.06  -71.54
+BERLIN                   NEW HAMPSHIRE             44.28  -71.11
+BETHLEHEM                NEW HAMPSHIRE             44.17  -71.41
+BROOKLINE                NEW HAMPSHIRE             42.44  -71.40
+CONCORD                  NEW HAMPSHIRE             43.12  -71.32
+DURHAM                   NEW HAMPSHIRE             43.08  -70.56
+FRANKLIN                 NEW HAMPSHIRE             43.27  -71.39
+GLENCLIFF                NEW HAMPSHIRE             43.59  -71.54
+GRAFTON                  NEW HAMPSHIRE             43.33  -71.57
+HANOVER                  NEW HAMPSHIRE             43.42  -72.17
+KEENE                    NEW HAMPSHIRE             42.56  -72.17
+NASHUA                   NEW HAMPSHIRE             42.46  -71.28
+NEWTON                   NEW HAMPSHIRE             42.52  -71.02
+PITTSBURG                NEW HAMPSHIRE             45.03  -71.23
+PLYMOUTH                 NEW HAMPSHIRE             43.45  -71.41
+                         NEW JERSEY                40.50  -74.30
+BERGEN POINT             NEW JERSEY                40.39  -74.09
+HIGHWOOD                 NEW JERSEY                40.54  -73.58
+INDIAN MILLS             NEW JERSEY                39.48  -74.44
+LAKEWOOD                 NEW JERSEY                40.06  -74.13
+LAYTON                   NEW JERSEY                41.13  -74.49
+NEWTON                   NEW JERSEY                41.03  -74.45
+NORTHERN                 NEW JERSEY                             
+PALISADES PARK           NEW JERSEY                40.51  -74.00
+PHILLIPSBURG             NEW JERSEY                40.42  -75.11
+PLAINFIELD               NEW JERSEY                40.42  -75.11
+SANDY HOOK               NEW JERSEY                40.27  -74.00
+VINELAND                 NEW JERSEY                39.29  -75.01
+DES MOINES               NEW MEXICO                36.46 -103.50
+ELEPHANT BUTTE           NEW MEXICO                33.09 -107.11
+HARVEYS UPPER RANCH      NEW MEXICO                35.22 -105.15
+HAYDEN                   NEW MEXICO                35.58 -103.16
+HOOSIER RANCH            NEW MEXICO                36.00  104.56
+MOUNTAINAIR              NEW MEXICO                34.31 -106.14
+NORTHEAST OTERO COUNTY   NEW MEXICO                33.19 -105.04
+QUEMADO                  NEW MEXICO                34.20 -108.29
+RATON                    NEW MEXICO                36.54 -104.26
+SAINT VRAIN              NEW MEXICO                34.25 -103.29
+SANTA FE                 NEW MEXICO                35.41 -105.56
+SOUTHERN ROOSEVELT COUNTYNEW MEXICO                33.37 -103.27
+TREMENTINA               NEW MEXICO                35.28 -104.32
+VIRSYLVIA                NEW MEXICO                36.50 -105.38
+WILLARD                  NEW MEXICO                34.36 -106.02
+                         NEW YORK                  42.40  -76.45
+ADAMS CENTER             NEW YORK                  43.52  -76.00
+CANTON                   NEW YORK                  44.36  -75.10
+CAZENOVIA                NEW YORK                  42.56  -75.51
+FREDONIA                 NEW YORK                  42.26  -79.20
+GABRIELS                 NEW YORK                  44.26  -74.11
+GLENS FALLS              NEW YORK                  43.19  -73.39
+HARKNESS                 NEW YORK                  44.31  -73.34
+HEMLOCK                  NEW YORK                  42.48  -77.36
+ITHACA                   NEW YORK                  42.26  -76.30
+JAMESTOWN                NEW YORK                  42.06  -79.14
+LITTLE FALLS             NEW YORK                  43.03   74.52
+LOCKPORT                 NEW YORK                  43.10  -78.41
+LOWVILLE                 NEW YORK                  43.47  -75.30
+MEDFORD                  NEW YORK                  40.49  -73.00
+NEW LISBON               NEW YORK                  42.35  -75.11
+OSWEGO                   NEW YORK                  43.27  -76.31
+PORT JERVIS              NEW YORK                  41.23  -74.41
+SETAUKET                 NEW YORK                  40.56  -73.07
+SILVER BAY               NEW YORK                  43.42  -73.30
+SPIER FALLS              NEW YORK                  43.14  -73.45
+SYRACUSE                 NEW YORK                  43.03  -76.09
+TOWNSEND                 NEW YORK                  42.21  -76.57
+WANAKENA                 NEW YORK                  44.08  -74.55
+WAPPINGERS FALLS         NEW YORK                  41.36  -73.55
+YORK                     NEW YORK                  42.52  -77.53
+ALL PARTS OF             NORTH CAROLINA            35.45  -81.00
+ASHEVILLE                NORTH CAROLINA            35.36  -82.33
+EASTERN                  NORTH CAROLINA                         
+EDENTON                  NORTH CAROLINA            36.03  -76.37
+HENDERSON                NORTH CAROLINA            36.20  -78.24
+HENDERSONVILLE           NORTH CAROLINA            35.19  -82.28
+MOUNT AIRY               NORTH CAROLINA            36.30  -80.36
+PARKER                   NORTH CAROLINA            36.27  -81.41
+RALEIGH                  NORTH CAROLINA            35.46  -78.38
+ROCK HOUSE               NORTH CAROLINA            35.03  -83.11
+WILMINGTON               NORTH CAROLINA            34.13  -77.57
+AMENIA                   NORTH DAKOTA              47.00  -97.13
+AMIDON                   NORTH DAKOTA              46.29 -103.19
+ARNEGARD                 NORTH DAKOTA              47.48 -103.26
+ASHLEY                   NORTH DAKOTA              46.02  -92.22
+BEACH                    NORTH DAKOTA              46.55 -104.00
+BERTHOLD AGENCY          NORTH DAKOTA              47.36 -102.08
+BISMARCK                 NORTH DAKOTA              46.48 -100.47
+BOWMAN                   NORTH DAKOTA              46.11 -103.24
+CARSON                   NORTH DAKOTA              46.25 -101.34
+CROSBY                   NORTH DAKOTA              48.55 -103.18
+DEVILS LAKE              NORTH DAKOTA              48.07  -98.52
+DICKINSON                NORTH DAKOTA              46.53 -102.47
+DONNYBROOK               NORTH DAKOTA              48.31 -101.53
+ECKMAN                   NORTH DAKOTA              48.39 -101.03
+ELLENDALE                NORTH DAKOTA              46.00  -98.32
+ENERGY                   NORTH DAKOTA              47.27 -101.08
+FESSENDEN                NORTH DAKOTA              47.39  -99.38
+FINLEY                   NORTH DAKOTA              47.31  -97.50
+FOXHOLM                  NORTH DAKOTA              48.22 -101.34
+FULLERTON                NORTH DAKOTA              46.10  -98.25
+GARRISON                 NORTH DAKOTA              47.39 -101.25
+GRAND FORKS              NORTH DAKOTA              47.56  -97.02
+HANSBORO                 NORTH DAKOTA              48.57  -99.23
+HOWARD                   NORTH DAKOTA              48.37 -103.56
+LARIMORE                 NORTH DAKOTA              47.54  -97.38
+LINTON                   NORTH DAKOTA              46.16 -100.14
+MANDAN                   NORTH DAKOTA              46.49 -100.53
+MARMARTH                 NORTH DAKOTA              46.18 -103.55
+MCHENRY                  NORTH DAKOTA              47.34  -98.35
+MCKINNEY                 NORTH DAKOTA              48.44 -101.50
+MCLEOD                   NORTH DAKOTA              46.24  -97.18
+MOTT                     NORTH DAKOTA              46.22 -102.19
+NAPOLEON                 NORTH DAKOTA              46.31  -99.46
+NEW ENGLAND              NORTH DAKOTA              46.32 -102.52
+PARK RIVER               NORTH DAKOTA              48.24  -97.44
+PETTIBONE                NORTH DAKOTA              47.07  -99.31
+RICHARDTON               NORTH DAKOTA              46.53 -102.19
+SKAAR                    NORTH DAKOTA              47.22 -104.02
+STEELE                   NORTH DAKOTA              46.51  -99.55
+TOWNER                   NORTH DAKOTA              48.21 -100.24
+VALLEY CITY              NORTH DAKOTA              46.55  -98.00
+WAHPETON                 NORTH DAKOTA              46.16  -96.36
+WASHBURN                 NORTH DAKOTA              47.17 -101.02
+WESTHOPE                 NORTH DAKOTA              48.54 -101.01
+WILLISTON                NORTH DAKOTA              48.08 -103.38
+                         OHIO                      40.25  -83.25
+AMESVILLE                OHIO                      39.24  -81.57
+ASHLAND                  OHIO                      40.52  -82.19
+CADIZ                    OHIO                      40.16  -81.00
+CATAWBA ISLAND           OHIO                      41.35  -82.50
+CINCINNATI               OHIO                      39.09  -84.27
+CIRCLEVILLE              OHIO                      39.36  -82.57
+COLUMBUS                 OHIO                      39.58  -83.00
+DAYTON                   OHIO                      39.46  -84.12
+FREMONT                  OHIO                      41.21  -83.07
+GENEVA                   OHIO                      41.48  -80.57
+HILLSBORO                OHIO                      39.12  -83.37
+HIRAM                    OHIO                      41.19  -81.09
+KENSINGTON               OHIO                      40.44  -80.57
+KENTON                   OHIO                      40.39  -83.37
+LIMA                     OHIO                      40.44  -84.06
+LONDON                   OHIO                      39.53  -83.27
+MADISON                  OHIO                      41.46  -81.03
+MARION                   OHIO                      40.35  -83.08
+MCCONNELSVILLE           OHIO                      39.38  -81.51
+MILFORDTON               OHIO                      40.19  -82.36
+MILLPORT                 OHIO                      40.42  -80.53
+MILTON RESERVOIR         OHIO                      41.08  -80.59
+NORTH BASS ISLAND        OHIO                      41.43  -82.49
+NORTHERN                 OHIO                                   
+PEEBLES                  OHIO                      38.57  -83.24
+PHILO                    OHIO                      39.52  -81.54
+PORT CLINTON             OHIO                      41.31  -82.56
+PUT-IN-BAY               OHIO                      41.39  -82.49
+SANDUSKY                 OHIO                      41.27  -82.42
+TIFFIN                   OHIO                      41.07  -83.10
+UPPER SANDUSKY           OHIO                      40.50  -83.17
+VICKERY                  OHIO                      41.23  -82.56
+WAPAKONETA               OHIO                      40.34  -84.11
+WASHINGTON COURT HOUSE   OHIO                      39.32  -83.26
+WAVERLY                  OHIO                      39.08  -82.59
+WICKLIFFE                OHIO                      41.36  -81.27
+WILMINGTON               OHIO                      39.27  -83.50
+WOOSTER                  OHIO                      40.48  -81.56
+BROOKINGS                OREGON                    42.03 -124.17
+ALL PARTS OF             PENNSYLVANIA              41.05  -78.45
+FREELAND                 PENNSYLVANIA              41.01  -75.54
+                         RHODE ISLAND              41.35  -71.45
+BLOCK ISLAND             RHODE ISLAND              41.12  -71.35
+BRISTOL                  RHODE ISLAND              41.41  -71.16
+GREENE                   RHODE ISLAND              41.41  -71.45
+KINGSTON                 RHODE ISLAND              41.29  -71.31
+PAWTUCKET                RHODE ISLAND              41.53  -71.23
+PROVIDENCE               RHODE ISLAND              41.49  -71.25
+COLUMBIA                 SOUTH CAROLINA            34.00  -81.02
+GARNETT                  SOUTH CAROLINA            32.36  -81.14
+GREENVILLE               SOUTH CAROLINA            34.51  -82.24
+LANDRUM                  SOUTH CAROLINA            35.11  -82.11
+LIBERTY                  SOUTH CAROLINA            34.47  -82.42
+OAKS                     SOUTH CAROLINA            33.27  -79.21
+SANTUCK                  SOUTH CAROLINA            34.38  -81.31
+WALHALLA                 SOUTH CAROLINA            34.46  -83.04
+                         SOUTH DAKOTA              44.30 -102.40
+ACADEMY                  SOUTH DAKOTA              43.27  -99.05
+ALEXANDRIA               SOUTH DAKOTA              43.39  -97.47
+ARMOUR                   SOUTH DAKOTA              43.19  -98.20
+BELLEFOURCHE             SOUTH DAKOTA              44.53 -103.33
+BOWDLE                   SOUTH DAKOTA              45.27  -99.39
+BRITTON                  SOUTH DAKOTA              45.47  -97.45
+BROOKINGS                SOUTH DAKOTA              44.18  -96.48
+CANISTOTA                SOUTH DAKOTA              43.36  -97.17
+CASTLEWOOD               SOUTH DAKOTA              44.43  -97.02
+CLARK                    SOUTH DAKOTA              44.52  -97.44
+COLOME                   SOUTH DAKOTA              43.16  -99.43
+CROW CREEK               SOUTH DAKOTA              43.57  -99.13
+DEERFIELD                SOUTH DAKOTA              44.01 -103.50
+DOWLING                  SOUTH DAKOTA              44.20 -101.59
+DUMONT                   SOUTH DAKOTA              44.14 -103.48
+DUPREE                   SOUTH DAKOTA              45.03 -101.36
+EALES                    SOUTH DAKOTA              45.00  -99.57
+ELM SPRINGS              SOUTH DAKOTA              44.19 -102.32
+FAULKTON                 SOUTH DAKOTA              45.02  -99.07
+FLANDREAU                SOUTH DAKOTA              44.03  -96.36
+FORESTBURG               SOUTH DAKOTA              44.01  -98.06
+HARDINGROVE              SOUTH DAKOTA              44.16 -100.48
+HERMOSA                  SOUTH DAKOTA              43.50 -103.11
+HOPEWELL                 SOUTH DAKOTA              44.26 -100.48
+HOWELL                   SOUTH DAKOTA              44.32  -99.00
+HURON                    SOUTH DAKOTA              44.22  -98.13
+IPSWICH                  SOUTH DAKOTA              45.27  -99.02
+JEFFERSON                SOUTH DAKOTA              42.36  -96.33
+LA DELLE                 SOUTH DAKOTA              44.40  -98.07
+LEMMON                   SOUTH DAKOTA              45.56 -102.09
+MCINTOSH                 SOUTH DAKOTA              45.55 -101.21
+MCLAUGHLIN               SOUTH DAKOTA              45.49 -100.49
+MEADOW                   SOUTH DAKOTA              45.32 -102.13
+MILLER                   SOUTH DAKOTA              44.31  -98.59
+MITCHELL                 SOUTH DAKOTA              43.43  -98.02
+MURDO                    SOUTH DAKOTA              43.53 -100.43
+ORMAN                    SOUTH DAKOTA              44.40 -103.41
+PIERRE                   SOUTH DAKOTA              44.22 -100.21
+RAPID CITY               SOUTH DAKOTA              44.05 -103.14
+ROSLYN                   SOUTH DAKOTA              45.30  -97.29
+SIOUX FALLS              SOUTH DAKOTA              43.33  -96.42
+SPEARFISH                SOUTH DAKOTA              44.29 -103.52
+VICTOR                   SOUTH DAKOTA              45.52  -96.50
+ALL PARTS OF             TENNESSEE                 35.55  -88.03
+KNOXVILLE                TENNESSEE                 35.58  -83.55
+THROUGHOUT               TENNESSEE                 35.55  -88.03
+                         TEXAS                     30.55 -100.30
+MANY STATIONS OVER ENTIRETEXAS                     30.55 -100.30
+NORTHERN PORTION OF      TEXAS                                  
+PALESTINE                TEXAS                     31.46  -95.38
+EMERY                    UTAH                      38.55 -111.15
+KANOSH                   UTAH                      38.48 -112.26
+LUCIN                    UTAH                      41.21 -113.54
+MODENA                   UTAH                      37.48 -113.55
+MORGAN                   UTAH                      41.02 -111.41
+PAROWAN                  UTAH                      37.51 -112.50
+SALDURO                  UTAH                      40.44 -113.51
+SALT LAKE CITY           UTAH                      40.45 -111.53
+SILVER LAKE              UTAH                      40.45 -111.53
+THISTLE                  UTAH                      39.59 -111.30
+WENDOVER                 UTAH                      40.44 -114.02
+                         VERMONT                   44.06  -73.05
+BLOOMFIELD               VERMONT                   44.45  -71.38
+BURLINGTON               VERMONT                   44.28  -73.13
+CAVENDISH                VERMONT                   43.23  -72.36
+CORNWALL                 VERMONT                   43.58  -73.13
+ENOSBURG FALLS           VERMONT                   44.54  -72.48
+HYDE PARK                VERMONT                   44.36  -72.37
+NORTHFIELD               VERMONT                   44.09  -72.39
+RUTLAND                  VERMONT                   43.37  -72.58
+SAINT JOHNSBURY          VERMONT                   44.25  -72.01
+SOMERSET                 VERMONT                   42.57  -72.59
+VERNON                   VERMONT                   42.46  -72.31
+WOODSTOCK                VERMONT                   43.37  -72.31
+ASHLAND                  VIRGINIA                  37.45  -77.29
+BLACKSBURG               VIRGINIA                  37.14  -80.25
+CALLAVILLE               VIRGINIA                  36.50  -77.40
+CAPE HENRY               VIRGINIA                  36.56  -76.01
+CATAWBA SANATORIUM       VIRGINIA                  37.17  -80.03
+CHARLOTTESVILLE          VIRGINIA                  38.02  -78.29
+CLARKSVILLE              VIRGINIA                  36.37  -78.33
+COLUMBIA                 VIRGINIA                  37.45  -78.10
+CULPEPER                 VIRGINIA                  38.28  -78.00
+DALE ENTERPRISE          VIRGINIA                  38.27  -78.56
+DANTE                    VIRGINIA                  36.59  -82.18
+DANVILLE                 VIRGINIA                  36.35  -79.24
+DOSWELL                  VIRGINIA                  37.52  -77.28
+FRANKLIN                 VIRGINIA                  36.40  -76.55
+GORDONSVILLE             VIRGINIA                  38.08  -78.11
+HAWFIELD                 VIRGINIA                  38.18  -78.03
+HOPEWELL                 VIRGINIA                  38.52  -77.43
+HOT SPRINGS              VIRGINIA                  38.00  -79.50
+LANGLEY FIELD            VIRGINIA                  37.02  -76.21
+LAWRENCEVILLE            VIRGINIA                  36.45  -77.51
+LEXINGTON                VIRGINIA                  38.12  -78.29
+LINCOLN                  VIRGINIA                  39.07  -77.42
+LYNCHBURG                VIRGINIA                  37.25  -79.09
+MAYHURST                 VIRGINIA                  38.14  -78.06
+MOST OF                  VIRGINIA                  38.07  -78.50
+NEW CANTON               VIRGINIA                  37.42  -78.18
+NEWPORT NEWS             VIRGINIA                  36.59  -76.26
+NORFOLK                  VIRGINIA                  36.51  -76.17
+PARKSLEY                 VIRGINIA                  37.47  -75.39
+RICHMOND                 VIRGINIA                  37.33  -77.28
+ROANOKE                  VIRGINIA                  37.16  -79.57
+RUNNYMEDE                VIRGINIA                  37.28  -77.36
+STAUNTON                 VIRGINIA                  38.09  -79.04
+SWANSONVILLE             VIRGINIA                  36.44  -79.35
+WILLIAMSBURG             VIRGINIA                  37.16  -76.42
+WINCHESTER               VIRGINIA                  39.11  -78.10
+WYTHEVILLE               VIRGINIA                  36.57  -81.05
+BAKER                    WASHINGTON                45.45 -122.40
+BREWSTER                 WASHINGTON                48.06 -119.47
+CONCONULLY               WASHINGTON                48.33 -119.45
+DAVENPORT                WASHINGTON                47.39 -118.09
+DAVIS RANCH              WASHINGTON                48.55 -121.47
+DEER PARK                WASHINGTON                47.57 -117.28
+DETROIT                  WASHINGTON                47.20 -122.50
+FORKS                    WASHINGTON                47.57 -124.23
+HANFORD                  WASHINGTON                46.35 -119.23
+LA CROSSE                WASHINGTON                46.49 -117.53
+LAKESIDE                 WASHINGTON                47.50 -120.03
+LAURIER                  WASHINGTON                49.00 -118.13
+LEAVENWORTH              WASHINGTON                47.36 -120.40
+LOST CREEK               WASHINGTON                48.37 -117.22
+MANY PARTS OF            WASHINGTON                47.25 -121.27
+NESPELEM                 WASHINGTON                48.10 -118.58
+NEWPORT                  WASHINGTON                47.34 -122.11
+NORTH YAKIMA             WASHINGTON                46.36 -120.30
+OLGA                     WASHINGTON                48.30  122.50
+OROVILLE                 WASHINGTON                48.56 -119.26
+PORT ANGELES             WASHINGTON                48.07 -123.25
+QUILCENE                 WASHINGTON                47.49 -122.52
+REPUBLIC                 WASHINGTON                48.39 -118.44
+ROCK ISLAND              WASHINGTON                47.22 -120.08
+ROSALIA                  WASHINGTON                47.14 -117.22
+SEATTLE                  WASHINGTON                47.36 -122.20
+SNOQUALMIE PASS          WASHINGTON                47.23 -121.24
+SPOKANE                  WASHINGTON                47.39 -117.25
+STEHEKIN                 WASHINGTON                48.19 -120.39
+STOKES RANCH             WASHINGTON                48.33 -119.44
+SUMNER                   WASHINGTON                47.12 -122.14
+TATOOSH ISLAND           WASHINGTON                48.24 -124.44
+TOUCHET RIDGE            WASHINGTON                46.18 -117.56
+WALLA WALLA              WASHINGTON                46.04 -118.21
+WENATCHEE                WASHINGTON                47.25 -120.18
+WHITE BLUFFS             WASHINGTON                46.40 -119.29
+                         WEST VIRGINIA             38.45  -81.35
+BURLINGTON               WEST VIRGINIA             39.20  -78.55
+GENERALLY THROUGHOUT     WEST VIRGINIA             38.45  -81.35
+HOLCOMB                  WEST VIRGINIA             38.15  -80.36
+MORGANTOWN               WEST VIRGINIA             39.38  -79.57
+NUTTALLBURG              WEST VIRGINIA             38.03  -81.02
+PIEDMONT                 WEST VIRGINIA             37.27  -81.16
+ROBERTSBURG              WEST VIRGINIA             38.39  -81.57
+ROMNEY                   WEST VIRGINIA             39.20  -78.45
+THROUGHOUT               WEST VIRGINIA             38.45  -81.35
+WARDENSVILLE             WEST VIRGINIA             39.05  -78.36
+                         WISCONSIN                 44.43  -91.15
+                         WYOMING                   42.40 -108.15
+CHEYENNE                 WYOMING                   41.08 -104.49
+CHUGWATER                WYOMING                   41.45 -104.49
+CLARK                    WYOMING                   44.54 -109.09
+CLEARMONT                WYOMING                   44.38 -106.23
+COLONY                   WYOMING                   44.52 -104.09
+CROW HILL                WYOMING                   44.50 -106.55
+DEAVER                   WYOMING                   44.53 -108.36
+DOUGLAS                  WYOMING                   42.46 -105.23
+DUBOIS                   WYOMING                   43.32 -109.37
+DUTCH JOE                WYOMING                   42.42 -109.52
+ECHETA                   WYOMING                   44.27 -105.52
+GERMANIA                 WYOMING                   41.21 -104.40
+HECLA                    WYOMING                   41.09 -105.10
+KIRTLEY                  WYOMING                   42.50 -104.07
+LAGRANGE                 WYOMING                   42.01 -105.45
+LARAMIE                  WYOMING                   41.18 -105.35
+LOVELL                   WYOMING                   44.50 -108.23
+MILLBROOK                WYOMING                   41.19 -105.55
+MOORCROFT                WYOMING                   44.16 -104.57
+NINE MILE CREEK          WYOMING                   43.52 -106.36
+PATHFINDER               WYOMING                   42.28 -106.52
+PAVILLION                WYOMING                   43.14 -108.41
+POWELL                   WYOMING                   44.45 -108.45
+ROCKY POINT              WYOMING                   44.54 -105.05
+SHERIDAN                 WYOMING                   44.48 -106.57
+SOUTH PASS CITY          WYOMING                   42.28 -108.48
+SUNDANCE                 WYOMING                   44.24 -104.22
+UPTON                    WYOMING                   44.06 -104.37
+VAN TASSELL              WYOMING                   42.40 -104.05
+VERONA                   WYOMING                   44.44 -106.40
+WORLAND                  WYOMING                   44.01 -107.57
+
