@@ -20,13 +20,17 @@ if OUT.exists():
 titles = {}
 for p in glob.glob("data/work/*/titles.json"):
     titles.update(json.load(open(p)))
-todo = [l for l in sorted(titles) if l not in done]
+todo = [l for l in sorted(titles) if l not in done or done[l].get("status") != "200"]
 print(len(titles), "newspapers;", len(todo), "to look up")
 s = requests.Session()
 for i, lccn in enumerate(todo):
     row = {"lccn": lccn, "title": titles[lccn]["title"], "state": titles[lccn]["state"], "city": "", "lat": "", "lon": "", "status": ""}
     try:
-        r = s.get(f"https://www.loc.gov/item/{lccn}/", params={"fo": "json"}, timeout=30)
+        for back in (0, 30, 120, 300):
+            time.sleep(back)
+            r = s.get(f"https://www.loc.gov/item/{lccn}/", params={"fo": "json"}, timeout=30)
+            if r.status_code != 429:
+                break
         row["status"] = str(r.status_code)
         if r.ok:
             it = r.json().get("item", {})
@@ -42,7 +46,7 @@ for i, lccn in enumerate(todo):
     done[lccn] = row
     if i % 25 == 0:
         print(i, lccn, row["city"], row["lat"], row["status"], flush=True)
-    time.sleep(1)
+    time.sleep(4)
 with open(OUT, "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=cols)
     w.writeheader()
