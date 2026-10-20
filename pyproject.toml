@@ -1,0 +1,12 @@
+[project]
+name = "skyinprint"
+version = "0.1.0"
+description = "The American sky in print, 1774-1963: sky observations reconstructed from US newspapers"
+requires-python = ">=3.12"
+dependencies = [
+  "huggingface_hub",
+  "polars",
+  "pyarrow",
+  "requests",
+  "numpy",
+]

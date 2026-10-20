@@ -1,0 +1,11 @@
+# large or regenerable data
+data/raw/
+data/work/
+*.tar.gz
+*.parquet
+!reference/**/*.parquet
+# python
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
