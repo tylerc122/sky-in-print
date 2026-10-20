@@ -1,0 +1,24 @@
+name: sky-in-print
+services:
+  triage:
+    build:
+      context: .
+      args:
+        APP_UID: ${APP_UID:?set in .env}
+        APP_GID: ${APP_GID:?set in .env}
+    restart: unless-stopped
+    environment:
+      SKY_MODEL_BASE_URL: ${SKY_MODEL_BASE_URL:?set in .env}
+      SKY_MODEL_NAME: ${SKY_MODEL_NAME:-financial-qwen3.6:35b-a3b}
+      SKY_LANE_URL: ${SKY_LANE_URL:?set in .env}
+    volumes:
+      - ./data:/app/data
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 512m
+    cpus: 1
+    logging:
+      driver: local
+      options: {max-size: "5m", max-file: "2"}

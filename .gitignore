@@ -13,3 +13,5 @@ __pycache__/
 # private endpoints
 local.env
 data/logs/
+.deploy.env
+cygnus/.env

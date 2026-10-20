@@ -1,5 +1,6 @@
 """Triage every pilot year (except the debug year) as its filtered output appears. Resumable."""
 import json
+import os
 import subprocess
 import sys
 import time
@@ -18,3 +19,7 @@ while pending:
     if pending:
         time.sleep(120)
 print("all years triaged", flush=True)
+(ROOT / "data" / "TRIAGE_DONE").write_text(time.strftime("%Y-%m-%dT%H:%M:%S\n"))
+if os.environ.get("SKY_IDLE_AFTER_DONE"):  # keep the container up so restart policies do not loop
+    while True:
+        time.sleep(3600)
