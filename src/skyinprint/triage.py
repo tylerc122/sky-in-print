@@ -62,7 +62,8 @@ def main():
     out_path = d / a.out
     done = set()
     if out_path.exists():
-        done = {json.loads(l)["key"] for l in open(out_path)}
+        # failed attempts are retried on the next run (analysis keeps the last record per key)
+        done = {r["key"] for r in map(json.loads, open(out_path)) if "error" not in r}
     digest = flint.model_digest()
     print(f"{len(cands)} candidates, {len(done)} already done; model {flint.MODEL} {digest[:12]}; prompt {PROMPT_SHA[:12]}", flush=True)
     t0, n, secs = time.monotonic(), 0, 0.0
