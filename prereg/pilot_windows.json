@@ -1,0 +1,96 @@
+{
+ "seed": 20261020,
+ "corpus_revision": "77e27fa69c4788dfaad1c9efd8a226d5a32d3e9a",
+ "debug": {
+  "name": "debug_1859",
+  "start": "1859-08-15",
+  "end": "1859-10-15",
+  "purpose": "debugging only"
+ },
+ "fall_decade": {
+  "name": "falls_1870s",
+  "start": "1870-01-01",
+  "end": "1879-12-31",
+  "purpose": "fireball and fall layers",
+  "rule_inputs": {
+   "1840": {
+    "us_falls": 5,
+    "gb": 6.2
+   },
+   "1850": {
+    "us_falls": 4,
+    "gb": 15.1
+   },
+   "1860": {
+    "us_falls": 6,
+    "gb": 19.3
+   },
+   "1870": {
+    "us_falls": 7,
+    "gb": 24.3
+   }
+  }
+ },
+ "ordinary": [
+  {
+   "name": "ordinary_1844_09",
+   "start": "1844-09-01",
+   "end": "1844-10-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1849_04",
+   "start": "1849-04-01",
+   "end": "1849-05-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1851_02",
+   "start": "1851-02-01",
+   "end": "1851-03-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1852_04",
+   "start": "1852-04-01",
+   "end": "1852-05-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1863_07",
+   "start": "1863-07-01",
+   "end": "1863-08-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1880_02",
+   "start": "1880-02-01",
+   "end": "1880-03-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1893_09",
+   "start": "1893-09-01",
+   "end": "1893-10-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1911_04",
+   "start": "1911-04-01",
+   "end": "1911-05-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1914_11",
+   "start": "1914-11-01",
+   "end": "1914-12-31",
+   "purpose": "held-out evaluation, all layers"
+  },
+  {
+   "name": "ordinary_1916_11",
+   "start": "1916-11-01",
+   "end": "1916-12-31",
+   "purpose": "held-out evaluation, all layers"
+  }
+ ]
+}

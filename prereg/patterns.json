@@ -1,0 +1,24 @@
+{
+ "_note": "Drafted using only the 1859 debug window (and a 1859 keyword probe made before this project started). Case-insensitive Python regex. 'strict' = clean spellings; 'fuzzy' = common OCR corruptions; 'net' = descriptive language with no keyword, sampled to size what keywords miss.",
+ "aurora": {
+  "strict": ["\\baurora\\b", "\\bauroral\\b", "\\bborealis\\b", "\\bnorthern\\s+lights?\\b", "\\bpolar\\s+lights?\\b"],
+  "fuzzy": ["\\baur[o0c]r[a@e][l1i]?\\b", "\\bb[o0]re[a@][l1i][il1!][s$]\\b", "\\bn[o0]rth[e]?r?n\\s+l[il1!]g?h[t]?[s$]?\\b"]
+ },
+ "fireball": {
+  "strict": ["\\bfire[\\s-]*balls?\\b", "\\bballs?\\s+of\\s+fire\\b", "\\bmeteors?\\b", "\\bmeteoric\\b", "\\bbolides?\\b", "\\bshooting\\s+stars?\\b"],
+  "fuzzy": ["\\bmet[e3][o0]r[s]?\\b", "\\bfire[\\s-]*ba[l1i][l1i]\\b"]
+ },
+ "fall": {
+  "strict": ["\\baerolites?\\b", "\\bmeteorites?\\b", "\\bmeteoric\\s+(stones?|iron|mass|rock)\\b", "\\b(stones?|rocks?|mass)\\s+(fell|falling)\\s+from\\b", "\\bfell\\s+from\\s+the\\s+(sky|heavens|clouds)\\b", "\\bsky[\\s-]*stones?\\b"],
+  "fuzzy": ["\\ba[e3]r[o0][l1i]t[e3]s?\\b", "\\bmet[e3][o0]r[il1]t[e3]s?\\b"]
+ },
+ "comet": {"strict": ["\\bcomets?\\b"], "fuzzy": ["\\bc[o0]m[e3]t[s]?\\b"]},
+ "eclipse": {"strict": ["\\beclipses?\\b", "\\beclipsed\\b"], "fuzzy": ["\\becl[il1]ps[e3]\\b"]},
+ "net": [
+  "\\b(heavens|sky|firmament)\\s+(was|were)\\s+(lit|lighted|illuminated|ablaze)\\b",
+  "\\bbrilliant\\s+(light|glare)\\s+(in|across|lit)\\s+the\\s+(sky|heavens)\\b",
+  "\\b(crimson|red|lurid)\\s+(arch|glow|light|streamers?)\\b",
+  "\\bloud\\s+(report|explosion|detonation)s?\\b.{0,120}\\b(sky|heavens|air)\\b",
+  "\\b(streak|trail|train)\\s+of\\s+(light|fire|sparks)\\b"
+ ]
+}
