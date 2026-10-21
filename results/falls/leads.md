@@ -26,3 +26,21 @@ literature in depth. "No record found" means only that these searches found noth
 - **Kansas tin-roof meteorite, 1876**: the Kansas City, Mo., fall of 1876-06-25 onto Isaac Whittaker's roof, described in
   Smithsonian literature. It is **absent from the frozen NASA snapshot**, which shows the snapshot is incomplete and why a
   non-match alone never makes a report "new".
+
+## Single-paper reports (447 families read 2026-10-21)
+41 leads (`single_paper_leads.jsonl`): 11 strong, 26 medium, 4 weak. "Strong" = witnessed fall plus a named finder,
+scientist or specimen destination. The 8 distinct strong events:
+
+| Lead | Report | Check so far |
+|---|---|---|
+| Barnhart farm, Richhill Twp, Greene Co., Pa., 1870-08-21 | B. F. Barnhart saw a 31-35 lb stone fall within 10 ft; hot, sulphurous (2 accounts) | No record found; not in Pennsylvania lists (Stone 1967 bulletin per search summary) |
+| Saco, Maine, Oct 1870 | Capt. Ira C. Doe saw it fall; stone presented to the York Institute in 1873 | not yet searched; York Institute is now the Saco Museum (trail target) |
+| New London, Ohio, 1873-08-18 | struck near Mr. Hotchkiss; dug out hot; one piece sent away (4 papers) | not yet searched |
+| South Bend, Ind., July 1876 | fragment fell in a Scott St. yard; Prof. Wheeler to analyze | frozen list has a "South Bend" pallasite (find, no year), probably unrelated; to check |
+| Wenas valley, Yakima, Wash., 1890-11-11 | located by Richard Lisk, dug up Oct 1893 | No record found |
+| Hooper, Neb., April 1911 | fell in Mrs. Mary Stuck's yard; Prof. Mohler examined half | No record found |
+| Washington Island, Wis., 1914 | 103-lb stone fell on John Gullickson's farm; examined, valued, sold | No record found |
+| near Jonesboro, Ill., 1914 | A. V. Cook saw it fall and donated it | frozen list "Jonesboro" is a 30 g iron find (likely Tennessee); to check |
+
+**Recognized as a find, reported as a fall:** Oroville, Cal. (frozen list: iron, found). An 1893 article says it was seen
+to fall years earlier and was found after a search. That is a possible fall-date correction, not a new meteorite.
