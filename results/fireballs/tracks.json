@@ -1,0 +1,39 @@
+{
+ "1876-12-21": {
+  "azimuth_deg": 67.9,
+  "fit_residuals_km": {
+   "Mexico, Mo.": -38,
+   "Quincy, Ill.": 25,
+   "Lewistown, Ill.": 30,
+   "Havana, Ill.": 18,
+   "Bloomington, Ill.": 3,
+   "Mansfield, Ill.": -40,
+   "Gilman, Ill.": 2
+  },
+  "checks_km_north_of_track": {
+   "Rochester, Ind. meteorite (fell from this fireball)": -17,
+   "Bucyrus, Ohio (end: 'several meteors', fragments)": -132,
+   "Emporia, Kan. ('passed over this city, west to east')": 40,
+   "Indianapolis (passed north of observer at 45 deg)": -156,
+   "Champaign Co. observer ('about 45 miles SE of the zenith point')": -59
+  },
+  "fit_rms_km": 26,
+  "height_from_Indianapolis_km": 156,
+  "height_from_Indianapolis_note": "156 km from track, elevation 45.0 deg, seen to the north"
+ },
+ "1873-12-24": {
+  "azimuth_deg": 101.5,
+  "fit_residuals_km": {
+   "Alexandria, Va.": 0,
+   "Fairfax Courthouse, Va. (end)": 0
+  },
+  "checks_km_north_of_track": {
+   "Washington, D.C. ('passed over the District'; first seen a little S of E, course NW by W)": 10,
+   "Baltimore (Philosophical Society: seen south of the zenith)": 60,
+   "Elkton, Md. (seen between Elkton and North East)": 109,
+   "Vienna, Va. (thunder clap and shock)": 7,
+   "Falls Church, Va. (thunder clap and shock)": 6
+  },
+  "fit_rms_km": null
+ }
+}

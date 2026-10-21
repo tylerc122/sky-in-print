@@ -82,8 +82,8 @@ def event_window(when, printed):
     for name, i in WEEKDAYS.items():
         if name in w:
             back = (printed.weekday() - i) % 7 or 7
-            if "last" not in w and back == 7:
-                back = 0
+            if back == 7 and "last" not in w:
+                return printed - dt.timedelta(days=7), printed  # same weekday as printing: today, or a weekly's week ago
             d = printed - dt.timedelta(days=back)
             if re.search(r"\blast\b|week ago", w) and back >= 2:
                 return d - dt.timedelta(days=7), d  # a weekly's "last Saturday" can be a week further back
@@ -113,6 +113,36 @@ def find(parent, i):
         parent[i] = parent[parent[i]]
         i = parent[i]
     return i
+
+
+def apply_vetting(ev, fam, items):
+    """Hand decisions from results/fireballs/vetting.json, keyed by report: drop reports, force merges, dissolve events."""
+    p = ROOT / "results/fireballs/vetting.json"
+    if not p.exists():
+        return ev, set()
+    v = json.load(open(p))
+    dropped = {k for d in v["drop"] for k in d["keys"]}
+    for f in fam:
+        f["members"] = [m for m in f["members"] if items[m]["key"] not in dropped]
+    keys_of = lambda fi: {items[m]["key"] for m in fam[fi]["members"]}
+    groups = [fis for fis in ev.values()]
+    for d in v["dissolve"]:
+        ks = set(d["event_keys"])
+        out = []
+        for fis in groups:
+            out += [[fi] for fi in fis] if any(keys_of(fi) & ks for fi in fis) else [fis]
+        groups = out
+    dates = {}
+    for m in v["merge"]:
+        ks = set(m["keys"])
+        moved = [fi for fis in groups for fi in fis if keys_of(fi) & ks]  # only the named families move
+        groups = [[fi for fi in fis if fi not in moved] for fis in groups] + [moved]
+        dates[len(groups) - 1] = dt.date.fromisoformat(m["date"])
+    groups = [[fi for fi in fis if fam[fi]["members"]] for fis in groups]
+    for g, d in dates.items():
+        for fi in groups[g]:
+            fam[fi]["lo"] = fam[fi]["hi"] = d  # the reviewer's date for the merged event
+    return {i: fis for i, fis in enumerate(groups) if fis}, set(v.get("read_keys", []))
 
 
 def main():
@@ -190,6 +220,7 @@ def main():
     ev = {}
     for i in range(len(fam)):
         ev.setdefault(find(p2, i), []).append(i)
+    ev, read = apply_vetting(ev, fam, items)
 
     events = []
     for fis in ev.values():
@@ -215,12 +246,15 @@ def main():
              "states": sorted({i["state"] for i in its if i["state"]}),
              "types": sorted({i["type"] for i in its}),
              "fireball": any(i["type"] != "other_sky" for i in its),
+             "vetted": any(i["key"] in read for i in its),
              "stones": any(i["type"] == "meteorite_fall" for i in its),
              "fields": {k: sum(1 for fi in fis if any(rx.search(items[m]["text"]) for m in fam[fi]["members"]))
                         for k, rx in FIELDS.items()},
              "quotes": [{"date": i["date"], "paper": i["title"][:60], "when": i["when"], "where": i["where"],
                          "quote": i["quote"], "scan": i["scan"], "key": i["key"]}
-                        for i in sorted(its, key=lambda i: i["date"])][:8]}
+                        for i in sorted(its, key=lambda i: i["date"])][:8],
+             "family_keys": [[items[m]["key"] for m in sorted(fam[fi]["members"], key=lambda m: items[m]["date"])]
+                             for fi in fis]}
         lls = [fam[fi]["ll"] for fi in fis if fam[fi]["ll"]]
         e["spread_km"] = round(max((km(a, b) for a in lls for b in lls), default=0))
         events.append(e)

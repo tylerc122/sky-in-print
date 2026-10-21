@@ -14,21 +14,23 @@ Code: `src/skyinprint/fireballs.py`. Data: `events.json` (one record per event, 
    character 5-grams of the text around the sighting quote (cut 0.3) or the quote itself (cut 0.5).
    Result: 1,657 families.
 4. **Events:** families dated to within 3 days whose windows overlap and whose papers are within 1,200 km are
-   linked. A family dated only to within a week joins the single best nearby event. Result: **1,357 events**.
+   linked. A family dated only to within a week joins the single best nearby event. Hand decisions in `vetting.json`
+   (drops, merges, splits, keyed by report) are applied last. Result: **1,257 fireball events** (events made only of
+   other-sky reports are left out; an earlier draft wrongly counted them).
 5. **Fields**, counted per family, by pattern: time of day, direction of travel, sound, duration, colour, train,
    bursting, lit ground, stones.
 
-## Yield
+## Yield (after vetting)
 | Independent sources (distinct texts from distinct papers' cities) | Events |
 |---|---|
-| 1 | 1,142 |
-| 2 | 77 |
+| 1 | 1,146 |
+| 2 | 79 |
 | 3 | 18 |
-| 4 | 8 |
-| 5 or more | 13 |
+| 4 | 5 |
+| 5 or more | 9 |
 
-- 553 events are dated to the day.
-- 72 fall on meteor-shower nights and are flagged: unrelated meteors share those nights.
+- 541 events are dated to the day.
+- 74 fall on meteor-shower nights and are flagged, since unrelated meteors share those nights.
 
 ## Validation against known events
 | Known event | Found as | Rank | Independent sources |
@@ -42,7 +44,43 @@ Code: `src/skyinprint/fireballs.py`. Data: `events.json` (one record per event, 
 
 The best-documented event in the pilot comes out first, and every known fall that has reports is found on its correct date.
 
-## Top 25 events (unvetted)
+## Hand vetting of the top 20 events (`vetting.json`)
+Every family in the top 20 was read from the text around the sighting.
+- **Dropped** 20 report families that were not part of the event:
+  - a thunderstorm and a lightning strike
+  - a balloon ascent and a mirage
+  - political jokes that mention a meteor
+  - an Arizona meteoric-iron article
+  - the Newton hoax
+  - the Barnhart fall (a different day)
+  - sightings at a different hour or in a different region
+- **Merged** 3 pairs that were one fireball, split by misdating:
+  - 1876-12-21 and 1876-12-28
+  - 1876-07-08 and part of 1876-07-15
+  - 1877-11-20 and 1877-11-22
+- **Dissolved** 3 "events" made of unrelated meteors: 1872-08-14, 1875-06-30 and 1870-08-18.
+- **Fixed** a dating bug found while reading: a weekly printed on a Thursday that says "Thursday night" was taken to
+  mean that day.
+
+**Vetted top events:**
+| Date | Region | Indep. sources | Notes |
+|---|---|---|---|
+| 1876-12-21 | Kansas to Ohio | 25 | Rochester, Ind. meteorite. **Track reconstructed** (`tracks.md`) |
+| 1876-07-08 | Indiana, Michigan, Ohio, Illinois | 10 | The Chicago Tribune compared observations. **The South Bend fall lead is reported as a fragment of this fireball** |
+| 1870-10-23 | New York, Vermont, Massachusetts, New Hampshire | 10 | Sunday morning about 6 a.m. Exploded with sound. Towns claimed the remains (West Brookfield / New Braintree; Shaker Pond) |
+| 1874-07-07 | Tennessee, Kentucky | 9 | About 9:30-10 p.m. Detonations heard. A claimed white fragment at Columbia, Tenn. (weak) |
+| 1879-05-10 | Iowa, Minnesota, Dakota | 8 | Estherville fall |
+| 1877-11-20 | Virginia, North Carolina | 8 | Daylight fireball about 4:40 p.m. Prof. J. L. Campbell (Washington and Lee) estimated its height |
+| 1873-12-24 | Virginia, D.C., Maryland | 5 | Christmas Eve. Exploded near Fairfax Courthouse. Philosophical Society of Washington inquiry. **Track reconstructed** |
+| 1893-09-21 | Louisiana | 5 | The sound delay at Natchitoches was used in 1893 to place the fall 15-40 miles SW |
+| 1879-09-05 | Nevada | 4 | Long-lasting serpentine train at dusk |
+| 1874-08-02 | D.C., Maryland, Ohio | 4 | Sunday about 9 p.m. Multicoloured |
+| 1877-03-20 | Vermont, Maine | 4 | Sunrise. Broke into fragments ("if anybody is lucky enough to find the remains...") |
+| 1893-10-02 | Washington, Oregon | 4 | About 7:40 p.m. "Fell north of Athena" |
+
+The 1876-07-15 remainder (5 sources) is left apart. Its "last Saturday" reports could mean July 8 or July 15.
+
+## Top 25 events before vetting (first draft, kept for the record)
 | # | Date | Indep. | Reports | Paper spread (km) | States printing | Fields present | Stones |
 |---|---|---|---|---|---|---|---|
 | 1 | 1876-12-21 | 20 | 48 | 2142 | Idaho, Illinois, Indiana, Iowa, Kansas, Michigan… | time, direction, sound, duration, colour, train, burst |  |
@@ -74,7 +112,7 @@ The best-documented event in the pilot comes out first, and every known fall tha
 ## What this does and does not do
 - **Done end to end, automatically:** grouping, dating, copy detection, independence counts, field extraction, and a
   ranked review queue with scan links.
-- **Not done: trajectory reconstruction.** Turning witness directions and times into a ground track needs a person
+- **Trajectory reconstruction: done for 2 events** (`tracks.md`), not for the rest. Turning witness directions and times into a ground track needs a person
   to read each top event's reports and place each witness. Pattern-matched fields show which events have the
   material (8 of the top 10 report both time and direction), not the track itself.
 - **Known errors, found by reading the top events:**

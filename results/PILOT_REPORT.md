@@ -14,15 +14,20 @@ what it misses, not to make discoveries. Deviations from the pre-registration ar
 | Ran unattended | On Cygnus in Docker, resumable, with courtesy rules for the shared model server |
 
 ## The five pilot outputs (spec §10)
-1. **Fireballs: done through grouping, not through reconstruction** (`results/fireballs/`).
-   - 2,704 reports were grouped into 1,357 events, with OCR-tolerant copy detection. 116 events have 2 or more
-     independent sources and 39 have 3 or more.
-   - Timing and physical fields were extracted, and the events form a ranked reading queue.
-   - Validation: the great fireball of 1876-12-21 ranks first, with 20 independent sources. Every known fall that
-     has reports is found on its correct date.
-   - Ground-track reconstruction needs a person to read each event, and is not done.
-   - Errors found by reading the top events: unrelated items merged into events, and events split by weekly papers'
-     "last Saturday" misdating.
+1. **Fireballs: done** (`results/fireballs/`).
+   - **Grouping:** 2,704 reports were grouped into 1,257 events, with OCR-tolerant copy detection. 111 events have 2 or
+     more independent sources and 32 have 3 or more.
+   - **Vetting:** the top 20 events were checked by hand. 20 unrelated report families were dropped, 3 split events
+     were merged, 3 false events were dissolved, and one dating bug was fixed.
+   - **Validation:**
+     - The great fireball of 1876-12-21 ranks first, with 25 independent sources.
+     - Every known fall that has reports is found on its correct date.
+     - **The 1876-12-21 ground track**, fit from 7 overhead towns in Missouri and Illinois, passes 17 km from the
+       Rochester, Ind. meteorite site. That site was not used in the fit.
+   - **Partial track:** a second track (Christmas Eve 1873, Virginia) gives direction and end point, and agrees with
+     4 independent checks.
+   - **Failed check:** height from one observer's elevation estimate gave an implausible 156 km.
+   - **Fall lead:** the South Bend 1876 lead is tied to the documented 1876-07-08 fireball.
 2. **Falls: done.** All 682 accepted fall reports were grouped into reprint families. All 73 multi-paper families and all
    447 single-paper families were read and graded (`results/falls/`). Results:
    - 20 families match recognized meteorites.
@@ -70,11 +75,10 @@ The method works end to end for falls, and its misses are measured and bounded. 
 prominent falls are, not whether to continue. We have two institutional trails, which is enough to keep falls central.
 
 **Before the full sweep:**
-1. Read and fix the top fireball events by hand, and reconstruct tracks for the best few (finishing output 1).
-2. Sentence-boundary excerpts, and reprint grouping that tolerates OCR noise.
-3. The 1877 rescan for Cynthiana and Warrenton.
-4. Per-event review timing in the tools.
-5. A **specimen-destination ranker**: flag every accepted fall report that names a museum, college, library, buyer or
+1. Sentence-boundary excerpts, and reprint grouping that tolerates OCR noise for falls (the fireball code already does this).
+2. The 1877 rescan for Cynthiana and Warrenton.
+3. Per-event review timing in the tools.
+4. A **specimen-destination ranker**: flag every accepted fall report that names a museum, college, library, buyer or
    donor, so those are read first. Reading everything is not feasible at full scale.
 
 **Full sweep (1774-1963):**
