@@ -43,7 +43,9 @@ what it misses, not to make discoveries. Deviations from the pre-registration ar
      - About 26 medium leads are not yet trailed.
 3. **Miss-rate evidence: done, honestly bounded.**
    - Known 1870s US falls recovered: 5 of 7 (71%, 95% CI 36-92%). Both misses had no candidate at all, so they were lost
-     before triage (in the corpus or the filter), not by the model.
+     before triage. A full rescan of 1877 found both towns in 28 articles but no report of either fall, so the
+     misses are gaps in the corpus, not filter or model failures. Among falls the corpus did report, 5 of 5 were
+     recovered.
    - Audit of 200 v2 rejections: 0 clear misses. The 95% upper bound is about 3.7% per rejection, which is loose for
      rare events.
    - Manual issue search: 1 real report in 2,775 articles, caught by both filter and model. That is 1/1, so it says
@@ -68,18 +70,24 @@ what it misses, not to make discoveries. Deviations from the pre-registration ar
 - **Weak spots to fix before scaling:**
   - Reprint grouping breaks on short, OCR-damaged items.
   - Excerpts are cut by character count. They should end at a sentence boundary (eye-check item D18).
-  - Corpus coverage is untested for the two missed falls. This needs a rescan of 1877 for Cynthiana and Warrenton.
 
 ## Decision: go, with conditions
 The method works end to end for falls, and its misses are measured and bounded. Per the spec, fall yield decides how
 prominent falls are, not whether to continue. We have two institutional trails, which is enough to keep falls central.
 
-**Before the full sweep:**
-1. Sentence-boundary excerpts, and reprint grouping that tolerates OCR noise for falls (the fireball code already does this).
-2. The 1877 rescan for Cynthiana and Warrenton.
-3. Per-event review timing in the tools.
-4. A **specimen-destination ranker**: flag every accepted fall report that names a museum, college, library, buyer or
-   donor, so those are read first. Reading everything is not feasible at full scale.
+**Before the full sweep: done (2026-10-21).**
+1. Reader excerpts end on sentence boundaries (`excerpts.py`).
+2. Review timing: timed human review pages and a batch log for Claude (`review_page.py`, `review_log.py`).
+3. The 1877 rescan: both misses are corpus gaps (see above).
+4. Specimen-destination ranker (`results/falls/specimen_rank.md`):
+   - All 4 trail leads are in the top 4.4% of fall reports. This is not a blind test.
+   - It found a new destination for the Laclede 1872 lead (the St. Louis Mercantile Library) and about 5 new trail
+     candidates.
+5. Fireball pass: done, see output 1.
+
+Still owed during the sweep:
+- the held-out check of the ranker
+- measured review time
 
 **Full sweep (1774-1963):**
 - Same pinned corpus, filter and prompt v2, run on Cygnus.
