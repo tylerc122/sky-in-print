@@ -1,0 +1,170 @@
+[
+ {
+  "id": "D0",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D1",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D2",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D3",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D4",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D5",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D6",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D7",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D8",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D9",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D10",
+  "tyler": "can't tell",
+  "model": "no",
+  "result": "can't tell"
+ },
+ {
+  "id": "D11",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D12",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D13",
+  "tyler": "can't tell",
+  "model": "no",
+  "result": "can't tell"
+ },
+ {
+  "id": "D14",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D15",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D16",
+  "tyler": "no",
+  "model": "yes",
+  "result": "DISAGREE"
+ },
+ {
+  "id": "D17",
+  "tyler": "can't tell",
+  "model": "no",
+  "result": "can't tell"
+ },
+ {
+  "id": "D18",
+  "tyler": "no",
+  "model": "yes",
+  "result": "DISAGREE"
+ },
+ {
+  "id": "D19",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D20",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D21",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D22",
+  "tyler": "can't tell",
+  "model": "yes",
+  "result": "can't tell"
+ },
+ {
+  "id": "D23",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ },
+ {
+  "id": "D24",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D25",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D26",
+  "tyler": "no",
+  "model": "no",
+  "result": "agree"
+ },
+ {
+  "id": "D27",
+  "tyler": "yes",
+  "model": "yes",
+  "result": "agree"
+ }
+]
