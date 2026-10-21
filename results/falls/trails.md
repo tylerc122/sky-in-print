@@ -22,3 +22,22 @@ Checks per lead:
 **So far:** no lead has a contemporary scientific description. Every 1870s lead stopped at the newspaper report, except
 **Saco 1870**, which names a surviving institution as the stone's destination. That is the most promising route to a
 physical specimen, and the next step needs a person to contact the museum.
+
+## Rescan results, 2026-10-21 (full text of 1890, 1891, 1893, 1911, 1912, 1914, 1915; 1,161 name matches, 22 near a meteor word)
+- **Jonesboro, Ill., 1914: specimen destination found.** *Cairo Bulletin* (Cairo, Ill.), 1914-12-11, p. 2: among gifts to the
+  **Cairo Public Library** board was "a large meteorite from A. V. Cook of Jonesboro, Ill. Mr. Cook saw this meteorite
+  fall." Grade: **partial trail (institution named)**. Next human step: ask the Cairo Public Library, which still exists,
+  whether it holds the Cook meteorite. https://www.loc.gov/resource/sn93055779/1914-12-11/ed-1/?sp=2
+- **Hooper, Neb., 1911: likely not a meteorite.** *Omaha Bee*, 1911-05-01: a 2-inch spheroid with "a thin outer layer of black
+  oxide of iron, with various concentric layers of material of various density, with a central nucleus of great hardness".
+  Concentric layers around a nucleus describe an iron-oxide concretion. Meteorites do not have that structure.
+  Grade: **downgraded (description fits a concretion)**.
+- **Washington Island, Wis., 1914: buyer named.** *River Falls Journal*, 1914-11-12: "purchased by Charles Jensen", and "other pieces
+  of meteorite have been found in Door county during the last few years". Grade: **partial trail (buyer named)**.
+  Next human step: Door County Historical Society / Washington Island archives (Jensen; Gullickson farm).
+- **Yakima/Wenas, Wash., 1890-93:** the only rescan hit is the original 1893 item, which says it "very strongly resembles cinder".
+  Grade: **weakened (cinder-like suggests slag)**.
+- **Wakefield, Mass., 1911:** only the same syndicated item (Jan-Apr 1911). Remains doubtful.
+
+**Specimen-trail leads with a named destination:** Saco 1870 (York Institute → Saco Museum; inquiry drafted) and Jonesboro 1914
+(Cairo Public Library). Washington Island 1914 has a named buyer.
