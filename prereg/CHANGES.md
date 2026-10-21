@@ -27,3 +27,13 @@
     (Merriam jokes, the Everett comet essay, names).
 - **Rerun:** v2 runs on every pilot window, output `triage_v2.jsonl`. v1 outputs are kept for comparison.
   The 1844 v1 audit stays as the measurement of v1. v2 gets its own audits, on samples drawn fresh by seed.
+
+## 2026-10-21: manual issue search (rule 2), method adjusted after the draw
+- The 20 pre-drawn issues (2 per ordinary window, drawn by seed before reading) contain 2,775 articles. Reading every
+  article in full would cost far more than the expected yield of about 1-3 sky reports justifies.
+- **Adjusted method:**
+  - v2 triage is run on **every** article in those issues, with no keyword filter. This tests keyword-filter recall.
+  - Claude reads every model-accepted article, plus every article containing broad sky vocabulary
+    (sky, heavens, star, meteor, light in the, stone, explosion, ...), plus a random sample of the rest.
+- **Limitation:** model recall on these issues is measured only through the vocabulary screen and the random
+  sample, not by a full read.
