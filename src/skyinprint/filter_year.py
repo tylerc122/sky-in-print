@@ -53,11 +53,12 @@ def parse_name(name):
             "issue_code": base[4], "file": name}
 
 
-def main(archive, year, outdir):
+def main(archive, year, outdir, wins=None):
+    """`wins` overrides the pilot windows (the full sweep passes one whole-year window)."""
     year = int(year)
     outdir = Path(outdir)
     outdir.mkdir(parents=True, exist_ok=True)
-    wins = load_windows(year)
+    wins = wins if wins is not None else load_windows(year)
     if not wins:
         print("no pilot window in", year)
         return

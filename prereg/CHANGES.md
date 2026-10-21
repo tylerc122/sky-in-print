@@ -54,3 +54,13 @@ excerpt (`triage.excerpt`) stay exactly as validated in the pilot.
   reject any. It was tuned on the pilot. Two of the four known trail leads (Saco, Cairo) motivated rules in it, so
   its pilot ranking is not a blind test. The sweep adds a held-out check: a seeded random sample of low-scoring fall
   reports is read in full for destinations it missed.
+
+## 2026-10-21: full sweep configuration (before any non-pilot year was read)
+- **Config:** `prereg/sweep.json` covers every archive in the frozen manifest, 1770-1964 (180 years).
+- **Layers:** fireball, fall and the descriptive net, the same layers as the pilot's falls_1870s window. Aurora,
+  comet and eclipse layers come later.
+- **Unchanged:** prompt v2 (sha 468f03fd), the same model digest, and the same patterns (sha recorded).
+- **Reuse:** 1870-1879 are taken from the pilot unchanged, since they were filtered in full with these layers and
+  triaged with v2. For other pilot years, pilot v2 records are reused by article key, marked `from_pilot`.
+- **Where it runs:** download, filter and triage all run on Cygnus (`run_sweep.py`). Archives are SHA-256 checked
+  against the manifest and deleted after filtering.

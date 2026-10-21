@@ -48,12 +48,13 @@ def main():
     ap.add_argument("--seed", type=int, default=20261020)
     ap.add_argument("--prompt", default=PROMPT_FILE)
     ap.add_argument("--out")
+    ap.add_argument("--workdir", default="work", help="data/<workdir>/<year> (the full sweep uses 'sweep')")
     a = ap.parse_args()
     global PROMPT, PROMPT_SHA
     PROMPT = (ROOT / "prereg" / a.prompt).read_text()
     PROMPT_SHA = hashlib.sha256(PROMPT.encode()).hexdigest()
     a.out = a.out or ("triage_" + Path(a.prompt).stem.replace("triage_prompt", "").strip("_") + ".jsonl").replace("triage_.jsonl", "triage.jsonl")
-    d = ROOT / "data" / "work" / a.year
+    d = ROOT / "data" / a.workdir / a.year
     cands = [json.loads(l) for l in open(d / "candidates.jsonl")]
     if a.sample:
         cands = random.Random(a.seed).sample(cands, min(a.sample, len(cands)))

@@ -33,4 +33,4 @@ if [[ "${1:-}" == "--with-data" ]]; then
   run 'cd ~/apps/sky-in-print && tar -xzf data.tgz && rm data.tgz'
 fi
 
-run 'cd ~/apps/sky-in-print && docker compose up -d --build 2>&1 | tail -3 && docker compose ps'
+run 'cd ~/apps/sky-in-print && docker compose up -d --build --remove-orphans 2>&1 | tail -3 && docker compose ps'
