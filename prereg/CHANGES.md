@@ -37,3 +37,20 @@
     (sky, heavens, star, meteor, light in the, stone, explosion, ...), plus a random sample of the rest.
 - **Limitation:** model recall on these issues is measured only through the vocabulary screen and the random
   sample, not by a full read.
+
+## 2026-10-21: tools added after the pilot, before the full sweep
+None of these change what the model reads or how it decides. The keyword filter, prompt v2, model and triage
+excerpt (`triage.excerpt`) stay exactly as validated in the pilot.
+- **Reader excerpts** (`excerpts.py`): text shown to people now starts and ends on sentence boundaries, with an
+  ellipsis where it is cut. This fixes eye-check item D18, which was cut at "A meteoric stone weighing...".
+- **Review timing** (`review_page.py`, `review_template.html`, `review_log.py`):
+  - Human review pages record seconds per answer (capped at 15 minutes for breaks) and scan opens.
+  - Claude's reading is timed by batch.
+  - Both go to spec §10 output 4, which the pilot only estimated.
+- **Fireball grouping and vetting** (`fireballs.py`, `results/fireballs/vetting.json`): copies are now matched on
+  OCR-tolerant character n-grams near the sighting. Hand decisions are stored by report key and re-applied on every
+  run.
+- **Specimen-destination ranker** (`specimen_rank.py`): it orders fall reports for reading and does not accept or
+  reject any. It was tuned on the pilot. Two of the four known trail leads (Saco, Cairo) motivated rules in it, so
+  its pilot ranking is not a blind test. The sweep adds a held-out check: a seeded random sample of low-scoring fall
+  reports is read in full for destinations it missed.

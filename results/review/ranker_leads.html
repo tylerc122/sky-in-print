@@ -1,0 +1,136 @@
+<title>Sky In Print: Stone Trails</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Inter+Tight:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a clipping file. One column of newspaper clippings, each a card with the excerpt set like newsprint and a row of answer chips. Progress bar pinned at top. */
+:root{
+  --paper:#f4f1ea; --card:#fffdf8; --ink:#1d1b17; --ink-2:#55504a; --ink-3:#8a837a; --rule:#ddd6c9;
+  --accent:#2f5d8a; --accent-soft:#e3ebf4; --pick:#1d1b17; --pick-ink:#fffdf8; --good:#2f7a4f;
+  --f-print:"Libre Caslon Text",Georgia,"Times New Roman",serif;
+  --f-ui:"Inter Tight",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#16150f; --card:#1f1d17; --ink:#ece7dc; --ink-2:#b9b2a5; --ink-3:#8a837a; --rule:#34312a;
+  --accent:#8db4dc; --accent-soft:#22303d; --pick:#ece7dc; --pick-ink:#16150f; --good:#6cc493; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#16150f; --card:#1f1d17; --ink:#ece7dc; --ink-2:#b9b2a5; --ink-3:#8a837a; --rule:#34312a;
+  --accent:#8db4dc; --accent-soft:#22303d; --pick:#ece7dc; --pick-ink:#16150f; --good:#6cc493; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:var(--paper);border-bottom:1px solid var(--rule);margin:0 calc(-1*max(16px,env(safe-area-inset-left,0px)));padding:10px max(16px,env(safe-area-inset-left,0px))}
+.bar-in{max-width:760px;margin:0 auto;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.prog{flex:1;min-width:140px;height:6px;background:var(--rule);border-radius:3px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.count{font-family:var(--f-mono);font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+main{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:22px;padding-top:28px}
+header{display:flex;flex-direction:column;gap:10px}
+h1{font-family:var(--f-print);font-weight:700;font-size:clamp(30px,6vw,42px);line-height:1.08;margin:0;text-wrap:balance}
+h2{font-family:var(--f-ui);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:18px 0 0}
+p{margin:0;max-width:65ch}
+.lede{color:var(--ink-2);font-size:16px}
+ol.how{margin:0;padding-left:20px;color:var(--ink-2);max-width:65ch;display:flex;flex-direction:column;gap:4px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card[data-done="1"]{border-color:var(--ink-3)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;font-size:13px;color:var(--ink-2)}
+.meta b{font-family:var(--f-mono);font-weight:500;color:var(--ink-3);font-size:12px}
+.meta .t{font-weight:600;color:var(--ink);font-size:15px}
+.clip{font-family:var(--f-print);font-size:15px;line-height:1.6;color:var(--ink);background:var(--paper);border-left:3px solid var(--rule);padding:10px 14px;border-radius:0 4px 4px 0;overflow-wrap:anywhere}
+.q{font-weight:500}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts button{font-family:var(--f-ui);font-size:14px;padding:7px 14px;border:1px solid var(--ink-3);background:transparent;color:var(--ink);border-radius:999px;cursor:pointer}
+.opts button[aria-pressed="true"]{background:var(--pick);color:var(--pick-ink);border-color:var(--pick)}
+button:focus-visible,a:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a{color:var(--accent)}
+.scan{font-size:13px}
+textarea{width:100%;min-height:44px;font-family:var(--f-ui);font-size:14px;padding:8px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--card);color:var(--ink);resize:vertical}
+.done{background:var(--accent-soft);border:1px solid var(--rule);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.copy{align-self:flex-start;font-family:var(--f-ui);font-weight:600;font-size:14px;padding:9px 16px;border-radius:4px;border:0;background:var(--accent);color:var(--card);cursor:pointer}
+.msg{font-family:var(--f-mono);font-size:12px;color:var(--good)}
+#out{display:none;width:100%;min-height:120px;font-family:var(--f-mono);font-size:12px}
+</style>
+
+<div class="bar"><div class="bar-in"><div class="prog"><i id="p"></i></div><span class="count" id="c">0 answered</span></div></div>
+<main>
+<header>
+  <h1>Sky In Print: Stone Trails</h1>
+  <p class="lede">Six newspaper reports the new ranker flagged because they say where a meteorite went. These are candidates for the next round of inquiry emails.</p>
+  <ol class="how">
+    <li>For each clipping, read the excerpt and, if you can, open the scan to see the actual page.</li>
+    <li>Pick an answer. Add a note if something stands out.</li>
+    <li>When you're done, press <b>Copy answers</b> and paste them back to Claude.</li>
+  </ol>
+  <p class="lede" style="font-size:14px">Scans open on loc.gov. The text is machine-read from old print, so expect garbled words. Your answers are saved in this browser as you go. The page also records roughly how long each answer took, so we can plan how much reading the full run needs.</p>
+</header>
+<div id="sections" style="display:flex;flex-direction:column;gap:22px"></div>
+
+<section class="done">
+  <p class="q" id="donemsg"></p>
+  <button class="copy" id="copy">Copy answers</button>
+  <span class="msg" id="cm"></span>
+  <textarea id="out" readonly aria-label="Your answers as text"></textarea>
+</section>
+</main>
+
+<script id="data" type="application/json">[{"id": "R1", "title": "Laclede Station, Mo., 1872", "section": "Reports that say where the stone went", "paper": "The Daily state journal. [volume] (Alexandria, Va.) 1868-1874", "date": "1872-08-10", "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_devilsbag_ver01/data/sn84024670/00280762404/1872081001/0135.jp2", "q": "Does this report describe a stone seen to fall, and say where it went?", "opts": ["Yes, fall + destination", "Destination, not a fall", "Not credible", "Can't tell"], "key": "faro_1872/1872-08-10_p3_sn84024670_00280762404_1872081001_0135.json#3", "text": "… The fattened poles are perfectly smooth, and bear no marks ofheat. 1t ia about the size of a large 12-pound can non ball, fully fifty per cent. heavier, and solid metal, the nature of which has not yet been ascertained. 1t was brought to this city yesterday, and excited considerable curiosity. 1t is intended, we believe, to present it to the Mercantile Library. The velocity with which it fell may be Judged from the fact Of deep penetration into the earth---thirteen feet. The farthest that cannon ball has been forced into an embankment is six feet, and this is a feat only accomplished at recent experiments by the British navy."}, {"id": "R2", "title": "Cedar Twp., Monroe Co., 1870", "section": "Reports that say where the stone went", "paper": "Iowa voter. [volume] (Knoxville, Iowa) 1867-1874", "date": "1870-10-13", "scan": "https://chroniclingamerica.loc.gov/data/batches/iahi_flareon_ver02/data/sn84027183/00279528979/1870101301/0500.jp2", "q": "Does this report describe a stone seen to fall, and say where it went?", "opts": ["Yes, fall + destination", "Destination, not a fall", "Not credible", "Can't tell"], "key": "faro_1870/1870-10-13_p1_sn84027183_00279528979_1870101301_0500.json#14", "text": "The Abba Union says that the big chunk Of copper which was found some time ago in Cedar TIP. of Mon roe County, and OF which general mention was made at the time, has been pronounced to be an aerolite, and has been sent to the Museum OF the Wesleyan University at Mt. Pleasant."}, {"id": "R3", "title": "Step Rock road, 1880", "section": "Reports that say where the stone went", "paper": "Watertown republican. [volume] (Watertown, Wis.) 1860-1906", "date": "1880-03-10", "scan": "https://chroniclingamerica.loc.gov/data/batches/whi_dorothy_ver01/data/sn85033295/0027955002A/1880031001/0143.jp2", "q": "Does this report describe a stone seen to fall, and say where it went?", "opts": ["Yes, fall + destination", "Destination, not a fall", "Not credible", "Can't tell"], "key": "faro_1880/1880-03-10_p7_sn85033295_0027955002A_1880031001_0143.json#4", "text": "Friday, as David Terrence was dig ging, near his house, on the Step Rock road, he found what he supposed, from it's worn, corrugated appearance, to be an old six-pound cannon ball, but upon bringing it into town, it was decided, by a gentleman familiar with those things. to be genuine aerolite, composed large ly of magnetic iron, and of probable re- cent origin. When Mr.. John Hart, operator for the new American Union Telegraph company, at the suggestion OF bystander, attached the wires of his battery to it, SO as to form circuit, it instantly threw out shower of sparks, and gave forth loud, humming sound, similar to that heard in planning mill. The aerolite, for such it undoubtedly is, will be sent to the Smithsonian institu- ton at Washington."}, {"id": "R4", "title": "near Minot, N.D., 1914", "section": "Reports that say where the stone went", "paper": "The Ward County independent. [volume] (Minot, Ward County, N.D.) 1902-", "date": "1914-12-03", "scan": "", "q": "Does this report describe a stone seen to fall, and say where it went?", "opts": ["Yes, fall + destination", "Destination, not a fall", "Not credible", "Can't tell"], "key": "faro_1914/1914-12-03_p19_sn88076421_00212476006_1914120301_0798.json#8", "text": "Thos. Milloy Of Dmemee has what he believes is meteor that fell in his yard the night of Nov. 6. It is por- Gus like stone weighing fifty pounds. Milloy says it was buried in the ground four or five feet deep, and curious to know what made the strange looking hole, dug it up and now has it on exhibition. The same night a meteor fell south Of Minot, two farmers seeing it plain \", but this one has not yet been found."}, {"id": "R5", "title": "Indianapolis, 1872", "section": "Reports that say where the stone went", "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920", "date": "1872-09-28", "scan": "", "q": "Does this report describe a stone seen to fall, and say where it went?", "opts": ["Yes, fall + destination", "Destination, not a fall", "Not credible", "Can't tell"], "key": "faro_1872/1872-09-28_p8_sn83030313_00271743798_1872092801_1030.json#1", "text": "… IL Is estimated that the Eric Canal can be made navlgabe for ordinary steam propellers for less than five millions OF dollars st. Louis rat recently made q comfortable bed out Of one thousand five hundred dollars govern. ment six per cent bonds. stone weighing eleven pounds which fell dur. ing late meteoric shower, is on exhibition at the Police ONCE in Indianapolis, Ind. over one hundred thousand strangers were in Cincinnati on Friday last, one OF the number being Mr.. Horace Greeley, Of New York. The expenses of the city government OF San Francisco this year will be but little over three millions OF dollars, which, according to the popula ton, Is greater than the municipal expenses VI New York."}, {"id": "R6", "title": "Rev. Dr. Wood's aerolite, 1877", "section": "Reports that say where the stone went", "paper": "Juniata sentinel and Republican. [volume] (Mifflintown, Juniata County", "date": "1877-07-11", "scan": "", "q": "Does this report describe a stone seen to fall, and say where it went?", "opts": ["Yes, fall + destination", "Destination, not a fall", "Not credible", "Can't tell"], "key": "faro_1877/1877-07-11_p1_sn86053634_00280776683_1877071101_0112.json#9", "text": "Some few months ago paragraph appeared in these columns containinga a short description of an aerolite which was then and is still in the possession of the Rev. DIR. Wood of this city. Lit tie was known at the time about the history OF this curiosity further than that it had been from time immeInorial in the possession of the Indians fire. quenting the Saskatchewan Valley. 1t is doubtful whether it will ever be known the exact time this mysterious visitor reached the earth, as the event is too long past to be preserved in the memory of any one now living. The following particulars, however, taken from letter addressed by the Rev. John Macleod, of Morleyville, to the Rev. DIR. Woods can be relied on; Gas TO the meteoric stone, | have not met with any one who saw it fall, and my impression is that this occurred pre- vious to the memory of those now liv- ing. The locality in which it was found and from whence it was taken is about one hundred and thirty miles southeast of Victoria, Saskatchewan, and near Battle River. …"}]</script>
+<script>
+const ITEMS = JSON.parse(document.getElementById('data').textContent);
+const KEY = 'sip-review-ranker_leads';
+const T0 = Date.now(); let lastAt = T0;  // timing: seconds since the previous answer (or page open), capped for breaks
+const CAP = 900;
+let ans = {};
+try { ans = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) { ans = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ans)); } catch(e) {} };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function card(it, n){
+  const a = ans[it.id] || {};
+  const title = `<span class="t">${esc(it.title || ('Clipping ' + n))}</span>`;
+  return `<article class="card" data-id="${it.id}" data-done="${a.v ? 1 : 0}">
+    <div class="meta">${title}<span>${esc(it.paper)}</span><b>${esc(it.date)}</b></div>
+    <div class="clip">${esc(it.text)}</div>
+    <a class="scan" href="${esc(it.scan)}" target="_blank" rel="noopener">Open the newspaper scan ↗</a>
+    <div class="q">${esc(it.q)}</div>
+    <div class="opts" role="group" aria-label="${esc(it.q)}">${it.opts.map(o => `<button type="button" data-v="${esc(o)}" aria-pressed="${a.v === o}">${esc(o)}</button>`).join('')}</div>
+    <textarea id="note-${it.id}" placeholder="Optional note">${esc(a.note || '')}</textarea>
+  </article>`;
+}
+let k = 0;
+const secs = [...new Set(ITEMS.map(i => i.section || ''))];
+document.getElementById('sections').innerHTML = secs.map(s =>
+  (s ? `<h2>${esc(s)}</h2>` : '') + ITEMS.filter(i => (i.section || '') === s).map(i => card(i, ++k)).join('')).join('');
+
+function progress(){
+  const n = ITEMS.filter(i => (ans[i.id] || {}).v).length;
+  document.getElementById('p').style.width = (n / ITEMS.length * 100) + '%';
+  document.getElementById('c').textContent = `${n} / ${ITEMS.length} answered`;
+  document.getElementById('donemsg').textContent = n === ITEMS.length ? `All ${n} answered. Copy your answers and paste them back to Claude.` : `${ITEMS.length - n} left to answer. You can copy a partial set too.`;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('.opts button'); if (!b) return;
+  const c = b.closest('.card'), id = c.dataset.id;
+  const now = Date.now(), prev = ans[id] || {};
+  const dt = Math.min(CAP, Math.round((now - lastAt) / 1000)); lastAt = now;
+  ans[id] = {...prev, v: b.dataset.v, secs: (prev.secs || 0) + dt};
+  c.querySelectorAll('.opts button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  c.dataset.done = 1; save(); progress();
+});
+document.addEventListener('click', e => {
+  const a = e.target.closest('a.scan'); if (!a) return;
+  const id = a.closest('.card').dataset.id; ans[id] = {...(ans[id] || {}), scans: ((ans[id] || {}).scans || 0) + 1}; save();
+});
+document.addEventListener('input', e => {
+  if (!e.target.id || !e.target.id.startsWith('note-')) return;
+  const id = e.target.id.slice(5); ans[id] = {...(ans[id] || {}), note: e.target.value}; save();
+});
+document.getElementById('copy').addEventListener('click', async () => {
+  const lines = ['Sky In Print: Stone Trails answers', 'id\tanswer\tseconds\tscans_opened\tnote'];
+  ITEMS.forEach(i => { const a = ans[i.id] || {}; lines.push(`${i.id}\t${a.v || '-'}\t${a.secs ?? ''}\t${a.scans || 0}\t${(a.note || '').replace(/\s+/g, ' ')}`); });
+  const txt = lines.join('\n'), out = document.getElementById('out'), m = document.getElementById('cm');
+  try { await navigator.clipboard.writeText(txt); m.textContent = 'Copied. Paste it into the chat.'; }
+  catch(e) { out.style.display = 'block'; out.value = txt; out.focus(); out.select(); m.textContent = 'Copy failed here; select the text below and copy it.'; }
+});
+progress();
+</script>

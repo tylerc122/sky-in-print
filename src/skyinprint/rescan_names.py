@@ -20,6 +20,9 @@ TERMS = {
     "washington_island_1914": r"gullickson|washington island.{0,300}(meteor|aerolite)|(meteor|aerolite).{0,300}washington island",
     "jonesboro_ill_1914": r"a\.? ?v\.? cook.{0,300}(meteor|aerolite)|(meteor|aerolite).{0,300}jonesboro",
     "wakefield_1911": r"alfred h\.? richards|(meteor|aerolite).{0,200}wakefield",
+    # recorded 1877 falls the pilot missed: is the corpus missing them, or did the keyword filter miss them?
+    "cynthiana_1877": r"cynthiana.{0,400}(meteor|aerolit|stone|fell|sky|heavens)|(meteor|aerolit|stone|fell|sky|heavens).{0,400}cynthiana",
+    "warrenton_1877": r"warrenton.{0,400}(meteor|aerolit|stone|fell|sky|heavens)|(meteor|aerolit|stone|fell|sky|heavens).{0,400}warrenton",
 }
 RX = {k: re.compile(v, re.I | re.S) for k, v in TERMS.items()}
 

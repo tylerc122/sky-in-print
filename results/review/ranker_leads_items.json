@@ -1,0 +1,104 @@
+[
+ {
+  "id": "R1",
+  "title": "Laclede Station, Mo., 1872",
+  "section": "Reports that say where the stone went",
+  "paper": "The Daily state journal. [volume] (Alexandria, Va.) 1868-1874",
+  "date": "1872-08-10",
+  "centre": 1446,
+  "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_devilsbag_ver01/data/sn84024670/00280762404/1872081001/0135.jp2",
+  "q": "Does this report describe a stone seen to fall, and say where it went?",
+  "opts": [
+   "Yes, fall + destination",
+   "Destination, not a fall",
+   "Not credible",
+   "Can't tell"
+  ],
+  "key": "faro_1872/1872-08-10_p3_sn84024670_00280762404_1872081001_0135.json#3"
+ },
+ {
+  "id": "R2",
+  "title": "Cedar Twp., Monroe Co., 1870",
+  "section": "Reports that say where the stone went",
+  "paper": "Iowa voter. [volume] (Knoxville, Iowa) 1867-1874",
+  "date": "1870-10-13",
+  "centre": 195,
+  "scan": "https://chroniclingamerica.loc.gov/data/batches/iahi_flareon_ver02/data/sn84027183/00279528979/1870101301/0500.jp2",
+  "q": "Does this report describe a stone seen to fall, and say where it went?",
+  "opts": [
+   "Yes, fall + destination",
+   "Destination, not a fall",
+   "Not credible",
+   "Can't tell"
+  ],
+  "key": "faro_1870/1870-10-13_p1_sn84027183_00279528979_1870101301_0500.json#14"
+ },
+ {
+  "id": "R3",
+  "title": "Step Rock road, 1880",
+  "section": "Reports that say where the stone went",
+  "paper": "Watertown republican. [volume] (Watertown, Wis.) 1860-1906",
+  "date": "1880-03-10",
+  "centre": 685,
+  "scan": "https://chroniclingamerica.loc.gov/data/batches/whi_dorothy_ver01/data/sn85033295/0027955002A/1880031001/0143.jp2",
+  "q": "Does this report describe a stone seen to fall, and say where it went?",
+  "opts": [
+   "Yes, fall + destination",
+   "Destination, not a fall",
+   "Not credible",
+   "Can't tell"
+  ],
+  "key": "faro_1880/1880-03-10_p7_sn85033295_0027955002A_1880031001_0143.json#4"
+ },
+ {
+  "id": "R4",
+  "title": "near Minot, N.D., 1914",
+  "section": "Reports that say where the stone went",
+  "paper": "The Ward County independent. [volume] (Minot, Ward County, N.D.) 1902-",
+  "date": "1914-12-03",
+  "centre": 271,
+  "scan": "",
+  "q": "Does this report describe a stone seen to fall, and say where it went?",
+  "opts": [
+   "Yes, fall + destination",
+   "Destination, not a fall",
+   "Not credible",
+   "Can't tell"
+  ],
+  "key": "faro_1914/1914-12-03_p19_sn88076421_00212476006_1914120301_0798.json#8"
+ },
+ {
+  "id": "R5",
+  "title": "Indianapolis, 1872",
+  "section": "Reports that say where the stone went",
+  "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
+  "date": "1872-09-28",
+  "centre": 934,
+  "scan": "",
+  "q": "Does this report describe a stone seen to fall, and say where it went?",
+  "opts": [
+   "Yes, fall + destination",
+   "Destination, not a fall",
+   "Not credible",
+   "Can't tell"
+  ],
+  "key": "faro_1872/1872-09-28_p8_sn83030313_00271743798_1872092801_1030.json#1"
+ },
+ {
+  "id": "R6",
+  "title": "Rev. Dr. Wood's aerolite, 1877",
+  "section": "Reports that say where the stone went",
+  "paper": "Juniata sentinel and Republican. [volume] (Mifflintown, Juniata County",
+  "date": "1877-07-11",
+  "centre": 111,
+  "scan": "",
+  "q": "Does this report describe a stone seen to fall, and say where it went?",
+  "opts": [
+   "Yes, fall + destination",
+   "Destination, not a fall",
+   "Not credible",
+   "Can't tell"
+  ],
+  "key": "faro_1877/1877-07-11_p1_sn86053634_00280776683_1877071101_0112.json#9"
+ }
+]
