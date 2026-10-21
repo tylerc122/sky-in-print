@@ -14,9 +14,15 @@ what it misses, not to make discoveries. Deviations from the pre-registration ar
 | Ran unattended | On Cygnus in Docker, resumable, with courtesy rules for the shared model server |
 
 ## The five pilot outputs (spec §10)
-1. **Fireballs: not done.** The 1,873 accepted fireball reports are not yet grouped into events or reconstructed
-   (independence, timing, physical fields). This output is still owed. It runs on data we already have, without new
-   model time.
+1. **Fireballs: done through grouping, not through reconstruction** (`results/fireballs/`).
+   - 2,704 reports were grouped into 1,357 events, with OCR-tolerant copy detection. 116 events have 2 or more
+     independent sources and 39 have 3 or more.
+   - Timing and physical fields were extracted, and the events form a ranked reading queue.
+   - Validation: the great fireball of 1876-12-21 ranks first, with 20 independent sources. Every known fall that
+     has reports is found on its correct date.
+   - Ground-track reconstruction needs a person to read each event, and is not done.
+   - Errors found by reading the top events: unrelated items merged into events, and events split by weekly papers'
+     "last Saturday" misdating.
 2. **Falls: done.** All 682 accepted fall reports were grouped into reprint families. All 73 multi-paper families and all
    447 single-paper families were read and graded (`results/falls/`). Results:
    - 20 families match recognized meteorites.
@@ -64,7 +70,7 @@ The method works end to end for falls, and its misses are measured and bounded. 
 prominent falls are, not whether to continue. We have two institutional trails, which is enough to keep falls central.
 
 **Before the full sweep:**
-1. Fireball event grouping and reconstruction on the pilot data (output 1).
+1. Read and fix the top fireball events by hand, and reconstruct tracks for the best few (finishing output 1).
 2. Sentence-boundary excerpts, and reprint grouping that tolerates OCR noise.
 3. The 1877 rescan for Cynthiana and Warrenton.
 4. Per-event review timing in the tools.
