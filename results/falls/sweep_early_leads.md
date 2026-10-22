@@ -40,7 +40,7 @@ running on Cygnus.
 | Dayton, Ohio (Dr. Van Tuyl's cabinet, 1854) | stone "fell in a swamp" west of Dayton, dug from 17 ft | no witness; a find | **weak** |
 
 **New destination for a pilot lead:** Laclede 1872 is "intended ... to present it to the Mercantile Library". An
-inquiry email is drafted (`mercantile_inquiry_email.md`).
+inquiry email is drafted (kept locally in `drafts/emails/`).
 
 Next steps:
 - Tyler's read (`results/review/sweep_leads_1.html`).

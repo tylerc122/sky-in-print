@@ -27,4 +27,4 @@
   inquiries are the ones that can answer it.
 
 ## Reply to send (draft)
-See `middleburg_reply_clay_archives.md`.
+Kept locally in `drafts/emails/` (not committed).

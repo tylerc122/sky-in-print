@@ -15,3 +15,9 @@ local.env
 data/logs/
 .deploy.env
 cygnus/.env
+
+# email drafts stay local
+drafts/
+
+# sweep outputs (pulled from Cygnus)
+data/sweep/
