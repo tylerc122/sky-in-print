@@ -27,3 +27,55 @@ flagged, which may physically survive.
   4. Examination by meteorite specialists. Nearby: the Maine Mineral & Gem Museum in Bethel has a major meteorite
      collection. Many universities also identify specimens.
 - **Also check:** whether the 1891 donation shows up in our 1891 newspaper data or rescans.
+
+## Strengthening the case (2026-10-22)
+**1. Doe's own description fits a meteorite better than slag or ironstone.** *Daily Kennebec Journal* 1873-11-20:
+- He saw a meteor approaching, heard a whizzing sound and an explosion "like that of a rocket" as it struck the
+  meadow behind his house.
+- Next morning: grass "scorched and killed", earth "broken and torn"; he found the stone by probing with a fork.
+  "No stones of any kind exist in that locality."
+- About 15 lb, "dull leaden color", "looks as though some one had clasped and squeezed it before it had time to
+  cool. The surface has the appearance of being pebbled or shrivelled."
+- The last detail is a fair lay description of fusion crust with regmaglypts (thumbprint-like dents). Neither
+  Middleburg's ironstone nor Northport's slag was described this way.
+- Caution: "scorched" grass is a common folklore marker (see the "hot" signal in `credibility_test.md`).
+
+**2. No independent fireball report near Saco in October 1870 (yet).**
+- Oct 20-23, 1870 was very active in New England:
+  - the great earthquake of Oct 20, strongly felt in Maine;
+  - frequent auroras;
+  - a meteor "seen and heard" Saturday night, Oct 22, about 11 p.m.;
+  - another seen from New York;
+  - the large Sunday-morning (Oct 23, about 6:45 a.m.) fireball that exploded over central Massachusetts and was
+    seen from New Hampshire to Connecticut (Rutland Weekly Herald 1870-10-27; Portland Daily Press 1870-10-26).
+- None of the reports in our data places a fireball over Saco or York County, and Doe says "one evening" without a
+  date.
+- The Biddeford *Union and Journal* (Saco's local paper) is in the corpus, and its keyword-matched articles for
+  Oct-Nov 1870 report no meteor at Saco. This may be OCR loss or no report.
+- Doe's account surfaced only with the 1873 donation.
+- Next: a full-text rescan of the *Union and Journal* and *Portland Daily Press*, Oct-Dec 1870, with no keyword
+  filter.
+
+**3. Doe was a substantial, credible local figure.** Internet Archive full text:
+- Saco schoolteacher (town report, 1864).
+- Officer of the Odd Fellows' Grand Lodge of Maine.
+- Listed in the Saco and Biddeford directories of 1870 and 1872-73.
+- Exhibitor of hens and apples at Maine agricultural fairs.
+- Cited as "Capt. Ira C. Doe" in the 1888 history of Parsonsfield.
+- Coins counterstamped "IRA C. DOE" suggest he was a merchant.
+
+**4. Why the accession records exist.** The York Institute's 1867 by-laws (Art. II): "Additions to the Library or
+Cabinets shall be entered on their several records, with description, date of gift, and name of Donor." The
+Institute's own *Publications* (vol. 1, 1884-85) don't mention the stone.
+
+**5. Expert route, for when photos exist.** Not contacted yet.
+- **Maine Mineral & Gem Museum, Bethel** is the natural fit. It holds the world's largest collection of lunar and
+  Martian meteorites, has a meteorite division (Darryl Pitt was named its head in 2023 coverage), and in 2023
+  offered a $25,000 reward for a Maine fireball's remains, so Maine falls interest them. Confirm current contacts on
+  their website first.
+- Alternatives: a university geology department (most identify samples), or the Washington University in St. Louis
+  meteorite self-check pages to screen photos first.
+
+## Laclede and Cairo, re-searched with destination terms
+"Mercantile Library" + meteorite/aerolite, Murdoch + aerolite, "Cairo Public Library" + meteorite, "A. V. Cook" +
+meteorite: nothing relevant in the digitized journals or histories. The emails to those libraries remain the route.
