@@ -33,7 +33,7 @@ running on Cygnus.
 |---|---|---|---|
 | **Schroon Lake / Crown Point, N.Y., Sept 1880** | 125-lb stone found "red-hot" 20 ft from Lakeside Cottage (M. H. Granger), right after a flash and a house-shaking concussion. Two accounts: a Crown Point dispatch, and the owner's tenant's letter via W. Emerson Mead. A hut was built over it "for the benefit of scientists" | Described as "white stone". Kerosene and sulphur poured on it "burned up at once", which sounds odd. Meteorites are rarely hot on the surface | **medium-strong**: two accounts, named people, a fixed place |
 | **Franklinton, N.C., 1887-04-03** | 15-lb stone fell a few feet from W. H. Jenkins's house after a flash and a report heard for 20 miles; buried several feet | single dispatch so far | **medium** |
-| **Middleburg, Fla., 1887** | about 200-lb stone "which fell on his farm" (W. G. Burlington), to be exhibited at the Sub-Tropical Exposition, Jacksonville, Jan-May 1888 | no fall details | **medium-weak**, but the exhibition gives a trail: exposition catalogue and records |
+| **Middleburg, Fla., 1887** | about 200-lb stone "which fell on his farm" (W. G. Budington; printed "Burlington"), to be exhibited at the Sub-Tropical Exposition, Jacksonville, Jan-May 1888 | no fall details | **medium-weak**, but the exhibition gives a trail: exposition catalogue and records |
 | St. Joseph, near Evansville, Ind., 1887-06-12 | "aerolite of vast dimensions" smashed an oak and buried itself 15-18 ft; fragments "to be sent to the Smithsonian" | fragments "of obsidian, scoria and pumice" sound terrestrial | **weak**; check Smithsonian accession records |
 | Shell Rock (Albert Lea), Minn., 1880 | 600-lb "meteor" that "fell and was found"; exhibited by D. G. Parker | "pyramid of cobble stones cemented together" sounds like a conglomerate or slag | **weak** |
 | Chittenden, Vt., 1861-12-18 | stone fell on Zephaniah Eddy's farm with brilliant light; ground charred | "resembles sandstone". Zephaniah Eddy was the father of the Eddy Brothers, the Chittenden spiritualist mediums | **weak/curiosity** |
@@ -128,7 +128,7 @@ It is the cheapest test we have, and in this batch it was the decisive one.
   - Pieces weighed 212, 18, 10 and 8 lb.
   - It was "to be forwarded to the Jacksonville Sub-Tropical Exposition, and **samples have been sent to Professor
     Richard Proctor for examination**". Proctor, the English astronomer, lived in Florida then and died in Sept 1888.
-- The Dec 1887 and Jan 1888 items name W. G. Burlington's farm as the place. The accounts disagree on details:
+- The Dec 1887 and Jan 1888 items name W. G. Budington's farm (printed "Burlington") as the place. The accounts disagree on details:
   finder, road or farm.
 - **Cautions:**
   - "Iron ore with white crystals" fits Florida ironstone, a common pseudometeorite, as well as it fits a meteorite.
@@ -142,4 +142,4 @@ It is the cheapest test we have, and in this batch it was the decisive one.
     Libraries Florida collection).
   - The Florida Times-Union, Jan-May 1888.
   - Proctor's journal *Knowledge*, 1888.
-  - Clay County Archives (Chalker and Burlington families).
+  - Clay County Archives (Chalker and Budington families).

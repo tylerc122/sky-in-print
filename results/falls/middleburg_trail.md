@@ -20,9 +20,9 @@
 ## What this changes
 - **Not a new discovery locally.** The story is known in Clay County (2020) and on hobbyist forums. What we add is
   the set of contemporary sources: 12 newspaper items, Dec 1887 to Mar 1888.
-- **Possible name correction:** two OCR'd copies give the farm owner as "W. G. Burlington". Middleburg's pioneer
-  family is the **Budingtons** (Ozias Budington died 1886), so "Burlington" may be an OCR or typesetting error for
-  **Budington**. This is unconfirmed, and the archives could check it.
+- **Name correction:** two copies give the farm owner as "W. G. Burlington". We read this as **Budington**, the
+  pioneer landowning family of Middleburg. OCR and typesetting garble names in this corpus all the time. The initials
+  "W. G." are unverified: Ozias Budington died in 1886, so it would be a son or other relative.
 - **The open question is the same: what happened at the Exposition?** The Jacksonville Historical Society and UF
   inquiries are the ones that can answer it.
 
