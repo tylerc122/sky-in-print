@@ -79,3 +79,36 @@ each reprint family by its longest copy, not by single articles.
    Sciences.
 4. **Shell Rock / Albert Lea, Minn., 1880.** Next: Freeborn County Historical Society (D. G. Parker's exhibit).
 5. Likely hoax or weak: St. Joseph 1887, Chittenden 1861, Dayton 1854.
+
+## Follow-up (retraction) search, 2026-10-22 (`src/skyinprint/followups.py`, `followups_2026-10-22.json`)
+Every candidate article naming a lead's place or people in the 12 months after its first report.
+
+**Schroon Lake 1880: resolved, not a meteorite.** It had 12 articles, Sept 1880 to Apr 1881:
+- Oct 9-10: a fragment was "to be submitted to a meeting of scientists ... some persons doubt the assertion that it
+  fell from the sky".
+- Nov 26, Dec 2 and Dec 16 (Perrysburg Journal, Wellington Enterprise, Bossier Banner): "the supposed aerolite, for
+  the possession of which a lawsuit was threatened, was merely a piece of quartz covered with kerosene oil and
+  sulphur."
+- Tyler's "sounds fantastical" and the white stone that burned with kerosene and sulphur were the right warning signs.
+- Lesson: two separate accounts made it look strong. Both were written from the same cottage before anyone examined
+  the stone, so they were not independent checks of what it was.
+
+**The others (no debunking found):**
+| Lead | Coverage | Notes |
+|---|---|---|
+| Franklinton 1887 | 4 articles, Apr 3-21 | The date is uncertain. The Richmond item printed Sunday Apr 3 already says "is reported to have fallen", while the Raleigh dispatch of Apr 5 says "Sunday morning", so it may be Mar 27 or Apr 3 |
+| Shell Rock 1880 | 2 articles, July | nothing later |
+| St. Joseph 1887 | 12 matches, June 14-24, then silence | no retraction found, but also no stone, analysis or follow-up; stays "likely hoax" |
+| Chittenden 1861 | 1 article | none |
+| Laclede 1872 | Aug-Sept 1872 only | a June 1873 hit is a steamer named *Meteor* |
+| Middleburg 1887 | — | the exhibition was Jan-May 1888, which has not finished triage; rerun after the next pull |
+
+**Change to the method:** every fall lead now goes through `followups.py` before it is graded or emailed about.
+It is the cheapest test we have, and in this batch it was the decisive one.
+
+## Priority now
+1. Middleburg, Fla., 1887 (pending the 1888 follow-up)
+2. Franklinton, N.C., 1887
+3. Shell Rock, Minn., 1880
+4. Downgraded or resolved: Schroon Lake 1880 (quartz and kerosene), St. Joseph 1887 (likely hoax), Chittenden 1861,
+   Dayton 1854.
