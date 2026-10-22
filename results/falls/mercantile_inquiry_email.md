@@ -12,7 +12,7 @@ In August 1872 the *St. Louis Democrat* reported that workmen on John J. Murdoch
 "spheroid globe of metal", about the size of a 12-pound cannonball, from a hole 13 feet deep in his meadow. The
 article said it was brought into the city and that "it is intended, we believe, to present it to the Mercantile
 Library." Here's a reprint of the story, from the Alexandria *Daily State Journal* of August 10, 1872:
-https://chroniclingamerica.loc.gov/data/batches/vi_devilsbag_ver01/data/sn84024670/00280762404/1872081001/0135.jp2
+https://www.loc.gov/resource/sn84024670/1872-08-10/ed-1/?sp=3
 
 I can't find this object in the scientific meteorite catalogs, so I'm hoping you can tell me:
 1. Do the library's records from around 1872 mention a gift of a meteorite or "aerolite" from John J. Murdoch or Frank
