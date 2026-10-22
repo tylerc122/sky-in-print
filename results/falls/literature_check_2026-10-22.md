@@ -25,8 +25,11 @@ that a person has to clear, so they were not searched.
   1888 reports (Marshall Democrat, Sept 1888; Hanover Democrat via WaKeeney, Oct 1888, Steele City, Neb.) predate it
   by two years. They are either a separate 1888 event, or mis-printed dates of some other fall. **Still open.**
 
+- **Middleburg, Fla. 1888: limonite, not a meteorite.** G. F. Kunz, *Trans. N.Y. Acad. Sci.* 7:135 (Feb 1888), and
+  *Science* 1888. Found on a second search for the Sub-Tropical Exposition (see `middleburg_trail.md`).
+
 ## Nothing found (stays open)
-Middleburg 1888, Laclede 1872, Franklinton 1887, Phipsburg 1850, Saco 1870, Jonesboro 1914, Blair 1885, Collins 1888.
+Laclede 1872, Franklinton 1887, Phipsburg 1850, Saco 1870, Jonesboro 1914, Blair 1885, Collins 1888.
 St. Joseph 1887 appears only in an uncritical 1890s Canadian lecture ("Messengers from the skies").
 
 ## Tier-2 read (score 2, years 1770-1888): 116 distinct items, 84 s

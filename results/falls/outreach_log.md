@@ -8,3 +8,5 @@
 | 2026-10-22 | Jacksonville Historical Society | Middleburg, Fla. 1888 (A. S. Chalker) | Sub-Tropical Exposition records | waiting |
 | 2026-10-22 | UF Smathers Libraries (P. K. Yonge) | Middleburg, Fla. 1888 | Exposition materials, Times-Union | waiting |
 | 2026-10-22 | Clay County Archives | Middleburg, Fla. 1888 | local records, Chalker/Budington families | **replied 2026-10-22** (Vishi Garig, Historical Archives Supervisor): she wrote a 2020 article on it and "never did find out what happened to the meteor"; sent family articles and photos. See `middleburg_trail.md` |
+
+**Middleburg closed 2026-10-22:** Kunz identified the stone as limonite in Feb 1888 (Trans. N.Y. Acad. Sci. 7:135). The pending UF inquiry no longer matters for it.

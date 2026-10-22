@@ -28,3 +28,22 @@
 
 ## Reply to send (draft)
 Kept locally in `drafts/emails/` (not committed).
+
+## Resolved (2026-10-22): limonite, not a meteorite
+- **G. F. Kunz** (Tiffany & Co.; a leading meteorite authority of the time), at the New York Academy of Sciences,
+  Feb 1888: "the supposed meteorite, exhibited at the Florida Sub-tropical Exposition, weighing two hundred pounds,
+  and said to have fallen at Middleburg, Florida, was only a mass of limonite." *Transactions of the N.Y. Academy of
+  Sciences* 7:135 (1888). Archive.org: `transactionsofne78788newy`.
+- *Science* (1888), "Diamonds in Meteorites", repeats it: the stone exhibited at the Subtropical Exposition "is a
+  concretionary limonite".
+- Charles Fort retold it in *The Book of the Damned* (1919), citing *Science*. That is the likely source of the
+  forum versions ("block of limestone", the garbled "Dr. Smith").
+- **This fits the caution flagged earlier.** "Iron ore covered with white crystals" was Florida ironstone, and the
+  thunderstorm fall was the classic thunderstone story.
+- **What we contributed:** the local archive (2020) and the forums both lost the trail at the Exposition. The
+  scientific verdict was printed within weeks, and the full-text search found it.
+
+## Replies
+- Clay County Archives (Vishi Garig), 2026-10-22: see above.
+- Jacksonville History Center (Jason Robilio, research archivist), 2026-10-22: nothing in their holdings; suggested
+  the Clay County Historical Society. No longer needed.
