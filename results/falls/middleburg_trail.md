@@ -54,3 +54,9 @@ Kept locally in `drafts/emails/` (not committed).
 - Clay County Archives (Vishi Garig), 2026-10-22: see above.
 - Jacksonville History Center (Jason Robilio, research archivist), 2026-10-22: nothing in their holdings; suggested
   the Clay County Historical Society. No longer needed.
+
+## Exposition catalogue (UF Special & Area Studies Collections, reply 2026-10-22)
+The official catalogue of the 1888 Florida Sub-Tropical Exposition lists no meteorite among Clay County's exhibits,
+but it does list "**Sample Iron Rock, from Middleburg**". That is almost certainly the same stone, labeled by the
+Exposition itself as iron rock. This agrees with Kunz's "limonite". UF sent scans of the title page and the Clay
+County section; they are kept outside the repo.
