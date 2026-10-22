@@ -36,12 +36,19 @@ Kept locally in `drafts/emails/` (not committed).
   Sciences* 7:135 (1888). Archive.org: `transactionsofne78788newy`.
 - *Science* (1888), "Diamonds in Meteorites", repeats it: the stone exhibited at the Subtropical Exposition "is a
   concretionary limonite".
-- Charles Fort retold it in *The Book of the Damned* (1919), citing *Science*. That is the likely source of the
-  forum versions ("block of limestone", the garbled "Dr. Smith").
+- **Charles Fort retold it in *The Book of the Damned* (1919, p. 67):** "In Science, March 9, 1888, we read of a
+  block of limestone, said to have fallen near Middleburgh, Florida ... The writer, in Science, denies that it fell
+  from the sky."
+  - Fort garbled limonite into "limestone" and framed the verdict as scientific dogma.
+  - The forum versions ("200-pound block of limestone") come from Fort.
 - **This fits the caution flagged earlier.** "Iron ore covered with white crystals" was Florida ironstone, and the
   thunderstorm fall was the classic thunderstone story.
-- **What we contributed:** the local archive (2020) and the forums both lost the trail at the Exposition. The
-  scientific verdict was printed within weeks, and the full-text search found it.
+- **How new is this? Not very.** The verdict was printed within weeks (Science, 9 Mar 1888; NYAS minutes, Feb 1888)
+  and stood, garbled, in Fort's widely read book for a century. What we add is modest:
+  - the local archive's 2020 article ends "we may never know" and does not have it;
+  - Kunz's original wording ("only a mass of limonite") is clearer than Fort's version, and nothing online connects
+    them.
+- **Still unknown:** where the stone went after the Exposition. For local history that is the more interesting part.
 
 ## Replies
 - Clay County Archives (Vishi Garig), 2026-10-22: see above.
