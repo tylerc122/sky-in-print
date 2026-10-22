@@ -7,4 +7,4 @@
 | 2026-10-22 | St. Louis Mercantile Library (UMSL) | Laclede Station, Mo. 1872 (John J. Murdoch) | "intended to present it to the Mercantile Library" | waiting |
 | 2026-10-22 | Jacksonville Historical Society | Middleburg, Fla. 1888 (A. S. Chalker) | Sub-Tropical Exposition records | waiting |
 | 2026-10-22 | UF Smathers Libraries (P. K. Yonge) | Middleburg, Fla. 1888 | Exposition materials, Times-Union | waiting |
-| 2026-10-22 | Clay County Archives | Middleburg, Fla. 1888 | local records, Chalker/Burlington families | waiting |
+| 2026-10-22 | Clay County Archives | Middleburg, Fla. 1888 | local records, Chalker/Burlington families | **replied 2026-10-22** (Vishi Garig, Historical Archives Supervisor): she wrote a 2020 article on it and "never did find out what happened to the meteor"; sent family articles and photos. See `middleburg_trail.md` |
