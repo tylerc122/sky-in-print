@@ -23,7 +23,8 @@ from skyinprint.load_triage import load
 ROOT = Path(__file__).resolve().parents[2]
 WIN = 700
 ANCHOR = re.compile(r"meteor|aerolit|meteoric (stone|iron)|stone (fell|which fell)|fell from the (sky|heavens)", re.I)
-INST = r"museum|college|university|institute|academy|library|athen(a|e)um|cabinet|smithsonian|historical society|natural history society|state geologist|geological survey|high school"
+# "society" alone: the Shergotty stone went "to the Asiatic Society" (missed in the blind check)
+INST = r"museum|college|university|institute|academy|library|athen(a|e)um|cabinet|smithsonian|society|state geologist|geological survey|high school"
 SIGNALS = {
     "institution": (3, re.compile(
         rf"(presented|donated|given|gift|deposited|sent|forwarded|sold|turned over)\b[^.]{{0,80}}\b({INST})"
@@ -33,8 +34,9 @@ SIGNALS = {
         rf"|({INST})[^|]{{0,250}}\b(gifts|donations|accessions|presented|donated)\b"
         rf"|\b(gifts|donations|accessions)\b[^|]{{0,250}}({INST})", re.I)),
     "holder": (2, re.compile(
-        r"in (the )?possession of|purchased by|bought by|sold (it |the stone |the meteor(ite)? )?(to|for)|has the (stone|meteor)"
-        r"|sent (it |a piece |pieces |fragments |the stone )?to (prof|dr|the)|on exhibition|exhibited (at|in|by)|will be exhibited"
+        r"in (the )?possession of|in (his|her|their|our|my) possession|purchased by|bought by|sold (it |the stone |the meteor(ite)? )?(to|for)"
+        r"|has the (stone|meteor)|secured (it|the stone|a piece|pieces|fragments|some)|some of which (he|they) secured|carried (it )?home"
+        r"|sent (it |a piece |pieces |fragments |the stone )?to (prof|dr|the)|(on|oh|ou|0n) exhibition|exhibited (at|in|by)|will be exhibited"
         r"|is now (at|in|on)|preserved|keeps? it|has it in his", re.I)),
     "seen_fall": (2, re.compile(r"saw (it|the meteor|the stone|this meteorite?) fall|seen to fall|was seen to strike|saw it strike"
                                 r"|fell (with|within|near|on|in|into) [^.]{0,40}(farm|yard|field|feet|rods)", re.I)),

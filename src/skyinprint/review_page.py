@@ -16,7 +16,9 @@ HERE = Path(__file__).resolve().parent
 def page_url(c):
     """loc.gov page viewer for a candidate. The raw Chronicling America .jp2 links in the corpus now return 404."""
     ed = int(str(c.get("edition") or "ed-01").split("-")[-1] or 1)
-    return f"https://www.loc.gov/resource/{c['lccn']}/{c['date']}/ed-{ed}/?sp={int(c['page_seq'])}"
+    sp = str(c.get("page_seq") or "")
+    base = f"https://www.loc.gov/resource/{c['lccn']}/{c['date']}/ed-{ed}/"
+    return base + (f"?sp={int(sp)}" if sp.isdigit() else "")  # some scans have no page number
 
 
 def build(items, out, title, lede, store=None):
