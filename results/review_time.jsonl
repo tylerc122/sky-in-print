@@ -1,0 +1,2 @@
+{"event": "start", "batch": "sweep-top-1887", "who": "claude", "at": "2026-10-22T14:29:45+00:00"}
+{"event": "end", "batch": "sweep-top-1887", "who": "claude", "at": "2026-10-22T14:31:08+00:00", "items": 112, "seconds": 83}

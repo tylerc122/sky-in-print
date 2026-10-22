@@ -74,11 +74,12 @@ def score(text):
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--rescans", action="store_true", help="also score the name-rescan hits (not triaged)")
+    ap.add_argument("--workdir", default="work", help="'sweep' for the full sweep (data/sweep/<year>)")
     a = ap.parse_args(argv)
-    R = load()
+    R = load(workdir=a.workdir)
     cands = {}
-    for p in glob.glob(str(ROOT / "data/work/*/candidates.jsonl")):
-        if "/1859/" in p:
+    for p in glob.glob(str(ROOT / f"data/{a.workdir}/*/candidates.jsonl")):
+        if a.workdir == "work" and "/1859/" in p:  # the pilot's debug window; the sweep's full 1859 is ordinary data
             continue
         for x in map(json.loads, open(p)):
             cands[f"{x['file']}#{x['article_id']}"] = x
@@ -99,7 +100,7 @@ def main(argv=None):
                              "date": x["date"], "paper": x["title"][:60], "where": ",".join(x["leads"]), "quote": "",
                              "signals": hits, "source": "rescan"})
     rows.sort(key=lambda r: (-r["score"], r["date"]))
-    json.dump(rows, open(ROOT / "data/work/specimen_rank.json", "w"), indent=1)
+    json.dump(rows, open(ROOT / f"data/{a.workdir}/specimen_rank.json", "w"), indent=1)
     return rows
 
 

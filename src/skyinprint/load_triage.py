@@ -6,9 +6,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 
-def load(year=None):
+def load(year=None, workdir="work"):
     recs = {}
-    pat = f"data/work/{year}/triage_v2.jsonl" if year else "data/work/*/triage_v2.jsonl"
+    pat = f"data/{workdir}/{year}/triage_v2.jsonl" if year else f"data/{workdir}/*/triage_v2.jsonl"
     for p in sorted(glob.glob(str(ROOT / pat))):
         for line in open(p):
             r = json.loads(line)
