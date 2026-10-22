@@ -112,3 +112,34 @@ It is the cheapest test we have, and in this batch it was the decisive one.
 3. Shell Rock, Minn., 1880
 4. Downgraded or resolved: Schroon Lake 1880 (quartz and kerosene), St. Joseph 1887 (likely hoax), Chittenden 1861,
    Dayton 1854.
+
+## Middleburg, Fla., 1887-88: follow-up after pulling 1888 (2026-10-22)
+12 matches, Dec 1887 to Mar 1888 (`followups_middleburg_2026-10-22.json`). No debunking.
+- **Palatka Daily News, 1888-01-07:**
+  - The stone was found about two weeks earlier, "half buried in the midst of a depression apparently made by its
+    fall", in the road near Middleburg, broken into pieces of about 200 and 8 lb.
+  - It "appeared to be an iron ore, covered with small opaque white crystals".
+  - **A. S. Chalker**, who found it, gave it to Messrs. Sweeny and Allen of the **steamer *Twilight*** to take to the
+    **Sub-Tropical Exposition**.
+  - A thunderstorm the night before is "supposed" to be when it fell.
+- **Syndicated dispatch, Jan-Mar 1888** (Morris, Minn. Sun; Pembina Pioneer Express; St. Landry Democrat):
+  - A "fiery mass was seen to fall" in a storm and search parties went out.
+  - Three Black men found it broken against a lightwood stump, with pieces still hot. The find was kept quiet at first.
+  - Pieces weighed 212, 18, 10 and 8 lb.
+  - It was "to be forwarded to the Jacksonville Sub-Tropical Exposition, and **samples have been sent to Professor
+    Richard Proctor for examination**". Proctor, the English astronomer, lived in Florida then and died in Sept 1888.
+- The Dec 1887 and Jan 1888 items name W. G. Burlington's farm as the place. The accounts disagree on details:
+  finder, road or farm.
+- **Cautions:**
+  - "Iron ore with white crystals" fits Florida ironstone, a common pseudometeorite, as well as it fits a meteorite.
+  - A thunderstorm fall is the classic "thunderstone" story.
+- **Prior attention:** the story circulates on hobbyist forums (treasurenet, astronomy.activeboard), which say the
+  stone was "never seen again". They cite no primary sources, and one garbles a J. Lawrence Smith opinion (Smith died
+  in 1883). What we add is the primary newspaper trail: the finder, the courier, the exhibition and the Proctor
+  samples.
+- **Grade: medium. The trail is well defined.** Next human steps:
+  - Sub-Tropical Exposition records and catalogue, Jacksonville 1888 (Jacksonville Historical Society; UF Smathers
+    Libraries Florida collection).
+  - The Florida Times-Union, Jan-May 1888.
+  - Proctor's journal *Knowledge*, 1888.
+  - Clay County Archives (Chalker and Burlington families).
