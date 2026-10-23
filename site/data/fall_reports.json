@@ -1,0 +1,319 @@
+[
+  {
+    "id": "saco",
+    "kind": "fall",
+    "place": "Saco, Maine",
+    "date_lo": "1870-10",
+    "date_hi": "1870-10",
+    "year": 1870,
+    "status": "under investigation",
+    "lat": 43.5,
+    "lon": -70.44,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A newspaper donation notice leads to two museum accession records. The stones have not yet been located or examined; neither is confirmed as a meteorite.",
+    "sources": [
+      {
+        "label": "Daily Kennebec Journal, Nov. 20, 1873, p. 3",
+        "url": "https://www.loc.gov/resource/sn82014248/1873-11-20/ed-1/?sp=3"
+      },
+      {
+        "label": "Saco Museum: dated project update",
+        "url": "evidence/public_updates.md"
+      }
+    ],
+    "quote": "presented to the York Institute a meteoric stone",
+    "story": "saco"
+  },
+  {
+    "id": "middleburg",
+    "kind": "fall",
+    "place": "Middleburg, Florida",
+    "date_lo": "1888-01",
+    "date_hi": "1888-01",
+    "year": 1888,
+    "status": "not a meteorite",
+    "lat": 30.07,
+    "lon": -81.86,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A stone sent to the Sub-Tropical Exposition was identified by G. F. Kunz as limonite. The report date is January 1888; accounts place the find in late 1887.",
+    "sources": [
+      {
+        "label": "Palatka Daily News, Jan. 7, 1888, p. 4",
+        "url": "https://www.loc.gov/resource/sn89070049/1888-01-07/ed-1/?sp=4"
+      },
+      {
+        "label": "Kunz, Transactions of the N.Y. Academy of Sciences 7:135 (1888)",
+        "url": "https://archive.org/details/transactionsofne78788newy/page/135/mode/1up"
+      }
+    ],
+    "quote": "only a mass of limonite",
+    "story": "middleburg"
+  },
+  {
+    "id": "schroon",
+    "kind": "fall",
+    "place": "Schroon Lake, New York",
+    "date_lo": "1880-09",
+    "date_hi": "1880-09",
+    "year": 1880,
+    "status": "hoax",
+    "lat": 43.84,
+    "lon": -73.76,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A reported red-hot stone was later described as quartz covered with kerosene oil and sulphur.",
+    "sources": [
+      {
+        "label": "Daily Dispatch, Sept. 28, 1880, p. 2",
+        "url": "https://www.loc.gov/resource/sn84024738/1880-09-28/ed-1/?sp=2"
+      },
+      {
+        "label": "Perrysburg Journal, Nov. 26, 1880, p. 3",
+        "url": "https://www.loc.gov/resource/sn87076843/1880-11-26/ed-1/?sp=3"
+      }
+    ],
+    "quote": "merely a piece of quartz covered with kerosene oil and sulphur",
+    "story": "schroon"
+  },
+  {
+    "id": "northport",
+    "kind": "fall",
+    "place": "Northport, Maine",
+    "date_lo": "1850",
+    "date_hi": "1850",
+    "year": 1850,
+    "status": "not a meteorite",
+    "lat": 44.34,
+    "lon": -68.96,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "Fragments collected in 1881–84 were identified as copper slag by F. C. Robinson. The reported 1850 fireball does not establish that the fragments came from it.",
+    "sources": [
+      {
+        "label": "F. C. Robinson, On the so-called Northport, Maine, meteorite, American Journal of Science, series 3, 35:212 (1888)",
+        "url": "https://doi.org/10.2475/ajs.s3-35.207.212"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "thomson",
+    "kind": "fall",
+    "place": "Thomson, Georgia",
+    "date_lo": "1888-10-15",
+    "date_hi": "1888-10-15",
+    "year": 1888,
+    "status": "recognized",
+    "lat": 33.47,
+    "lon": -82.5,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A recognized meteorite: contemporary evidence describes an observed fall, although the frozen catalogue lists a find. This is a possible record correction, not a new meteorite.",
+    "sources": [
+      {
+        "label": "Savannah Morning News, Nov. 7, 1888",
+        "url": "https://www.loc.gov/resource/sn86063034/1888-11-07/ed-1/"
+      },
+      {
+        "label": "G. P. Merrill, Smithsonian Miscellaneous Collections 52:473 (1910)",
+        "url": "https://archive.org/details/smithsonianmisce521910smit/page/473/mode/1up"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "newton",
+    "kind": "fall",
+    "place": "Newtown, Indiana",
+    "date_lo": "1879-01",
+    "date_hi": "1879-01",
+    "year": 1879,
+    "status": "hoax",
+    "lat": 40.2,
+    "lon": -87.15,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "The widely reprinted story of a farmer killed in bed by a meteorite was a documented hoax.",
+    "sources": [
+      {
+        "label": "Plymouth Democrat, Jan. 23, 1879, p. 1",
+        "url": "https://www.loc.gov/resource/sn87056243/1879-01-23/ed-1/?sp=1"
+      },
+      {
+        "label": "Vatican Observatory: newspaper retraction history",
+        "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/1879-hoosiers-and-humility-death-and-deception/"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "st-joseph",
+    "kind": "fall",
+    "place": "St. Joseph, Indiana",
+    "date_lo": "1887-06-12",
+    "date_hi": "1887-06-12",
+    "year": 1887,
+    "status": "likely hoax",
+    "lat": 38.06,
+    "lon": -87.65,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "The alleged two-ton aerolite spread through many papers. No stone, analysis or retraction has been found. Likely hoax remains distinct from proven hoax.",
+    "sources": [
+      {
+        "label": "Kimball Graphic, June 24, 1887, p. 1",
+        "url": "https://www.loc.gov/resource/sn99068076/1887-06-24/ed-1/?sp=1"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "amsterdam",
+    "kind": "fall",
+    "place": "Amsterdam, New York",
+    "date_lo": "1887-11",
+    "date_hi": "1887-11",
+    "year": 1887,
+    "status": "hoax",
+    "lat": 42.94,
+    "lon": -74.19,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A reported three-ton aerolite was later explained as a stone that fell from a wagon.",
+    "sources": [
+      {
+        "label": "Caldwell Tribune, Jan. 28, 1888, p. 3",
+        "url": "https://www.loc.gov/resource/sn86091092/1888-01-28/ed-1/?sp=3"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "jonesboro",
+    "kind": "fall",
+    "place": "Jonesboro, Illinois",
+    "date_lo": "1914",
+    "date_hi": "1914",
+    "year": 1914,
+    "status": "under investigation",
+    "lat": 37.45,
+    "lon": -89.27,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A library gift notice says A. V. Cook saw the stone fall and donated it. An inquiry is pending; no specimen identification is confirmed.",
+    "sources": [
+      {
+        "label": "Cairo Bulletin, Dec. 11, 1914, p. 2",
+        "url": "https://www.loc.gov/resource/sn93055779/1914-12-11/ed-1/?sp=2"
+      }
+    ],
+    "quote": "Mr. Cook saw this meteorite fall.",
+    "story": null
+  },
+  {
+    "id": "laclede",
+    "kind": "fall",
+    "place": "Laclede Station, Missouri",
+    "date_lo": "1872",
+    "date_hi": "1872",
+    "year": 1872,
+    "status": "under investigation",
+    "lat": 38.59,
+    "lon": -90.35,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A metal object dug from the ground was reportedly intended for the Mercantile Library. An intended gift does not establish that the library received it.",
+    "sources": [
+      {
+        "label": "Daily State Journal, Aug. 10, 1872, p. 3",
+        "url": "https://www.loc.gov/resource/sn84024670/1872-08-10/ed-1/?sp=3"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "estherville",
+    "kind": "fall",
+    "place": "Estherville, Iowa",
+    "date_lo": "1879-05-10",
+    "date_hi": "1879-05-10",
+    "year": 1879,
+    "status": "recognized",
+    "lat": 43.41667,
+    "lon": -94.83333,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A recognized meteorite fall recovered by the pilot newspaper search.",
+    "sources": [
+      {
+        "label": "Daily press and Dakotaian. [volume] (Yankton, Dakota Territo",
+        "url": "https://www.loc.gov/resource/sn84022144/1879-05-13/ed-1/?sp=4"
+      },
+      {
+        "label": "Watertown republican. [volume] (Watertown, Wis.) 1860-1906",
+        "url": "https://www.loc.gov/resource/sn85033295/1879-05-14/ed-1/?sp=1"
+      },
+      {
+        "label": "Meteoritical Bulletin entry",
+        "url": "https://www.lpi.usra.edu/meteor/metbull.php?code=10059"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "homestead",
+    "kind": "fall",
+    "place": "Homestead, Iowa",
+    "date_lo": "1875-02-12",
+    "date_hi": "1875-02-12",
+    "year": 1875,
+    "status": "recognized",
+    "lat": 41.8,
+    "lon": -91.86667,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A recognized meteorite fall recovered by the pilot newspaper search.",
+    "sources": [
+      {
+        "label": "Contemporary newspaper",
+        "url": "https://www.loc.gov/resource/sn84031492/1875-02-14/ed-1/"
+      },
+      {
+        "label": "The Toledo chronicle. [volume] (Toledo, Tama County, Iowa) 1",
+        "url": "https://www.loc.gov/resource/sn84038485/1875-02-18/ed-1/?sp=1"
+      },
+      {
+        "label": "Meteoritical Bulletin entry",
+        "url": "https://www.lpi.usra.edu/meteor/metbull.php?code=11901"
+      }
+    ],
+    "quote": "",
+    "story": null
+  },
+  {
+    "id": "rochester",
+    "kind": "fall",
+    "place": "Rochester, Indiana",
+    "date_lo": "1876-12-21",
+    "date_hi": "1876-12-21",
+    "year": 1876,
+    "status": "recognized",
+    "lat": 41.08333,
+    "lon": -86.28333,
+    "location_basis": "Approximate reported locality; not an exact recovery site.",
+    "summary": "A recognized meteorite fall recovered by the pilot newspaper search.",
+    "sources": [
+      {
+        "label": "The Wheeling daily intelligencer. [volume] (Wheeling, W. Va.",
+        "url": "https://www.loc.gov/resource/sn84026844/1876-12-22/ed-1/?sp=1"
+      },
+      {
+        "label": "The Wheeling daily register. [volume] (Wheeling, W. Va.) 186",
+        "url": "https://www.loc.gov/resource/sn84026847/1876-12-22/ed-1/?sp=4"
+      },
+      {
+        "label": "Meteoritical Bulletin entry",
+        "url": "https://www.lpi.usra.edu/meteor/metbull.php?code=22637"
+      }
+    ],
+    "quote": "",
+    "story": null
+  }
+]

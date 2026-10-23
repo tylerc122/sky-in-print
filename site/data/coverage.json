@@ -1,0 +1,472 @@
+[
+  {
+    "year": 1770,
+    "newspapers": 1,
+    "articles": 191
+  },
+  {
+    "year": 1771,
+    "newspapers": 1,
+    "articles": 749
+  },
+  {
+    "year": 1772,
+    "newspapers": 2,
+    "articles": 1780
+  },
+  {
+    "year": 1773,
+    "newspapers": 1,
+    "articles": 1475
+  },
+  {
+    "year": 1774,
+    "newspapers": 1,
+    "articles": 1721
+  },
+  {
+    "year": 1777,
+    "newspapers": 1,
+    "articles": 933
+  },
+  {
+    "year": 1778,
+    "newspapers": 1,
+    "articles": 730
+  },
+  {
+    "year": 1779,
+    "newspapers": 1,
+    "articles": 429
+  },
+  {
+    "year": 1791,
+    "newspapers": 1,
+    "articles": 117
+  },
+  {
+    "year": 1792,
+    "newspapers": 1,
+    "articles": 139
+  },
+  {
+    "year": 1793,
+    "newspapers": 1,
+    "articles": 56
+  },
+  {
+    "year": 1796,
+    "newspapers": 1,
+    "articles": 497
+  },
+  {
+    "year": 1797,
+    "newspapers": 2,
+    "articles": 871
+  },
+  {
+    "year": 1798,
+    "newspapers": 3,
+    "articles": 2067
+  },
+  {
+    "year": 1799,
+    "newspapers": 3,
+    "articles": 2700
+  },
+  {
+    "year": 1800,
+    "newspapers": 5,
+    "articles": 4370
+  },
+  {
+    "year": 1801,
+    "newspapers": 6,
+    "articles": 9243
+  },
+  {
+    "year": 1802,
+    "newspapers": 7,
+    "articles": 16859
+  },
+  {
+    "year": 1803,
+    "newspapers": 9,
+    "articles": 21075
+  },
+  {
+    "year": 1804,
+    "newspapers": 9,
+    "articles": 26766
+  },
+  {
+    "year": 1805,
+    "newspapers": 8,
+    "articles": 32153
+  },
+  {
+    "year": 1806,
+    "newspapers": 6,
+    "articles": 35618
+  },
+  {
+    "year": 1807,
+    "newspapers": 6,
+    "articles": 37892
+  },
+  {
+    "year": 1808,
+    "newspapers": 7,
+    "articles": 36886
+  },
+  {
+    "year": 1809,
+    "newspapers": 7,
+    "articles": 38144
+  },
+  {
+    "year": 1810,
+    "newspapers": 7,
+    "articles": 40896
+  },
+  {
+    "year": 1811,
+    "newspapers": 7,
+    "articles": 42063
+  },
+  {
+    "year": 1812,
+    "newspapers": 8,
+    "articles": 41927
+  },
+  {
+    "year": 1813,
+    "newspapers": 8,
+    "articles": 43944
+  },
+  {
+    "year": 1814,
+    "newspapers": 8,
+    "articles": 35372
+  },
+  {
+    "year": 1815,
+    "newspapers": 8,
+    "articles": 40196
+  },
+  {
+    "year": 1816,
+    "newspapers": 6,
+    "articles": 52956
+  },
+  {
+    "year": 1817,
+    "newspapers": 7,
+    "articles": 40032
+  },
+  {
+    "year": 1818,
+    "newspapers": 8,
+    "articles": 52306
+  },
+  {
+    "year": 1819,
+    "newspapers": 9,
+    "articles": 52030
+  },
+  {
+    "year": 1820,
+    "newspapers": 7,
+    "articles": 42899
+  },
+  {
+    "year": 1821,
+    "newspapers": 10,
+    "articles": 46857
+  },
+  {
+    "year": 1822,
+    "newspapers": 14,
+    "articles": 50090
+  },
+  {
+    "year": 1823,
+    "newspapers": 13,
+    "articles": 57288
+  },
+  {
+    "year": 1824,
+    "newspapers": 16,
+    "articles": 65012
+  },
+  {
+    "year": 1825,
+    "newspapers": 15,
+    "articles": 58118
+  },
+  {
+    "year": 1826,
+    "newspapers": 14,
+    "articles": 80204
+  },
+  {
+    "year": 1827,
+    "newspapers": 18,
+    "articles": 86842
+  },
+  {
+    "year": 1828,
+    "newspapers": 19,
+    "articles": 97091
+  },
+  {
+    "year": 1829,
+    "newspapers": 20,
+    "articles": 102441
+  },
+  {
+    "year": 1830,
+    "newspapers": 18,
+    "articles": 108608
+  },
+  {
+    "year": 1831,
+    "newspapers": 20,
+    "articles": 97185
+  },
+  {
+    "year": 1832,
+    "newspapers": 19,
+    "articles": 88494
+  },
+  {
+    "year": 1833,
+    "newspapers": 16,
+    "articles": 79475
+  },
+  {
+    "year": 1834,
+    "newspapers": 17,
+    "articles": 75165
+  },
+  {
+    "year": 1835,
+    "newspapers": 14,
+    "articles": 65296
+  },
+  {
+    "year": 1836,
+    "newspapers": 36,
+    "articles": 112837
+  },
+  {
+    "year": 1837,
+    "newspapers": 50,
+    "articles": 151669
+  },
+  {
+    "year": 1838,
+    "newspapers": 49,
+    "articles": 202864
+  },
+  {
+    "year": 1839,
+    "newspapers": 59,
+    "articles": 250101
+  },
+  {
+    "year": 1840,
+    "newspapers": 63,
+    "articles": 275665
+  },
+  {
+    "year": 1841,
+    "newspapers": 70,
+    "articles": 336782
+  },
+  {
+    "year": 1842,
+    "newspapers": 73,
+    "articles": 394149
+  },
+  {
+    "year": 1843,
+    "newspapers": 75,
+    "articles": 428651
+  },
+  {
+    "year": 1844,
+    "newspapers": 78,
+    "articles": 444518
+  },
+  {
+    "year": 1845,
+    "newspapers": 96,
+    "articles": 600291
+  },
+  {
+    "year": 1846,
+    "newspapers": 93,
+    "articles": 597448
+  },
+  {
+    "year": 1847,
+    "newspapers": 91,
+    "articles": 481257
+  },
+  {
+    "year": 1848,
+    "newspapers": 92,
+    "articles": 565622
+  },
+  {
+    "year": 1849,
+    "newspapers": 98,
+    "articles": 572141
+  },
+  {
+    "year": 1850,
+    "newspapers": 108,
+    "articles": 733880
+  },
+  {
+    "year": 1851,
+    "newspapers": 124,
+    "articles": 884908
+  },
+  {
+    "year": 1852,
+    "newspapers": 128,
+    "articles": 966060
+  },
+  {
+    "year": 1853,
+    "newspapers": 147,
+    "articles": 1149306
+  },
+  {
+    "year": 1854,
+    "newspapers": 164,
+    "articles": 1317937
+  },
+  {
+    "year": 1855,
+    "newspapers": 176,
+    "articles": 1340167
+  },
+  {
+    "year": 1856,
+    "newspapers": 187,
+    "articles": 1433801
+  },
+  {
+    "year": 1857,
+    "newspapers": 204,
+    "articles": 1431375
+  },
+  {
+    "year": 1858,
+    "newspapers": 218,
+    "articles": 1575817
+  },
+  {
+    "year": 1859,
+    "newspapers": 217,
+    "articles": 1683027
+  },
+  {
+    "year": 1860,
+    "newspapers": 235,
+    "articles": 1739493
+  },
+  {
+    "year": 1861,
+    "newspapers": 236,
+    "articles": 1695505
+  },
+  {
+    "year": 1862,
+    "newspapers": 219,
+    "articles": 1436731
+  },
+  {
+    "year": 1863,
+    "newspapers": 216,
+    "articles": 1374581
+  },
+  {
+    "year": 1864,
+    "newspapers": 220,
+    "articles": 1434576
+  },
+  {
+    "year": 1865,
+    "newspapers": 247,
+    "articles": 1436913
+  },
+  {
+    "year": 1866,
+    "newspapers": 257,
+    "articles": 1800504
+  },
+  {
+    "year": 1867,
+    "newspapers": 232,
+    "articles": 1793656
+  },
+  {
+    "year": 1868,
+    "newspapers": 235,
+    "articles": 1874241
+  },
+  {
+    "year": 1869,
+    "newspapers": 237,
+    "articles": 1842216
+  },
+  {
+    "year": 1880,
+    "newspapers": 321,
+    "articles": 2482134
+  },
+  {
+    "year": 1881,
+    "newspapers": 323,
+    "articles": 2547382
+  },
+  {
+    "year": 1882,
+    "newspapers": 344,
+    "articles": 2625386
+  },
+  {
+    "year": 1883,
+    "newspapers": 364,
+    "articles": 2890685
+  },
+  {
+    "year": 1884,
+    "newspapers": 375,
+    "articles": 3033967
+  },
+  {
+    "year": 1885,
+    "newspapers": 394,
+    "articles": 3251975
+  },
+  {
+    "year": 1886,
+    "newspapers": 393,
+    "articles": 3451856
+  },
+  {
+    "year": 1887,
+    "newspapers": 409,
+    "articles": 3672879
+  },
+  {
+    "year": 1888,
+    "newspapers": 415,
+    "articles": 3704419
+  }
+]

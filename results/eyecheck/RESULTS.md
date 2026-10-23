@@ -19,7 +19,7 @@
 
 ## Part 1: 12 strongest fall leads (Tyler checked the scans)
 - 11 judged credible on reading.
-- **Wakefield, Mass., 1911** judged doubtful: reads like fiction (also his roommate's view); headline "House Struck by Meteorite".
+- **Wakefield, Mass., 1911** judged doubtful: reads like fiction; headline "House Struck by Meteorite".
 - Flags raised:
   - **New London, Ohio, 1873:** the stone was "quite hot" 15-20 minutes later. Freshly fallen meteorites are usually
     not hot, so this is a known folklore marker. Treat it as a caution signal, not a disqualifier.

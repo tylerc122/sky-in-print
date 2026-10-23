@@ -41,3 +41,9 @@ Newspaper archives are downloaded one year at a time from Hugging Face at a pinn
 
 Newspaper text: American Stories (Dell et al. 2023), CC BY 4.0, built from Library of Congress Chronicling
 America scans. Code: MIT. Derived data: CC BY 4.0.
+
+## Public site
+
+The static public site is in `site/`. Open `site/index.html` directly, or serve that directory with any static web server. It includes the interactive atlas, four sourced stories, the 1876 reconstruction, methods and downloadable data.
+
+Regenerate the release with `python -m skyinprint.export_public`. Run release integrity checks with `python -m unittest discover -s tests -v`. See `site/README.md` for editing and reproduction notes. Only `site/` is intended for hosting.

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
+    />
+    <meta name="theme-color" content="#29231d" />
+    <title>Tracking the fireball of 1876 · Sky In Print</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/common.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="shell">
+      <header>
+        <a class="brand" href="index.html"
+          ><span class="brand-mark" aria-hidden="true"></span>Sky In Print</a
+        >
+        <nav aria-label="Main navigation">
+          <a href="index.html">Atlas</a><a href="stories.html">Stories</a
+          ><a href="fireball.html" aria-current="page">The 1876 fireball</a
+          ><a href="about.html">About</a
+          ><button class="theme" type="button">Light mode</button>
+        </nav>
+      </header>
+      <main id="main">
+        <section class="hero intro-motion">
+          <div>
+            <p class="eyebrow">The reconstruction · December 21, 1876</p>
+            <h1>A night written<br /><span>across the sky.</span></h1>
+          </div>
+          <div class="hero-note">
+            <p>
+              Seven towns described a fireball overhead. Their accounts trace a
+              path toward a meteorite site that was never used in the fit.
+            </p>
+            <a href="#how">See how we reconstructed it ↓</a>
+          </div>
+        </section>
+        <section
+          class="track-stage"
+          aria-label="1876 great-circle reconstruction"
+        >
+          <svg
+            id="track-map"
+            viewBox="0 0 1200 520"
+            role="img"
+            aria-label="Fitted fireball ground track through Missouri and Illinois toward Rochester, Indiana. Seven overhead towns are marked; Rochester is a separate check."
+          ></svg>
+          <div class="track-controls">
+            <button class="active" id="replay" type="button">
+              ▶ Replay the path
+            </button>
+            <p>
+              Illustrative motion only. Speed, duration and altitude are not
+              reconstructed.
+            </p>
+            <span
+              id="track-announcement"
+              role="status"
+              class="timeline-label"
+            ></span>
+          </div>
+        </section>
+        <div class="legend">
+          <span
+            ><i style="--c: var(--accent)"></i>Seven overhead towns · used in
+            fit</span
+          ><span
+            ><i style="--c: var(--aqua)"></i>Rochester meteorite · independent
+            check</span
+          ><span>Line = fitted great circle · not a measured flight path</span>
+        </div>
+        <section class="track-facts">
+          <div>
+            <h2>A direction from towns</h2>
+            <p>
+              The fitted track runs west-southwest to east-northeast, at an
+              azimuth of 67.9°.
+              <a href="data/evidence/tracks.md">Fit notes ↗</a>
+            </p>
+          </div>
+          <div>
+            <h2>A check 17 km away</h2>
+            <p>
+              Rochester lies 17 km south of the fitted track. Its location was
+              held out of the fit.
+              <a href="data/evidence/tracks.md">Independent checks ↗</a>
+            </p>
+          </div>
+          <div>
+            <h2>Room for uncertainty</h2>
+            <p>
+              The overhead towns scatter by about 26 km RMS. This is a ground
+              track, not an orbit.
+              <a href="data/track.json">Reconstruction data ↗</a>
+            </p>
+          </div>
+        </section>
+        <div class="evidence-wrap">
+          <table class="evidence-table">
+            <caption>
+              Seven towns used in the fit, with approximate town-centre
+              coordinates
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Overhead town</th>
+                <th scope="col">Offset from track</th>
+                <th scope="col">Newspaper evidence</th>
+              </tr>
+            </thead>
+            <tbody id="witness-rows"></tbody>
+          </table>
+        </div>
+        <article class="article" id="how">
+          <p class="eyebrow">Field notes / 04</p>
+          <h2>Tracking a fireball with 1876 newspapers.</h2>
+          <div id="track-story"></div>
+          <a href="stories.html" class="back">← All stories</a>
+        </article>
+      </main>
+      <footer>
+        <p>
+          Old newspapers. Open questions. Original evidence.<br />Pilot edition
+          · Research scope 1770–1964 · No new meteorite confirmed.
+        </p>
+        <div>
+          <a href="about.html#data">Download data ↗</a
+          ><a href="about.html#sources">Sources & credits</a>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/d3-7.9.0.min.js"></script>
+    <script src="assets/topojson-client-3.1.0.min.js"></script>
+    <script src="data/geography.js"></script>
+    <script src="data/catalog.js"></script>
+    <script src="assets/stories.js"></script>
+    <script src="assets/track.js"></script>
+  </body>
+</html>

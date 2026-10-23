@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
+    />
+    <meta name="theme-color" content="#29231d" />
+    <title>Methods, limits and open data · Sky In Print</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/common.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="shell">
+      <header>
+        <a class="brand" href="index.html"
+          ><span class="brand-mark" aria-hidden="true"></span>Sky In Print</a
+        >
+        <nav aria-label="Main navigation">
+          <a href="index.html">Atlas</a><a href="stories.html">Stories</a
+          ><a href="fireball.html">The 1876 fireball</a
+          ><a href="about.html" aria-current="page">About</a
+          ><button class="theme" type="button">Light mode</button>
+        </nav>
+      </header>
+      <main id="main">
+        <section class="hero intro-motion">
+          <div>
+            <p class="eyebrow">About the project</p>
+            <h1>Wonder, with<br /><span>a paper trail.</span></h1>
+          </div>
+          <div class="hero-note">
+            <p>
+              Sky In Print follows reported fireballs and meteorite falls
+              through American newspapers, scientific literature and collection
+              records.
+            </p>
+            <a href="#data">Take the data with you ↓</a>
+          </div>
+        </section>
+        <section class="method-grid">
+          <h2>From a newspaper<br />to an answer.</h2>
+          <div>
+            <div class="method-step">
+              <span class="number">01</span>
+              <div>
+                <h3>Find the reports</h3>
+                <p>
+                  Keyword patterns search OCR text in
+                  <a
+                    href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories"
+                    >American Stories</a
+                  >, drawn from the Library of Congress. A local model, Flint,
+                  helps triage candidate articles. The pipeline is a filter, not
+                  an authority on whether a stone came from space.
+                  <a href="data/evidence/PILOT_REPORT.md">Pilot report ↗</a>
+                </p>
+              </div>
+            </div>
+            <div class="method-step">
+              <span class="number">02</span>
+              <div>
+                <h3>Read the evidence</h3>
+                <p>
+                  Reports are grouped, reprints compared, and interesting leads
+                  read by a person. The top fireball events received additional
+                  review. A newspaper's publishing city is not necessarily a
+                  witness's location, and several papers may print one account.
+                  <a href="data/evidence/PILOT_REPORT.md"
+                    >Grouping and review results ↗</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="method-step">
+              <span class="number">03</span>
+              <div>
+                <h3>Follow what happened next</h3>
+                <p>
+                  A fall report is followed through later newspapers, scientific
+                  publications and institutional records. A correction can
+                  settle a case. A named collection can turn an old story into a
+                  search for an object. None of the open leads is a newly
+                  confirmed meteorite.
+                  <a href="stories.html">Follow three source chains ↗</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="method-grid" id="coverage">
+          <h2>Read the atlas<br />with its limits.</h2>
+          <div>
+            <h3>It maps the record, not meteor frequency</h3>
+            <p>
+              Digitized newspaper coverage varies greatly by year and state.
+              Reprints, OCR quality and the selected pilot windows also affect
+              the dots. The timeline's separate coverage line shows
+              newspaper-title counts from available local sweep statistics.
+              Missing years are unknown, not zero. The article counts are
+              available in <a href="data/coverage.json">coverage.json</a>.
+            </p>
+            <h3>Two different kinds of pin</h3>
+            <p>
+              Fall cases use approximate reported localities. Fireball groups
+              use one representative publishing town: the resolved newspaper
+              location closest to the other publishing locations in that group.
+              These points are not impact sites or reconstructed witness
+              positions. Fireball marker size uses the upstream grouped-city
+              count, which is only a proxy for independent reporting.
+              <a href="data/README.md">Read the field definitions ↗</a>
+            </p>
+            <h3>A pilot, not a complete census</h3>
+            <p>
+              The atlas includes groups with at least two grouped publishing
+              cities, or a human-review flag. Some candidate groups can still
+              contain misclassified or unrelated sky reports. Dates retain the
+              input's precision and uncertainty. The 1770–1964 axis describes
+              the project's scope, not continuous observations.
+              <a href="data/README.md">Release selection and limits ↗</a>
+            </p>
+          </div>
+        </section>
+        <section class="method-grid">
+          <h2>How we look<br />for what we miss.</h2>
+          <div>
+            <h3>Five of seven known falls recovered</h3>
+            <p>
+              The 1870s recovery test found five of seven recorded U.S. falls:
+              71%, with a wide approximate 95% interval of 36–92%. A full-year
+              name rescan found no relevant reports of the two misses. The
+              project attributes them to corpus coverage, although reports lost
+              or garbled by OCR cannot be ruled out. Five out of five among
+              recoverable cases is not evidence of perfect overall recall.
+              <a href="data/evidence/known_falls_1870s.md"
+                >Recovery test and rescan ↗</a
+              >
+            </p>
+            <h3>The blind check changed the method</h3>
+            <p>
+              A sample of 100 low-ranked fall reports found seven specimen
+              destinations the ranker had missed. The rules were revised.
+              Because that sample was used to tune the changes, it cannot
+              independently validate the revised rules.
+              <a href="data/evidence/ranker_blind_check.md"
+                >Blind-check results ↗</a
+              >
+            </p>
+            <h3>Human review has limits, too</h3>
+            <p>
+              In a blind excerpt review, the human reader agreed with 22 of 24
+              decided model judgements; four more were undecidable. That small
+              comparison is not a general accuracy score. Garbled OCR, clipped
+              excerpts and plausible hoaxes remain sources of error.
+              <a href="data/evidence/RESULTS.md">Human check ↗</a> ·
+              <a href="data/evidence/PILOT_REPORT.md"
+                >Audits and pilot limits ↗</a
+              >
+            </p>
+          </div>
+        </section>
+        <section class="method-grid">
+          <h2>What each<br />outcome means.</h2>
+          <div id="status-definitions"></div>
+        </section>
+        <section class="method-grid" id="data">
+          <h2>Open the data.<br />Keep following.</h2>
+          <div>
+            <p>
+              The release includes the 13 curated fall cases, selected pilot
+              fireball groups, source links and coverage statistics. Nested CSV
+              fields contain JSON. Source text excerpts are short and preserve
+              OCR unless a correction is explicitly marked. The release is a
+              snapshot, not a live feed.
+            </p>
+            <div class="download-links">
+              <a class="button-link" href="data/fall_reports.csv" download
+                >Fall reports ↓ CSV</a
+              ><a class="button-link" href="data/fireball_events.csv" download
+                >Fireball groups ↓ CSV</a
+              ><a class="button-link" href="data/README.md"
+                >Data dictionary ↗</a
+              >
+            </div>
+            <p>
+              Regenerate from the project root with
+              <code>python -m skyinprint.export_public</code>. New sweep
+              statistics are picked up automatically; expanding the event
+              catalogue requires updating the upstream grouped and reviewed
+              events first. <a href="data/README.md">Reproduction details ↗</a>
+            </p>
+          </div>
+        </section>
+        <section class="method-grid" id="sources">
+          <h2>Built on<br />shared records.</h2>
+          <div>
+            <p>
+              <a href="https://www.loc.gov/collections/chronicling-america/"
+                >Library of Congress / Chronicling America</a
+              >
+              provides the newspaper scans.
+              <a
+                href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories"
+                >American Stories (Dell et al.)</a
+              >
+              provides the OCR corpus. The reference meteorite snapshot comes
+              from NASA's Meteorite Landings dataset and the
+              <a href="https://www.lpi.usra.edu/meteor/"
+                >Meteoritical Bulletin</a
+              >.
+            </p>
+            <p>
+              Historical newspaper astronomy has predecessors. The
+              <a href="https://arxiv.org/abs/1511.00464"
+                >Historical Fireballs project</a
+              >, along with the Nininger and Monnig collections, informs this
+              work's source-checking approach. The pilot makes no claim to be
+              the first project to study newspaper fireballs.
+            </p>
+            <p>
+              Map boundaries:
+              <a href="https://github.com/topojson/us-atlas">US Atlas 3.0.1</a>,
+              from U.S. Census Bureau cartography. Maps use vendored D3 7.9.0
+              and topojson-client 3.1.0. Typeface:
+              <a href="https://fonts.google.com/specimen/Barlow">Barlow</a>,
+              with local system-font fallbacks. Derived data: CC BY 4.0; project
+              code: MIT.
+            </p>
+            <p>
+              Institutional updates are attributed to the institution, dated,
+              and distinguished from publicly available historical sources.
+              Private correspondence, staff identities, outreach logs and
+              supplied attachments are excluded.
+              <a href="data/evidence/public_updates.md"
+                >Read the public update record ↗</a
+              >
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>
+          Old newspapers. Open questions. Original evidence.<br />Pilot edition
+          · Research scope 1770–1964 · No new meteorite confirmed.
+        </p>
+        <div>
+          <a href="about.html#data">Download data ↗</a
+          ><a href="about.html#sources">Sources & credits</a>
+        </div>
+      </footer>
+    </div>
+    <script src="data/catalog.js"></script>
+    <script>
+      document.getElementById("status-definitions").innerHTML = Object.entries(
+        SKY_DATA.statuses,
+      )
+        .map(
+          ([name, definition]) =>
+            `<div class="method-step"><span class="number">↗</span><div><h3>${name[0].toUpperCase() + name.slice(1)}</h3><p>${definition}</p></div></div>`,
+        )
+        .join("");
+    </script>
+  </body>
+</html>
