@@ -10,3 +10,5 @@
 | 2026-10-22 | Clay County Archives | Middleburg, Fla. 1888 | local records, Chalker/Budington families | **replied 2026-10-22** (Vishi Garig, Historical Archives Supervisor): she wrote a 2020 article on it and "never did find out what happened to the meteor"; sent family articles and photos. See `middleburg_trail.md` |
 
 **Middleburg closed 2026-10-22:** Kunz identified the stone as limonite in Feb 1888 (Trans. N.Y. Acad. Sci. 7:135). The pending UF inquiry no longer matters for it.
+
+**2026-10-23:** after receiving the Kunz citation, the Clay County Archives replied that it is adding the identification to its database. The Middleburg thread is closed.

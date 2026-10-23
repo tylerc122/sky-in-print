@@ -60,3 +60,6 @@ The official catalogue of the 1888 Florida Sub-Tropical Exposition lists no mete
 but it does list "**Sample Iron Rock, from Middleburg**". That is almost certainly the same stone, labeled by the
 Exposition itself as iron rock. This agrees with Kunz's "limonite". UF sent scans of the title page and the Clay
 County section; they are kept outside the repo.
+
+## Closed (2026-10-23)
+The Clay County Archives is adding the Kunz identification (limonite, Trans. N.Y. Acad. Sci. 7:135) to its database.
