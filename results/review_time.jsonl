@@ -5,3 +5,7 @@
 {"event": "end", "batch": "ranker-holdout", "who": "claude", "at": "2026-10-22T14:53:39+00:00", "items": 100, "seconds": 55}
 {"event": "start", "batch": "tier2-1888", "who": "claude", "at": "2026-10-22T15:10:34+00:00"}
 {"event": "end", "batch": "tier2-1888", "who": "claude", "at": "2026-10-22T15:11:58+00:00", "items": 116, "seconds": 84}
+{"event": "start", "batch": "sweep-1889-1913-top", "who": "claude", "at": "2026-10-25T01:27:20+00:00"}
+{"event": "end", "batch": "sweep-1889-1913-top", "who": "claude", "at": "2026-10-25T01:29:57+00:00", "items": 439, "seconds": 157}
+{"event": "start", "batch": "ranker-holdout-2", "who": "claude", "at": "2026-10-25T01:32:33+00:00"}
+{"event": "end", "batch": "ranker-holdout-2", "who": "claude", "at": "2026-10-25T01:33:05+00:00", "items": 100, "seconds": 32}

@@ -1,0 +1,731 @@
+[
+ {
+  "id": "B245",
+  "name": "Rankin Co./Brandon, Miss. 1910 (Millsaps)",
+  "catalog_near": [
+   [
+    25,
+    "Palahatchie",
+    "Fell",
+    "1910"
+   ]
+  ],
+  "followups": 14,
+  "debunk_flags": 1,
+  "dates": [
+   "1910-10-06",
+   "1910-10-20",
+   "1910-10-20",
+   "1910-10-20",
+   "1910-10-21",
+   "1910-10-21",
+   "1910-10-23",
+   "1910-11-20",
+   "1910-11-21",
+   "1910-12-29"
+  ]
+ },
+ {
+  "id": "B242",
+  "name": "Darlington/Carrington, N.D. 1909-10 (Mowery farm)",
+  "catalog_near": [],
+  "followups": 59,
+  "debunk_flags": 1,
+  "dates": [
+   "1910-01-15",
+   "1910-01-16",
+   "1910-01-16",
+   "1910-01-17",
+   "1910-01-17",
+   "1910-01-19",
+   "1910-01-20",
+   "1910-01-20",
+   "1910-01-20",
+   "1910-01-20"
+  ]
+ },
+ {
+  "id": "B94",
+  "name": "Canon City, Colo. Nov 1898",
+  "catalog_near": [
+   [
+    68,
+    "Franceville",
+    "Found",
+    "1890"
+   ]
+  ],
+  "followups": 5,
+  "debunk_flags": 0,
+  "dates": [
+   "1898-11-04",
+   "1899-01-26",
+   "1899-09-11",
+   "1899-09-13",
+   "1899-09-14"
+  ]
+ },
+ {
+  "id": "B90",
+  "name": "Morgan, Utah 1898",
+  "catalog_near": [],
+  "followups": 30,
+  "debunk_flags": 3,
+  "dates": [
+   "1898-08-19",
+   "1898-09-03",
+   "1898-09-11",
+   "1898-09-22",
+   "1898-11-15",
+   "1898-11-15",
+   "1898-11-16",
+   "1898-11-17",
+   "1898-11-20",
+   "1898-11-20"
+  ]
+ },
+ {
+  "id": "B113",
+  "name": "Valley Falls, Kan. 1910 (St. Benedict's)",
+  "catalog_near": [
+   [
+    76,
+    "Kansas City (1903)",
+    "Found",
+    "1903"
+   ]
+  ],
+  "followups": 6,
+  "debunk_flags": 1,
+  "dates": [
+   "1910-01-18",
+   "1910-01-18",
+   "1910-01-19",
+   "1910-01-28",
+   "1910-02-09",
+   "1910-06-25"
+  ]
+ },
+ {
+  "id": "B55",
+  "name": "Clintonville, N.Y. 1903 (Wake)",
+  "catalog_near": [],
+  "followups": 1,
+  "debunk_flags": 0,
+  "dates": [
+   "1903-06-22"
+  ]
+ },
+ {
+  "id": "B59",
+  "name": "Gardenville, Baltimore Co., Md. 1906",
+  "catalog_near": [
+   [
+    48,
+    "Shrewsbury",
+    "Found",
+    "1907"
+   ]
+  ],
+  "followups": 2,
+  "debunk_flags": 0,
+  "dates": [
+   "1906-07-21",
+   "1906-07-21"
+  ]
+ },
+ {
+  "id": "B29",
+  "name": "Bayonne, N.J. 1907 (Himmer)",
+  "catalog_near": [],
+  "followups": 5,
+  "debunk_flags": 0,
+  "dates": [
+   "1907-11-12",
+   "1907-11-12",
+   "1907-11-12",
+   "1907-11-21",
+   "1908-08-27"
+  ]
+ },
+ {
+  "id": "B166",
+  "name": "Seaford, Del. 1893 (Wallace)",
+  "catalog_near": [],
+  "followups": 1,
+  "debunk_flags": 0,
+  "dates": [
+   "1893-08-30"
+  ]
+ },
+ {
+  "id": "B165",
+  "name": "Mineral Point, Wis. 1893",
+  "catalog_near": [],
+  "followups": 2,
+  "debunk_flags": 0,
+  "dates": [
+   "1893-08-18",
+   "1893-08-24"
+  ]
+ },
+ {
+  "id": "B168",
+  "name": "Coffeeville, Miss. 1894",
+  "catalog_near": [],
+  "followups": 3,
+  "debunk_flags": 0,
+  "dates": [
+   "1894-08-23",
+   "1894-08-24",
+   "1894-08-25"
+  ]
+ },
+ {
+  "id": "B295",
+  "name": "Simpson Co., Miss. 1893 (Mattox)",
+  "catalog_near": [],
+  "followups": 13,
+  "debunk_flags": 0,
+  "dates": [
+   "1893-07-25",
+   "1893-07-27",
+   "1893-08-05",
+   "1893-08-05",
+   "1893-08-06",
+   "1893-08-17",
+   "1893-08-19",
+   "1893-08-23",
+   "1893-10-31",
+   "1894-01-20"
+  ]
+ },
+ {
+  "id": "B276",
+  "name": "Licking, Mo. 1891 (Wm. Stone)",
+  "catalog_near": [],
+  "followups": 6,
+  "debunk_flags": 0,
+  "dates": [
+   "1891-11-25",
+   "1891-11-26",
+   "1891-11-26",
+   "1891-11-26",
+   "1891-12-22",
+   "1892-08-18"
+  ]
+ },
+ {
+  "id": "B291",
+  "name": "Marion, N.C. 1893 (Kanife)",
+  "catalog_near": [
+   [
+    14,
+    "Bridgewater",
+    "Found",
+    "1890"
+   ],
+   [
+    63,
+    "Hendersonville",
+    "Found",
+    "1901"
+   ]
+  ],
+  "followups": 15,
+  "debunk_flags": 11,
+  "dates": [
+   "1893-04-15",
+   "1893-05-06",
+   "1893-05-06",
+   "1893-05-17",
+   "1893-06-02",
+   "1893-06-03",
+   "1893-06-07",
+   "1893-06-11",
+   "1893-06-14",
+   "1893-06-14"
+  ]
+ },
+ {
+  "id": "B290",
+  "name": "Maine 1892 (Collins, Rockport)",
+  "catalog_near": [],
+  "followups": 2,
+  "debunk_flags": 0,
+  "dates": [
+   "1892-12-28",
+   "1892-12-28"
+  ]
+ },
+ {
+  "id": "B285",
+  "name": "Lake Co., Calif. 1892 (Sprowles)",
+  "catalog_near": [],
+  "followups": 7,
+  "debunk_flags": 0,
+  "dates": [
+   "1892-11-17",
+   "1892-11-18",
+   "1892-11-18",
+   "1892-11-18",
+   "1892-11-25",
+   "1892-12-10",
+   "1893-03-04"
+  ]
+ },
+ {
+  "id": "B139",
+  "name": "Cambria, Ind. 1891 (Steinbaugh)",
+  "catalog_near": [],
+  "followups": 1,
+  "debunk_flags": 0,
+  "dates": [
+   "1892-01-01"
+  ]
+ },
+ {
+  "id": "B143",
+  "name": "Chicago 1892 (Twitchell roof)",
+  "catalog_near": [],
+  "followups": 2,
+  "debunk_flags": 0,
+  "dates": [
+   "1892-05-25",
+   "1892-05-25"
+  ]
+ },
+ {
+  "id": "B22",
+  "name": "Effingham/Bingham, Kan. 1896",
+  "catalog_near": [],
+  "followups": 10,
+  "debunk_flags": 3,
+  "dates": [
+   "1896-06-18",
+   "1896-06-20",
+   "1896-07-20",
+   "1896-07-29",
+   "1896-08-07",
+   "1896-08-20",
+   "1896-09-24",
+   "1896-10-19",
+   "1897-01-25",
+   "1897-04-06"
+  ]
+ },
+ {
+  "id": "B302",
+  "name": "Mount Pleasant, Iowa 1894",
+  "catalog_near": [],
+  "followups": 3,
+  "debunk_flags": 0,
+  "dates": [
+   "1894-03-15",
+   "1894-03-24",
+   "1894-03-31"
+  ]
+ },
+ {
+  "id": "B306",
+  "name": "Hugoton, Kan. 1894",
+  "catalog_near": [],
+  "followups": 3,
+  "debunk_flags": 0,
+  "dates": [
+   "1894-09-26",
+   "1894-09-28",
+   "1894-09-29"
+  ]
+ },
+ {
+  "id": "B312",
+  "name": "Gulf Summit, N.Y./Pa. 1895",
+  "catalog_near": [],
+  "followups": 10,
+  "debunk_flags": 0,
+  "dates": [
+   "1895-08-13",
+   "1895-08-15",
+   "1895-08-21",
+   "1895-08-30",
+   "1895-09-25",
+   "1895-10-04",
+   "1895-10-04",
+   "1895-10-17",
+   "1895-10-22",
+   "1895-11-04"
+  ]
+ },
+ {
+  "id": "B318",
+  "name": "Emporia, Kan. 1896 (Hickox)",
+  "catalog_near": [],
+  "followups": 0,
+  "debunk_flags": 0,
+  "dates": []
+ },
+ {
+  "id": "B330",
+  "name": "Albina (Portland), Ore. 1897 (Ben Hall)",
+  "catalog_near": [
+   [
+    21,
+    "Willamette",
+    "Found",
+    "1902"
+   ]
+  ],
+  "followups": 4,
+  "debunk_flags": 0,
+  "dates": [
+   "1897-04-16",
+   "1897-04-23",
+   "1897-04-30",
+   "1897-05-20"
+  ]
+ },
+ {
+  "id": "B338",
+  "name": "Royalton, Minn. 1898",
+  "catalog_near": [],
+  "followups": 1,
+  "debunk_flags": 0,
+  "dates": [
+   "1898-11-19"
+  ]
+ },
+ {
+  "id": "B345",
+  "name": "Ashley, Minn. 1899 (Carr)",
+  "catalog_near": [],
+  "followups": 7,
+  "debunk_flags": 1,
+  "dates": [
+   "1899-11-30",
+   "1899-12-13",
+   "1900-03-18",
+   "1900-03-18",
+   "1900-03-18",
+   "1900-03-31",
+   "1900-07-25"
+  ]
+ },
+ {
+  "id": "B346",
+  "name": "Baraboo, Wis. 1899 (Accola)",
+  "catalog_near": [],
+  "followups": 4,
+  "debunk_flags": 0,
+  "dates": [
+   "1899-11-18",
+   "1899-11-29",
+   "1899-11-30",
+   "1899-11-30"
+  ]
+ },
+ {
+  "id": "B348",
+  "name": "Red Oak twp, Iowa 1900 (Fowlie)",
+  "catalog_near": [],
+  "followups": 1,
+  "debunk_flags": 0,
+  "dates": [
+   "1900-07-25"
+  ]
+ },
+ {
+  "id": "B353",
+  "name": "Platte Canyon, Colo. 1901 (Howe)",
+  "catalog_near": [
+   [
+    75,
+    "Guffey",
+    "Found",
+    "1907"
+   ]
+  ],
+  "followups": 113,
+  "debunk_flags": 7,
+  "dates": [
+   "1901-07-06",
+   "1901-07-06",
+   "1901-07-06",
+   "1901-07-09",
+   "1901-07-13",
+   "1901-07-17",
+   "1901-07-24",
+   "1901-08-01",
+   "1901-08-08",
+   "1901-08-08"
+  ]
+ },
+ {
+  "id": "B368",
+  "name": "Rich Mountain, Jackson Co., N.C. 1903 (Massingale)",
+  "catalog_near": [
+   [
+    38,
+    "Rich Mountain",
+    "Fell",
+    "1903"
+   ]
+  ],
+  "followups": 5,
+  "debunk_flags": 0,
+  "dates": [
+   "1903-07-14",
+   "1903-07-20",
+   "1903-07-30",
+   "1903-08-02",
+   "1903-08-04"
+  ]
+ },
+ {
+  "id": "B373",
+  "name": "Stutsman Co., N.D. 1903 (Mrs. Long)",
+  "catalog_near": [],
+  "followups": 3,
+  "debunk_flags": 0,
+  "dates": [
+   "1903-09-24",
+   "1903-11-12",
+   "1904-06-16"
+  ]
+ },
+ {
+  "id": "B378",
+  "name": "Mule Shoe mountain 1904 (Wilson/Fritz)",
+  "catalog_near": [
+   [
+    54,
+    "Guffey",
+    "Found",
+    "1907"
+   ]
+  ],
+  "followups": 2,
+  "debunk_flags": 0,
+  "dates": [
+   "1904-02-22",
+   "1904-02-23"
+  ]
+ },
+ {
+  "id": "B381",
+  "name": "Kenyon, Minn. 1904 (Palla)",
+  "catalog_near": [],
+  "followups": 20,
+  "debunk_flags": 0,
+  "dates": [
+   "1904-07-20",
+   "1904-07-21",
+   "1904-07-21",
+   "1904-07-21",
+   "1904-07-22",
+   "1904-07-22",
+   "1904-07-25",
+   "1904-07-26",
+   "1904-07-26",
+   "1904-07-27"
+  ]
+ },
+ {
+  "id": "B392",
+  "name": "Hopkinsville, Ky. 1906 (J. S. White)",
+  "catalog_near": [],
+  "followups": 2,
+  "debunk_flags": 0,
+  "dates": [
+   "1906-05-09",
+   "1906-05-20"
+  ]
+ },
+ {
+  "id": "B404",
+  "name": "Bolton twp (Kan.?) 1907 (Greene)",
+  "catalog_near": [
+   [
+    70,
+    "Elm Creek",
+    "Found",
+    "1906"
+   ]
+  ],
+  "followups": 2,
+  "debunk_flags": 0,
+  "dates": [
+   "1907-05-30",
+   "1907-07-03"
+  ]
+ },
+ {
+  "id": "B406",
+  "name": "Beaumont, Tex. Aug 1907",
+  "catalog_near": [],
+  "followups": 6,
+  "debunk_flags": 0,
+  "dates": [
+   "1907-08-22",
+   "1907-08-26",
+   "1907-08-28",
+   "1907-08-31",
+   "1907-09-13",
+   "1908-06-27"
+  ]
+ },
+ {
+  "id": "B231",
+  "name": "Santa Rosa/Tucumcari, N.M. Sept 1907",
+  "catalog_near": [],
+  "followups": 45,
+  "debunk_flags": 3,
+  "dates": [
+   "1907-09-11",
+   "1907-09-11",
+   "1907-09-12",
+   "1907-09-12",
+   "1907-09-12",
+   "1907-09-13",
+   "1907-09-13",
+   "1907-09-13",
+   "1907-09-13",
+   "1907-09-13"
+  ]
+ },
+ {
+  "id": "B218",
+  "name": "Nezperce, Idaho 1904-05 (Mulcahey)",
+  "catalog_near": [],
+  "followups": 8,
+  "debunk_flags": 0,
+  "dates": [
+   "1905-01-20",
+   "1905-01-24",
+   "1905-01-26",
+   "1905-02-11",
+   "1905-02-17",
+   "1905-02-18",
+   "1905-02-18",
+   "1905-07-21"
+  ]
+ },
+ {
+  "id": "B431",
+  "name": "Perry Co., Mo. 1912 (Monaghan)",
+  "catalog_near": [
+   [
+    2,
+    "Perryville",
+    "Found",
+    "1906"
+   ]
+  ],
+  "followups": 1,
+  "debunk_flags": 0,
+  "dates": [
+   "1912-02-22"
+  ]
+ },
+ {
+  "id": "B215",
+  "name": "McHenry Co., N.D. 1904 (Popejoy)",
+  "catalog_near": [],
+  "followups": 4,
+  "debunk_flags": 0,
+  "dates": [
+   "1904-05-24",
+   "1904-05-24",
+   "1904-05-26",
+   "1904-05-26"
+  ]
+ },
+ {
+  "id": "B217",
+  "name": "Northfield, Minn. 1904",
+  "catalog_near": [],
+  "followups": 5,
+  "debunk_flags": 0,
+  "dates": [
+   "1904-07-26",
+   "1904-07-30",
+   "1904-07-31",
+   "1904-08-04",
+   "1905-04-02"
+  ]
+ },
+ {
+  "id": "B213",
+  "name": "Opelousas, La. 1903",
+  "catalog_near": [],
+  "followups": 0,
+  "debunk_flags": 0,
+  "dates": []
+ },
+ {
+  "id": "B46",
+  "name": "Hudson 1900 (D. Y. Gable)",
+  "catalog_near": [],
+  "followups": 9,
+  "debunk_flags": 1,
+  "dates": [
+   "1900-06-22",
+   "1900-08-09",
+   "1900-08-15",
+   "1900-11-08",
+   "1900-11-27",
+   "1900-12-03",
+   "1901-01-04",
+   "1901-01-05",
+   "1901-01-24"
+  ]
+ },
+ {
+  "id": "B66",
+  "name": "Winooski, Vt. 1908 (Coombs)",
+  "catalog_near": [],
+  "followups": 3,
+  "debunk_flags": 0,
+  "dates": [
+   "1908-09-01",
+   "1908-09-10",
+   "1909-06-13"
+  ]
+ },
+ {
+  "id": "B118",
+  "name": "Ellsworth, Wis. 1889",
+  "catalog_near": [
+   [
+    21,
+    "Hammond",
+    "Found",
+    "1884"
+   ]
+  ],
+  "followups": 15,
+  "debunk_flags": 0,
+  "dates": [
+   "1889-01-07",
+   "1889-01-13",
+   "1889-01-21",
+   "1889-02-07",
+   "1889-02-08",
+   "1889-02-15",
+   "1889-02-15",
+   "1889-02-19",
+   "1889-02-21",
+   "1889-02-22"
+  ]
+ },
+ {
+  "id": "B75",
+  "name": "Albert Lea, Minn. (Thoreson; ?Shell Rock 1880)",
+  "catalog_near": [],
+  "followups": 1,
+  "debunk_flags": 0,
+  "dates": [
+   "1890-05-28"
+  ]
+ }
+]

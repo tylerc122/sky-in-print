@@ -36,7 +36,9 @@ SIGNALS = {
     "holder": (2, re.compile(
         r"in (the )?possession of|in (his|her|their|our|my) possession|purchased by|bought by|sold (it |the stone |the meteor(ite)? )?(to|for)"
         r"|has the (stone|meteor)|secured (it|the stone|a piece|pieces|fragments|some)|some of which (he|they) secured|carried (it )?home"
-        r"|sent (it |a piece |pieces |fragments |the stone )?to (prof|dr|the)|(on|oh|ou|0n) exhibition|exhibited (at|in|by)|will be exhibited"
+        r"|sent (it |a piece |pieces |fragments |the stone )?to (prof|dr|the)|(on|oh|ou|0n) exhibit\s?(ion|ton)|exhibited (at|in|by)|will be exhibited"
+        # blind check 2 (2026-10-25): "proudly exhibiting", "will exhibit at the fair", OCR "posses sion"
+        r"|exhibiting|will exhibit|in (his|her|their) posses\s?sion"
         r"|is now (at|in|on)|preserved|keeps? it|has it in his", re.I)),
     "seen_fall": (2, re.compile(r"saw (it|the meteor|the stone|this meteorite?) fall|seen to fall|was seen to strike|saw it strike"
                                 r"|fell (with|within|near|on|in|into) [^.]{0,40}(farm|yard|field|feet|rods)", re.I)),

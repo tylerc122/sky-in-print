@@ -1,0 +1,136 @@
+<title>Sky In Print: New Fall Leads (2)</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Inter+Tight:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a clipping file. One column of newspaper clippings, each a card with the excerpt set like newsprint and a row of answer chips. Progress bar pinned at top. */
+:root{
+  --paper:#f4f1ea; --card:#fffdf8; --ink:#1d1b17; --ink-2:#55504a; --ink-3:#8a837a; --rule:#ddd6c9;
+  --accent:#2f5d8a; --accent-soft:#e3ebf4; --pick:#1d1b17; --pick-ink:#fffdf8; --good:#2f7a4f;
+  --f-print:"Libre Caslon Text",Georgia,"Times New Roman",serif;
+  --f-ui:"Inter Tight",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#16150f; --card:#1f1d17; --ink:#ece7dc; --ink-2:#b9b2a5; --ink-3:#8a837a; --rule:#34312a;
+  --accent:#8db4dc; --accent-soft:#22303d; --pick:#ece7dc; --pick-ink:#16150f; --good:#6cc493; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#16150f; --card:#1f1d17; --ink:#ece7dc; --ink-2:#b9b2a5; --ink-3:#8a837a; --rule:#34312a;
+  --accent:#8db4dc; --accent-soft:#22303d; --pick:#ece7dc; --pick-ink:#16150f; --good:#6cc493; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:var(--paper);border-bottom:1px solid var(--rule);margin:0 calc(-1*max(16px,env(safe-area-inset-left,0px)));padding:10px max(16px,env(safe-area-inset-left,0px))}
+.bar-in{max-width:760px;margin:0 auto;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.prog{flex:1;min-width:140px;height:6px;background:var(--rule);border-radius:3px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.count{font-family:var(--f-mono);font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+main{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:22px;padding-top:28px}
+header{display:flex;flex-direction:column;gap:10px}
+h1{font-family:var(--f-print);font-weight:700;font-size:clamp(30px,6vw,42px);line-height:1.08;margin:0;text-wrap:balance}
+h2{font-family:var(--f-ui);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:18px 0 0}
+p{margin:0;max-width:65ch}
+.lede{color:var(--ink-2);font-size:16px}
+ol.how{margin:0;padding-left:20px;color:var(--ink-2);max-width:65ch;display:flex;flex-direction:column;gap:4px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card[data-done="1"]{border-color:var(--ink-3)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;font-size:13px;color:var(--ink-2)}
+.meta b{font-family:var(--f-mono);font-weight:500;color:var(--ink-3);font-size:12px}
+.meta .t{font-weight:600;color:var(--ink);font-size:15px}
+.clip{font-family:var(--f-print);font-size:15px;line-height:1.6;color:var(--ink);background:var(--paper);border-left:3px solid var(--rule);padding:10px 14px;border-radius:0 4px 4px 0;overflow-wrap:anywhere}
+.q{font-weight:500}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts button{font-family:var(--f-ui);font-size:14px;padding:7px 14px;border:1px solid var(--ink-3);background:transparent;color:var(--ink);border-radius:999px;cursor:pointer}
+.opts button[aria-pressed="true"]{background:var(--pick);color:var(--pick-ink);border-color:var(--pick)}
+button:focus-visible,a:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a{color:var(--accent)}
+.scan{font-size:13px}
+textarea{width:100%;min-height:44px;font-family:var(--f-ui);font-size:14px;padding:8px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--card);color:var(--ink);resize:vertical}
+.done{background:var(--accent-soft);border:1px solid var(--rule);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.copy{align-self:flex-start;font-family:var(--f-ui);font-weight:600;font-size:14px;padding:9px 16px;border-radius:4px;border:0;background:var(--accent);color:var(--card);cursor:pointer}
+.msg{font-family:var(--f-mono);font-size:12px;color:var(--good)}
+#out{display:none;width:100%;min-height:120px;font-family:var(--f-mono);font-size:12px}
+</style>
+
+<div class="bar"><div class="bar-in"><div class="prog"><i id="p"></i></div><span class="count" id="c">0 answered</span></div></div>
+<main>
+<header>
+  <h1>Sky In Print: New Fall Leads (2)</h1>
+  <p class="lede">Twelve reports from 1889-1913 that describe a stone seen to fall (or found right after a fireball), with no match in the meteorite records and no debunking in later papers. Your read decides which get followed up.</p>
+  <ol class="how">
+    <li>For each clipping, read the excerpt and, if you can, open the scan to see the actual page.</li>
+    <li>Pick an answer. Add a note if something stands out.</li>
+    <li>When you're done, press <b>Copy answers</b> and paste them back to Claude.</li>
+  </ol>
+  <p class="lede" style="font-size:14px">Scans open on loc.gov. The text is machine-read from old print, so expect garbled words. Your answers are saved in this browser as you go. The page also records roughly how long each answer took, so we can plan how much reading the full run needs.</p>
+</header>
+<div id="sections" style="display:flex;flex-direction:column;gap:22px"></div>
+
+<section class="done">
+  <p class="q" id="donemsg"></p>
+  <button class="copy" id="copy">Copy answers</button>
+  <span class="msg" id="cm"></span>
+  <textarea id="out" readonly aria-label="Your answers as text"></textarea>
+</section>
+</main>
+
+<script id="data" type="application/json">[{"id": "B94", "title": "Cañon City, Colo., Nov 4, 1898", "section": "New fall reports, 1889-1913", "paper": "Cañon City record.", "date": "1899-03-09", "scan": "https://www.loc.gov/resource/sn85067315/1899-03-09/ed-1/?sp=2", "key": "faro_1899/1899-03-09_p2_sn85067315_00383341061_1899030901_0707.json#97", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "Monday Mr.. Sterling of the Colo RADIO Power plant shipped to Phila- delphia the meteor which fell in the hills few miles west of Canon on the 4th of Nov. When the meteor fell it was seen by Engineer Wilson of the power plant, Mr.. H. N. Beecher and others. 1t was later found in the hills by Prospector Bowers. II is a fine specimen and weighed sixty pounds. Mr.. Sterling has several very fine photos Of the thing. After being examined and analysed at Phila. delphia, it will be forwarded to the Smithsonian Institute at Washington"}, {"id": "B90", "title": "Morgan, Utah, Aug 1898", "section": "New fall reports, 1889-1913", "paper": "The Salt Lake herald. [volume] (Salt Lake City [Utah]) 1870-1909", "date": "1898-08-19", "scan": "https://www.loc.gov/resource/sn85058130/1898-08-19/ed-1/?sp=6", "key": "faro_1898/1898-08-19_p6_sn85058130_00206534783_1898081901_0458.json#1", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "The museum at the state university was enriched yesterday by one of the latest additions to this earth, in the s.eapa of g meteor, which fell last Fri day night, near Morgan Recently the earth has been passing through a lot of flying matter, and no doubt several pieces have lighted in this vicinity Of late, for the night has wit messed many a bright flight of frag- n.ents oe the material which is con- stantly progressing through space. This meteor. which was brought z the city yesterday was seen to fall by a Mr.. Williams, one of the olG-timers at Morgan. 1t came from the forth west. and struck about 500 yards from where he was sitting on his front porch He marked the place. and next morn ing, with some friends, went down. into the fed and found the hole caused by the projectile. 1t had penetrated to a considerable distance. AID when found was still quite hot, but was at last secured. In composition it resembles melted glass. …"}, {"id": "H47", "title": "Muleshoe Mountain near Fossil, Ore., Dec 9, 1903", "section": "New fall reports, 1889-1913", "paper": "Heppner gazette. [volume] (Heppner, Morrow County, Or.) 1892-1912", "date": "1903-12-24", "scan": "https://www.loc.gov/resource/sn94049698/1903-12-24/ed-1/?sp=2", "key": "faro_1903/1903-12-24_p2_sn94049698_00295868284_1903122401_0803.json#2", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "Fossil, Or. Dec. 18.-White-ho from its passage through space meteori e swept over the heads of two men on the range, Is miles south of Fossil in VIII eler county, and struck the ground short distance away, sizzling on the frozen ground. The men were given a bad scare and flattened themselves out on the ground with involuntary una nimity. Robert Wilson, of this place, was on an inspection trip to his sheep range on the John Fox homestead on Muleshoe mountain. He was talking with his herder. Oscar Fritz, on the evening Of December 9, when the aerolite burst suddenly from the darkness and, pass ing close to them, with sharp, sizzling sound, struck the earth with marked thud about 400 yards away. Keeping their eye on the star, which struck down the hill from where they were standing, the men ran to the SPOT of which they never lost sight, as the fallen body glowed like a redhot fire They found it to be fiat, irregular mass. …"}, {"id": "B241", "title": "Valley Falls, Kan., Jan 1910", "section": "New fall reports, 1889-1913", "paper": "The Ogden standard. [volume] (Ogden City, Utah) 1902-1910", "date": "1910-01-18", "scan": "https://www.loc.gov/resource/sn85058398/1910-01-18/ed-1/?sp=1", "key": "faro_1910/1910-01-18_p1_sn85058398_paper_1910011801_0143.json#16", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "Atchison. Kas.. Jan. 1S.-Geologists at st. Bcnedicts college here yesterday pronounced the rock which fell on a farm near Valley Falls. Kas.. recent ly, 10 be fragment of meteor. The rock weighs seventeen pounds. w w. Van Lawn who brought the rock here from Valley Falls, says that 1t fell with great force aud caus- ed much excitement"}, {"id": "B242", "title": "Darlington / Carrington, N.D., Jan 10, 1910", "section": "New fall reports, 1889-1913", "paper": "The Fargo forum and daily republican. [volume] (Fargo, N.D.) 1894-1957", "date": "1910-02-02", "scan": "https://www.loc.gov/resource/sn85042224/1910-02-02/ed-1/?sp=2", "key": "faro_1910/1910-02-02_p2_sn85042224_00383346733_1910020201_0341.json#5", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "Darlington, N. D., Feb. 2. The large meteor which recently fell on the Mowery farm near this city will soon be worth its weight in gold, judging from the offers the possessor of the peculiar messenger from the skies has received for it. The stone is about three feet at its largest dimension and weighs about 500 pounds. The force with which 1T was driven may be real ICED when it 1t known that it buried itself about seven feet into the ground when 1t struck the earth. Efforts are being made to secure the meteor and place 1T In the county court house grounds in Darlington."}, {"id": "B55", "title": "Clintonville, N.Y., June 1903", "section": "New fall reports, 1889-1913", "paper": "The Washington times.", "date": "1903-06-22", "scan": "https://www.loc.gov/resource/sn84026749/1903-06-22/ed-1/?sp=8", "key": "faro_1903/1903-06-22_p8_sn84026749_100492295_1903062201_0121.json#19", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "CLINTONVILLE. n. Y. June PA swish through the air and a thud Of a stone on the ground startled George w. Wake on his farm yesterday. He un- earthed red stone too hot to hold. He believes he narrowly escaped being struck by a meteorite- The stone has been sent 10 the Smithsonian Institution at Washington for examination."}, {"id": "B407", "title": "Santa Rosa / Tucumcari, N.M., Sept 9, 1907", "section": "New fall reports, 1889-1913", "paper": "Albuquerque morning journal. [volume] (Albuquerque, N.M.) 1903-1926", "date": "1907-09-17", "scan": "https://www.loc.gov/resource/sn84031081/1907-09-17/ed-1/?sp=7", "key": "faro_1907/1907-09-17_p7_sn84031081_00296025306_1907091701_0655.json#9", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "The great meteor which fell near Santa Rosa last Monday and which was seen from all parts of central and southeastern New Mexico. seems to have been distributed all over the eastern portion of the territory by the terrific explosion which preceded its landing. A big fragment was first re- ported as having been found near Montoya, while now ONE the report from Tucumcari that the Tucumcari Trust company has in its banking house a fragment of the meteor weigh inc eighty pounds. That the meteor was seen as far suuth as Roswell is shown by the fol- lowing from the Roswell Record: As yesterday afternoons Record spread over town and distributed the news of the great falling meteor that burst nea Santa Rosa. everywhere could be heard the comment. well. ! saw that\" and each would give a description Of what the phenomenon appeared like To him. one man said. 1T appeared high in the sky, the brightest light | ever behcld. …"}, {"id": "B406", "title": "Near Beaumont, Tex., Aug 1907", "section": "New fall reports, 1889-1913", "paper": "The Waxahachie daily light. [volume] (Waxahachie, Tex.) 1894-current", "date": "1907-08-28", "scan": "https://www.loc.gov/resource/sn86090369/1907-08-28/ed-1/?sp=1", "key": "faro_1907/1907-08-28_p1_sn86090369_00279520749_1907082801_0840.json#12", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "Houston, Texas. Aug, 2S.-A large meteor fell at S:45 o'clock Saturday night which was plainly visible here and at Beaumont and 1t was believed to have struck in Orange county. A piece of 1t weigh ing sixty-seven pounds has been found just south of Beaumont in Jefferson county. a farmer saw the meteor fall and it appeared to him TO strike about three miles distant. The next morning he found it and yesterday it was brought into Beau mont The meteorite tore large hole in the earth. Since the meteor fell the comet has not been seen in the east"}, {"id": "B218", "title": "Nezperce, Idaho, late 1904", "section": "New fall reports, 1889-1913", "paper": "The Nezperce herald. (Nezperce, Idaho) 1900-1957", "date": "1905-01-26", "scan": "https://www.loc.gov/resource/sn89055082/1905-01-26/ed-1/?sp=1", "key": "faro_1905/1905-01-26_p1_sn89055082_00414211100_1905012601_0396.json#4", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "… while Mr.. Eaton viii probably 60 on the road for Wholesale house Mr.. Katon made competent and obliging county Official and many good wishes go with him for success in whatever line he undertakes. A meteorite weighing iS2 pounds is On exhibition at Kirby's confec-l tionery store. The stone vas found by Dan Mulcahey on his place north of town. and bears all the character istics of metiorites described in the encyclopedias. The surface is smooth and had apparently been melting hot since stones in which it came in contact With when it touched the earth welded themselves to il. Some Of the residents of the vicinity where the meteorite was discovered state that some three months ago they heard roar in the night. &C companied by bright light. like the passing of meteor. The hnd will be taken to the Portland fair.-Peck Press. There are people in every CON- munity who get their living of the community and never invest dollar to improve the town. …"}, {"id": "B166", "title": "Seaford, Del., Aug 1893", "section": "New fall reports, 1889-1913", "paper": "The Wilmington daily Republican. (Wilmington, Del.) 1890-1902", "date": "1893-08-24", "scan": "https://www.loc.gov/resource/sn88053055/1893-08-24/ed-1/?sp=4", "key": "faro_1893/1893-08-24_p4_sn88053055_00271741339_1893082401_0202.json#26", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "A brilliant meteor was seen at Re hohoth on Sunday night week. about 10 O'Clock, leaving bright streak he. hind it like the tail OF a comet About the same hour son of eX-liepresenta, tive Wallace at Scafurd saw bright flash and heard the rush OF something through the air. 1t cut off the liml of a tree within ten feet OF him ana struck the ground with n thud. OF digging for the object an aerollte was found that weighed over 5 pounds. Ii is very hard and has tho appearance of Hint. Mr.. Wallace has the stone OH exhibition at his store. The meteor was noticed In various parts OF tbs State as far north as this city."}, {"id": "B306", "title": "Hugoton, Kan., Sept 1894", "section": "New fall reports, 1889-1913", "paper": "Barbour County index. [volume] (Medicine Lodge, Kan.) 1880-current", "date": "1894-09-26", "scan": "https://www.loc.gov/resource/sn82015080/1894-09-26/ed-1/?sp=4", "key": "faro_1894/1894-09-26_p4_sn82015080_00212473807_1894092601_0575.json#54", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "… Talk about self-abnegation: Kan sas City, Kansas, minister has refused to accept vacation that had been rendered to him by his congregation, and will donate the money that his vacation would cost him toward the liquidation of the church debt, John Elders and Albert Fortman, two German farmers of Woodson county. got into a quarrel at the din ner table at Fortman's Saturday, when Elders caught up corn knife and struck Fortman on the right shoulder, cutting cash about two inches long. Members of Furtman's family inter fered, or Elders. who is feeble mind ed. would have killed Fortman. A meteorite fell near Hugoton, in Stevens county, last Monday after noon, setting the prairie on FIRE and stampeding a herd of cattle. The body was about the size of cocoanut The meteorIte fell from a clear sky. coming unannouneed. except by a whistling sound as il shot through the air 1t was red hot. a cowbo who secured the meteorite sold it to school teacher for two dollars. An Emporia man, Col. Fl. C. Whit ley. has written a book which he calls .'In It.\" In it is story of the war The schools of Leavenworth will be opened IN few days. No pupil who cannot show a vaccination certificate will be admitted. The Kansas grand lodge I. …"}, {"id": "B338", "title": "Royalton, Minn., Nov 1898", "section": "New fall reports, 1889-1913", "paper": "The Saint Paul globe. (St. Paul, Minn.) 1896-1905", "date": "1898-11-19", "scan": "https://www.loc.gov/resource/sn90059523/1898-11-19/ed-1/?sp=8", "key": "faro_1898/1898-11-19_p8_sn90059523_00206536998_1898111901_0224.json#4", "q": "Does this read like a real meteorite fall worth chasing?", "opts": ["Yes, chase it", "Maybe", "Doubtful", "Can't tell"], "text": "… She twice married and two sons survive her from her first union, Joseph Eder, OF this city. and another son, who lives in Spokane. There are also many grandchildren. The funeral will take place tomorrow morn Ing at 3 o'c.Ock. when services will be held az the immaculate Conception church John Mkelitch, OF this city. returned today from trip 60 Royalton and vicinity. He re- ports that a meteor OF several hundred pounds weight fell about a mile north OF RoyaltOn last Tuesday night. Searching parties found Il The next day and pieces Of IL are on exhibition at the hotel at Royalton Primus Skumantz cut his right hand very seriously today by getting IL in contact with a circular saw In The sash and door factory OF +. NJ. Wright. where he was employed. J. b. GGzett, postmaster at Reice's. met with a serious accident yesterday While putting on storm windows he fell and struck In such manner that the end OF the screw driver with which he working struck him in the right eye. …"}]</script>
+<script>
+const ITEMS = JSON.parse(document.getElementById('data').textContent);
+const KEY = 'sip-review-sweep_leads_2';
+const T0 = Date.now(); let lastAt = T0;  // timing: seconds since the previous answer (or page open), capped for breaks
+const CAP = 900;
+let ans = {};
+try { ans = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) { ans = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ans)); } catch(e) {} };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function card(it, n){
+  const a = ans[it.id] || {};
+  const title = `<span class="t">${esc(it.title || ('Clipping ' + n))}</span>`;
+  return `<article class="card" data-id="${it.id}" data-done="${a.v ? 1 : 0}">
+    <div class="meta">${title}<span>${esc(it.paper)}</span><b>${esc(it.date)}</b></div>
+    <div class="clip">${esc(it.text)}</div>
+    <a class="scan" href="${esc(it.scan)}" target="_blank" rel="noopener">Open the newspaper scan ↗</a>
+    <div class="q">${esc(it.q)}</div>
+    <div class="opts" role="group" aria-label="${esc(it.q)}">${it.opts.map(o => `<button type="button" data-v="${esc(o)}" aria-pressed="${a.v === o}">${esc(o)}</button>`).join('')}</div>
+    <textarea id="note-${it.id}" placeholder="Optional note">${esc(a.note || '')}</textarea>
+  </article>`;
+}
+let k = 0;
+const secs = [...new Set(ITEMS.map(i => i.section || ''))];
+document.getElementById('sections').innerHTML = secs.map(s =>
+  (s ? `<h2>${esc(s)}</h2>` : '') + ITEMS.filter(i => (i.section || '') === s).map(i => card(i, ++k)).join('')).join('');
+
+function progress(){
+  const n = ITEMS.filter(i => (ans[i.id] || {}).v).length;
+  document.getElementById('p').style.width = (n / ITEMS.length * 100) + '%';
+  document.getElementById('c').textContent = `${n} / ${ITEMS.length} answered`;
+  document.getElementById('donemsg').textContent = n === ITEMS.length ? `All ${n} answered. Copy your answers and paste them back to Claude.` : `${ITEMS.length - n} left to answer. You can copy a partial set too.`;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('.opts button'); if (!b) return;
+  const c = b.closest('.card'), id = c.dataset.id;
+  const now = Date.now(), prev = ans[id] || {};
+  const dt = Math.min(CAP, Math.round((now - lastAt) / 1000)); lastAt = now;
+  ans[id] = {...prev, v: b.dataset.v, secs: (prev.secs || 0) + dt};
+  c.querySelectorAll('.opts button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  c.dataset.done = 1; save(); progress();
+});
+document.addEventListener('click', e => {
+  const a = e.target.closest('a.scan'); if (!a) return;
+  const id = a.closest('.card').dataset.id; ans[id] = {...(ans[id] || {}), scans: ((ans[id] || {}).scans || 0) + 1}; save();
+});
+document.addEventListener('input', e => {
+  if (!e.target.id || !e.target.id.startsWith('note-')) return;
+  const id = e.target.id.slice(5); ans[id] = {...(ans[id] || {}), note: e.target.value}; save();
+});
+document.getElementById('copy').addEventListener('click', async () => {
+  const lines = ['Sky In Print: New Fall Leads (2) answers', 'id\tanswer\tseconds\tscans_opened\tnote'];
+  ITEMS.forEach(i => { const a = ans[i.id] || {}; lines.push(`${i.id}\t${a.v || '-'}\t${a.secs ?? ''}\t${a.scans || 0}\t${(a.note || '').replace(/\s+/g, ' ')}`); });
+  const txt = lines.join('\n'), out = document.getElementById('out'), m = document.getElementById('cm');
+  try { await navigator.clipboard.writeText(txt); m.textContent = 'Copied. Paste it into the chat.'; }
+  catch(e) { out.style.display = 'block'; out.value = txt; out.focus(); out.select(); m.textContent = 'Copy failed here; select the text below and copy it.'; }
+});
+progress();
+</script>
