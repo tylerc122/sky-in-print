@@ -69,3 +69,23 @@ Dropped as tall tales or terrestrial:
   - "in his posses sion" (OCR)
   - "will exhibit at the fair"
 - **Patched:** 3 of the 4 are now caught. This sample is now used up for measurement.
+
+## Self-checks on the strong leads (2026-10-24)
+Done before writing to anyone, so the emails only ask what we can't answer ourselves.
+- **Smithsonian Open Access API** (api.si.edu, searched every lead name):
+  - "Canon City" there is USNM 5733, the **Canon City H6 that fell in 1973**, a different event from our 1898 stone.
+    My first catalogue check missed this because it only looked within ±8 years.
+  - Hugoton is USNM 935/5858, the 1927 find. Nothing on Clintonville, Morgan, Tucumcari/Montoya, Valley Falls,
+    Nezperce, Seaford, Royalton, Beaumont or Fossil.
+- **Farrington's 1915 *Catalogue of the Meteorites of North America*:** none of the 12 leads appear. The "Morgan" hits
+  are Morgan County, Ala. (Danville). "Montoya" is the Three Rivers, N.M. find (1895), unrelated to 1907.
+- **Destination-based full-text search on the Internet Archive** (University of Utah museum, St. Benedict's, the
+  Smithsonian plus Clintonville, Kunz plus North Dakota, the Lewis & Clark Exposition, Santa Rosa 1907, Fossil/Wheeler
+  Co., Cañon City plus Philadelphia): nothing on our leads.
+  - The Lewis & Clark Exposition meteorite in the literature is the Willamette iron.
+  - "Santa Rosa" is the Colombian iron.
+- **Online catalogues:** NHMU and Benedictine College have none.
+- **Result:** none of the 12 is settled. A zero from these searches is not proof that a stone was never studied.
+- **Next:** inquiry emails to 11 institutions (Smithsonian, NHMU, Benedictine, and local historical societies for the
+  rest). Darlington/Carrington and Santa Rosa are well covered in the papers, so a deeper newspaper read could still
+  turn up their verdicts.
