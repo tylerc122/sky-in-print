@@ -21,15 +21,15 @@ Every candidate got the follow-up search. No real debunking was found: every fla
 
 | Lead | Report | Destination / trail | Grade |
 |---|---|---|---|
-| **Cañon City, Colo., 1898-11-04** | seen to fall by power-plant engineer Wilson, H. N. Beecher and others; found by prospector Bowers; 60 lb; photographed | shipped to Philadelphia for analysis, then "to be forwarded to the Smithsonian" | **strong** |
+| **Cañon City, Colo., 1898-11-04** | seen to fall by power-plant engineer Wilson, H. N. Beecher and others; found by prospector Bowers; 60 lb; photographed | shipped to Philadelphia for analysis in March 1899, then "to be forwarded to the Smithsonian" (Cañon City Record 1899-03-09) | **strong** |
 | **Morgan, Utah, Aug 1898** | seen to fall about 500 yards from Mr. Williams's porch; hole found next morning | **given to the state university museum** (University of Utah) | **strong** |
 | **Muleshoe Mtn near Fossil, Wheeler Co., Ore., 1903-12-09** | Robert Wilson and herder Oscar Fritz watched it land 400 yards away, glowing; dug up next morning | Wilson carried it home | **strong** |
 | **Valley Falls, Kan., Jan 1910** | 17-lb stone found in a barnyard after a loud noise heard by farmers | **St. Benedict's College** (Atchison, now Benedictine College) geologists pronounced it meteoric; placed in the college museum | **strong** |
-| **Darlington / Carrington, N.D., 1910-01-10** | about 500 lb on the Mowery farm, buried 7 ft after a minute-long light and a shock | examined by the state university, the agricultural college and Tiffany's expert (Kunz); exhibited at a store; plans for the courthouse grounds. 59 follow-up articles | **medium-strong** (very large; check the descriptions) |
+| **Darlington / Carrington, N.D., 1910-01-10** | about 500 lb on the Mowery farm, buried 7 ft after a minute-long light and a shock | examined by the state university, the Agricultural College and Tiffany's chief gem expert; leased to the Beck Clothing Co. store. **Disappeared in Dec 1910** from the sidewalk, possibly shoveled into a sewer ditch (Fargo Forum 1910-12-17). 59 follow-up articles | **medium-strong** (very large; check the descriptions) |
 | **Clintonville, N.Y., June 1903** | a swish and a thud; George W. Wake dug up a red stone "too hot to hold" | **sent to the Smithsonian** for examination | **medium-strong** |
 | **Santa Rosa / Tucumcari, N.M., 1907-09-09** | big daytime fireball with explosions that shook Santa Rosa; fragments near Montoya; 80 lb at the Tucumcari bank | 45 follow-ups | **medium-strong** (the event is well documented) |
 | **Near Beaumont, Tex., Aug 1907** | fireball seen at Houston and Beaumont; a farmer saw it fall and found a 67-lb piece next morning | brought into Beaumont | **medium** |
-| **Nezperce, Idaho, late 1904** | 152 lb found by Dan Mulcahey; neighbours heard a roar and saw a light at night about 3 months earlier | shown at the 1905 Lewis & Clark Exposition | **medium** |
+| **Nezperce, Idaho, late 1904** | 152 lb found by Dan Mulcahey; neighbours heard a roar and saw a light at night about 3 months earlier | shown at Kirby's store; owner Thomas Kirby of Peck planned to take it to the 1905 Lewis & Clark Exposition | **medium** |
 | **Seaford, Del., Aug 1893** | a 5-lb stone cut a tree limb 10 ft from ex-Rep. Wallace's son; the fireball was seen across the state | shown at Wallace's store | **medium** |
 | **Hugoton, Kan., Sept 1894** | coconut-sized stone fell "red hot" from a clear sky and set the prairie afire; a cowboy sold it to a schoolteacher | **a recognized 346-kg Hugoton meteorite (found 1927) exists. This may be a fall date for it, or a separate stone** | **medium (intriguing)** |
 | **Royalton, Minn., Nov 1898** | several hundred lb; search parties found it next day | pieces shown at the hotel | **medium** |
@@ -89,3 +89,12 @@ Done before writing to anyone, so the emails only ask what we can't answer ourse
 - **Next:** inquiry emails to 11 institutions (Smithsonian, NHMU, Benedictine, and local historical societies for the
   rest). Darlington/Carrington and Santa Rosa are well covered in the papers, so a deeper newspaper read could still
   turn up their verdicts.
+
+## Source check of the inquiry emails (2026-10-24)
+Every claim in the 11 drafts was checked against the article it links. Several links pointed at a copy that lacked the
+details, and two pointed at the wrong article: Cañon City (a Florence local column) and Nezperce (a Peck item). All of
+those are now re-linked to the article that carries the details. Corrections:
+- **Seaford:** "over 5 lb", "ex-Rep." and "his store" come from the Wilmington Daily Republican (1893-08-24); the Smyrna
+  Times copy says "over three pounds".
+- **Fossil:** 23 lb, shown at the Fossil drug store (Heppner Gazette 1903-12-24). The SF Call copy says "less than a
+  hundred yards"; the local paper says 400.
