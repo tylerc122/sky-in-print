@@ -70,3 +70,24 @@ Dropped or weak in the queue:
   each re-read in full before grading.
 - **Grades now apply the heat-marker rule from `credibility_test.md`** ("white hot", "still hot the next day") as a
   reason to downgrade. Woodburn moved down for this.
+
+## Live MBDB checks (by hand, 2026-10-26) and the literature behind them
+- **Bradford Woods** (MBDB: fell 1886, 762 g, L; never in MetBull). Carnegie Magazine 1947 and Leighton, *Science*
+  103:694 (1946):
+  - It fell in a road 2.5 mi SW of Bradford Woods and was heard by a man cutting corn. George Hillman picked it up and
+    the family kept it until 1945, so the year rests on family memory.
+  - Our papers support 1886. A bright meteor passed north of Bellevue "several weeks" before Sept 1, 1886. Fay and
+    Wright found two brick-sized brownish fragments in an Ohio River bar, and a scientist called them meteoric
+    (Wheeling Intelligencer 1886-09-03).
+  - **So the 1886 date stands.** The Sept 26, 1885 Washington Co. / McKees Rocks fall stays a separate medium lead.
+  - The Bellevue fragments may be unrecorded extra material from the Bradford Woods fall (low priority).
+- **New Baltimore** (MBDB: found 1922, 20 kg iron; synonym "Somerset County"). Per Carnegie Magazine 1947, it was "found
+  in plowing, three miles northwest of New Baltimore". An old plowed-up iron is not Countryman's 1921 explosion, which
+  left "a few particles of an unidentified metal" south of Somerset. **No link.** Somerset 1921 stays a separate
+  medium-strong lead: Prof. Jordan's fragments.
+- **South Bend** (MBDB: found 1893, not an observed fall). Farrington's 1906 description gives no fall history, so
+  the 1876 yard fragment can't be tied to it. **Weak; no action.**
+- **Eustis** (MBDB: found 1918, not an observed fall). Merrill's own title is "A second meteorite **find** in Florida"
+  (*Am. J. Sci.*, 1919). A 1917 paper's "has fallen" is not evidence. **Dropped.**
+- **Clark County, Ky.** (MBDB: found 1937, 11.3 kg iron IIIF). An old iron found 35 years later is not the stone-like
+  mass in a Winchester driveway in 1902. **No link.** Winchester 1902 is at most a Bath Furnace fragment.
