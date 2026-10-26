@@ -38,3 +38,7 @@ names Kelsey Falquero and Cari Corrigan. Forwarded to both (Falquero, cc Corriga
 the Cook gift and no rock. She suggests it may have gone to the Cairo Custom House Museum, which is closed for renovation.
 The Custom House Museum (1400 Washington Ave.) has no public email; phone (618) 734-9632, plus a Facebook page. A
 thank-you to the director asking who to contact there is drafted, not sent.
+
+**2026-10-26, Cairo (2nd reply):** the Custom House Museum's records room is part of the renovation (the ceiling
+collapsed), so the records are not accessible. The library board is the museum's custodian, and the director will
+know when it is repaired. **Cairo is on hold until then. Check back in a few months.**
