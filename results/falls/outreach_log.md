@@ -32,4 +32,4 @@ schedule. All 11 were sent by hand from the session around midday ET. The Smiths
 unsent, by choice.
 
 **2026-10-26, Smithsonian:** auto-replies only. Julie Hoskin left the museum on 10-23; for collection business she
-names Kelsey Falquero and Cari Corrigan. A forward to them is drafted, not yet sent.
+names Kelsey Falquero and Cari Corrigan. Forwarded to both (Falquero, cc Corrigan) the same day.
