@@ -33,3 +33,6 @@ unsent, by choice.
 
 **2026-10-26, Smithsonian:** auto-replies only. Julie Hoskin left the museum on 10-23; for collection business she
 names Kelsey Falquero and Cari Corrigan. Forwarded to both (Falquero, cc Corrigan) the same day.
+
+**2026-10-26, Cairo:** the library director checked the board minutes, display cases and storage and found no record of
+the Cook gift and no rock. She suggests it may have gone to the Cairo Custom House Museum, which is closed for renovation.
