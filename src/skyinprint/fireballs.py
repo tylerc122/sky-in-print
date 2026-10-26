@@ -12,7 +12,7 @@ Steps:
   5. Fields counted per event from the article excerpts: time of day, direction of travel, sound, duration,
      colour, train, bursting, stones.
 Independence = number of reprint families from distinct newspaper cities (copies of one text count once).
-Usage: python -m skyinprint.fireballs
+Usage: python -m skyinprint.fireballs [--workdir work|sweep|all]
 Writes data/work/fireball_events.json and results/fireballs/events.md
 """
 import calendar
@@ -145,12 +145,14 @@ def apply_vetting(ev, fam, items):
     return {i: fis for i, fis in enumerate(groups) if fis}, set(v.get("read_keys", []))
 
 
-def main():
-    R = load()
+def main(workdir="work"):
+    """workdir "all": the full sweep (data/sweep) plus the pilot years it reused from data/work (the 1870s)."""
+    R = load() | load(workdir="sweep") if workdir == "all" else load(workdir=workdir)
     places = {r["lccn"]: r for r in csv.DictReader(open(ROOT / "reference/newspapers/lccn_places.csv")) if r["lat"]}
     cands = {}
-    for p in glob.glob(str(ROOT / "data/work/*/candidates.jsonl")):
-        if "/1859/" in p:
+    dirs = ["work", "sweep"] if workdir == "all" else [workdir]
+    for p in [p for d in dirs for p in glob.glob(str(ROOT / f"data/{d}/*/candidates.jsonl"))]:
+        if "/work/1859/" in p:  # the pilot's debug window; the sweep's full 1859 is ordinary data
             continue
         for x in map(json.loads, open(p)):
             cands[f"{x['file']}#{x['article_id']}"] = x
@@ -259,12 +261,19 @@ def main():
         e["spread_km"] = round(max((km(a, b) for a in lls for b in lls), default=0))
         events.append(e)
     events.sort(key=lambda e: (-e["independent_cities"], -e["reports"]))
-    json.dump(events, open(ROOT / "data/work/fireball_events.json", "w"), indent=1)
+    if workdir == "all":
+        json.dump(events, open(ROOT / "data/sweep/fireball_events_all.json", "w"), indent=1)
+        # the committed copy keeps the events seen from two or more cities (the full list is git-ignored data)
+        keep = [e for e in events if e["fireball"] and (e["independent_cities"] >= 2 or e["vetted"])]
+        json.dump(keep, open(ROOT / "results/fireballs/events_all.json", "w"), indent=1)
+    else:
+        json.dump(events, open(ROOT / f"data/{workdir}/fireball_events.json", "w"), indent=1)
     return items, fam, events
 
 
 if __name__ == "__main__":
-    items, fam, events = main()
+    import sys
+    items, fam, events = main(sys.argv[sys.argv.index("--workdir") + 1] if "--workdir" in sys.argv else "work")
     print(f"{len(items)} reports -> {len(fam)} families -> {len(events)} events")
     events = [e for e in events if e["fireball"]]
     multi = [e for e in events if e["independent_cities"] >= 2]

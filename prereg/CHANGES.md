@@ -64,3 +64,18 @@ excerpt (`triage.excerpt`) stay exactly as validated in the pilot.
   triaged with v2. For other pilot years, pilot v2 records are reused by article key, marked `from_pilot`.
 - **Where it runs:** download, filter and triage all run on Cygnus (`run_sweep.py`). Archives are SHA-256 checked
   against the manifest and deleted after filtering.
+
+## 2026-10-26: post-sweep pass (after the sweep finished; no triage changed)
+- **Ranker patch 3** (`specimen_rank.py`), from the third blind check (`results/falls/sweep_leads_1914_1964.md`):
+  - line-end-hyphen rejoining;
+  - "sent to X for analysis/examination";
+  - "collected by Prof.";
+  - "scientists at X college";
+  - "purchaser ... museum".
+
+  It only reorders reading. The 53 reports it added were all read. The holdout sample was drawn and saved before
+  any 1914-1964 report was read.
+- **Targeted rescan** (`rescan_names.py`): a `saco_doe` term set, and `--only <prefix>` so a lead can be rescanned in a
+  year that already has a rescan file. It was run on 1870, 1871 and 1891 for the Saco lead.
+- **Fireball grouping** (`fireballs.py --workdir all`): runs on the full sweep plus the reused pilot 1870s. The method
+  and thresholds are unchanged.

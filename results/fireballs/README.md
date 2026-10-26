@@ -127,3 +127,17 @@ The 1876-07-15 remainder (5 sources) is left apart. Its "last Saturday" reports 
 - **So the ranked list is a reading queue, not a catalog.** Each event needs a human read before it is published:
   remove unrelated items, merge split events, place witnesses. At the pilot's size, that means 39 events with 3 or
   more sources.
+
+## Full sweep, 1770-1964 (2026-10-26)
+- **Run:** `python -m skyinprint.fireballs --workdir all` on the full sweep plus the reused pilot 1870s, with method and
+  thresholds unchanged.
+  - Full output: `data/sweep/fireball_events_all.json` (git-ignored).
+  - Committed: `events_all.json`, which keeps fireball events seen from two or more cities, or vetted.
+- **Counts:** 24,391 reports in 11,307 fireball events. 807 are seen from two or more independent cities, and 247 from
+  three or more.
+  - By decade (2+ cities), the numbers follow how many papers are digitized: 1880s 153, 1890s 197, 1900s 107,
+    1910s 93, 1920s 27, 1930s 5.
+- **Same caveats as the pilot, now at scale:**
+  - 188 of the 807 have papers more than 1,000 km apart. Some are genuinely huge fireballs, seen across several states. Others
+    are separate same-night meteors chained together, or rewritten dispatches.
+  - The list is a reading queue, not a catalog. Nothing past the pilot has been hand-vetted yet.

@@ -32,14 +32,20 @@ SIGNALS = {
         rf"|gifts? to the [^.]{{0,40}}({INST})|for the ({INST})|in the ({INST})"
         # a list of gifts or accessions to a named institution, with the stone among them (the Cairo Bulletin case)
         rf"|({INST})[^|]{{0,250}}\b(gifts|donations|accessions|presented|donated)\b"
-        rf"|\b(gifts|donations|accessions)\b[^|]{{0,250}}({INST})", re.I)),
+        rf"|\b(gifts|donations|accessions)\b[^|]{{0,250}}({INST})"
+        # blind check 3 (2026-10-26): "Scientists at Arkansas State College analyzed", "Rutgers university scientists",
+        # "the purchaser ... was the Field Museum"
+        rf"|(scientists|professors?|experts?|geologists?) (at|of|from) [^.]{{0,40}}({INST})"
+        rf"|({INST}) (scientists|professors|experts|geologists)|purchaser[^.]{{0,40}}({INST})", re.I)),
     "holder": (2, re.compile(
         r"in (the )?possession of|in (his|her|their|our|my) possession|purchased by|bought by|sold (it |the stone |the meteor(ite)? )?(to|for)"
         r"|has the (stone|meteor)|secured (it|the stone|a piece|pieces|fragments|some)|some of which (he|they) secured|carried (it )?home"
         r"|sent (it |a piece |pieces |fragments |the stone )?to (prof|dr|the)|(on|oh|ou|0n) exhibit\s?(ion|ton)|exhibited (at|in|by)|will be exhibited"
         # blind check 2 (2026-10-25): "proudly exhibiting", "will exhibit at the fair", OCR "posses sion"
         r"|exhibiting|will exhibit|in (his|her|their) posses\s?sion"
-        r"|is now (at|in|on)|preserved|keeps? it|has it in his", re.I)),
+        r"|is now (at|in|on)|preserved|keeps? it|has it in his"
+        # blind check 3: "sent to Madison for analysis", "sent to Detroit for examination", "collected by Prof."
+        r"|sent [^.]{0,30}to [^.]{0,40} for (analysis|examination|assay|identification|study)|collected by (prof|dr)", re.I)),
     "seen_fall": (2, re.compile(r"saw (it|the meteor|the stone|this meteorite?) fall|seen to fall|was seen to strike|saw it strike"
                                 r"|fell (with|within|near|on|in|into) [^.]{0,40}(farm|yard|field|feet|rods)", re.I)),
     "weight": (1, re.compile(r"\b\d[\d,.]*\s*(pounds|lbs?\b|ounces|oz\b)|weigh(s|ed|ing) (about |nearly |over )?\w+ (pounds|ounces)", re.I)),
@@ -58,6 +64,9 @@ def clean(text):
     """Rejoin words OCR split across lines ("present- | ed" -> "presented") and drop column rules."""
     t = re.sub(r"\s+", " ", text.replace("|", " "))
     t = re.sub(r"\b([a-z]{2,})[-.,]? (ed|ing|ted|tion|ly|ment)\b", r"\1\2", t)
+    # blind check 3: a line-end hyphen splits any word ("pre- sented", "ex- hibition", "COL lege")
+    t = re.sub(r"\b([A-Za-z]{2,})- ([a-z]{2,})\b", r"\1\2", t)
+    t = re.sub(r"\bcol lege\b", "college", t, flags=re.I)
     return re.sub(r"\b(10|lo|t0|TO|To) (the|a|an|his|prof)\b", r"to \2", t)  # OCR "10 the" for "to the"
 
 

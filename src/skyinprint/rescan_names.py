@@ -1,7 +1,7 @@
 """Targeted rescan (spec §4.1/§5): stream whole years at the pinned revision and keep every article that
 mentions a lead's names or places, with or without a meteor keyword. Archives are deleted afterwards.
 
-Usage: python -m skyinprint.rescan_names 1890 1891 ...
+Usage: python -m skyinprint.rescan_names 1890 1891 ... [--only <lead prefix>]
 Writes data/work/rescans/<year>.jsonl
 """
 import json
@@ -23,12 +23,20 @@ TERMS = {
     # recorded 1877 falls the pilot missed: is the corpus missing them, or did the keyword filter miss them?
     "cynthiana_1877": r"cynthiana.{0,400}(meteor|aerolit|stone|fell|sky|heavens)|(meteor|aerolit|stone|fell|sky|heavens).{0,400}cynthiana",
     "warrenton_1877": r"warrenton.{0,400}(meteor|aerolit|stone|fell|sky|heavens)|(meteor|aerolit|stone|fell|sky|heavens).{0,400}warrenton",
+    # Saco 1870 (Capt. Ira C. Doe): the fall itself, his 1873 gift and the 1891 accession (1891.68), in any wording
+    "saco_doe": r"york institute|ira c\.? doe|capt(ain|\.)? (ira )?doe\b|\bdoe\b.{0,300}(meteor|aerolit|stone|sky|heavens)"
+                r"|(meteor|aerolit|fire ?ball|ball of fire|shooting star).{0,300}\bsaco\b|\bsaco\b.{0,300}(meteor|aerolit|fire ?ball|ball of fire)",
 }
 RX = {k: re.compile(v, re.I | re.S) for k, v in TERMS.items()}
 
 
-def scan(year):
-    out = ROOT / "data/work/rescans" / f"{year}.jsonl"
+def scan(year, only=None):
+    """only: a lead-name prefix; scans just those terms and writes <year>_<only>.jsonl, so a new lead can be
+    rescanned in a year that already has a rescan file."""
+    global RX
+    if only:
+        RX = {k: rx for k, rx in RX.items() if k.startswith(only)}
+    out = ROOT / "data/work/rescans" / (f"{year}_{only}.jsonl" if only else f"{year}.jsonl")
     if out.exists():
         print(year, "done already", flush=True)
         return
@@ -61,5 +69,7 @@ def scan(year):
 
 
 if __name__ == "__main__":
-    for y in sys.argv[1:]:
-        scan(int(y))
+    args = sys.argv[1:]
+    only = args[args.index("--only") + 1] if "--only" in args else None
+    for y in [a for a in args if a.isdigit()]:
+        scan(int(y), only)
