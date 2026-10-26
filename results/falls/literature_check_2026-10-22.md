@@ -24,6 +24,17 @@ that a person has to clear, so they were not searched.
   - The British Museum catalogue (Prior, 1923) also lists "Found 1888".
   - **Live Meteoritical Bulletin Database, checked 2026-10-26: "Observed fall: No".** The correction is still open.
     A note to the database editors is scheduled for 2026-10-26.
+  - **2026-10-26, the database editor replies** (Jeff Grossman): the Smithsonian looked at the stone ("fairly fresh
+    looking"), but there isn't enough documentation to reclassify it as a fall. "If you can find eyewitness accounts of
+    the fireball, that would change things."
+  - **Re-read of the same Savannah page (1888-11-07, p. 6).** The column deck reads "A Meteor Found Near Thomson". The
+    OCR, scrambled across columns, also has "He was in the cotton field, and heard it whizzing as a minnie ball, and
+    when it fell it burrowed about three or four inches in the earth." That is very likely the rest of the Pitts /
+    Thomson Journal item about Ben Wilson. **To confirm on the scan.** If it is, the 1888 paper does describe the fall,
+    heard by the finder himself, and the 10-26 correction above was itself wrong.
+  - **No other Oct 1888 fireball or detonation report from GA/SC is in the corpus.** The Augusta Chronicle and the
+    Thomson Journal / McDuffie Journal are the papers that would have one. They are on Georgia Historic Newspapers,
+    not Chronicling America.
   - This is a record correction (fell, not found), not a new meteorite. Next step: check the current Meteoritical
     Bulletin entry. The frozen NASA snapshot may differ from it.
 - **Washington Co., Kan.:** every literature hit concerns **Farmington**, the recognized fall of 1890-06-25. Our two
