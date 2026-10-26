@@ -20,6 +20,7 @@
 | 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | waiting |
 | 2026-10-26 | Tyrrell Historical Library | Beaumont, Tex. 1907 | 67-lb piece brought into Beaumont | waiting |
 | 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | waiting |
+| 2026-10-26 | Yale Peabody Museum (mineralogy & meteoritics) | Danbury, Conn. 1896 (H. L. Fanton) | the 26-lb stone taken to Prof. H. A. Newton, May 1896 | **replied 2026-10-26:** no records of it. Suggests the H. A. Newton papers at Sterling Memorial Library (Manuscripts & Archives) |
 
 **Middleburg closed 2026-10-22:** Kunz identified the stone as limonite in Feb 1888 (Trans. N.Y. Acad. Sci. 7:135). The pending UF inquiry no longer matters for it.
 
