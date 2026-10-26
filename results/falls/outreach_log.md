@@ -19,7 +19,7 @@
 | 2026-10-26 | Seaford Historical Society | Seaford, Del. 1893 | stone at Wallace's store | waiting |
 | 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | waiting |
 | 2026-10-26 | Tyrrell Historical Library | Beaumont, Tex. 1907 | 67-lb piece brought into Beaumont | waiting |
-| 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | waiting |
+| 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | **2026-10-26: going to a Nomenclature Committee vote** to change Thomson to a fall (Jeff Grossman), after the Lincolnton same-day detonation report plus his own sources (Wilson letters; *Religio-Philosophical Journal*, 24 Nov 1888) |
 | 2026-10-26 | Yale Peabody Museum (mineralogy & meteoritics) | Danbury, Conn. 1896 (H. L. Fanton) | the 26-lb stone taken to Prof. H. A. Newton, May 1896 | **replied 2026-10-26:** no records of it. Suggests the H. A. Newton papers at Sterling Memorial Library (Manuscripts & Archives) |
 
 **Middleburg closed 2026-10-22:** Kunz identified the stone as limonite in Feb 1888 (Trans. N.Y. Acad. Sci. 7:135). The pending UF inquiry no longer matters for it.
@@ -47,3 +47,6 @@ know when it is repaired. **Cairo is on hold until then. Check back in a few mon
 **2026-10-26, Danbury next step:** the H. A. Newton Papers are Manuscripts & Archives MS 1055: one box, "a small amount
 of correspondence", mostly Yale teaching. The Yale Observatory records (RU 416) stop in 1890, so they don't help. An
 inquiry to Manuscripts & Archives (beinecke.library@yale.edu, the listed contact) is drafted, not sent.
+
+**2026-10-26, Yale Manuscripts & Archives (Danbury / Newton papers):** sent; auto-reply says 2-4 weeks for research
+queries.

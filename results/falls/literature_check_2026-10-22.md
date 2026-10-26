@@ -45,6 +45,12 @@ that a person has to clear, so they were not searched.
     - 1886 Charleston aftershocks were still felt regionally.
     **Correction:** the Thomson paper's editor in 1888 was J. E. White. W. M. Pitts was only the person quoted.
     The Oct 1888 Thomson issues are not digitized, so ask UGA for the microfilm.
+  - **2026-10-26, 5:18 p.m. ET: the database editor reverses his position.** Jeff Grossman (MetBull DB editor): "I
+    retract my negative letter ... I think we have a tight story now." He holds copies of the original Wilson letter(s)
+    and adds a story in the *Religio-Philosophical Journal*, 24 Nov 1888. "Combined with the explosions story, this is
+    better evidence of a fall than lots of other old accepted falls." **He will ask the Nomenclature Committee to vote
+    on changing Thomson to a fall.** This is the project's first record correction to reach the official catalogue
+    process.
   - **No other Oct 1888 fireball or detonation report from GA/SC is in the corpus.** The Augusta Chronicle and the
     Thomson Journal / McDuffie Journal are the papers that would have one. They are on Georgia Historic Newspapers,
     not Chronicling America.

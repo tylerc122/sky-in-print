@@ -106,7 +106,7 @@
     "lat": 33.47,
     "lon": -82.5,
     "location_basis": "Approximate reported locality; not an exact recovery site.",
-    "summary": "A recognized meteorite listed as a find. The finder B. F. Wilson wrote in November 1888 that it fell within thirty yards of him while he was at work (quoted by Merrill, 1910), and an 1888 newspaper confirms he brought the stone in for analysis. This is a possible record correction, not a new meteorite.",
+    "summary": "A recognized meteorite listed as a find. The finder B. F. Wilson wrote in November 1888 that it fell within thirty yards of him while he was picking cotton (quoted by Merrill, 1910). An 1888 newspaper confirms he brought the stone in for analysis, and a nearby paper reported a heavy thundering report and rushing noise at about 1 p.m. that same day. The Meteoritical Bulletin Database editor has asked the Nomenclature Committee to vote on reclassifying it as a fall (October 2026). Not a new meteorite: a correction to a known one.",
     "sources": [
       {
         "label": "Savannah Morning News, Nov. 7, 1888, p. 6 (Wilson brings the stone in)",
@@ -115,6 +115,10 @@
       {
         "label": "G. P. Merrill, Smithsonian Miscellaneous Collections 52:473 (1910)",
         "url": "https://archive.org/details/smithsonianmisce521910smit/page/473/mode/1up"
+      },
+      {
+        "label": "Lincolnton News, Oct. 19, 1888, p. 3 (same-day report)",
+        "url": "https://gahistoricnewspapers.galileo.usg.edu/lccn/sn90052031/1888-10-19/ed-1/seq-3/"
       }
     ],
     "quote": "",
