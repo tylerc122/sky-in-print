@@ -37,6 +37,14 @@ that a person has to clear, so they were not searched.
     The column's only meteor headline is "A Meteor Found Near Thomson", and the Pitts/Wilson item is five paragraphs
     down. **Most likely a misplaced continuation of the Wilson item, a strong inference but not proven.** It is still
     the finder's own account, not an independent witness. A reply to the database editor is drafted, not yet sent.
+  - **Independent sound report (found 2026-10-26, `thomson_ghn_2026-10-26.md`):** Lincolnton News, Fri 1888-10-19, p. 3:
+    "About 1 o'clock p. m. last Monday our citizens were startled by a heavy thundering report accompanied by a rushing
+    noise." That is Oct 15, about 1 p.m., 36 km north of Thomson. Verified from the page image. Caveats:
+    - no fireball or named witness;
+    - the paper itself mentions "the explosions of '83";
+    - 1886 Charleston aftershocks were still felt regionally.
+    **Correction:** the Thomson paper's editor in 1888 was J. E. White. W. M. Pitts was only the person quoted.
+    The Oct 1888 Thomson issues are not digitized, so ask UGA for the microfilm.
   - **No other Oct 1888 fireball or detonation report from GA/SC is in the corpus.** The Augusta Chronicle and the
     Thomson Journal / McDuffie Journal are the papers that would have one. They are on Georgia Historic Newspapers,
     not Chronicling America.
