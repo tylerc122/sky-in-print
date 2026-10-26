@@ -91,3 +91,22 @@ Dropped or weak in the queue:
   (*Am. J. Sci.*, 1919). A 1917 paper's "has fallen" is not evidence. **Dropped.**
 - **Clark County, Ky.** (MBDB: found 1937, 11.3 kg iron IIIF). An old iron found 35 years later is not the stone-like
   mass in a Winchester driveway in 1902. **No link.** Winchester 1902 is at most a Bath Furnace fragment.
+
+## Follow-up helper fixed and rerun (2026-10-26, from audit 2's method note)
+**Changes to `followups.py`:**
+- **Every passage:** it now keeps every passage where the lead's name sits within 600 characters of a meteor word, not
+  only the first name match. It flags an article if any such passage has a debunking word, and lists the words.
+- **Calendar months:** the window is now real calendar months, not 31 × months days.
+- **"doubt":** it no longer fires on "no doubt", "without doubt", "shadow of doubt", "undoubtedly" or "doubtless".
+- **Regression checks:**
+  - Schroon Lake 1880 is still flagged ("merely ... quartz", "turns out").
+  - The Jackson/Amis 1878 stone description, about 1,100 characters past the first "Jackson", is now captured.
+
+**Rerun on 20 current leads** (Saco, Laclede, Danbury, Seaford, Hugoton, Morgan, Royalton, Cañon City, Ashley,
+Clintonville, Fossil, Nezperce, Beaumont, Santa Rosa, Carrington, Valley Falls, Cairo, Saline Co., Somerset,
+Lombard), over 24-60 months each:
+- **No debunk found for any lead.** Every remaining flag was read and is unrelated text or a positive statement.
+  Examples: an 1871 essay on solar heat ("terrestrial"), the Kaiser's yacht *Meteor* ("doubts"), Ashley's "proved to
+  be a genuine meteor".
+- **The usual caveat:** this covers the digitized corpus only. It says nothing about debunks printed elsewhere, as
+  the Middleburg (Kunz) and Cambridge (Perkins) cases show.
