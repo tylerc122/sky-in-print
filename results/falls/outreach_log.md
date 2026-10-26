@@ -43,3 +43,7 @@ thank-you to the director asking who to contact there is drafted, not sent.
 **2026-10-26, Cairo (2nd reply):** the Custom House Museum's records room is part of the renovation (the ceiling
 collapsed), so the records are not accessible. The library board is the museum's custodian, and the director will
 know when it is repaired. **Cairo is on hold until then. Check back in a few months.**
+
+**2026-10-26, Danbury next step:** the H. A. Newton Papers are Manuscripts & Archives MS 1055: one box, "a small amount
+of correspondence", mostly Yale teaching. The Yale Observatory records (RU 416) stop in 1890, so they don't help. An
+inquiry to Manuscripts & Archives (beinecke.library@yale.edu, the listed contact) is drafted, not sent.
