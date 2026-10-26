@@ -21,6 +21,16 @@
     museum. The 1916 story that it fell "eight years ago" is doubtful.
   - The Fruit Hill, Ky. stone (400 lb, bought by Prof. Ulrich of the USGS for the National Museum in 1903) is likely
     the Mount Vernon pallasite (found 1868, 13 km away).
+- **Helt Township, Vermillion Co., Ind.** (seen to fall around 1921-24): it looked like the best new lead, but it is a
+  described meteorite. Stuart H. Perry, "The Helt Township (Indiana) meteorite", *Smithsonian Miscellaneous
+  Collections* 98(20), 1939; a 135 g slice is USNM 151172. It is simply missing from the NASA snapshot we check
+  against. **Lesson:** a "no catalogue match" in that snapshot is not enough. Each strong lead now also gets a
+  literature search, and a same-year falls check out to 400 km, before it is called unrecorded.
+- **Deep Gap / Riddles Fork, Watauga Co., N.C., July 9, 1929** (two sons of Joe Miller saw a 7-lb stone fall; a
+  fragment went to Nininger in 1931): the same day as the recognized **Bald Mountain** fall (L4, 3.7 kg; ASU holds
+  98 g, ASU no. 302). The catalogue puts Bald Mountain about 92 km away in Yancey County. A strewn field is rarely
+  that long, so this is the Bald Mountain stone itself, or a second stone from the same fireball, or a location
+  detail worth checking. **It is not an unrecorded fall.**
 - **Possible record note:** Eustis, Fla. is listed as "Found" (1918, 502 g). A 1917 paper calls John L. Algers's stone,
   sent to the National Museum, "the second meteoric stone that has fallen in Florida". That is weak evidence of an
   observed fall and needs the museum's record before it means anything.
@@ -31,9 +41,7 @@ Every candidate below got a follow-up search through the next 6-30 months. No de
 
 | Lead | Report | Destination / trail | Grade |
 |---|---|---|---|
-| **Deep Gap / Riddles Fork, Watauga Co., N.C., July 1929** | two sons of Joe Miller saw a 7-lb stone fall on the old Blackburn place after an explosion heard across the section; still hot; "black and pitted", interior like fine-grained granite (Watauga Democrat 1929-07-11) | in 1931 W. A. Watson of Deep Gap sent a 2-lb fragment of "the meteor that fell in that section in July, 1929" to the Nininger laboratory in Denver | **strong** (the description fits a stony meteorite; Nininger's collection survives in museums) |
-| **Helt (Holt) Township, Vermillion Co., Ind., about 1921-24** (OCR: "IS years" before 1939) | a farmer saw it fall and heard the explosion; a half-pound meteoric iron | from the collection of John Collett (former Indiana state geologist); **presented to the Smithsonian by Stuart H. Perry in 1939**, which called it authentic (Evening Star 1939-11-01) | **strong** (in the national collection, yet in no catalogue we have) |
-| **Saline Co., Mo., near the mouth of the Black River, early March 1917** | 500+ lb, imbedded 5 ft, found after a large meteor passed at midnight; "heated condition" | "will be given to the Smithsonian" | **medium-strong** |
+| **Saline Co., Mo., near the mouth of the Black River, early March 1917** | 500+ lb, imbedded 5 ft, found after a large meteor passed at midnight; "heated condition" | "will be given to the Smithsonian" | **medium-strong** (same year as the recognized Independence, Mo. fall, 104 km away; but that one is 880 g against "500 pounds or more") |
 | **Malden, Mass., Nov 1913** | a "white hot mass" buried itself 10 ft in Craddock Park, nearly striking John McDonald and Frank Butler | Tufts and Harvard scientists "will dig up the meteorite for examination" | **medium** (no follow-up found) |
 | **Yampa, Colo., Dec 1916** | a horse found dead beside fragments of a dark stone, the night after a brilliant meteor | a piece sent to Detroit; "an expert ... pronounced it meteoric" | **medium** |
 | **Galesburg, Ill., early 1931** | ~½-lb stone fell on J. H. Sexton's farm | lent out, sent to Washington, which kept it (the only source is a satirical Daily Worker item) | **medium** |

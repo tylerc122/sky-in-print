@@ -18,7 +18,10 @@ that a person has to clear, so they were not searched.
   - B. F. Wilson's letter of Nov 26, 1888 says it "fell within thirty yards of where the writer was at work" on Oct
     15, 1888, while he picked cotton, and he dug it out with a spade.
   - USNM catalogue no. 395, 234 g, a chondrite.
-  - Our contemporary newspaper report (Savannah Morning News, 1888-11-07) independently describes the fall.
+  - Our contemporary newspaper report (Savannah Morning News, 1888-11-07, p. 6, from the Thomson Journal) confirms
+    that Ben Wilson brought in "a meteoric stone to be analysed" with a dark sooty crust. **Correction (2026-10-26):**
+    it does not describe the fall itself, as this note first said. The fall rests on Wilson's letter.
+  - The British Museum catalogue (Prior, 1923) also lists "Found 1888".
   - This is a record correction (fell, not found), not a new meteorite. Next step: check the current Meteoritical
     Bulletin entry. The frozen NASA snapshot may differ from it.
 - **Washington Co., Kan.:** every literature hit concerns **Farmington**, the recognized fall of 1890-06-25. Our two

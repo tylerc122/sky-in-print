@@ -79,3 +79,23 @@ Institute's own *Publications* (vol. 1, 1884-85) don't mention the stone.
 ## Laclede and Cairo, re-searched with destination terms
 "Mercantile Library" + meteorite/aerolite, Murdoch + aerolite, "Cairo Public Library" + meteorite, "A. V. Cook" +
 meteorite: nothing relevant in the digitized journals or histories. The emails to those libraries remain the route.
+
+## Unfiltered rescans, 1870, 1871 and 1891 (2026-10-26)
+`rescan_names.py --only saco` kept every article, with or without a meteor word, that names the York Institute, Ira
+C. Doe, or a meteor/fireball near "Saco". There were 45 (1870), 49 (1871) and 95 (1891) hits, mostly noise
+("New York Institute", OCR "doe").
+- **Coverage is good:** the Portland Daily Press (daily) and the Biddeford Union and Journal (weekly) are both in the
+  corpus through Oct-Dec 1870.
+- **The 1870 fall itself:** neither paper reports it, or any fireball at Saco, in 1870 or 1871.
+  - The only big New England meteor that autumn is Sunday, Oct 23, 1870, about 6:45 a.m., moving NE to SW. Its
+    explosion and claimed landing place were around West Brookfield / New Braintree, Mass. The Portland Daily Press
+    of Oct 26 reprints the Worcester Spy account.
+  - It doesn't fit Doe's "one evening in October", and it ended about 200 km southwest of Saco. **No independent
+    report of Doe's fall exists in these papers.** The evidence is still the 1873 Kennebec Journal story and the two
+    accession records.
+- **Doe himself appears:**
+  - In Jan 1870, as a Board of Agriculture member.
+  - In Oct 1870, exhibiting apples at the county fair.
+  - In Sept 1891, alive and visiting the State Fair; he died in 1893.
+- **The 1891 accession (1891.68):** no item names it. The York Institute meeting of early April 1891 acknowledged "a
+  large number of donations for the library and cabinet" without listing them (Daily Kennebec Journal 1891-04-11).
