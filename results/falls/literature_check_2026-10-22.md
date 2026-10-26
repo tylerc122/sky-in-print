@@ -32,6 +32,11 @@ that a person has to clear, so they were not searched.
     when it fell it burrowed about three or four inches in the earth." That is very likely the rest of the Pitts /
     Thomson Journal item about Ben Wilson. **To confirm on the scan.** If it is, the 1888 paper does describe the fall,
     heard by the finder himself, and the 10-26 correction above was itself wrong.
+  - **Scan checked by hand (2026-10-26):** the "He was in the cotton field ... whizzing as a minnie ball" paragraph is
+    printed at the top of the Georgia items, straight after a one-line Penfield cotton note, with no subject of its own.
+    The column's only meteor headline is "A Meteor Found Near Thomson", and the Pitts/Wilson item is five paragraphs
+    down. **Most likely a misplaced continuation of the Wilson item, a strong inference but not proven.** It is still
+    the finder's own account, not an independent witness. A reply to the database editor is drafted, not yet sent.
   - **No other Oct 1888 fireball or detonation report from GA/SC is in the corpus.** The Augusta Chronicle and the
     Thomson Journal / McDuffie Journal are the papers that would have one. They are on Georgia Historic Newspapers,
     not Chronicling America.
