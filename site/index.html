@@ -10,8 +10,8 @@
     <meta name="theme-color" content="#f6f1e7" />
     <title>Sky In Print · Meteor reports in American newspapers, 1770–1964</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css?v=6" />
-    <script src="assets/common.js?v=3"></script>
+    <link rel="stylesheet" href="assets/style.css?v=8" />
+    <script src="assets/common.js?v=4"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -44,19 +44,31 @@
             <a href="stories.html">Read the case studies ↗</a>
           </div>
         </section>
+        <a class="latest" href="stories.html#thomson"
+          ><span class="latest-tag">October 2026</span
+          ><span class="latest-text"
+            >Thomson, Georgia, catalogued as a find since 1888, goes to a vote
+            to be reclassified as an observed fall.</span
+          ><span class="arrow" aria-hidden="true">↗</span></a
+        >
         <section class="atlas" aria-labelledby="atlas-heading">
           <div class="section-head">
             <h2 id="atlas-heading">Reports by place and year</h2>
             <small id="result-count" role="status" aria-live="polite"></small>
           </div>
+          <p class="atlas-intro">
+            The map opens on the 13 claimed falls, each followed to an outcome.
+            Switch to Fireballs for the 821 sightings reported from two or more
+            towns. Click any point for its sources.
+          </p>
           <div class="toolbar">
             <div class="segmented" aria-label="Report type">
-              <button type="button" data-layer="all" aria-pressed="true">
-                All reports</button
-              ><button type="button" data-layer="fall" aria-pressed="false">
+              <button type="button" data-layer="fall" aria-pressed="true">
                 Fall cases</button
               ><button type="button" data-layer="fireball" aria-pressed="false">
-                Fireballs
+                Fireballs</button
+              ><button type="button" data-layer="all" aria-pressed="false">
+                Both
               </button>
             </div>
             <label class="sr-only" for="status-filter" hidden
@@ -86,7 +98,7 @@
                   Reset
                 </button>
               </div>
-              <span class="map-tag">Select a point to open its evidence</span>
+              <span class="map-tag">Drag to pan · pinch or ⌘-scroll to zoom</span>
             </div>
             <aside
               class="detail"
@@ -194,6 +206,6 @@
     <script src="assets/topojson-client-3.1.0.min.js"></script>
     <script src="data/geography.js"></script>
     <script src="data/catalog.js"></script>
-    <script src="assets/atlas.js?v=3"></script>
+    <script src="assets/atlas.js?v=5"></script>
   </body>
 </html>

@@ -967,7 +967,7 @@ h1 {
   color: color-mix(in oklch, var(--text) 82%, var(--muted));
 }
 /* drop cap on the first paragraph of each story */
-.article > p:first-of-type::first-letter {
+.article > h2 + p::first-letter {
   float: left;
   font-size: 4.1em;
   line-height: 0.82;
@@ -1506,4 +1506,80 @@ footer a {
   .streak {
     transform: rotate(-24deg);
   }
+}
+
+/* ---------- homepage: latest result, atlas intro ---------- */
+.latest {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 22px;
+  padding: 18px 22px;
+  margin: 8px 0 12px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  background: var(--panel);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    background 300ms var(--ease),
+    border-color 300ms var(--ease);
+}
+.latest:hover {
+  background: var(--accent-soft);
+  color: inherit;
+}
+.latest-tag {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.latest-text {
+  font-size: 19px;
+  line-height: 1.4;
+}
+.latest .arrow {
+  color: var(--accent);
+  transition: transform 300ms var(--ease);
+}
+.latest:hover .arrow {
+  transform: translate(3px, -3px);
+}
+.atlas-intro {
+  max-width: 62ch;
+  margin: -8px 0 22px;
+  color: var(--muted);
+  font-size: 17px;
+}
+.map-stage svg {
+  cursor: grab;
+}
+.map-stage svg:active {
+  cursor: grabbing;
+}
+.point-label {
+  pointer-events: none;
+  font-size: 11.5px;
+  animation: dotIn 700ms var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 9ms + 450ms);
+}
+@media (max-width: 760px) {
+  .latest {
+    grid-template-columns: 1fr auto;
+    gap: 8px 14px;
+  }
+  .latest-tag {
+    grid-column: 1 / -1;
+  }
+  .latest-text {
+    font-size: 17px;
+  }
+}
+/* paper titles stay upright; no italics anywhere on the site */
+em,
+i,
+cite {
+  font-style: normal;
 }

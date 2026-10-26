@@ -10,13 +10,31 @@
     track: "data/evidence/tracks.md",
     museum: "data/evidence/public_updates.md",
     fort: "https://www.gutenberg.org/ebooks/22472",
+    merrill: "https://archive.org/details/smithsonianmisce521910smit/page/473/mode/1up",
+    savannah: "https://www.loc.gov/resource/sn86063034/1888-11-07/ed-1/?sp=6",
+    lincolnton: "https://gahistoricnewspapers.galileo.usg.edu/lccn/sn90052031/1888-10-19/ed-1/seq-3/",
   };
   const cite = (k, label = "Read the source") =>
     ` <a href="${S[k]}" target="_blank" rel="noopener">${label} ↗</a>`;
   const stories = [
     {
-      id: "saco",
+      id: "thomson",
       number: "01",
+      status: "Recognized · Under review as a fall · October 1888",
+      title: "Thomson, Georgia, 1888",
+      body: `
+<p>Thomson is a recognized meteorite. The catalogue lists it as a find: a meteorite picked up later, with no recorded fall. The record from 1888 says otherwise.</p>
+<p>On November 26, 1888 the finder, B. F. Wilson, wrote that on October 15 the stone fell within thirty yards of him while he was picking cotton, and that he dug it out with a spade. G. P. Merrill quoted the letter in 1910.${cite("merrill", "Merrill, 1910")}</p>
+<p>The <em>Savannah Morning News</em> of November 7, 1888, under the heading "A Meteor Found Near Thomson", reported that Ben Wilson had brought in a stone "to be analysed".${cite("savannah")}</p>
+<blockquote>“heard it whizzing as a minnie ball”</blockquote>
+<p>The same column has an unattached paragraph: a man in a cotton field heard the stone whizzing like a bullet, and it buried itself three or four inches in the ground. It is most likely the rest of the Wilson item, set in the wrong place. If so, it is still Wilson's own account.${cite("savannah")}</p>
+<h3>A second report</h3>
+<p>The <em>Lincolnton News</em>, 36 km to the north, reported that at about 1 p.m. on Monday, October 15, its citizens were "startled by a heavy thundering report accompanied by a rushing noise". It names no fireball and no witness, and the region was still feeling aftershocks from the 1886 Charleston earthquake, but the day and place fit.${cite("lincolnton")}</p>
+<div class="update"><h3>Update · October 2026</h3><p>The editor of the Meteoritical Bulletin Database has asked the Nomenclature Committee to vote on reclassifying Thomson as an observed fall. The vote has not happened yet. This would be a correction to a known meteorite, not a new one.</p></div>`,
+    },
+    {
+      id: "saco",
+      number: "02",
       status: "Under investigation · October 1870",
       title: "Saco, Maine, 1870",
       body: `
@@ -30,7 +48,7 @@
     },
     {
       id: "middleburg",
-      number: "02",
+      number: "03",
       status: "Not a meteorite · January 1888",
       title: "Middleburg, Florida, 1888",
       body: `
@@ -45,7 +63,7 @@
     },
     {
       id: "schroon",
-      number: "03",
+      number: "04",
       status: "Hoax · September 1880",
       title: "Schroon Lake, New York, 1880",
       body: `

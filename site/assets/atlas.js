@@ -3,12 +3,13 @@
   const D = window.SKY_DATA,
     all = [...D.falls, ...D.events],
     $ = (s) => document.querySelector(s);
-  let layer = "all",
+  let layer = "fall",
+    k = 1,
     status = "all",
     query = "",
     lo = 1770,
     hi = 1964,
-    selected = "saco";
+    selected = "thomson";
   const colors = {
     "under investigation": "var(--accent)",
     recognized: "var(--aqua)",
@@ -55,13 +56,20 @@
   const dots = g.append("g");
   const zoom = d3
     .zoom()
-    .scaleExtent([1, 5])
+    .scaleExtent([1, 8])
     .translateExtent([
       [-200, -150],
       [1200, 710],
     ])
-    .on("zoom", (e) => g.attr("transform", e.transform));
-  svg.call(zoom).on("dblclick.zoom", null).on("wheel.zoom", null);
+    // wheel zoom only with a pinch or ctrl/cmd held, so the page still scrolls past the map
+    .filter((e) => e.type !== "wheel" || e.ctrlKey || e.metaKey)
+    .on("zoom", (e) => {
+      g.attr("transform", e.transform);
+      k = e.transform.k;
+      dots.selectAll("g.pin").attr("transform", place);
+      declutter();
+    });
+  svg.call(zoom);
   $("#zoom-in").onclick = () => svg.call(zoom.scaleBy, 1.5);
   $("#zoom-out").onclick = () => svg.call(zoom.scaleBy, 1 / 1.5);
   $("#zoom-reset").onclick = () => svg.call(zoom.transform, d3.zoomIdentity);
@@ -127,6 +135,23 @@
             .includes(query)),
     );
   }
+  // pins counter-scale so dots and labels keep their size while the map zooms
+  const place = (d) => `translate(${projection([d.lon, d.lat])}) scale(${1 / k})`;
+  // hide fall labels that would overlap one already placed; zooming in frees room for more
+  function declutter() {
+    const t = d3.zoomTransform(svg.node()),
+      placed = [];
+    dots.selectAll(".point-label").each(function (d) {
+      const [x, y] = t.apply(projection([d.lon, d.lat])),
+        w = d.place.split(",")[0].length * 7 + 12,
+        box = [x - 8, y - 9, x + w, y + 9],
+        hit = placed.some(
+          (b) => box[0] < b[2] && b[0] < box[2] && box[1] < b[3] && b[1] < box[3],
+        );
+      this.style.visibility = hit ? "hidden" : null;
+      if (!hit) placed.push(box);
+    });
+  }
   function render() {
     const rows = filtered(),
       mapped = rows.filter((d) => d.lat !== null && projection([d.lon, d.lat]));
@@ -149,9 +174,15 @@
         p.append("circle").attr("class", "point-target").attr("r", 12);
         p.append("circle").attr("class", "map-dot");
         p.append("title");
+        p.filter((d) => d.kind === "fall")
+          .append("text")
+          .attr("class", "point-label")
+          .attr("x", 10)
+          .attr("y", 4)
+          .text((d) => d.place.split(",")[0]);
         return p;
       })
-      .attr("transform", (d) => `translate(${projection([d.lon, d.lat])})`)
+      .attr("transform", place)
       .attr("role", "button")
       .attr("tabindex", 0)
       .attr("aria-label", (d) => `${d.place}, ${d.date_lo}, ${d.status}`)
@@ -166,11 +197,16 @@
       .select(".map-dot")
       .attr("r", (d) =>
         d.kind === "fall"
-          ? 6
-          : Math.min(14, 2.8 + Math.sqrt(d.independent_cities) * 1.5),
+          ? 6.5
+          : layer === "fireball"
+            ? Math.min(12, 2.4 + Math.sqrt(d.independent_cities) * 1.3)
+            : 2.2,
       )
       .attr("fill", color)
-      .attr("opacity", (d) => (d.kind === "fall" ? 1 : 0.6))
+      // with both layers on, fireballs sit back as faint context behind the fall cases
+      .attr("opacity", (d) =>
+        d.kind === "fall" ? 1 : layer === "fireball" ? 0.6 : 0.28,
+      )
       .classed("selected", (d) => d.id === selected);
     marks
       .select("title")
@@ -192,6 +228,7 @@
       $("#detail").innerHTML =
         "<h3>No matching reports</h3><p>Change the filters to explore the archive.</p>";
     } else select(rows.find((d) => d.id === selected) || rows[0]);
+    declutter();
   }
   $(".segmented").addEventListener("click", (e) => {
     const b = e.target.closest("[data-layer]");

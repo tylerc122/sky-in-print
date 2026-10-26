@@ -39,7 +39,7 @@
 
     // scroll reveal: sections set in as they reach the viewport, siblings staggered
     const targets = document.querySelectorAll(
-      ".section-head, .toolbar, .atlas-layout, .legend, .timeline-box, .results, .feature, .story-row, .article, .method-grid > *, .method-step, .track-stage, .track-facts > *, .evidence-wrap, footer",
+      ".latest, .section-head, .atlas-intro, .toolbar, .atlas-layout, .legend, .timeline-box, .results, .feature, .story-row, .article, .method-grid > *, .method-step, .track-stage, .track-facts > *, .evidence-wrap, footer",
     );
     if (
       !("IntersectionObserver" in window) ||

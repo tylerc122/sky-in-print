@@ -79,7 +79,7 @@ def curated_falls(events):
         rows.append((slug, name+{'Estherville':', Iowa','Homestead':', Iowa','Rochester':', Indiana'}[name],date,'recognized',float(c['reclat']),float(c['reclong']), 'A recognized meteorite fall recovered by the pilot newspaper search.',links,''))
     result=[]
     for slug,place,date,status,lat,lon,summary,sources,quote in rows:
-        result.append(dict(id=slug,kind='fall',place=place,date_lo=date,date_hi=date,year=int(date[:4]),status=status,lat=lat,lon=lon,location_basis='Approximate reported locality; not an exact recovery site.',summary=summary,sources=[source(*s) for s in sources],quote=quote,story=slug if slug in ['saco','middleburg','schroon'] else None))
+        result.append(dict(id=slug,kind='fall',place=place,date_lo=date,date_hi=date,year=int(date[:4]),status=status,lat=lat,lon=lon,location_basis='Approximate reported locality; not an exact recovery site.',summary=summary,sources=[source(*s) for s in sources],quote=quote,story=slug if slug in ['thomson','saco','middleburg','schroon'] else None))
     return result
 
 def make_track():
