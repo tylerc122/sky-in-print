@@ -44,7 +44,7 @@ Further medium or weak candidates with named finders:
 - Ashley, Minn. 1899 (Byron F. Carr; a dozen witnesses)
 - Gardenville, Md. 1906
 - Bayonne, N.J. 1907
-- Kenyon, Minn. 1904 (John Palla)
+- Kenyon, Minn. 1904 (John Palla) **[rejected: Prof. Winchell investigated, "Kenyon Story False", Minneapolis Journal 1904-07-26; see audit2_2026-10-26.md]**
 - Hudson 1900 (D. Y. Gable)
 - Gulf Summit, N.Y./Pa. 1895
 - Quanicassee, Mich. 1896

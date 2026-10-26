@@ -46,7 +46,7 @@ for destinations it missed.
 | Report | Destination | Next step |
 |---|---|---|
 | Laclede Station, Mo., 1872 (existing lead) | St. Louis Mercantile Library (still exists, at UMSL) | Ask the Mercantile Library about an 1872 meteorite from John J. Murdoch |
-| Cedar Twp., Monroe Co., 1870-10 | "sent to the Museum of the Wesleyan University at Mt. Pleasant" (Iowa Wesleyan; the college closed in 2023) | Read the report; find where the Iowa Wesleyan collections went |
+| Cedar Twp., Monroe Co., 1870-10 | "sent to the Museum of the Wesleyan University at Mt. Pleasant" (Iowa Wesleyan; the college closed in 2023) | **Probably native copper** ("a large nugget of pure copper, weighing 116 pounds", Tama County Republican 1870-10-20; audit2_2026-10-26.md). Low priority. |
 | "near his house, on the Step Rock road", 1880-03 | "will be sent to the Smithsonian Institution" | Read the report; check the Smithsonian's meteorite records for 1880 |
 | near Minot, N.D., 1914-12 | dug up, "now has it on exhibition"; a second fall south of Minot | Read the report |
 | Indianapolis, 1872-09 | 11-lb stone "which fell during the late meteoric shower", on exhibition at the police office | Read the report |
