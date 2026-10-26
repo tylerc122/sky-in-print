@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,11 +7,11 @@
       name="description"
       content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
     />
-    <meta name="theme-color" content="#29231d" />
-    <title>An atlas of the reported sky · Sky In Print</title>
+    <meta name="theme-color" content="#f6f1e7" />
+    <title>Sky In Print · Meteor reports in American newspapers, 1770–1964</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <script src="assets/common.js"></script>
+    <link rel="stylesheet" href="assets/style.css?v=6" />
+    <script src="assets/common.js?v=3"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -31,20 +31,22 @@
       <main id="main">
         <section class="hero intro-motion">
           <div>
-            <p class="eyebrow">An American newspaper sky atlas · 1770–1964</p>
-            <h1>It fell from the sky.<br /><span>Or so they said.</span></h1>
+            <p class="eyebrow">1770–1964 · 245,000 articles</p>
+            <h1>Fireballs and meteorite falls in American newspapers</h1>
           </div>
           <div class="hero-note">
             <p>
-              Fireballs, fallen stones, and very good stories. Follow the
-              newspaper trail to find out what happened next.
+              Newspaper articles that mention meteors, sorted into fireball
+              sightings and claimed falls. Each claimed fall is followed
+              to its outcome: a recognized meteorite, a hoax, an ordinary rock, or
+              still unresolved.
             </p>
-            <a href="stories.html">Start with a story ↗</a>
+            <a href="stories.html">Read the case studies ↗</a>
           </div>
         </section>
         <section class="atlas" aria-labelledby="atlas-heading">
           <div class="section-head">
-            <h2 id="atlas-heading">Explore the reported sky</h2>
+            <h2 id="atlas-heading">Reports by place and year</h2>
             <small id="result-count" role="status" aria-live="polite"></small>
           </div>
           <div class="toolbar">
@@ -160,13 +162,14 @@
         </section>
         <section class="feature">
           <div class="feature-text">
-            <p class="eyebrow">A reconstruction · December 21, 1876</p>
-            <h2>Seven towns.<br />One streak of light.</h2>
+            <p class="eyebrow">Reconstruction · December 21, 1876</p>
+            <h2>The fireball of December 21, 1876</h2>
             <p>
-              See how scattered newspaper accounts become a ground track, then
-              meet the meteorite that tests it.
+              Seven towns reported it passing overhead. Their positions give a
+              ground track that passes 17 km from the Rochester, Indiana
+              meteorite, which was left out of the fit.
             </p>
-            <a href="fireball.html">Follow the fireball ↗</a>
+            <a href="fireball.html">See the reconstruction ↗</a>
           </div>
           <div class="feature-art" aria-hidden="true">
             <div class="orbit"></div>
@@ -179,8 +182,7 @@
       </main>
       <footer>
         <p>
-          Old newspapers. Open questions. Original evidence.<br />Pilot edition
-          · Research scope 1770–1964 · No new meteorite confirmed.
+          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
         </p>
         <div>
           <a href="about.html#data">Download data ↗</a
@@ -192,6 +194,6 @@
     <script src="assets/topojson-client-3.1.0.min.js"></script>
     <script src="data/geography.js"></script>
     <script src="data/catalog.js"></script>
-    <script src="assets/atlas.js"></script>
+    <script src="assets/atlas.js?v=3"></script>
   </body>
 </html>

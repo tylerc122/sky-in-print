@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,11 +7,11 @@
       name="description"
       content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
     />
-    <meta name="theme-color" content="#29231d" />
+    <meta name="theme-color" content="#f6f1e7" />
     <title>Methods, limits and open data · Sky In Print</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <script src="assets/common.js"></script>
+    <link rel="stylesheet" href="assets/style.css?v=6" />
+    <script src="assets/common.js?v=3"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -30,8 +30,8 @@
       <main id="main">
         <section class="hero intro-motion">
           <div>
-            <p class="eyebrow">About the project</p>
-            <h1>Wonder, with<br /><span>a paper trail.</span></h1>
+            <p class="eyebrow">Methods, limits and data</p>
+            <h1>About the project</h1>
           </div>
           <div class="hero-note">
             <p>
@@ -39,11 +39,11 @@
               through American newspapers, scientific literature and collection
               records.
             </p>
-            <a href="#data">Take the data with you ↓</a>
+            <a href="#data">Download the data ↓</a>
           </div>
         </section>
         <section class="method-grid">
-          <h2>From a newspaper<br />to an answer.</h2>
+          <h2>Method</h2>
           <div>
             <div class="method-step">
               <span class="number">01</span>
@@ -93,13 +93,12 @@
           </div>
         </section>
         <section class="method-grid" id="coverage">
-          <h2>Read the atlas<br />with its limits.</h2>
+          <h2>Limits of the map</h2>
           <div>
             <h3>It maps the record, not meteor frequency</h3>
             <p>
               Digitized newspaper coverage varies greatly by year and state.
-              Reprints, OCR quality and the selected pilot windows also affect
-              the dots. The timeline's separate coverage line shows
+              Reprints and OCR quality also affect the dots. The timeline's separate coverage line shows
               newspaper-title counts from available local sweep statistics.
               Missing years are unknown, not zero. The article counts are
               available in <a href="data/coverage.json">coverage.json</a>.
@@ -114,7 +113,7 @@
               count, which is only a proxy for independent reporting.
               <a href="data/README.md">Read the field definitions ↗</a>
             </p>
-            <h3>A pilot, not a complete census</h3>
+            <h3>Not a complete census</h3>
             <p>
               The atlas includes groups with at least two grouped publishing
               cities, or a human-review flag. Some candidate groups can still
@@ -126,7 +125,7 @@
           </div>
         </section>
         <section class="method-grid">
-          <h2>How we look<br />for what we miss.</h2>
+          <h2>Measuring what we miss</h2>
           <div>
             <h3>Five of seven known falls recovered</h3>
             <p>
@@ -164,11 +163,11 @@
           </div>
         </section>
         <section class="method-grid">
-          <h2>What each<br />outcome means.</h2>
+          <h2>Outcome categories</h2>
           <div id="status-definitions"></div>
         </section>
         <section class="method-grid" id="data">
-          <h2>Open the data.<br />Keep following.</h2>
+          <h2>Data</h2>
           <div>
             <p>
               The release includes the 13 curated fall cases, selected pilot
@@ -196,7 +195,7 @@
           </div>
         </section>
         <section class="method-grid" id="sources">
-          <h2>Built on<br />shared records.</h2>
+          <h2>Sources and credits</h2>
           <div>
             <p>
               <a href="https://www.loc.gov/collections/chronicling-america/"
@@ -244,8 +243,7 @@
       </main>
       <footer>
         <p>
-          Old newspapers. Open questions. Original evidence.<br />Pilot edition
-          · Research scope 1770–1964 · No new meteorite confirmed.
+          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
         </p>
         <div>
           <a href="about.html#data">Download data ↗</a

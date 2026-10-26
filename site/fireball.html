@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,11 +7,11 @@
       name="description"
       content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
     />
-    <meta name="theme-color" content="#29231d" />
+    <meta name="theme-color" content="#f6f1e7" />
     <title>Tracking the fireball of 1876 · Sky In Print</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <script src="assets/common.js"></script>
+    <link rel="stylesheet" href="assets/style.css?v=6" />
+    <script src="assets/common.js?v=3"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -30,15 +30,16 @@
       <main id="main">
         <section class="hero intro-motion">
           <div>
-            <p class="eyebrow">The reconstruction · December 21, 1876</p>
-            <h1>A night written<br /><span>across the sky.</span></h1>
+            <p class="eyebrow">Reconstruction · December 21, 1876</p>
+            <h1>The fireball of December 21, 1876</h1>
           </div>
           <div class="hero-note">
             <p>
-              Seven towns described a fireball overhead. Their accounts trace a
-              path toward a meteorite site that was never used in the fit.
+              Seven towns reported the fireball overhead. The track fitted to
+              them passes 17 km from the Rochester, Indiana meteorite, which was
+              not used in the fit.
             </p>
-            <a href="#how">See how we reconstructed it ↓</a>
+            <a href="#how">How the track was fitted ↓</a>
           </div>
         </section>
         <section
@@ -77,7 +78,7 @@
         </div>
         <section class="track-facts">
           <div>
-            <h2>A direction from towns</h2>
+            <h2>Direction</h2>
             <p>
               The fitted track runs west-southwest to east-northeast, at an
               azimuth of 67.9°.
@@ -85,7 +86,7 @@
             </p>
           </div>
           <div>
-            <h2>A check 17 km away</h2>
+            <h2>Holdout check</h2>
             <p>
               Rochester lies 17 km south of the fitted track. Its location was
               held out of the fit.
@@ -93,7 +94,7 @@
             </p>
           </div>
           <div>
-            <h2>Room for uncertainty</h2>
+            <h2>Uncertainty</h2>
             <p>
               The overhead towns scatter by about 26 km RMS. This is a ground
               track, not an orbit.
@@ -126,8 +127,7 @@
       </main>
       <footer>
         <p>
-          Old newspapers. Open questions. Original evidence.<br />Pilot edition
-          · Research scope 1770–1964 · No new meteorite confirmed.
+          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
         </p>
         <div>
           <a href="about.html#data">Download data ↗</a
@@ -139,7 +139,7 @@
     <script src="assets/topojson-client-3.1.0.min.js"></script>
     <script src="data/geography.js"></script>
     <script src="data/catalog.js"></script>
-    <script src="assets/stories.js"></script>
-    <script src="assets/track.js"></script>
+    <script src="assets/stories.js?v=3"></script>
+    <script src="assets/track.js?v=3"></script>
   </body>
 </html>

@@ -141,7 +141,11 @@
       .selectAll("g.pin")
       .data(sorted, (d) => d.id)
       .join((enter) => {
-        const p = enter.append("g").attr("class", "pin");
+        // dots set in chronologically on first draw (style.css .map-dot uses --i as a delay step)
+        const p = enter
+          .append("g")
+          .attr("class", "pin")
+          .style("--i", (d) => Math.round(((d.year - 1770) / 194) * 110));
         p.append("circle").attr("class", "point-target").attr("r", 12);
         p.append("circle").attr("class", "map-dot");
         p.append("title");
