@@ -23,14 +23,19 @@
     the Mount Vernon pallasite (found 1868, 13 km away).
 - **Helt Township, Vermillion Co., Ind.** (seen to fall around 1921-24): it looked like the best new lead, but it is a
   described meteorite. Stuart H. Perry, "The Helt Township (Indiana) meteorite", *Smithsonian Miscellaneous
-  Collections* 98(20), 1939; a 135 g slice is USNM 151172. It is simply missing from the NASA snapshot we check
-  against. **Lesson:** a "no catalogue match" in that snapshot is not enough. Each strong lead now also gets a
+  Collections* 98(20), 1939; a 135 g slice is USNM 151172. It is missing from the NASA snapshot because the
+  live Meteoritical Bulletin Database lists **"Helt Township" as a synonym for Canyon Diablo** (checked 2026-10-26). The
+  witnessed-fall story attached to it was wrong: it is a fragment of the Arizona crater iron. **Resolved: not an
+  Indiana fall.** **Lesson:** a "no catalogue match" in that snapshot is not enough. Each strong lead now also gets a
   literature search, and a same-year falls check out to 400 km, before it is called unrecorded.
 - **Deep Gap / Riddles Fork, Watauga Co., N.C., July 9, 1929** (two sons of Joe Miller saw a 7-lb stone fall; a
   fragment went to Nininger in 1931): the same day as the recognized **Bald Mountain** fall (L4, 3.7 kg; ASU holds
   98 g, ASU no. 302). The catalogue puts Bald Mountain about 92 km away in Yancey County. A strewn field is rarely
   that long, so this is the Bald Mountain stone itself, or a second stone from the same fireball, or a location
   detail worth checking. **It is not an unrecorded fall.**
+  The live database entry (checked 2026-10-26) gives only "Observed fall: Yes", 1929, 3.7 kg, and coordinates
+  35°58'N 82°29'W. It names no county or finder and was never published in the Meteoritical Bulletin, so the 92 km
+  question stays open.
 - **Possible record note:** Eustis, Fla. is listed as "Found" (1918, 502 g). A 1917 paper calls John L. Algers's stone,
   sent to the National Museum, "the second meteoric stone that has fallen in Florida". That is weak evidence of an
   observed fall and needs the museum's record before it means anything.
@@ -41,7 +46,7 @@ Every candidate below got a follow-up search through the next 6-30 months. No de
 
 | Lead | Report | Destination / trail | Grade |
 |---|---|---|---|
-| **Saline Co., Mo., near the mouth of the Black River, early March 1917** | 500+ lb, imbedded 5 ft, found after a large meteor passed at midnight; "heated condition" | "will be given to the Smithsonian" | **medium-strong** (same year as the recognized Independence, Mo. fall, 104 km away; but that one is 880 g against "500 pounds or more") |
+| **Saline Co., Mo., near the mouth of the Black River, early March 1917** | 500+ lb, imbedded 5 ft, found after a large meteor passed at midnight; "heated condition" | "will be given to the Smithsonian" | **medium-strong** (not the Independence, Mo. fall: per MB 85 that was an 880 g stone Edward Keesling saw fall in Jackson County in "summer" 1917 or 1918, against ours of early March 1917 and "500 pounds or more") |
 | **Malden, Mass., Nov 1913** | a "white hot mass" buried itself 10 ft in Craddock Park, nearly striking John McDonald and Frank Butler | Tufts and Harvard scientists "will dig up the meteorite for examination" | **medium** (no follow-up found) |
 | **Yampa, Colo., Dec 1916** | a horse found dead beside fragments of a dark stone, the night after a brilliant meteor | a piece sent to Detroit; "an expert ... pronounced it meteoric" | **medium** |
 | **Galesburg, Ill., early 1931** | ~½-lb stone fell on J. H. Sexton's farm | lent out, sent to Washington, which kept it (the only source is a satirical Daily Worker item) | **medium** |
