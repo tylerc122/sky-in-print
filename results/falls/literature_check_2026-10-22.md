@@ -22,6 +22,8 @@ that a person has to clear, so they were not searched.
     that Ben Wilson brought in "a meteoric stone to be analysed" with a dark sooty crust. **Correction (2026-10-26):**
     it does not describe the fall itself, as this note first said. The fall rests on Wilson's letter.
   - The British Museum catalogue (Prior, 1923) also lists "Found 1888".
+  - **Live Meteoritical Bulletin Database, checked 2026-10-26: "Observed fall: No".** The correction is still open.
+    A note to the database editors is scheduled for 2026-10-26.
   - This is a record correction (fell, not found), not a new meteorite. Next step: check the current Meteoritical
     Bulletin entry. The frozen NASA snapshot may differ from it.
 - **Washington Co., Kan.:** every literature hit concerns **Farmington**, the recognized fall of 1890-06-25. Our two
