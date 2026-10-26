@@ -468,5 +468,385 @@
     "year": 1888,
     "newspapers": 415,
     "articles": 3704419
+  },
+  {
+    "year": 1889,
+    "newspapers": 430,
+    "articles": 3906654
+  },
+  {
+    "year": 1890,
+    "newspapers": 440,
+    "articles": 4199692
+  },
+  {
+    "year": 1891,
+    "newspapers": 443,
+    "articles": 4711244
+  },
+  {
+    "year": 1892,
+    "newspapers": 440,
+    "articles": 4916554
+  },
+  {
+    "year": 1893,
+    "newspapers": 447,
+    "articles": 4981572
+  },
+  {
+    "year": 1894,
+    "newspapers": 484,
+    "articles": 5309812
+  },
+  {
+    "year": 1895,
+    "newspapers": 498,
+    "articles": 5479353
+  },
+  {
+    "year": 1896,
+    "newspapers": 498,
+    "articles": 5944944
+  },
+  {
+    "year": 1897,
+    "newspapers": 509,
+    "articles": 6376988
+  },
+  {
+    "year": 1898,
+    "newspapers": 535,
+    "articles": 6543147
+  },
+  {
+    "year": 1899,
+    "newspapers": 552,
+    "articles": 7049791
+  },
+  {
+    "year": 1900,
+    "newspapers": 620,
+    "articles": 6613951
+  },
+  {
+    "year": 1901,
+    "newspapers": 581,
+    "articles": 6623111
+  },
+  {
+    "year": 1902,
+    "newspapers": 587,
+    "articles": 7062690
+  },
+  {
+    "year": 1903,
+    "newspapers": 602,
+    "articles": 7183303
+  },
+  {
+    "year": 1904,
+    "newspapers": 633,
+    "articles": 7328025
+  },
+  {
+    "year": 1905,
+    "newspapers": 653,
+    "articles": 7472034
+  },
+  {
+    "year": 1906,
+    "newspapers": 673,
+    "articles": 7951462
+  },
+  {
+    "year": 1907,
+    "newspapers": 675,
+    "articles": 7940704
+  },
+  {
+    "year": 1908,
+    "newspapers": 690,
+    "articles": 8037231
+  },
+  {
+    "year": 1909,
+    "newspapers": 687,
+    "articles": 8450675
+  },
+  {
+    "year": 1910,
+    "newspapers": 679,
+    "articles": 9186018
+  },
+  {
+    "year": 1911,
+    "newspapers": 670,
+    "articles": 8094131
+  },
+  {
+    "year": 1912,
+    "newspapers": 665,
+    "articles": 8519071
+  },
+  {
+    "year": 1913,
+    "newspapers": 640,
+    "articles": 8649692
+  },
+  {
+    "year": 1914,
+    "newspapers": 652,
+    "articles": 8904883
+  },
+  {
+    "year": 1915,
+    "newspapers": 658,
+    "articles": 8529123
+  },
+  {
+    "year": 1916,
+    "newspapers": 658,
+    "articles": 8661808
+  },
+  {
+    "year": 1917,
+    "newspapers": 653,
+    "articles": 8247801
+  },
+  {
+    "year": 1918,
+    "newspapers": 648,
+    "articles": 7785782
+  },
+  {
+    "year": 1919,
+    "newspapers": 616,
+    "articles": 8273605
+  },
+  {
+    "year": 1920,
+    "newspapers": 583,
+    "articles": 7586075
+  },
+  {
+    "year": 1921,
+    "newspapers": 538,
+    "articles": 7384402
+  },
+  {
+    "year": 1922,
+    "newspapers": 490,
+    "articles": 7368841
+  },
+  {
+    "year": 1923,
+    "newspapers": 183,
+    "articles": 2661376
+  },
+  {
+    "year": 1924,
+    "newspapers": 145,
+    "articles": 2151588
+  },
+  {
+    "year": 1925,
+    "newspapers": 109,
+    "articles": 1820661
+  },
+  {
+    "year": 1926,
+    "newspapers": 103,
+    "articles": 1565362
+  },
+  {
+    "year": 1927,
+    "newspapers": 86,
+    "articles": 1303212
+  },
+  {
+    "year": 1928,
+    "newspapers": 72,
+    "articles": 1248158
+  },
+  {
+    "year": 1929,
+    "newspapers": 71,
+    "articles": 1276662
+  },
+  {
+    "year": 1930,
+    "newspapers": 62,
+    "articles": 1308519
+  },
+  {
+    "year": 1931,
+    "newspapers": 62,
+    "articles": 1224340
+  },
+  {
+    "year": 1932,
+    "newspapers": 62,
+    "articles": 1152570
+  },
+  {
+    "year": 1933,
+    "newspapers": 65,
+    "articles": 1173640
+  },
+  {
+    "year": 1934,
+    "newspapers": 70,
+    "articles": 1281573
+  },
+  {
+    "year": 1935,
+    "newspapers": 70,
+    "articles": 1292935
+  },
+  {
+    "year": 1936,
+    "newspapers": 69,
+    "articles": 1210385
+  },
+  {
+    "year": 1937,
+    "newspapers": 68,
+    "articles": 1169090
+  },
+  {
+    "year": 1938,
+    "newspapers": 66,
+    "articles": 1102453
+  },
+  {
+    "year": 1939,
+    "newspapers": 71,
+    "articles": 1068677
+  },
+  {
+    "year": 1940,
+    "newspapers": 84,
+    "articles": 1201613
+  },
+  {
+    "year": 1941,
+    "newspapers": 86,
+    "articles": 1463904
+  },
+  {
+    "year": 1942,
+    "newspapers": 92,
+    "articles": 1300988
+  },
+  {
+    "year": 1943,
+    "newspapers": 89,
+    "articles": 1225692
+  },
+  {
+    "year": 1944,
+    "newspapers": 84,
+    "articles": 1108433
+  },
+  {
+    "year": 1945,
+    "newspapers": 87,
+    "articles": 1131094
+  },
+  {
+    "year": 1946,
+    "newspapers": 85,
+    "articles": 936832
+  },
+  {
+    "year": 1947,
+    "newspapers": 70,
+    "articles": 802878
+  },
+  {
+    "year": 1948,
+    "newspapers": 77,
+    "articles": 728159
+  },
+  {
+    "year": 1949,
+    "newspapers": 75,
+    "articles": 785155
+  },
+  {
+    "year": 1950,
+    "newspapers": 71,
+    "articles": 745085
+  },
+  {
+    "year": 1951,
+    "newspapers": 71,
+    "articles": 708864
+  },
+  {
+    "year": 1952,
+    "newspapers": 63,
+    "articles": 664331
+  },
+  {
+    "year": 1953,
+    "newspapers": 62,
+    "articles": 673731
+  },
+  {
+    "year": 1954,
+    "newspapers": 56,
+    "articles": 687085
+  },
+  {
+    "year": 1955,
+    "newspapers": 56,
+    "articles": 671246
+  },
+  {
+    "year": 1956,
+    "newspapers": 58,
+    "articles": 670882
+  },
+  {
+    "year": 1957,
+    "newspapers": 50,
+    "articles": 627547
+  },
+  {
+    "year": 1958,
+    "newspapers": 53,
+    "articles": 593931
+  },
+  {
+    "year": 1959,
+    "newspapers": 47,
+    "articles": 594368
+  },
+  {
+    "year": 1960,
+    "newspapers": 47,
+    "articles": 584440
+  },
+  {
+    "year": 1961,
+    "newspapers": 46,
+    "articles": 570587
+  },
+  {
+    "year": 1962,
+    "newspapers": 55,
+    "articles": 570606
+  },
+  {
+    "year": 1963,
+    "newspapers": 47,
+    "articles": 553445
+  },
+  {
+    "year": 1964,
+    "newspapers": 1,
+    "articles": 2678
   }
 ]

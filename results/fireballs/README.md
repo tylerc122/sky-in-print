@@ -141,3 +141,14 @@ The 1876-07-15 remainder (5 sources) is left apart. Its "last Saturday" reports 
   - 188 of the 807 have papers more than 1,000 km apart. Some are genuinely huge fireballs, seen across several states. Others
     are separate same-night meteors chained together, or rewritten dispatches.
   - The list is a reading queue, not a catalog. Nothing past the pilot has been hand-vetted yet.
+- **Hand read, 2026-10-26** (`vetting.json`): the top 16 unvetted full-sweep events were read in full. 14 are genuine
+  events: 1860-07-20 (the Great Meteor), 1860-08-02, 1869-10-27, 1889-06-26, 1890-05-02 (the Forest City fall),
+  1893-12-20, 1897-06-20, 1898-06-03, 1907-10-01, 1910-03-29, 1913-09-04, 1918-01-22, 1919-01-12 and 1920-06-08.
+  Fixes:
+  - **1860-07-27 was a chain:** its Friday reports belong to July 20 and its Thursday reports to Aug 2. Both are
+    merged.
+  - **1907-10-01** had a separate Saturday Oct 5 Maryland meteor mixed in, now split out.
+  - **1887-06-12** is one syndicated likely-hoax story (the St. Joseph "two-ton aerolite"), now dissolved.
+  - **15 stray reports** from other nights or with no observation were dropped.
+- **The public site** (`export_public.py`) now takes `events_all.json`: 821 fireball groups, of which 45 are human
+  reviewed. The rest are labelled "candidate grouping".

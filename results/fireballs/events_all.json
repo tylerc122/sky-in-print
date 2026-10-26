@@ -1,5 +1,396 @@
 [
  {
+  "date_lo": "1860-07-20",
+  "date_hi": "1860-07-20",
+  "dated": true,
+  "date_votes": 71,
+  "date_families": 71,
+  "date_range_all": [
+   "1860-07-20",
+   "1860-07-20"
+  ],
+  "shower_night": false,
+  "window": "sweep_1860",
+  "reports": 105,
+  "papers": 48,
+  "families": 71,
+  "independent_cities": 25,
+  "cities": [
+   "baltimore, Maryland",
+   "biddeford, Maine",
+   "brattleboro, Vermont",
+   "burlington, Vermont",
+   "clearfield, Pennsylvania",
+   "cleveland, Ohio",
+   "coudersport, Pennsylvania",
+   "dayton, Ohio",
+   "ebensburg, Pennsylvania",
+   "elkton, Maryland",
+   "hillsboro, North Carolina",
+   "irasburg, Vermont"
+  ],
+  "states": [
+   "Delaware",
+   "District of Columbia",
+   "Indiana",
+   "Iowa",
+   "Louisiana",
+   "Maine",
+   "Maryland",
+   "Massachusetts",
+   "New Jersey",
+   "New York",
+   "North Carolina",
+   "Ohio",
+   "Pennsylvania",
+   "Tennessee",
+   "Vermont",
+   "Virginia",
+   "West Virginia",
+   "Wisconsin"
+  ],
+  "types": [
+   "fireball"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 24,
+   "direction": 35,
+   "sound": 17,
+   "duration": 9,
+   "colour": 27,
+   "train": 28,
+   "burst": 17,
+   "lit_ground": 11
+  },
+  "quotes": [
+   {
+    "date": "1860-07-21",
+    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
+    "when": "At half past nine last night",
+    "where": "northeast",
+    "quote": "At half past nine last night meteor appeared In the northeast, at an elevation of about 10 degrees above the horizon.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_leonberger_ver03/data/sn83045462/00280654152/1860072101/0289.jp2",
+    "key": "faro_1860/1860-07-21_p3_sn83045462_00280654152_1860072101_0289.json#30"
+   },
+   {
+    "date": "1860-07-21",
+    "paper": "Dayton daily empire. [volume] (Dayton [Ohio]) 1850-1865",
+    "when": "last night",
+    "where": "NEW YoRE and Brooklyn",
+    "quote": "A splendid meteor passed over NEW YoRE and Brooklyn last night, il presented the APP earance of two balls of fire, each with a tail and almost joining each other.",
+    "scan": "",
+    "key": "faro_1860/1860-07-21_p3_sn85026002_00280775228_1860072101_1231.json#19"
+   },
+   {
+    "date": "1860-07-21",
+    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
+    "when": "last night",
+    "where": "upper part of the city",
+    "quote": "Shortly before O'Clock last night interesting sight took place the upper part of the city. sup posed to he meteor II first In the form Of blue star",
+    "scan": "",
+    "key": "faro_1860/1860-07-21_p5_sn83030313_0027174335A_1860072101_0760.json#48"
+   },
+   {
+    "date": "1860-07-21",
+    "paper": "New-York daily tribune. [volume] (New-York [N.Y.]) 1842-1866",
+    "when": "this evening ... ss5 and about minute",
+    "where": "No 2sl HEdson street",
+    "quote": "Sitting on the roof of my residence this evening with party Of ladies and gentlemen was fortunate enough to passage of meeodc body through the heavens",
+    "scan": "",
+    "key": "faro_1860/1860-07-21_p8_sn83030213_00206530650_1860072101_0594.json#12"
+   },
+   {
+    "date": "1860-07-21",
+    "paper": "Cleveland morning leader. [volume] (Cleveland [Ohio]) 1854-1",
+    "when": "last night",
+    "where": "",
+    "quote": "Those persons who were fortunate enough to be out Of doors last night about o'clock, had most splendid meteoric exhibition.",
+    "scan": "",
+    "key": "faro_1860/1860-07-21_p1_sn83035143_00280775678_1860072101_0177.json#8"
+   },
+   {
+    "date": "1860-07-22",
+    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
+    "when": "Friday night",
+    "where": "New York",
+    "quote": "The mysterious phenomenon OF friday ngnt appears 70 have attracted agfeat deal Of attention in all directions",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_marcus_ver01/data/sn83030313/0027174335A/1860072201/0764.jp2",
+    "key": "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#5"
+   },
+   {
+    "date": "1860-07-22",
+    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
+    "when": "Friday night",
+    "where": "Staten Island; South Brooklyn",
+    "quote": "From this ball of nre which became quite brilliant shot forth two balls in precisely the same style that they thrown of from Roman candles the three bodies assumed at meteorlike appearance",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_marcus_ver01/data/sn83030313/0027174335A/1860072201/0764.jp2",
+    "key": "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#11"
+   },
+   {
+    "date": "1860-07-22",
+    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
+    "when": "Last evening about ten minutes before ten O'Clock",
+    "where": "passed city",
+    "quote": "very gulsr meteor passed city in direction little tOuth OF had about the apparent eieva ton OF an ordinary IRE rocket There appeared 10 be three heads balR OF fire of intense brascy and beau ~ connected 10 straight line by slender thread OF IRE",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_marcus_ver01/data/sn83030313/0027174335A/1860072201/0764.jp2",
+    "key": "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#36"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1860/1860-07-21_p3_sn83045462_00280654152_1860072101_0289.json#30",
+    "faro_1860/1860-07-23_p1_sn83009573_00296026372_1860072301_0079.json#93",
+    "faro_1860/1860-07-25_p2_sn84024656_00414184704_1860072501_0084.json#60",
+    "faro_1860/1860-07-27_p1_sn82015753_00212475257_1860072701_0180.json#3",
+    "faro_1860/1860-07-27_p1_sn82015753_00212475257_1860072701_0180.json#71",
+    "faro_1860/1860-07-28_p3_sn83045450_00296022780_1860072801_0243.json#91",
+    "faro_1860/1860-08-01_p2_sn88083120_00211100813_1860080101_0084.json#6"
+   ],
+   [
+    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#5"
+   ],
+   [
+    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#11"
+   ],
+   [
+    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#36"
+   ],
+   [
+    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#27"
+   ],
+   [
+    "faro_1860/1860-07-26_p2_sn84026399_00237287897_1860072601_0398.json#8"
+   ],
+   [
+    "faro_1860/1860-07-21_p3_sn85026002_00280775228_1860072101_1231.json#19",
+    "faro_1860/1860-07-23_p4_sn83035143_00280775678_1860072301_0184.json#26",
+    "faro_1860/1860-07-23_p3_sn84026845_00202190662_1860072301_0077.json#29",
+    "faro_1860/1860-07-23_p1_sn82015737_00279529108_1860072301_0181.json#13",
+    "faro_1860/1860-07-23_pNone_sn82014511_no_reel_1860072301_0004.json#16",
+    "faro_1860/1860-07-24_p3_sn85038518_00200293307_1860072401_0081.json#61",
+    "faro_1860/1860-07-25_p1_sn83045160_00200290057_1860072501_0063.json#63",
+    "faro_1860/1860-07-27_p1_sn84027253_00279528517_1860072701_0533.json#12",
+    "faro_1860/1860-07-28_p1_sn84027060_00415668892_1860072801_0634.json#12",
+    "faro_1860/1860-07-31_p2_sn87058348_00279529376_1860073101_0431.json#4"
+   ],
+   [
+    "faro_1860/1860-07-26_p3_sn84020422_00383342934_1860072601_0088.json#11"
+   ],
+   [
+    "faro_1860/1860-07-26_p1_sn83045462_00280654152_1860072601_0305.json#86"
+   ],
+   [
+    "faro_1860/1860-07-25_p3_sn85054616_00212477795_1860072501_0109.json#44"
+   ],
+   [
+    "faro_1860/1860-07-24_p2_sn83021205_00517172017_1860072401_0694.json#8"
+   ],
+   [
+    "faro_1860/1860-07-24_p2_sn83021205_00517172017_1860072401_0694.json#42",
+    "faro_1860/1860-07-24_p2_sn83021205_00517172017_1860072401_0694.json#69",
+    "faro_1860/1860-07-30_p4_sn82015672_00296021969_1860073001_0280.json#13",
+    "faro_1860/1860-08-03_p2_sn88083120_00211100813_1860080301_0092.json#17",
+    "faro_1860/1860-08-03_p4_sn85038443_00280776385_1860080301_0194.json#31"
+   ],
+   [
+    "faro_1860/1860-07-25_p2_sn84024656_00414184704_1860072501_0084.json#18",
+    "faro_1860/1860-07-25_p2_sn84024656_00414184704_1860072501_0084.json#63",
+    "faro_1860/1860-07-27_p1_sn84024735_00415664382_1860072701_0248.json#29",
+    "faro_1860/1860-07-28_p3_sn83045450_00296022780_1860072801_0243.json#32",
+    "faro_1860/1860-08-01_p1_sn83045706_00296022652_1860080101_0337.json#31",
+    "faro_1860/1860-08-09_p1_sn87056248_00200295882_1860080901_0122.json#23",
+    "faro_1860/1860-08-17_p1_sn83035595_00296029191_1860081701_0491.json#9"
+   ],
+   [
+    "faro_1860/1860-07-31_p1_sn83009573_00296026372_1860073101_0108.json#27",
+    "faro_1860/1860-08-01_p2_sn85035610_00513684976_1860080101_0117.json#6"
+   ],
+   [
+    "faro_1860/1860-07-21_p5_sn83030313_0027174335A_1860072101_0760.json#48"
+   ],
+   [
+    "faro_1860/1860-07-24_p2_sn83009573_00296026372_1860072401_0084.json#32",
+    "faro_1860/1860-07-26_p2_sn89060060_0041562430A_1860072601_0109.json#53"
+   ],
+   [
+    "faro_1860/1860-07-27_p3_sn85038443_00280776385_1860072701_0189.json#80"
+   ],
+   [
+    "faro_1860/1860-07-26_p2_sn84020071_00414182999_1860072601_0506.json#1",
+    "faro_1860/1860-07-27_p2_sn84022549_00415628407_1860072701_0367.json#6"
+   ],
+   [
+    "faro_1860/1860-07-23_p8_sn83030313_0027174335A_1860072301_0779.json#7"
+   ],
+   [
+    "faro_1860/1860-07-23_p8_sn83030313_0027174335A_1860072301_0779.json#12"
+   ],
+   [
+    "faro_1860/1860-07-26_p2_sn83035143_00280775678_1860072601_0194.json#2"
+   ],
+   [
+    "faro_1860/1860-07-26_p2_sn83035143_00280775678_1860072601_0194.json#31"
+   ],
+   [
+    "faro_1860/1860-07-27_p1_sn83030213_00206530650_1860072701_0627.json#19"
+   ],
+   [
+    "faro_1860/1860-07-27_p6_sn83030213_00206530650_1860072701_0632.json#20"
+   ],
+   [
+    "faro_1860/1860-07-25_p1_sn83045462_00280654152_1860072501_0301.json#28"
+   ],
+   [
+    "faro_1860/1860-07-23_p1_sn83009573_00296026372_1860072301_0079.json#31"
+   ],
+   [
+    "faro_1860/1860-07-21_p8_sn83030213_00206530650_1860072101_0594.json#12"
+   ],
+   [
+    "faro_1860/1860-07-30_p2_sn83021205_00517172017_1860073001_0714.json#5"
+   ],
+   [
+    "faro_1860/1860-07-26_p1_sn84024738_0028077800A_1860072601_0083.json#6"
+   ],
+   [
+    "faro_1860/1860-07-23_p2_sn83021205_00517172017_1860072301_0690.json#7"
+   ],
+   [
+    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#13"
+   ],
+   [
+    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#17"
+   ],
+   [
+    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#51"
+   ],
+   [
+    "faro_1860/1860-08-09_p7_sn83030213_00206530650_1860080901_0721.json#13"
+   ],
+   [
+    "faro_1860/1860-07-31_p6_sn83030213_00206530650_1860073101_0656.json#6"
+   ],
+   [
+    "faro_1860/1860-07-27_p1_sn84023127_00280776993_1860072701_0332.json#21"
+   ],
+   [
+    "faro_1860/1860-07-23_p1_sn83035143_00280775678_1860072301_0181.json#21"
+   ],
+   [
+    "faro_1860/1860-08-04_p1_sn83030313_0027174335A_1860080401_0880.json#1"
+   ],
+   [
+    "faro_1860/1860-07-24_p8_sn83030213_00206530650_1860072401_0610.json#3"
+   ],
+   [
+    "faro_1860/1860-07-26_p2_sn84020071_00414182999_1860072601_0506.json#3"
+   ],
+   [
+    "faro_1860/1860-07-26_p2_sn84020071_00414182999_1860072601_0506.json#8"
+   ],
+   [
+    "faro_1860/1860-07-24_p4_sn83030313_0027174335A_1860072401_0783.json#29",
+    "faro_1860/1860-07-26_pNone_sn82014511_no_reel_1860072601_0001.json#12"
+   ],
+   [
+    "faro_1860/1860-07-26_p3_sn84028820_00280775472_1860072601_0308.json#49",
+    "faro_1860/1860-07-27_p3_sn84028083_00280775241_1860072701_0340.json#3"
+   ],
+   [
+    "faro_1860/1860-07-27_p2_sn84023252_00200296230_1860072701_0333.json#25"
+   ],
+   [
+    "faro_1860/1860-07-21_p1_sn83035143_00280775678_1860072101_0177.json#8"
+   ],
+   [
+    "faro_1860/1860-07-25_p8_sn83030313_0027174335A_1860072501_0795.json#18"
+   ],
+   [
+    "faro_1860/1860-07-25_p8_sn83030313_0027174335A_1860072501_0795.json#38"
+   ],
+   [
+    "faro_1860/1860-07-23_p3_sn84024656_00414184704_1860072301_0077.json#19"
+   ],
+   [
+    "faro_1860/1860-07-23_p1_sn84024738_0028077800A_1860072301_0071.json#37"
+   ],
+   [
+    "faro_1860/1860-07-26_p3_sn85054845_00212477655_1860072601_0663.json#23"
+   ],
+   [
+    "faro_1860/1860-07-23_p3_sn83045462_00280654152_1860072301_0293.json#48"
+   ],
+   [
+    "faro_1860/1860-07-26_p3_sn83032276_00296028599_1860072601_0366.json#40"
+   ],
+   [
+    "faro_1860/1860-07-22_p4_sn83030313_0027174335A_1860072201_0767.json#13"
+   ],
+   [
+    "faro_1860/1860-07-26_p8_sn83030313_0027174335A_1860072601_0803.json#20"
+   ],
+   [
+    "faro_1860/1860-07-27_p2_sn83009571_00279523891_1860072701_0124.json#11"
+   ],
+   [
+    "faro_1860/1860-07-24_p5_sn83030313_0027174335A_1860072401_0784.json#11"
+   ],
+   [
+    "faro_1860/1860-07-23_p4_sn83030313_0027174335A_1860072301_0775.json#5"
+   ],
+   [
+    "faro_1860/1860-07-26_p3_sn86081096_00296028666_1860072601_0573.json#4"
+   ],
+   [
+    "faro_1860/1860-07-23_p6_sn83030213_00206530650_1860072301_0600.json#3"
+   ],
+   [
+    "faro_1860/1860-07-24_p1_sn84024738_0028077800A_1860072401_0075.json#58"
+   ],
+   [
+    "faro_1860/1860-08-01_p2_sn84026472_00416156372_1860080101_1156.json#2"
+   ],
+   [
+    "faro_1860/1860-07-28_p5_sn83030313_0027174335A_1860072801_0816.json#16"
+   ],
+   [
+    "faro_1860/1860-07-24_p2_sn83045462_00280654152_1860072401_0296.json#33",
+    "faro_1860/1860-07-28_p2_sn84026824_00271767766_1860072801_0332.json#19"
+   ],
+   [
+    "faro_1860/1860-07-28_p2_sn84026824_00271767766_1860072801_0332.json#21"
+   ],
+   [
+    "faro_1860/1860-08-01_p3_sn84026472_00416156372_1860080101_1157.json#4",
+    "faro_1860/1860-08-03_p1_sn84027253_00279528517_1860080301_0537.json#36",
+    "faro_1860/1860-08-10_p2_sn85033295_00271768710_1860081001_0034.json#21"
+   ],
+   [
+    "faro_1860/1860-08-02_p2_sn84024558_00296028642_1860080201_0448.json#5"
+   ],
+   [
+    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#6"
+   ],
+   [
+    "faro_1860/1860-07-28_p2_sn83016348_00415624505_1860072801_0012.json#27",
+    "faro_1860/1860-08-02_p2_sn84020422_00383342934_1860080201_0091.json#21"
+   ],
+   [
+    "faro_1860/1860-07-28_p2_sn98060050_00280777353_1860072801_0772.json#13"
+   ],
+   [
+    "faro_1860/1860-07-28_p2_sn98060050_00280777353_1860072801_0772.json#23"
+   ],
+   [
+    "faro_1860/1860-08-03_p2_sn84022548_0020219493A_1860080301_0124.json#1"
+   ]
+  ],
+  "spread_km": 1212
+ },
+ {
   "date_lo": "1876-12-21",
   "date_hi": "1876-12-21",
   "dated": true,
@@ -272,956 +663,6 @@
   "spread_km": 2142
  },
  {
-  "date_lo": "1860-07-20",
-  "date_hi": "1860-07-20",
-  "dated": true,
-  "date_votes": 35,
-  "date_families": 39,
-  "date_range_all": [
-   "1860-07-13",
-   "1860-07-27"
-  ],
-  "shower_night": false,
-  "window": "sweep_1860",
-  "reports": 94,
-  "papers": 43,
-  "families": 64,
-  "independent_cities": 21,
-  "cities": [
-   "baltimore, Maryland",
-   "biddeford, Maine",
-   "burlington, Vermont",
-   "clearfield, Pennsylvania",
-   "cleveland, Ohio",
-   "coudersport, Pennsylvania",
-   "dayton, Ohio",
-   "ebensburg, Pennsylvania",
-   "lewisburg, Pennsylvania",
-   "lewistown, Pennsylvania",
-   "litchfield, Connecticut",
-   "millersburg, Ohio"
-  ],
-  "states": [
-   "Delaware",
-   "District of Columbia",
-   "Indiana",
-   "Iowa",
-   "Louisiana",
-   "Maine",
-   "Maryland",
-   "Massachusetts",
-   "New Jersey",
-   "New York",
-   "North Carolina",
-   "Ohio",
-   "Pennsylvania",
-   "South Carolina",
-   "Tennessee",
-   "Vermont",
-   "Virginia",
-   "West Virginia"
-  ],
-  "types": [
-   "fireball"
-  ],
-  "fireball": true,
-  "vetted": false,
-  "stones": false,
-  "fields": {
-   "time": 24,
-   "direction": 34,
-   "sound": 15,
-   "duration": 9,
-   "colour": 23,
-   "train": 23,
-   "burst": 14,
-   "lit_ground": 9
-  },
-  "quotes": [
-   {
-    "date": "1860-07-21",
-    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
-    "when": "At half past nine last night",
-    "where": "northeast",
-    "quote": "At half past nine last night meteor appeared In the northeast, at an elevation of about 10 degrees above the horizon.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_leonberger_ver03/data/sn83045462/00280654152/1860072101/0289.jp2",
-    "key": "faro_1860/1860-07-21_p3_sn83045462_00280654152_1860072101_0289.json#30"
-   },
-   {
-    "date": "1860-07-21",
-    "paper": "Dayton daily empire. [volume] (Dayton [Ohio]) 1850-1865",
-    "when": "last night",
-    "where": "NEW YoRE and Brooklyn",
-    "quote": "A splendid meteor passed over NEW YoRE and Brooklyn last night, il presented the APP earance of two balls of fire, each with a tail and almost joining each other.",
-    "scan": "",
-    "key": "faro_1860/1860-07-21_p3_sn85026002_00280775228_1860072101_1231.json#19"
-   },
-   {
-    "date": "1860-07-21",
-    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
-    "when": "last night",
-    "where": "upper part of the city",
-    "quote": "Shortly before O'Clock last night interesting sight took place the upper part of the city. sup posed to he meteor II first In the form Of blue star",
-    "scan": "",
-    "key": "faro_1860/1860-07-21_p5_sn83030313_0027174335A_1860072101_0760.json#48"
-   },
-   {
-    "date": "1860-07-21",
-    "paper": "New-York daily tribune. [volume] (New-York [N.Y.]) 1842-1866",
-    "when": "this evening ... ss5 and about minute",
-    "where": "No 2sl HEdson street",
-    "quote": "Sitting on the roof of my residence this evening with party Of ladies and gentlemen was fortunate enough to passage of meeodc body through the heavens",
-    "scan": "",
-    "key": "faro_1860/1860-07-21_p8_sn83030213_00206530650_1860072101_0594.json#12"
-   },
-   {
-    "date": "1860-07-21",
-    "paper": "Cleveland morning leader. [volume] (Cleveland [Ohio]) 1854-1",
-    "when": "last night",
-    "where": "",
-    "quote": "Those persons who were fortunate enough to be out Of doors last night about o'clock, had most splendid meteoric exhibition.",
-    "scan": "",
-    "key": "faro_1860/1860-07-21_p1_sn83035143_00280775678_1860072101_0177.json#8"
-   },
-   {
-    "date": "1860-07-22",
-    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
-    "when": "Friday night",
-    "where": "New York",
-    "quote": "The mysterious phenomenon OF friday ngnt appears 70 have attracted agfeat deal Of attention in all directions",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_marcus_ver01/data/sn83030313/0027174335A/1860072201/0764.jp2",
-    "key": "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#5"
-   },
-   {
-    "date": "1860-07-22",
-    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
-    "when": "Friday night",
-    "where": "Staten Island; South Brooklyn",
-    "quote": "From this ball of nre which became quite brilliant shot forth two balls in precisely the same style that they thrown of from Roman candles the three bodies assumed at meteorlike appearance",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_marcus_ver01/data/sn83030313/0027174335A/1860072201/0764.jp2",
-    "key": "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#11"
-   },
-   {
-    "date": "1860-07-22",
-    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
-    "when": "Last evening about ten minutes before ten O'Clock",
-    "where": "passed city",
-    "quote": "very gulsr meteor passed city in direction little tOuth OF had about the apparent eieva ton OF an ordinary IRE rocket There appeared 10 be three heads balR OF fire of intense brascy and beau ~ connected 10 straight line by slender thread OF IRE",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_marcus_ver01/data/sn83030313/0027174335A/1860072201/0764.jp2",
-    "key": "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#36"
-   }
-  ],
-  "family_keys": [
-   [
-    "faro_1860/1860-07-21_p3_sn83045462_00280654152_1860072101_0289.json#30",
-    "faro_1860/1860-07-23_p1_sn83009573_00296026372_1860072301_0079.json#93",
-    "faro_1860/1860-07-25_p2_sn84024656_00414184704_1860072501_0084.json#60",
-    "faro_1860/1860-07-27_p1_sn82015753_00212475257_1860072701_0180.json#3",
-    "faro_1860/1860-07-27_p1_sn82015753_00212475257_1860072701_0180.json#71",
-    "faro_1860/1860-07-28_p3_sn83045450_00296022780_1860072801_0243.json#91",
-    "faro_1860/1860-08-01_p2_sn88083120_00211100813_1860080101_0084.json#6"
-   ],
-   [
-    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#5"
-   ],
-   [
-    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#11"
-   ],
-   [
-    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#36"
-   ],
-   [
-    "faro_1860/1860-07-22_p1_sn83030313_0027174335A_1860072201_0764.json#27"
-   ],
-   [
-    "faro_1860/1860-07-26_p2_sn84026399_00237287897_1860072601_0398.json#8"
-   ],
-   [
-    "faro_1860/1860-07-21_p3_sn85026002_00280775228_1860072101_1231.json#19",
-    "faro_1860/1860-07-23_p4_sn83035143_00280775678_1860072301_0184.json#26",
-    "faro_1860/1860-07-23_p3_sn84026845_00202190662_1860072301_0077.json#29",
-    "faro_1860/1860-07-23_p1_sn82015737_00279529108_1860072301_0181.json#13",
-    "faro_1860/1860-07-23_pNone_sn82014511_no_reel_1860072301_0004.json#16",
-    "faro_1860/1860-07-24_p3_sn85038518_00200293307_1860072401_0081.json#61",
-    "faro_1860/1860-07-25_p1_sn83045160_00200290057_1860072501_0063.json#63",
-    "faro_1860/1860-07-27_p1_sn84027253_00279528517_1860072701_0533.json#12",
-    "faro_1860/1860-07-28_p1_sn84027060_00415668892_1860072801_0634.json#12",
-    "faro_1860/1860-07-31_p2_sn87058348_00279529376_1860073101_0431.json#4"
-   ],
-   [
-    "faro_1860/1860-07-26_p3_sn84020422_00383342934_1860072601_0088.json#11"
-   ],
-   [
-    "faro_1860/1860-07-26_p1_sn83045462_00280654152_1860072601_0305.json#86"
-   ],
-   [
-    "faro_1860/1860-07-25_p3_sn85054616_00212477795_1860072501_0109.json#44"
-   ],
-   [
-    "faro_1860/1860-07-24_p2_sn83021205_00517172017_1860072401_0694.json#8"
-   ],
-   [
-    "faro_1860/1860-07-24_p2_sn83021205_00517172017_1860072401_0694.json#42",
-    "faro_1860/1860-07-24_p2_sn83021205_00517172017_1860072401_0694.json#69",
-    "faro_1860/1860-07-30_p4_sn82015672_00296021969_1860073001_0280.json#13",
-    "faro_1860/1860-08-03_p2_sn88083120_00211100813_1860080301_0092.json#17",
-    "faro_1860/1860-08-03_p4_sn85038443_00280776385_1860080301_0194.json#31"
-   ],
-   [
-    "faro_1860/1860-07-25_p2_sn84024656_00414184704_1860072501_0084.json#18",
-    "faro_1860/1860-07-25_p2_sn84024656_00414184704_1860072501_0084.json#63",
-    "faro_1860/1860-07-27_p1_sn84024735_00415664382_1860072701_0248.json#29",
-    "faro_1860/1860-07-28_p3_sn83045450_00296022780_1860072801_0243.json#32",
-    "faro_1860/1860-08-01_p1_sn83045706_00296022652_1860080101_0337.json#31",
-    "faro_1860/1860-08-09_p1_sn87056248_00200295882_1860080901_0122.json#23",
-    "faro_1860/1860-08-17_p1_sn83035595_00296029191_1860081701_0491.json#9"
-   ],
-   [
-    "faro_1860/1860-07-31_p1_sn83009573_00296026372_1860073101_0108.json#27",
-    "faro_1860/1860-08-01_p2_sn85035610_00513684976_1860080101_0117.json#6"
-   ],
-   [
-    "faro_1860/1860-07-21_p5_sn83030313_0027174335A_1860072101_0760.json#48"
-   ],
-   [
-    "faro_1860/1860-07-24_p2_sn83009573_00296026372_1860072401_0084.json#32",
-    "faro_1860/1860-07-26_p2_sn89060060_0041562430A_1860072601_0109.json#53"
-   ],
-   [
-    "faro_1860/1860-07-27_p3_sn85038443_00280776385_1860072701_0189.json#80"
-   ],
-   [
-    "faro_1860/1860-07-26_p2_sn84020071_00414182999_1860072601_0506.json#1",
-    "faro_1860/1860-07-27_p2_sn84022549_00415628407_1860072701_0367.json#6"
-   ],
-   [
-    "faro_1860/1860-07-23_p8_sn83030313_0027174335A_1860072301_0779.json#7"
-   ],
-   [
-    "faro_1860/1860-07-23_p8_sn83030313_0027174335A_1860072301_0779.json#12"
-   ],
-   [
-    "faro_1860/1860-07-26_p2_sn83035143_00280775678_1860072601_0194.json#2"
-   ],
-   [
-    "faro_1860/1860-07-26_p2_sn83035143_00280775678_1860072601_0194.json#31"
-   ],
-   [
-    "faro_1860/1860-07-27_p1_sn83030213_00206530650_1860072701_0627.json#19"
-   ],
-   [
-    "faro_1860/1860-07-27_p6_sn83030213_00206530650_1860072701_0632.json#20"
-   ],
-   [
-    "faro_1860/1860-07-25_p1_sn83045462_00280654152_1860072501_0301.json#28"
-   ],
-   [
-    "faro_1860/1860-07-23_p1_sn83009573_00296026372_1860072301_0079.json#31"
-   ],
-   [
-    "faro_1860/1860-07-21_p8_sn83030213_00206530650_1860072101_0594.json#12"
-   ],
-   [
-    "faro_1860/1860-07-30_p2_sn83021205_00517172017_1860073001_0714.json#5"
-   ],
-   [
-    "faro_1860/1860-07-26_p1_sn84024738_0028077800A_1860072601_0083.json#6"
-   ],
-   [
-    "faro_1860/1860-07-23_p2_sn83021205_00517172017_1860072301_0690.json#7"
-   ],
-   [
-    "faro_1860/1860-09-06_p1_sn83025802_00295862038_1860090601_0196.json#2"
-   ],
-   [
-    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#13"
-   ],
-   [
-    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#17"
-   ],
-   [
-    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#51"
-   ],
-   [
-    "faro_1860/1860-08-09_p7_sn83030213_00206530650_1860080901_0721.json#13"
-   ],
-   [
-    "faro_1860/1860-07-31_p6_sn83030213_00206530650_1860073101_0656.json#6"
-   ],
-   [
-    "faro_1860/1860-07-27_p1_sn84023127_00280776993_1860072701_0332.json#21"
-   ],
-   [
-    "faro_1860/1860-07-23_p1_sn83035143_00280775678_1860072301_0181.json#21"
-   ],
-   [
-    "faro_1860/1860-08-04_p1_sn83030313_0027174335A_1860080401_0880.json#1"
-   ],
-   [
-    "faro_1860/1860-08-02_p2_sn84026925_00295862701_1860080201_0018.json#16"
-   ],
-   [
-    "faro_1860/1860-07-24_p8_sn83030213_00206530650_1860072401_0610.json#3"
-   ],
-   [
-    "faro_1860/1860-07-26_p2_sn84020071_00414182999_1860072601_0506.json#3"
-   ],
-   [
-    "faro_1860/1860-07-26_p2_sn84020071_00414182999_1860072601_0506.json#8"
-   ],
-   [
-    "faro_1860/1860-07-24_p4_sn83030313_0027174335A_1860072401_0783.json#29",
-    "faro_1860/1860-07-26_pNone_sn82014511_no_reel_1860072601_0001.json#12"
-   ],
-   [
-    "faro_1860/1860-07-26_p3_sn84028820_00280775472_1860072601_0308.json#49",
-    "faro_1860/1860-07-27_p3_sn84028083_00280775241_1860072701_0340.json#3"
-   ],
-   [
-    "faro_1860/1860-07-27_p2_sn84023252_00200296230_1860072701_0333.json#25"
-   ],
-   [
-    "faro_1860/1860-07-21_p1_sn83035143_00280775678_1860072101_0177.json#8"
-   ],
-   [
-    "faro_1860/1860-07-25_p8_sn83030313_0027174335A_1860072501_0795.json#18"
-   ],
-   [
-    "faro_1860/1860-07-25_p8_sn83030313_0027174335A_1860072501_0795.json#38"
-   ],
-   [
-    "faro_1860/1860-07-23_p3_sn84024656_00414184704_1860072301_0077.json#19"
-   ],
-   [
-    "faro_1860/1860-07-23_p1_sn84024738_0028077800A_1860072301_0071.json#37"
-   ],
-   [
-    "faro_1860/1860-07-26_p3_sn85054845_00212477655_1860072601_0663.json#23"
-   ],
-   [
-    "faro_1860/1860-07-23_p3_sn83045462_00280654152_1860072301_0293.json#48"
-   ],
-   [
-    "faro_1860/1860-07-26_p3_sn83032276_00296028599_1860072601_0366.json#40"
-   ],
-   [
-    "faro_1860/1860-07-22_p4_sn83030313_0027174335A_1860072201_0767.json#13"
-   ],
-   [
-    "faro_1860/1860-07-26_p8_sn83030313_0027174335A_1860072601_0803.json#20"
-   ],
-   [
-    "faro_1860/1860-07-27_p2_sn83009571_00279523891_1860072701_0124.json#11"
-   ],
-   [
-    "faro_1860/1860-07-24_p5_sn83030313_0027174335A_1860072401_0784.json#11"
-   ],
-   [
-    "faro_1860/1860-07-26_p1_sn83045462_00280654152_1860072601_0304.json#28"
-   ],
-   [
-    "faro_1860/1860-07-23_p4_sn83030313_0027174335A_1860072301_0775.json#5"
-   ],
-   [
-    "faro_1860/1860-07-26_p3_sn86081096_00296028666_1860072601_0573.json#4"
-   ],
-   [
-    "faro_1860/1860-07-23_p6_sn83030213_00206530650_1860072301_0600.json#3"
-   ],
-   [
-    "faro_1860/1860-07-24_p1_sn84024738_0028077800A_1860072401_0075.json#58"
-   ],
-   [
-    "faro_1860/1860-07-27_p3_sn83045462_00280654152_1860072701_0309.json#76"
-   ]
-  ],
-  "spread_km": 1367
- },
- {
-  "date_lo": "1860-07-27",
-  "date_hi": "1860-07-27",
-  "dated": true,
-  "date_votes": 9,
-  "date_families": 11,
-  "date_range_all": [
-   "1860-07-25",
-   "1860-08-03"
-  ],
-  "shower_night": false,
-  "window": "sweep_1860",
-  "reports": 29,
-  "papers": 20,
-  "families": 21,
-  "independent_cities": 15,
-  "cities": [
-   "baltimore, Maryland",
-   "brattleboro, Vermont",
-   "burlington, Vermont",
-   "elkton, Maryland",
-   "evansville, Indiana",
-   "hillsboro, North Carolina",
-   "irasburg, Vermont",
-   "nashville, Tennessee",
-   "new york, ",
-   "richmond, Virginia",
-   "shepherdstown, West Virginia",
-   "towanda, Pennsylvania"
-  ],
-  "states": [
-   "Delaware",
-   "District of Columbia",
-   "Indiana",
-   "Iowa",
-   "Maryland",
-   "Massachusetts",
-   "New York",
-   "North Carolina",
-   "Ohio",
-   "Pennsylvania",
-   "Tennessee",
-   "Vermont",
-   "Virginia",
-   "West Virginia",
-   "Wisconsin"
-  ],
-  "types": [
-   "fireball"
-  ],
-  "fireball": true,
-  "vetted": false,
-  "stones": false,
-  "fields": {
-   "time": 6,
-   "direction": 9,
-   "sound": 6,
-   "duration": 4,
-   "colour": 7,
-   "train": 13,
-   "burst": 5,
-   "lit_ground": 4
-  },
-  "quotes": [
-   {
-    "date": "1860-07-24",
-    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
-    "when": "Friday night last",
-    "where": "at least as far south as Norfolk and as far north as Canada",
-    "quote": "The Meteor, on Friday night last, was seen at least as far south as Norfolk and as far north as Canada",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_leonberger_ver03/data/sn83045462/00280654152/1860072401/0296.jp2",
-    "key": "faro_1860/1860-07-24_p2_sn83045462_00280654152_1860072401_0296.json#33"
-   },
-   {
-    "date": "1860-07-27",
-    "paper": "Burlington free press. [volume] (Burlington, Vt.) 1827-1865",
-    "when": "this evening, Friday, July 20, a 945",
-    "where": "AT BEDFORD, wEsTCHESrER COUNTY, y. y",
-    "quote": "An extraordinary meteor appeared this evening, Friday, July 20, a 945. Its course was from the northwest, where it seemed to arse 10 south east",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vtu_adamant_ver01/data/sn84023127/00280776993/1860072701/0333.jp2",
-    "key": "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#6"
-   },
-   {
-    "date": "1860-07-27",
-    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
-    "when": "precisely twenty-seven minutes past ten O'Clock last night",
-    "where": "",
-    "quote": "at that instant a meteor shot out from behind them, at hrst resembling a shooting star Of the highes, order and took northwesterly direction; increas- ing in size and brilliancy, is fiery tail growing wider and longer as II advanced on its direct course",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_leonberger_ver03/data/sn83045462/00280654152/1860072701/0308.jp2",
-    "key": "faro_1860/1860-07-27_p2_sn83045462_00280654152_1860072701_0308.json#17"
-   },
-   {
-    "date": "1860-07-27",
-    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
-    "when": "last night at quarter to eleven",
-    "where": "",
-    "quote": "another meteor nreareS 10 the west southwest at an elevation of 60 II daIted down with a slight curve In its path like a Islling rocket",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_leonberger_ver03/data/sn83045462/00280654152/1860072701/0309.jp2",
-    "key": "faro_1860/1860-07-27_p3_sn83045462_00280654152_1860072701_0309.json#77"
-   },
-   {
-    "date": "1860-07-28",
-    "paper": "The New York herald. [volume] (New York [N.Y.]) 1840-1920",
-    "when": "Friday night last",
-    "where": "different places",
-    "quote": "All sorts OF Accounts of the Brilliant Meteor AZ seen in differ ent places Friday night last",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_marcus_ver01/data/sn83030313/0027174335A/1860072801/0816.jp2",
-    "key": "faro_1860/1860-07-28_p5_sn83030313_0027174335A_1860072801_0816.json#16"
-   },
-   {
-    "date": "1860-07-28",
-    "paper": "Shepherdstown register. [volume] (Shepherdstown, Va. [W. Va.",
-    "when": "Friday nigh, last",
-    "where": "at least as far south as Norfolk, and as far north as Canada",
-    "quote": "The meteor, on Friday nigh, last, was seen al least as far south as Norfolk, and as far north as Canada.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_antares_ver02/data/sn84026824/00271767766/1860072801/0332.jp2",
-    "key": "faro_1860/1860-07-28_p2_sn84026824_00271767766_1860072801_0332.json#19"
-   },
-   {
-    "date": "1860-07-28",
-    "paper": "Shepherdstown register. [volume] (Shepherdstown, Va. [W. Va.",
-    "when": "Friday night, 2O'h inst",
-    "where": "",
-    "quote": "The meteor was observed in al parts Of the country and various de- scriplions have been given Of it.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_antares_ver02/data/sn84026824/00271767766/1860072801/0332.jp2",
-    "key": "faro_1860/1860-07-28_p2_sn84026824_00271767766_1860072801_0332.json#21"
-   },
-   {
-    "date": "1860-07-28",
-    "paper": "The Cecil Whig. [volume] (Elkton, Md.) 1841-current",
-    "when": "the night of Friday the Goth inst",
-    "where": "here ... in ten different States ... go miles out at sea, on the East; at Buffalo, N. y, on the West at Troy, N. y, on the North, and at Norfolk Va, in the South",
-    "quote": "THE beautiful meteor seen here on the night of Friday the Goth inst, was observed at the same moment, nearly, in ten different States.",
-    "scan": "",
-    "key": "faro_1860/1860-07-28_p2_sn83016348_00415624505_1860072801_0012.json#27"
-   }
-  ],
-  "family_keys": [
-   [
-    "faro_1860/1860-08-01_p2_sn84026472_00416156372_1860080101_1156.json#2"
-   ],
-   [
-    "faro_1860/1860-08-09_p1_sn83009573_00296026372_1860080901_0140.json#25",
-    "faro_1860/1860-08-09_p2_sn83021205_00517172017_1860080901_0750.json#9",
-    "faro_1860/1860-08-10_p2_sn84023127_00280776993_1860081001_0341.json#28"
-   ],
-   [
-    "faro_1860/1860-07-28_p5_sn83030313_0027174335A_1860072801_0816.json#16"
-   ],
-   [
-    "faro_1860/1860-07-24_p2_sn83045462_00280654152_1860072401_0296.json#33",
-    "faro_1860/1860-07-28_p2_sn84026824_00271767766_1860072801_0332.json#19"
-   ],
-   [
-    "faro_1860/1860-07-28_p2_sn84026824_00271767766_1860072801_0332.json#21"
-   ],
-   [
-    "faro_1860/1860-08-01_p3_sn84026472_00416156372_1860080101_1157.json#4",
-    "faro_1860/1860-08-03_p1_sn84027253_00279528517_1860080301_0537.json#36",
-    "faro_1860/1860-08-10_p2_sn85033295_00271768710_1860081001_0034.json#21"
-   ],
-   [
-    "faro_1860/1860-08-02_p2_sn84024558_00296028642_1860080201_0448.json#5"
-   ],
-   [
-    "faro_1860/1860-08-09_p1_sn95068565_00212470478_1860080901_0949.json#15"
-   ],
-   [
-    "faro_1860/1860-08-05_p3_sn85038518_00200293307_1860080501_0125.json#117"
-   ],
-   [
-    "faro_1860/1860-07-27_p2_sn84023127_00280776993_1860072701_0333.json#6"
-   ],
-   [
-    "faro_1860/1860-08-09_p3_sn85038518_00200293307_1860080901_0137.json#37",
-    "faro_1860/1860-08-09_p3_sn85038518_00200293307_1860080901_0137.json#166"
-   ],
-   [
-    "faro_1860/1860-07-28_p2_sn83016348_00415624505_1860072801_0012.json#27",
-    "faro_1860/1860-08-02_p2_sn84020422_00383342934_1860080201_0091.json#21"
-   ],
-   [
-    "faro_1860/1860-08-09_p1_sn84024738_0028077800A_1860080901_0127.json#75"
-   ],
-   [
-    "faro_1860/1860-08-07_p4_sn83030313_0027174335A_1860080701_0907.json#21",
-    "faro_1860/1860-08-09_p3_sn85025007_0041566350A_1860080901_0350.json#77"
-   ],
-   [
-    "faro_1860/1860-08-08_p3_sn85038115_00296027480_1860080801_0508.json#23"
-   ],
-   [
-    "faro_1860/1860-07-28_p2_sn98060050_00280777353_1860072801_0772.json#13"
-   ],
-   [
-    "faro_1860/1860-07-28_p2_sn98060050_00280777353_1860072801_0772.json#23"
-   ],
-   [
-    "faro_1860/1860-07-27_p2_sn83045462_00280654152_1860072701_0308.json#17"
-   ],
-   [
-    "faro_1860/1860-08-03_p2_sn84022548_0020219493A_1860080301_0124.json#1"
-   ],
-   [
-    "faro_1860/1860-07-27_p3_sn83045462_00280654152_1860072701_0309.json#77"
-   ],
-   [
-    "faro_1860/1860-08-07_p1_sn82015672_00296021969_1860080701_0305.json#5"
-   ]
-  ],
-  "spread_km": 1590
- },
- {
-  "date_lo": "1898-06-03",
-  "date_hi": "1898-06-03",
-  "dated": true,
-  "date_votes": 3,
-  "date_families": 4,
-  "date_range_all": [
-   "1898-05-27",
-   "1898-06-10"
-  ],
-  "shower_night": false,
-  "window": "sweep_1898",
-  "reports": 22,
-  "papers": 17,
-  "families": 16,
-  "independent_cities": 13,
-  "cities": [
-   "alexandria, Virginia",
-   "butler, Pennsylvania",
-   "ceredo, West Virginia",
-   "hillsboro, Ohio",
-   "indianapolis, Indiana",
-   "louisa, Kentucky",
-   "middlebury, Vermont",
-   "new york, New York",
-   "owingsville, Kentucky",
-   "paris, Kentucky",
-   "point pleasant, West Virginia",
-   "wheeling, West Virginia"
-  ],
-  "states": [
-   "Georgia",
-   "Indiana",
-   "Kentucky",
-   "New York",
-   "Ohio",
-   "Pennsylvania",
-   "South Dakota",
-   "Vermont",
-   "Virginia",
-   "West Virginia"
-  ],
-  "types": [
-   "fireball",
-   "meteorite_fall"
-  ],
-  "fireball": true,
-  "vetted": false,
-  "stones": true,
-  "fields": {
-   "time": 1,
-   "direction": 1,
-   "sound": 6,
-   "duration": 1,
-   "colour": 2,
-   "train": 4,
-   "burst": 1,
-   "lit_ground": 1
-  },
-  "quotes": [
-   {
-    "date": "1898-06-04",
-    "paper": "Wheeling register. [volume] (Wheeling, W. Va.) 1878-1935",
-    "when": "noon to-day",
-    "where": "Comfort, a small village twenty miles south of here [Charleston, W. Va]",
-    "quote": "large meteor fell near there at noon to-day which caused a deafening report and shook the earth for many miles around",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_irwin_ver01/data/sn86092518/00340582238/1898060401/0443.jp2",
-    "key": "faro_1898/1898-06-04_p2_sn86092518_00340582238_1898060401_0443.json#26"
-   },
-   {
-    "date": "1898-06-07",
-    "paper": "The Indianapolis journal. [volume] (Indianapolis [Ind.]) 186",
-    "when": "last Friday, at noon",
-    "where": "Delaware county",
-    "quote": "A meteor. big as a house, is said to have fallen in Delaware county last Friday, at noon.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/in_bradlaugh_ver02/data/sn82015679/00271740517/1898060701/0353.jp2",
-    "key": "faro_1898/1898-06-07_p3_sn82015679_00271740517_1898060701_0353.json#2"
-   },
-   {
-    "date": "1898-06-07",
-    "paper": "The Bourbon news. [volume] (Paris, Ky.) 1895-19??",
-    "when": "Friday at noon",
-    "where": "near Lair; near Paris; near Charleston, w. Va; Hamilton",
-    "quote": "A large meteor was also observed by parties near Paris Friday at noon.",
-    "scan": "",
-    "key": "faro_1898/1898-06-07_p9_sn86069873_00100481650_1898060701_0367.json#3"
-   },
-   {
-    "date": "1898-06-07",
-    "paper": "Alexandria gazette. [volume] (Alexandria, D.C.) 1834-1974",
-    "when": "on Saturday",
-    "where": "throughout that section OF the Ohio Valley ... from Rock wood, Ohio, to Ceredo, W. Va.",
-    "quote": "Many Of the meteors reached the earth in solid form land st Ceredo and Kellogg stones were picked up weighing several pounds.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_red_ver01/data/sn85025007/00175033774/1898060701/0398.jp2",
-    "key": "faro_1898/1898-06-07_p2_sn85025007_00175033774_1898060701_0398.json#17"
-   },
-   {
-    "date": "1898-06-08",
-    "paper": "Ceredo advance. [volume] (Ceredo, W. Va.) 1885-1939",
-    "when": "Friday p. m, between u and l.",
-    "where": "round about town",
-    "quote": "Many round about town saw a ball as o. fire passing northeast over head",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_moore_ver01/data/sn86092392/00414187316/1898060801/1616.jp2",
-    "key": "faro_1898/1898-06-08_p4_sn86092392_00414187316_1898060801_1616.json#1"
-   },
-   {
-    "date": "1898-06-08",
-    "paper": "Ceredo advance. [volume] (Ceredo, W. Va.) 1885-1939",
-    "when": "last Friday about one o'clock p. m",
-    "where": "IN Ceredo and vicinity ... few miles south of this place",
-    "quote": "rumbling sound resembling thunder was heard many persons IN Ceredo and vicinity last Friday about one o'clock p. m",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_moore_ver01/data/sn86092392/00414187316/1898060801/1617.jp2",
-    "key": "faro_1898/1898-06-08_p5_sn86092392_00414187316_1898060801_1617.json#14"
-   },
-   {
-    "date": "1898-06-09",
-    "paper": "Butler citizen. [volume] (Butler, Pa.) 1877-1922",
-    "when": "last week",
-    "where": "Pleasant Valley",
-    "quote": "He saw a meteor fall, and its passage through the air made a streak OF light as bright rs silver.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_erie_ver02/data/sn86071045/00296026517/1898060901/0378.jp2",
-    "key": "faro_1898/1898-06-09_p2_sn86071045_00296026517_1898060901_0378.json#14"
-   },
-   {
-    "date": "1898-06-09",
-    "paper": "Shepherdstown register. [volume] (Shepherdstown, Va. [W. Va.",
-    "when": "on Saturday",
-    "where": "throughout that section of the Ohio Valley ... from lockwood, Ohio, to Ceredo, w. Va.",
-    "quote": "Many of the meteors reached the earth in solid form, and at Ceredo and kellogg stones were picked up weighing several pounds.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_bones_ver01/data/sn84026824/00271767870/1898060901/0300.jp2",
-    "key": "faro_1898/1898-06-09_p2_sn84026824_00271767870_1898060901_0300.json#23"
-   }
-  ],
-  "family_keys": [
-   [
-    "faro_1898/1898-06-10_p3_sn83004226_00295875811_1898061001_0630.json#4"
-   ],
-   [
-    "faro_1898/1898-06-08_p4_sn86092392_00414187316_1898060801_1616.json#1"
-   ],
-   [
-    "faro_1898/1898-06-15_p1_sn83030272_00175043019_1898061501_0201.json#24",
-    "faro_1898/1898-06-19_p9_sn86063034_00414182240_1898061901_0537.json#9",
-    "faro_1898/1898-06-19_p9_sn86063034_00414182240_1898061901_0537.json#12",
-    "faro_1898/1898-06-30_p1_sn86069620_00212474629_1898063001_0524.json#2",
-    "faro_1898/1898-07-15_p9_sn97065832_00415624839_1898071501_0510.json#4"
-   ],
-   [
-    "faro_1898/1898-06-11_p3_sn84023296_0020029614A_1898061101_0566.json#42"
-   ],
-   [
-    "faro_1898/1898-06-16_p4_sn85038161_0023728933A_1898061601_0556.json#18"
-   ],
-   [
-    "faro_1898/1898-06-07_p3_sn82015679_00271740517_1898060701_0353.json#2"
-   ],
-   [
-    "faro_1898/1898-06-07_p9_sn86069873_00100481650_1898060701_0367.json#3"
-   ],
-   [
-    "faro_1898/1898-06-09_p2_sn86071045_00296026517_1898060901_0378.json#14"
-   ],
-   [
-    "faro_1898/1898-06-10_p2_sn83004226_00295875811_1898061001_0629.json#3"
-   ],
-   [
-    "faro_1898/1898-06-10_p2_sn83004226_00295875811_1898061001_0629.json#14"
-   ],
-   [
-    "faro_1898/1898-06-08_p5_sn86092392_00414187316_1898060801_1617.json#14"
-   ],
-   [
-    "faro_1898/1898-06-07_p2_sn85025007_00175033774_1898060701_0398.json#17",
-    "faro_1898/1898-06-09_p2_sn84026824_00271767870_1898060901_0300.json#23",
-    "faro_1898/1898-06-26_p13_sn85034438_00175049459_1898062601_0761.json#15"
-   ],
-   [
-    "faro_1898/1898-06-15_p4_sn84026817_00202192245_1898061501_0458.json#2"
-   ],
-   [
-    "faro_1898/1898-06-10_p3_sn93063557_00280777894_1898061001_1037.json#6"
-   ],
-   [
-    "faro_1898/1898-06-04_p2_sn86092518_00340582238_1898060401_0443.json#26"
-   ],
-   [
-    "faro_1898/1898-06-09_p1_sn86069620_00212474629_1898060901_0506.json#5"
-   ]
-  ],
-  "spread_km": 1411
- },
- {
-  "date_lo": "1907-10-01",
-  "date_hi": "1907-10-01",
-  "dated": true,
-  "date_votes": 8,
-  "date_families": 8,
-  "date_range_all": [
-   "1907-09-24",
-   "1907-10-06"
-  ],
-  "shower_night": false,
-  "window": "sweep_1907",
-  "reports": 19,
-  "papers": 16,
-  "families": 15,
-  "independent_cities": 13,
-  "cities": [
-   "alexandria, Virginia",
-   "bel air, Maryland",
-   "bloomsburg, Pennsylvania",
-   "new york, New York",
-   "reynoldsville, Pennsylvania",
-   "rising sun, Maryland",
-   "rockville, Maryland",
-   "shepherdstown, West Virginia",
-   "thurmont, Maryland",
-   "towson, ",
-   "washington, District of Columbia",
-   "westminster, Maryland"
-  ],
-  "states": [
-   "District of Columbia",
-   "Maryland",
-   "New Jersey",
-   "Pennsylvania",
-   "Virginia",
-   "West Virginia"
-  ],
-  "types": [
-   "fireball"
-  ],
-  "fireball": true,
-  "vetted": false,
-  "stones": false,
-  "fields": {
-   "time": 7,
-   "direction": 6,
-   "sound": 2,
-   "duration": 0,
-   "colour": 3,
-   "train": 8,
-   "burst": 1,
-   "lit_ground": 1
-  },
-  "quotes": [
-   {
-    "date": "1907-10-02",
-    "paper": "Alexandria gazette. [volume] (Alexandria, D.C.) 1834-1974",
-    "when": "last night",
-    "where": "vicinity Of Suferp, N. Y.",
-    "quote": "A heavenly body that had the appear ance of a huge sky rocket, and rose to a great height in the western sky over The Rsmapo Mountains, before it broke into half dozen pieces, was seen last night by many persons in the vicinity Of Suferp, N. Y.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_greenday_ver01/data/sn85025007/00175046999/1907100201/0052.jp2",
-    "key": "faro_1907/1907-10-02_p2_sn85025007_00175046999_1907100201_0052.json#29"
-   },
-   {
-    "date": "1907-10-02",
-    "paper": "The Washington herald. [volume] (Washington, D.C.) 1906-1939",
-    "when": "Oct IA ... tonight",
-    "where": "Suffern. \\. Y ... vicinity OF Suffern",
-    "quote": "A heavenly body that had the appearance Of a huge sky rocket, and rose to a great height in the Western sky over the Ramapo Mountains before it broke into 9 half dozen pieces, was seen tonight by mann persons in the vicinity OF Suffern.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_golf_ver01/data/sn83045433/100493287/1907100201/0277.jp2",
-    "key": "faro_1907/1907-10-02_p1_sn83045433_100493287_1907100201_0277.json#6"
-   },
-   {
-    "date": "1907-10-02",
-    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
-    "when": "October \"a meteor Of majestic proportions swept the western sky at almost precisely $50 O'Clock last night.",
-    "where": "NEW YORK",
-    "quote": "A meteor Of majestic proportions swept the western sky at almost precisely $50 O'Clock last night.",
-    "scan": "",
-    "key": "faro_1907/1907-10-02_p14_sn83045462_00280656173_1907100201_0042.json#5"
-   },
-   {
-    "date": "1907-10-02",
-    "paper": "The evening star and Newark advertiser. [volume] (Newark, N.",
-    "when": "early last night",
-    "where": "western sky",
-    "quote": "A meteor of majestic proportions swept the western sky early last night.",
-    "scan": "",
-    "key": "faro_1907/1907-10-02_p7_sn84020504_00332897159_1907100201_0024.json#23"
-   },
-   {
-    "date": "1907-10-02",
-    "paper": "The star. (Reynoldsville, Pa.) 1892-1946",
-    "when": "last evening",
-    "where": "",
-    "quote": "While they were standing talking near Franks Tavern a brilliant golden ball OF fire appeared suddenly In the northern part of the sky",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_mateer_ver01/data/sn87078321/00212477989/1907100201/0361.jp2",
-    "key": "faro_1907/1907-10-02_p5_sn87078321_00212477989_1907100201_0361.json#3"
-   },
-   {
-    "date": "1907-10-03",
-    "paper": "The Columbian. [volume] (Bloomsburg, Pa.) 1866-1910",
-    "when": "about halt past six o. clock Tuesday evening",
-    "where": "in this section",
-    "quote": "A meteoric display that surpassed anything seen in this section for many years, occurred about halt past six o. clock Tuesday evening",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_irvin_ver01/data/sn83032011/00280776890/1907100301/0772.jp2",
-    "key": "faro_1907/1907-10-03_p1_sn83032011_00280776890_1907100301_0772.json#4"
-   },
-   {
-    "date": "1907-10-03",
-    "paper": "Montour American. (Danville, Pa.) 1866-1920",
-    "when": "about half past six o'clock Tuesday evening",
-    "where": "this section",
-    "quote": "a meteoric display that surpassed any thing seen in this section for many years occurred about half past six o'clock Tuesday evening",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_dubois_ver01/data/sn86083264/00296026463/1907100301/0188.jp2",
-    "key": "faro_1907/1907-10-03_p1_sn86083264_00296026463_1907100301_0188.json#3"
-   },
-   {
-    "date": "1907-10-03",
-    "paper": "The Columbian. [volume] (Bloomsburg, Pa.) 1866-1910",
-    "when": "oct. 3.--A meteor OF majestic proportions swept the vest ern sky at sunset.",
-    "where": "New York",
-    "quote": "A meteor OF majestic proportions swept the vest ern sky at sunset.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_irvin_ver01/data/sn83032011/00280776890/1907100301/0774.jp2",
-    "key": "faro_1907/1907-10-03_p3_sn83032011_00280776890_1907100301_0774.json#2"
-   }
-  ],
-  "family_keys": [
-   [
-    "faro_1907/1907-10-10_p1_sn87068079_00332896568_1907101001_0115.json#4"
-   ],
-   [
-    "faro_1907/1907-10-10_p1_sn87068079_00332896568_1907101001_0115.json#11"
-   ],
-   [
-    "faro_1907/1907-10-12_p1_sn83016368_00415627452_1907101201_0399.json#7"
-   ],
-   [
-    "faro_1907/1907-10-11_p3_sn83016107_00415625601_1907101101_0594.json#24"
-   ],
-   [
-    "faro_1907/1907-10-04_p3_sn83016209_00332899041_1907100401_0295.json#21"
-   ],
-   [
-    "faro_1907/1907-10-02_p2_sn85025007_00175046999_1907100201_0052.json#29",
-    "faro_1907/1907-10-02_p1_sn83045433_100493287_1907100201_0277.json#6"
-   ],
-   [
-    "faro_1907/1907-10-11_p3_sn85038292_00415624074_1907101101_0182.json#24"
-   ],
-   [
-    "faro_1907/1907-10-03_p1_sn83032011_00280776890_1907100301_0772.json#4",
-    "faro_1907/1907-10-03_p1_sn86083264_00296026463_1907100301_0188.json#3"
-   ],
-   [
-    "faro_1907/1907-10-02_p14_sn83045462_00280656173_1907100201_0042.json#5",
-    "faro_1907/1907-10-02_p7_sn84020504_00332897159_1907100201_0024.json#23",
-    "faro_1907/1907-10-03_p3_sn83032011_00280776890_1907100301_0774.json#2"
-   ],
-   [
-    "faro_1907/1907-10-11_p1_sn89060136_00279522606_1907101101_0783.json#22"
-   ],
-   [
-    "faro_1907/1907-10-04_p5_sn83030214_00175039259_1907100401_0050.json#4"
-   ],
-   [
-    "faro_1907/1907-10-03_p3_sn84026824_00271767900_1907100301_0373.json#27"
-   ],
-   [
-    "faro_1907/1907-10-03_p3_sn84026688_00296029981_1907100301_0408.json#16"
-   ],
-   [
-    "faro_1907/1907-10-02_p5_sn87078321_00212477989_1907100201_0361.json#3"
-   ],
-   [
-    "faro_1907/1907-10-08_p1_sn83045433_100493287_1907100801_0363.json#16"
-   ]
-  ],
-  "spread_km": 1087
- },
- {
   "date_lo": "1893-12-20",
   "date_hi": "1893-12-20",
   "dated": true,
@@ -1281,7 +722,7 @@
    "other_sky"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": false,
   "fields": {
    "time": 6,
@@ -1465,6 +906,219 @@
   "spread_km": 1919
  },
  {
+  "date_lo": "1860-08-02",
+  "date_hi": "1860-08-02",
+  "dated": true,
+  "date_votes": 22,
+  "date_families": 22,
+  "date_range_all": [
+   "1860-08-02",
+   "1860-08-02"
+  ],
+  "shower_night": false,
+  "window": "sweep_1860",
+  "reports": 33,
+  "papers": 19,
+  "families": 22,
+  "independent_cities": 11,
+  "cities": [
+   "alexandria, Virginia",
+   "baltimore, Maryland",
+   "chicago, ",
+   "cleveland, Ohio",
+   "dayton, Ohio",
+   "evansville, Indiana",
+   "nashville, Tennessee",
+   "new york, ",
+   "richmond, Virginia",
+   "sn83025725",
+   "winchester, Tennessee"
+  ],
+  "states": [
+   "Delaware",
+   "Indiana",
+   "Maryland",
+   "Massachusetts",
+   "New York",
+   "Ohio",
+   "Tennessee",
+   "Vermont",
+   "Virginia",
+   "West Virginia"
+  ],
+  "types": [
+   "fireball",
+   "meteor"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 6,
+   "direction": 14,
+   "sound": 4,
+   "duration": 2,
+   "colour": 9,
+   "train": 12,
+   "burst": 4,
+   "lit_ground": 4
+  },
+  "quotes": [
+   {
+    "date": "1860-08-03",
+    "paper": "Nashville union and American. [volume] (Nashville, Tenn.) 18",
+    "when": "last night at ten o'clock",
+    "where": "",
+    "quote": "A wonderfully brilliant meteor made its appearance in skies last night at ten o'clock",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/tu_dolly_ver01/data/sn85038518/00200293307/1860080301/0117.jp2",
+    "key": "faro_1860/1860-08-03_p3_sn85038518_00200293307_1860080301_0117.json#25"
+   },
+   {
+    "date": "1860-08-03",
+    "paper": "Dayton daily empire. [volume] (Dayton [Ohio]) 1850-1865",
+    "when": "last evening, at about 70 min utes past 10 o'clock",
+    "where": "over this city",
+    "quote": "B6y- brilliant meteor was seen to pass over this city last evening, at about 70 min utes past 10 o'clock",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/ohi_horatio_ver01/data/sn85026002/00280775228/1860080301/1267.jp2",
+    "key": "faro_1860/1860-08-03_p3_sn85026002_00280775228_1860080301_1267.json#18"
+   },
+   {
+    "date": "1860-08-03",
+    "paper": "The Evansville daily journal. [volume] (Evansville, Ia. [i.e",
+    "when": "last evening",
+    "where": "southeast",
+    "quote": "A series of brilliant flashes like lightning appeared in the southeast last evening. They were doubtless caused by a Large meteor.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/in_irvington_ver01/data/sn82015672/00296021969/1860080301/0293.jp2",
+    "key": "faro_1860/1860-08-03_p1_sn82015672_00296021969_1860080301_0293.json#19"
+   },
+   {
+    "date": "1860-08-04",
+    "paper": "Daily Nashville patriot. [volume] (Nashville, Tenn.) 1860-18",
+    "when": "night before last",
+    "where": "our skies",
+    "quote": "A most remarkable and brilliant meteor was seen in our skies night before last.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/tu_kitty_ver01/data/sn83025725/00212470284/1860080401/0119.jp2",
+    "key": "faro_1860/1860-08-04_p3_sn83025725_00212470284_1860080401_0119.json#14"
+   },
+   {
+    "date": "1860-08-04",
+    "paper": "Richmond daily Whig. [volume] (Richmond, Va.) 1842-1861",
+    "when": "Thursday nig between the hours Of 10 and II",
+    "where": "passed the city",
+    "quote": "Some Of our citizens Witnessed the transit Of another very brilliant meteor Thursday nig between the hours Of 10 and II. passed the city in a westward direction sud seemed 70 explode a.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_balikun_ver01/data/sn84024656/00414184704/1860080401/0121.jp2",
+    "key": "faro_1860/1860-08-04_p3_sn84024656_00414184704_1860080401_0121.json#29"
+   },
+   {
+    "date": "1860-08-05",
+    "paper": "Nashville union and American. [volume] (Nashville, Tenn.) 18",
+    "when": "last Thursday night about 10 O'Clock",
+    "where": "KNOXVILLE Tenn.",
+    "quote": "We had on last Thursday night about 10 O'Clock, the most sublime and mag nifcent meteOrc display ever witnessed in this re- gion.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/tu_dolly_ver01/data/sn85038518/00200293307/1860080501/0125.jp2",
+    "key": "faro_1860/1860-08-05_p3_sn85038518_00200293307_1860080501_0125.json#117"
+   },
+   {
+    "date": "1860-08-06",
+    "paper": "Cleveland morning leader. [volume] (Cleveland [Ohio]) 1854-1",
+    "when": "the evening OF August I'd",
+    "where": "ChiHicothe, Yellow Springs, Morrow, Cincinnati, Louisville, &c",
+    "quote": "The flaming meteor of July goth, or an other Of the same sort, shot along over the valley Of the Ohio the evening OF August I'd.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/ohi_desdemona_ver01/data/sn83035143/00280775678/1860080601/0230.jp2",
+    "key": "faro_1860/1860-08-06_p2_sn83035143_00280775678_1860080601_0230.json#1"
+   },
+   {
+    "date": "1860-08-06",
+    "paper": "The daily dispatch. [volume] (Richmond [Va.]) 1850-1884",
+    "when": "Thursday night",
+    "where": "in Augusta, Ga",
+    "quote": "A very large and brilliant meteor was seen in Augusta, Ga, Thursday night.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_johnhenry_ver01/data/sn84024738/0028077800A/1860080601/0120.jp2",
+    "key": "faro_1860/1860-08-06_p2_sn84024738_0028077800A_1860080601_0120.json#2"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1860/1860-08-04_p3_sn83025725_00212470284_1860080401_0119.json#14",
+    "faro_1860/1860-08-09_p2_sn83030313_0027174335A_1860080901_0921.json#2"
+   ],
+   [
+    "faro_1860/1860-08-14_p1_sn83009573_00296026372_1860081401_0156.json#90"
+   ],
+   [
+    "faro_1860/1860-08-06_p2_sn83035143_00280775678_1860080601_0230.json#1",
+    "faro_1860/1860-08-09_p3_sn84020422_00383342934_1860080901_0096.json#55",
+    "faro_1860/1860-08-09_p3_sn84028820_00280775472_1860080901_0316.json#1",
+    "faro_1860/1860-08-17_p2_sn84028083_00280775241_1860081701_0351.json#6"
+   ],
+   [
+    "faro_1860/1860-08-03_p3_sn85038518_00200293307_1860080301_0117.json#25",
+    "faro_1860/1860-08-09_p3_sn85033395_00212470351_1860080901_0338.json#7"
+   ],
+   [
+    "faro_1860/1860-08-07_pNone_sn82014511_no_reel_1860080701_0003.json#10"
+   ],
+   [
+    "faro_1860/1860-08-07_p8_sn83030313_0027174335A_1860080701_0911.json#18"
+   ],
+   [
+    "faro_1860/1860-08-03_p3_sn85026002_00280775228_1860080301_1267.json#18"
+   ],
+   [
+    "faro_1860/1860-08-08_p1_sn84024656_00414184704_1860080801_0131.json#42"
+   ],
+   [
+    "faro_1860/1860-08-07_p2_sn85025007_0041566350A_1860080701_0341.json#21",
+    "faro_1860/1860-08-07_p2_sn84024656_00414184704_1860080701_0128.json#30",
+    "faro_1860/1860-08-11_p2_sn84026824_00271767766_1860081101_0340.json#10"
+   ],
+   [
+    "faro_1860/1860-08-06_p2_sn84024738_0028077800A_1860080601_0120.json#2"
+   ],
+   [
+    "faro_1860/1860-08-03_p1_sn82015672_00296021969_1860080301_0293.json#19"
+   ],
+   [
+    "faro_1860/1860-08-07_p1_sn84024738_0028077800A_1860080701_0123.json#56"
+   ],
+   [
+    "faro_1860/1860-08-04_p3_sn84024656_00414184704_1860080401_0121.json#29"
+   ],
+   [
+    "faro_1860/1860-08-07_p4_sn85025007_0041566350A_1860080701_0343.json#9"
+   ],
+   [
+    "faro_1860/1860-08-11_p5_sn83030313_0027174335A_1860081101_0940.json#38"
+   ],
+   [
+    "faro_1860/1860-08-09_p1_sn83009573_00296026372_1860080901_0140.json#25",
+    "faro_1860/1860-08-09_p2_sn83021205_00517172017_1860080901_0750.json#9",
+    "faro_1860/1860-08-10_p2_sn84023127_00280776993_1860081001_0341.json#28"
+   ],
+   [
+    "faro_1860/1860-08-09_p1_sn95068565_00212470478_1860080901_0949.json#15"
+   ],
+   [
+    "faro_1860/1860-08-05_p3_sn85038518_00200293307_1860080501_0125.json#117"
+   ],
+   [
+    "faro_1860/1860-08-09_p3_sn85038518_00200293307_1860080901_0137.json#37",
+    "faro_1860/1860-08-09_p3_sn85038518_00200293307_1860080901_0137.json#166"
+   ],
+   [
+    "faro_1860/1860-08-09_p1_sn84024738_0028077800A_1860080901_0127.json#75"
+   ],
+   [
+    "faro_1860/1860-08-07_p4_sn83030313_0027174335A_1860080701_0907.json#21",
+    "faro_1860/1860-08-09_p3_sn85025007_0041566350A_1860080901_0350.json#77"
+   ],
+   [
+    "faro_1860/1860-08-07_p1_sn82015672_00296021969_1860080701_0305.json#5"
+   ]
+  ],
+  "spread_km": 1225
+ },
+ {
   "date_lo": "1910-03-29",
   "date_hi": "1910-03-29",
   "dated": true,
@@ -1507,7 +1161,7 @@
    "fireball"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": false,
   "fields": {
    "time": 1,
@@ -1659,194 +1313,187 @@
   "spread_km": 866
  },
  {
-  "date_lo": "1860-08-02",
-  "date_hi": "1860-08-02",
+  "date_lo": "1898-06-03",
+  "date_hi": "1898-06-03",
   "dated": true,
-  "date_votes": 11,
-  "date_families": 11,
+  "date_votes": 3,
+  "date_families": 4,
   "date_range_all": [
-   "1860-07-30",
-   "1860-08-09"
+   "1898-05-27",
+   "1898-06-10"
   ],
   "shower_night": false,
-  "window": "sweep_1860",
-  "reports": 23,
-  "papers": 17,
-  "families": 16,
+  "window": "sweep_1898",
+  "reports": 20,
+  "papers": 15,
+  "families": 14,
   "independent_cities": 11,
   "cities": [
    "alexandria, Virginia",
-   "baltimore, Maryland",
-   "chicago, ",
-   "cleveland, Ohio",
-   "dayton, Ohio",
-   "evansville, Indiana",
-   "nashville, Tennessee",
-   "new york, ",
-   "richmond, Virginia",
-   "sn83025725",
-   "worcester, Massachusetts"
+   "butler, Pennsylvania",
+   "ceredo, West Virginia",
+   "hillsboro, Ohio",
+   "indianapolis, Indiana",
+   "louisa, Kentucky",
+   "new york, New York",
+   "owingsville, Kentucky",
+   "paris, Kentucky",
+   "point pleasant, West Virginia",
+   "wheeling, West Virginia"
   ],
   "states": [
-   "Delaware",
+   "Georgia",
    "Indiana",
-   "Maryland",
-   "Massachusetts",
+   "Kentucky",
    "New York",
    "Ohio",
-   "Tennessee",
+   "Pennsylvania",
+   "South Dakota",
    "Virginia",
    "West Virginia"
   ],
   "types": [
    "fireball",
-   "meteor"
+   "meteorite_fall"
   ],
   "fireball": true,
-  "vetted": false,
-  "stones": false,
+  "vetted": true,
+  "stones": true,
   "fields": {
-   "time": 2,
-   "direction": 10,
-   "sound": 1,
-   "duration": 0,
-   "colour": 6,
-   "train": 7,
-   "burst": 3,
-   "lit_ground": 3
+   "time": 0,
+   "direction": 0,
+   "sound": 5,
+   "duration": 1,
+   "colour": 1,
+   "train": 4,
+   "burst": 0,
+   "lit_ground": 0
   },
   "quotes": [
    {
-    "date": "1860-08-03",
-    "paper": "Nashville union and American. [volume] (Nashville, Tenn.) 18",
-    "when": "last night at ten o'clock",
-    "where": "",
-    "quote": "A wonderfully brilliant meteor made its appearance in skies last night at ten o'clock",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/tu_dolly_ver01/data/sn85038518/00200293307/1860080301/0117.jp2",
-    "key": "faro_1860/1860-08-03_p3_sn85038518_00200293307_1860080301_0117.json#25"
+    "date": "1898-06-04",
+    "paper": "Wheeling register. [volume] (Wheeling, W. Va.) 1878-1935",
+    "when": "noon to-day",
+    "where": "Comfort, a small village twenty miles south of here [Charleston, W. Va]",
+    "quote": "large meteor fell near there at noon to-day which caused a deafening report and shook the earth for many miles around",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_irwin_ver01/data/sn86092518/00340582238/1898060401/0443.jp2",
+    "key": "faro_1898/1898-06-04_p2_sn86092518_00340582238_1898060401_0443.json#26"
    },
    {
-    "date": "1860-08-03",
-    "paper": "Dayton daily empire. [volume] (Dayton [Ohio]) 1850-1865",
-    "when": "last evening, at about 70 min utes past 10 o'clock",
-    "where": "over this city",
-    "quote": "B6y- brilliant meteor was seen to pass over this city last evening, at about 70 min utes past 10 o'clock",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/ohi_horatio_ver01/data/sn85026002/00280775228/1860080301/1267.jp2",
-    "key": "faro_1860/1860-08-03_p3_sn85026002_00280775228_1860080301_1267.json#18"
+    "date": "1898-06-07",
+    "paper": "The Indianapolis journal. [volume] (Indianapolis [Ind.]) 186",
+    "when": "last Friday, at noon",
+    "where": "Delaware county",
+    "quote": "A meteor. big as a house, is said to have fallen in Delaware county last Friday, at noon.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/in_bradlaugh_ver02/data/sn82015679/00271740517/1898060701/0353.jp2",
+    "key": "faro_1898/1898-06-07_p3_sn82015679_00271740517_1898060701_0353.json#2"
    },
    {
-    "date": "1860-08-03",
-    "paper": "The Evansville daily journal. [volume] (Evansville, Ia. [i.e",
-    "when": "last evening",
-    "where": "southeast",
-    "quote": "A series of brilliant flashes like lightning appeared in the southeast last evening. They were doubtless caused by a Large meteor.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/in_irvington_ver01/data/sn82015672/00296021969/1860080301/0293.jp2",
-    "key": "faro_1860/1860-08-03_p1_sn82015672_00296021969_1860080301_0293.json#19"
-   },
-   {
-    "date": "1860-08-04",
-    "paper": "Daily Nashville patriot. [volume] (Nashville, Tenn.) 1860-18",
-    "when": "night before last",
-    "where": "our skies",
-    "quote": "A most remarkable and brilliant meteor was seen in our skies night before last.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/tu_kitty_ver01/data/sn83025725/00212470284/1860080401/0119.jp2",
-    "key": "faro_1860/1860-08-04_p3_sn83025725_00212470284_1860080401_0119.json#14"
-   },
-   {
-    "date": "1860-08-04",
-    "paper": "Richmond daily Whig. [volume] (Richmond, Va.) 1842-1861",
-    "when": "Thursday nig between the hours Of 10 and II",
-    "where": "passed the city",
-    "quote": "Some Of our citizens Witnessed the transit Of another very brilliant meteor Thursday nig between the hours Of 10 and II. passed the city in a westward direction sud seemed 70 explode a.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_balikun_ver01/data/sn84024656/00414184704/1860080401/0121.jp2",
-    "key": "faro_1860/1860-08-04_p3_sn84024656_00414184704_1860080401_0121.json#29"
-   },
-   {
-    "date": "1860-08-06",
-    "paper": "Cleveland morning leader. [volume] (Cleveland [Ohio]) 1854-1",
-    "when": "the evening OF August I'd",
-    "where": "ChiHicothe, Yellow Springs, Morrow, Cincinnati, Louisville, &c",
-    "quote": "The flaming meteor of July goth, or an other Of the same sort, shot along over the valley Of the Ohio the evening OF August I'd.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/ohi_desdemona_ver01/data/sn83035143/00280775678/1860080601/0230.jp2",
-    "key": "faro_1860/1860-08-06_p2_sn83035143_00280775678_1860080601_0230.json#1"
-   },
-   {
-    "date": "1860-08-06",
-    "paper": "The daily dispatch. [volume] (Richmond [Va.]) 1850-1884",
-    "when": "Thursday night",
-    "where": "in Augusta, Ga",
-    "quote": "A very large and brilliant meteor was seen in Augusta, Ga, Thursday night.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_johnhenry_ver01/data/sn84024738/0028077800A/1860080601/0120.jp2",
-    "key": "faro_1860/1860-08-06_p2_sn84024738_0028077800A_1860080601_0120.json#2"
-   },
-   {
-    "date": "1860-08-07",
-    "paper": "",
-    "when": "faw minutes after ten o'clock, Thursday night",
-    "where": "Covington, Southern Ky",
-    "quote": "magnificent meteor dartcd acrnss Tho Southern Ky, glowing for 4 few seconds with I light far more brilliant than ths moon.",
+    "date": "1898-06-07",
+    "paper": "The Bourbon news. [volume] (Paris, Ky.) 1895-19??",
+    "when": "Friday at noon",
+    "where": "near Lair; near Paris; near Charleston, w. Va; Hamilton",
+    "quote": "A large meteor was also observed by parties near Paris Friday at noon.",
     "scan": "",
-    "key": "faro_1860/1860-08-07_pNone_sn82014511_no_reel_1860080701_0003.json#10"
+    "key": "faro_1898/1898-06-07_p9_sn86069873_00100481650_1898060701_0367.json#3"
+   },
+   {
+    "date": "1898-06-07",
+    "paper": "Alexandria gazette. [volume] (Alexandria, D.C.) 1834-1974",
+    "when": "on Saturday",
+    "where": "throughout that section OF the Ohio Valley ... from Rock wood, Ohio, to Ceredo, W. Va.",
+    "quote": "Many Of the meteors reached the earth in solid form land st Ceredo and Kellogg stones were picked up weighing several pounds.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_red_ver01/data/sn85025007/00175033774/1898060701/0398.jp2",
+    "key": "faro_1898/1898-06-07_p2_sn85025007_00175033774_1898060701_0398.json#17"
+   },
+   {
+    "date": "1898-06-08",
+    "paper": "Ceredo advance. [volume] (Ceredo, W. Va.) 1885-1939",
+    "when": "Friday p. m, between u and l.",
+    "where": "round about town",
+    "quote": "Many round about town saw a ball as o. fire passing northeast over head",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_moore_ver01/data/sn86092392/00414187316/1898060801/1616.jp2",
+    "key": "faro_1898/1898-06-08_p4_sn86092392_00414187316_1898060801_1616.json#1"
+   },
+   {
+    "date": "1898-06-08",
+    "paper": "Ceredo advance. [volume] (Ceredo, W. Va.) 1885-1939",
+    "when": "last Friday about one o'clock p. m",
+    "where": "IN Ceredo and vicinity ... few miles south of this place",
+    "quote": "rumbling sound resembling thunder was heard many persons IN Ceredo and vicinity last Friday about one o'clock p. m",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_moore_ver01/data/sn86092392/00414187316/1898060801/1617.jp2",
+    "key": "faro_1898/1898-06-08_p5_sn86092392_00414187316_1898060801_1617.json#14"
+   },
+   {
+    "date": "1898-06-09",
+    "paper": "Butler citizen. [volume] (Butler, Pa.) 1877-1922",
+    "when": "last week",
+    "where": "Pleasant Valley",
+    "quote": "He saw a meteor fall, and its passage through the air made a streak OF light as bright rs silver.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_erie_ver02/data/sn86071045/00296026517/1898060901/0378.jp2",
+    "key": "faro_1898/1898-06-09_p2_sn86071045_00296026517_1898060901_0378.json#14"
+   },
+   {
+    "date": "1898-06-09",
+    "paper": "Shepherdstown register. [volume] (Shepherdstown, Va. [W. Va.",
+    "when": "on Saturday",
+    "where": "throughout that section of the Ohio Valley ... from lockwood, Ohio, to Ceredo, w. Va.",
+    "quote": "Many of the meteors reached the earth in solid form, and at Ceredo and kellogg stones were picked up weighing several pounds.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/wvu_bones_ver01/data/sn84026824/00271767870/1898060901/0300.jp2",
+    "key": "faro_1898/1898-06-09_p2_sn84026824_00271767870_1898060901_0300.json#23"
    }
   ],
   "family_keys": [
    [
-    "faro_1860/1860-08-04_p3_sn83025725_00212470284_1860080401_0119.json#14",
-    "faro_1860/1860-08-09_p2_sn83030313_0027174335A_1860080901_0921.json#2"
+    "faro_1898/1898-06-10_p3_sn83004226_00295875811_1898061001_0630.json#4"
    ],
    [
-    "faro_1860/1860-08-14_p1_sn83009573_00296026372_1860081401_0156.json#90"
+    "faro_1898/1898-06-08_p4_sn86092392_00414187316_1898060801_1616.json#1"
    ],
    [
-    "faro_1860/1860-08-06_p2_sn83035143_00280775678_1860080601_0230.json#1",
-    "faro_1860/1860-08-09_p3_sn84020422_00383342934_1860080901_0096.json#55",
-    "faro_1860/1860-08-09_p3_sn84028820_00280775472_1860080901_0316.json#1",
-    "faro_1860/1860-08-17_p2_sn84028083_00280775241_1860081701_0351.json#6"
+    "faro_1898/1898-06-15_p1_sn83030272_00175043019_1898061501_0201.json#24",
+    "faro_1898/1898-06-19_p9_sn86063034_00414182240_1898061901_0537.json#9",
+    "faro_1898/1898-06-19_p9_sn86063034_00414182240_1898061901_0537.json#12",
+    "faro_1898/1898-06-30_p1_sn86069620_00212474629_1898063001_0524.json#2",
+    "faro_1898/1898-07-15_p9_sn97065832_00415624839_1898071501_0510.json#4"
    ],
    [
-    "faro_1860/1860-08-03_p3_sn85038518_00200293307_1860080301_0117.json#25",
-    "faro_1860/1860-08-09_p3_sn85033395_00212470351_1860080901_0338.json#7"
+    "faro_1898/1898-06-16_p4_sn85038161_0023728933A_1898061601_0556.json#18"
    ],
    [
-    "faro_1860/1860-08-07_pNone_sn82014511_no_reel_1860080701_0003.json#10"
+    "faro_1898/1898-06-07_p3_sn82015679_00271740517_1898060701_0353.json#2"
    ],
    [
-    "faro_1860/1860-08-07_p8_sn83030313_0027174335A_1860080701_0911.json#18"
+    "faro_1898/1898-06-07_p9_sn86069873_00100481650_1898060701_0367.json#3"
    ],
    [
-    "faro_1860/1860-08-09_p2_sn83021205_00517172017_1860080901_0750.json#30"
+    "faro_1898/1898-06-09_p2_sn86071045_00296026517_1898060901_0378.json#14"
    ],
    [
-    "faro_1860/1860-08-03_p3_sn85026002_00280775228_1860080301_1267.json#18"
+    "faro_1898/1898-06-10_p2_sn83004226_00295875811_1898061001_0629.json#3"
    ],
    [
-    "faro_1860/1860-08-08_p1_sn84024656_00414184704_1860080801_0131.json#42"
+    "faro_1898/1898-06-10_p2_sn83004226_00295875811_1898061001_0629.json#14"
    ],
    [
-    "faro_1860/1860-08-07_p2_sn85025007_0041566350A_1860080701_0341.json#21",
-    "faro_1860/1860-08-07_p2_sn84024656_00414184704_1860080701_0128.json#30",
-    "faro_1860/1860-08-11_p2_sn84026824_00271767766_1860081101_0340.json#10"
+    "faro_1898/1898-06-08_p5_sn86092392_00414187316_1898060801_1617.json#14"
    ],
    [
-    "faro_1860/1860-08-06_p2_sn84024738_0028077800A_1860080601_0120.json#2"
+    "faro_1898/1898-06-07_p2_sn85025007_00175033774_1898060701_0398.json#17",
+    "faro_1898/1898-06-09_p2_sn84026824_00271767870_1898060901_0300.json#23",
+    "faro_1898/1898-06-26_p13_sn85034438_00175049459_1898062601_0761.json#15"
    ],
    [
-    "faro_1860/1860-08-03_p1_sn82015672_00296021969_1860080301_0293.json#19"
+    "faro_1898/1898-06-15_p4_sn84026817_00202192245_1898061501_0458.json#2"
    ],
    [
-    "faro_1860/1860-08-07_p1_sn84024738_0028077800A_1860080701_0123.json#56"
+    "faro_1898/1898-06-04_p2_sn86092518_00340582238_1898060401_0443.json#26"
    ],
    [
-    "faro_1860/1860-08-04_p3_sn84024656_00414184704_1860080401_0121.json#29"
-   ],
-   [
-    "faro_1860/1860-08-07_p4_sn85025007_0041566350A_1860080701_0343.json#9"
-   ],
-   [
-    "faro_1860/1860-08-11_p5_sn83030313_0027174335A_1860081101_0940.json#38"
+    "faro_1898/1898-06-09_p1_sn86069620_00212474629_1898060901_0506.json#5"
    ]
   ],
-  "spread_km": 1455
+  "spread_km": 1087
  },
  {
   "date_lo": "1913-09-04",
@@ -1887,7 +1534,7 @@
    "fireball"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": false,
   "fields": {
    "time": 2,
@@ -2082,7 +1729,7 @@
    "meteorite_fall"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": true,
   "fields": {
    "time": 3,
@@ -2269,7 +1916,7 @@
    "meteorite_fall"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": true,
   "fields": {
    "time": 6,
@@ -2829,7 +2476,7 @@
    "fireball"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": false,
   "fields": {
    "time": 5,
@@ -3199,181 +2846,6 @@
   "spread_km": 1947
  },
  {
-  "date_lo": "1887-06-12",
-  "date_hi": "1887-06-12",
-  "dated": true,
-  "date_votes": 2,
-  "date_families": 2,
-  "date_range_all": [
-   "1887-06-05",
-   "1887-06-18"
-  ],
-  "shower_night": false,
-  "window": "sweep_1887",
-  "reports": 20,
-  "papers": 19,
-  "families": 9,
-  "independent_cities": 9,
-  "cities": [
-   "brattleboro, Vermont",
-   "indianapolis, Indiana",
-   "kenosha, Wisconsin",
-   "manitowoc, Wisconsin",
-   "paw paw, Michigan",
-   "richmond, Virginia",
-   "russellville, ",
-   "staunton, Virginia",
-   "york, South Carolina"
-  ],
-  "states": [
-   "Arkansas",
-   "California",
-   "Indiana",
-   "Michigan",
-   "Minnesota",
-   "Montana",
-   "Nevada",
-   "South Carolina",
-   "South Dakota",
-   "Texas",
-   "Vermont",
-   "Virginia",
-   "Wisconsin"
-  ],
-  "types": [
-   "fireball",
-   "meteorite_fall"
-  ],
-  "fireball": true,
-  "vetted": false,
-  "stones": true,
-  "fields": {
-   "time": 3,
-   "direction": 1,
-   "sound": 1,
-   "duration": 0,
-   "colour": 2,
-   "train": 1,
-   "burst": 2,
-   "lit_ground": 0
-  },
-  "quotes": [
-   {
-    "date": "1887-06-13",
-    "paper": "The Indianapolis journal. [volume] (Indianapolis [Ind.]) 186",
-    "when": "June ia report reached tn is city, this evening. that meteoric stone had fallen St Joseph, in .his county, this morning",
-    "where": "St Joseph, in .his county",
-    "quote": "meteoric stone had fallen St Joseph, in .his county, this morning",
-    "scan": "",
-    "key": "faro_1887/1887-06-13_p2_sn82015679_00271745709_1887061301_0437.json#8"
-   },
-   {
-    "date": "1887-06-14",
-    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
-    "when": "Sunday morning",
-    "where": "near II. Joseph",
-    "quote": "An serolite Of great size fell near II. Joseph Sunday morning.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_tesla_ver01/data/sn85038614/00175030931/1887061401/0668.jp2",
-    "key": "faro_1887/1887-06-14_p4_sn85038614_00175030931_1887061401_0668.json#4"
-   },
-   {
-    "date": "1887-06-14",
-    "paper": "Alexandria gazette. [volume] (Alexandria, D.C.) 1834-1974",
-    "when": "Sunday morning",
-    "where": "near St. Joseph, Mo.",
-    "quote": "An rrolite OF great size fell near St. Joseph, Mo-. Sunday morning.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_pink_ver01/data/sn85025007/00175034304/1887061401/0563.jp2",
-    "key": "faro_1887/1887-06-14_p3_sn85025007_00175034304_1887061401_0563.json#2"
-   },
-   {
-    "date": "1887-06-14",
-    "paper": "Sacramento daily record-union. [volume] (Sacramento [Calif.]",
-    "when": "yesterday morning",
-    "where": "near st. Joseph, about ten miles from this city [Evansville Ind]",
-    "quote": "An aerolite of vast dimensions fell yesterday morning near st. Joseph, about ten miles from this city and about three miles from the nearest railway station.",
-    "scan": "",
-    "key": "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#139"
-   },
-   {
-    "date": "1887-06-14",
-    "paper": "Sacramento daily record-union. [volume] (Sacramento [Calif.]",
-    "when": "yesterday morn ing",
-    "where": "near st. Joseph",
-    "quote": "lite of vast dimensions fell yesterday morn ing near st. Joseph, about ten miles from this city and about three miles from the nearest railway station.",
-    "scan": "",
-    "key": "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#51"
-   },
-   {
-    "date": "1887-06-14",
-    "paper": "Press and daily Dakotaian. (Yankton, Dakota Territory [S.D.]",
-    "when": "june 12... this morning",
-    "where": "near st, Joseph, about ten miles from this city [Evansville, Ind]",
-    "quote": "An aerolite OF vast dimensions fell this morning near st, Joseph, about ten miles from this city and about three miles from the nearest railway station",
-    "scan": "",
-    "key": "faro_1887/1887-06-14_p2_sn91099608_00415623033_1887061401_0113.json#1"
-   },
-   {
-    "date": "1887-06-15",
-    "paper": "The silver state. [volume] (Unionville, Nev.) 1870-1903",
-    "when": "Monday",
-    "where": "near st. Joseph, about ten miles from Evansville, Ind.",
-    "quote": "An aerolite of vast dimensions fell Monday near st. Joseph, about ten miles from Evansville, Ind., and about three miles from the nearest railway station.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/nvln_bullfrog_ver01/data/sn84022060/00332890517/1887061501/0548.jp2",
-    "key": "faro_1887/1887-06-15_p1_sn84022060_00332890517_1887061501_0548.json#14"
-   },
-   {
-    "date": "1887-06-15",
-    "paper": "The true northerner. [volume] (Paw Paw, Mich.) 1855-1920",
-    "when": "Sunday morning",
-    "where": "village OF St Joseph, about nine miles north of that city [Evansville]",
-    "quote": "An aerolite of enormous di-mansions had fallen in the vicinity",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/mimtptc_gaylord_ver02/data/sn85033781/00296023784/1887061501/1028.jp2",
-    "key": "faro_1887/1887-06-15_p2_sn85033781_00296023784_1887061501_1028.json#15"
-   }
-  ],
-  "family_keys": [
-   [
-    "faro_1887/1887-06-17_p2_sn98060050_00280777419_1887061701_0606.json#11"
-   ],
-   [
-    "faro_1887/1887-06-14_p4_sn85038614_00175030931_1887061401_0668.json#4",
-    "faro_1887/1887-06-14_p3_sn85025007_00175034304_1887061401_0563.json#2",
-    "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#139",
-    "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#51",
-    "faro_1887/1887-06-14_p2_sn91099608_00415623033_1887061401_0113.json#1",
-    "faro_1887/1887-06-15_p1_sn84022060_00332890517_1887061501_0548.json#14",
-    "faro_1887/1887-06-16_p4_sn86064205_00206535593_1887061601_0274.json#4",
-    "faro_1887/1887-06-18_p1_sn84020151_00340583620_1887061801_0596.json#3",
-    "faro_1887/1887-06-22_p2_sn89064939_00206537978_1887062201_0196.json#21",
-    "faro_1887/1887-06-24_p2_sn84023963_00200295900_1887062401_1032.json#8",
-    "faro_1887/1887-06-24_p1_sn99068076_00415623367_1887062401_0285.json#9"
-   ],
-   [
-    "faro_1887/1887-06-15_p2_sn85033781_00296023784_1887061501_1028.json#15",
-    "faro_1887/1887-06-22_p1_sn84036034_00295860613_1887062201_0412.json#5"
-   ],
-   [
-    "faro_1887/1887-06-17_p3_sn85033123_0051415210A_1887061701_0467.json#17"
-   ],
-   [
-    "faro_1887/1887-06-13_p2_sn82015679_00271745709_1887061301_0437.json#8"
-   ],
-   [
-    "faro_1887/1887-06-15_p2_sn84023017_00414212992_1887061501_0080.json#12"
-   ],
-   [
-    "faro_1887/1887-06-17_p3_sn84024653_00393349578_1887061701_0294.json#4"
-   ],
-   [
-    "faro_1887/1887-06-16_p2_sn85033139_00271769362_1887061601_0618.json#32"
-   ],
-   [
-    "faro_1887/1887-06-22_p2_sn84026925_00295861940_1887062201_0168.json#12"
-   ]
-  ],
-  "spread_km": 1969
- },
- {
   "date_lo": "1874-07-07",
   "date_hi": "1874-07-07",
   "dated": true,
@@ -3579,7 +3051,7 @@
    "meteorite_fall"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": true,
   "fields": {
    "time": 3,
@@ -3705,381 +3177,20 @@
   "spread_km": 793
  },
  {
-  "date_lo": "1889-06-26",
-  "date_hi": "1889-06-26",
-  "dated": true,
-  "date_votes": 5,
-  "date_families": 7,
-  "date_range_all": [
-   "1889-06-19",
-   "1889-07-03"
-  ],
-  "shower_night": false,
-  "window": "sweep_1889",
-  "reports": 11,
-  "papers": 9,
-  "families": 11,
-  "independent_cities": 9,
-  "cities": [
-   "accomac, Virginia",
-   "brattleboro, Vermont",
-   "milford, ",
-   "richmond, Virginia",
-   "smyrna, Delaware",
-   "snow hill, Maryland",
-   "washington, District of Columbia",
-   "wilmington, ",
-   "woodstock, Virginia"
-  ],
-  "states": [
-   "Delaware",
-   "District of Columbia",
-   "Vermont",
-   "Virginia"
-  ],
-  "types": [
-   "fireball"
-  ],
-  "fireball": true,
-  "vetted": false,
-  "stones": false,
-  "fields": {
-   "time": 2,
-   "direction": 4,
-   "sound": 5,
-   "duration": 1,
-   "colour": 4,
-   "train": 0,
-   "burst": 2,
-   "lit_ground": 5
-  },
-  "quotes": [
-   {
-    "date": "1889-06-27",
-    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
-    "when": "June pa large and very brilliant meteor was seen mere to-night",
-    "where": "PETERSBURG, Va",
-    "quote": "large and very brilliant meteor was seen mere to-night. Its starting point was near the zenith and its course nearly east",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_heart_ver01/data/sn85038614/00175030980/1889062701/0741.jp2",
-    "key": "faro_1889/1889-06-27_p3_sn85038614_00175030980_1889062701_0741.json#28"
-   },
-   {
-    "date": "1889-06-28",
-    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
-    "when": "late hour Wednesday night",
-    "where": "within the asylum park",
-    "quote": "Several employees at the st. Eliza beth asylum testify to seeing a meteor fall to the earth at late hour Wednesday night and nearng it explode as it planted itself in the low ground within the asylum park.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_rottweiler_ver01/data/sn83045462/00280654735/1889062801/0058.jp2",
-    "key": "faro_1889/1889-06-28_p8_sn83045462_00280654735_1889062801_0058.json#3"
-   },
-   {
-    "date": "1889-06-28",
-    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
-    "when": "about . o'clock last night",
-    "where": "NORFOLK",
-    "quote": "A brilliant meteor. about the size OF a barrel. emitting fringe of sparks in its course, and constant explosions, shot across the heavens about . o'clock last night.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_heart_ver01/data/sn85038614/00175030980/1889062801/0745.jp2",
-    "key": "faro_1889/1889-06-28_p3_sn85038614_00175030980_1889062801_0745.json#3"
-   },
-   {
-    "date": "1889-06-28",
-    "paper": "Milford chronicle.",
-    "when": "Wednesday evening",
-    "where": "Southern sky",
-    "quote": "ON Wednesday evening beautiful meteor appeared in the Southern sky and traversed a large arc Of aerial space, bursting in mid-air with splendid effect",
-    "scan": "",
-    "key": "faro_1889/1889-06-28_p1_sn87062224_00514156359_1889062801_0335.json#57"
-   },
-   {
-    "date": "1889-06-28",
-    "paper": "Vermont ph\u00c5\u201cnix. [volume] (Brattleboro, Vt.) 1834-1955",
-    "when": "last evening",
-    "where": "over the village",
-    "quote": "A meteor of unusual brillancy passed over the village last evening about o'clock, moving from northwest 10 southeast.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vtu_eden_ver01/data/sn98060050/00280777419/1889062801/1092.jp2",
-    "key": "faro_1889/1889-06-28_p2_sn98060050_00280777419_1889062801_1092.json#72"
-   },
-   {
-    "date": "1889-06-29",
-    "paper": "Peninsula enterprise. [volume] (Accomac, Va.) 1881-1965",
-    "when": "About 8 O'Clock on Wednesday night",
-    "where": "",
-    "quote": "A splendid aerolite, variously described as from one to two feet in diameter, shot across the sky from southeast to northwest.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_ivory_ver01/data/sn94060041/00175033981/1889062901/0253.jp2",
-    "key": "faro_1889/1889-06-29_p3_sn94060041_00175033981_1889062901_0253.json#1"
-   },
-   {
-    "date": "1889-06-29",
-    "paper": "Democratic messenger.",
-    "when": "about 8 o'clock Wednesday evening",
-    "where": "in this section ... in every section Of the county. In Snow Hill ... Our Berlin correspondent writes that the meteor Illuminated that town",
-    "quote": "One of the most brilliant meteOrs ever seen in this section was visible in the sky about 8 o'clock Wednesday evening.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/mdu_denton_ver01/data/sn84026758/00279522527/1889062901/0283.jp2",
-    "key": "faro_1889/1889-06-29_p3_sn84026758_00279522527_1889062901_0283.json#6"
-   },
-   {
-    "date": "1889-06-30",
-    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
-    "when": "Wednesday evening between and y o'clock",
-    "where": "ONANCOCK. Va.",
-    "quote": "larcv-3 and most brilliant meteor rs sen Do fiis SECTION fell somewhere hay bore Wednesday evening between and y o'clock.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_heart_ver01/data/sn85038614/00175030980/1889063001/0753.jp2",
-    "key": "faro_1889/1889-06-30_p3_sn85038614_00175030980_1889063001_0753.json#9"
-   }
-  ],
-  "family_keys": [
-   [
-    "faro_1889/1889-07-05_p2_sn85026941_00175032381_1889070501_0309.json#8"
-   ],
-   [
-    "faro_1889/1889-06-27_p3_sn85038614_00175030980_1889062701_0741.json#28"
-   ],
-   [
-    "faro_1889/1889-07-03_p2_sn84020422_00332894997_1889070301_0484.json#20"
-   ],
-   [
-    "faro_1889/1889-06-28_p8_sn83045462_00280654735_1889062801_0058.json#3"
-   ],
-   [
-    "faro_1889/1889-06-28_p3_sn85038614_00175030980_1889062801_0745.json#3"
-   ],
-   [
-    "faro_1889/1889-06-28_p1_sn87062224_00514156359_1889062801_0335.json#57"
-   ],
-   [
-    "faro_1889/1889-07-03_p3_sn84038114_00271741509_1889070301_0022.json#3"
-   ],
-   [
-    "faro_1889/1889-06-29_p3_sn94060041_00175033981_1889062901_0253.json#1"
-   ],
-   [
-    "faro_1889/1889-06-30_p3_sn85038614_00175030980_1889063001_0753.json#9"
-   ],
-   [
-    "faro_1889/1889-06-29_p3_sn84026758_00279522527_1889062901_0283.json#6"
-   ],
-   [
-    "faro_1889/1889-06-28_p2_sn98060050_00280777419_1889062801_1092.json#72"
-   ]
-  ],
-  "spread_km": 764
- },
- {
-  "date_lo": "1918-01-22",
-  "date_hi": "1918-01-22",
-  "dated": true,
-  "date_votes": 10,
-  "date_families": 11,
-  "date_range_all": [
-   "1918-01-22",
-   "1918-01-29"
-  ],
-  "shower_night": false,
-  "window": "sweep_1918",
-  "reports": 37,
-  "papers": 26,
-  "families": 13,
-  "independent_cities": 8,
-  "cities": [
-   "albuquerque, New Mexico",
-   "audubon, Iowa",
-   "grand forks, North Dakota",
-   "leon, Iowa",
-   "marshalltown, Iowa",
-   "monroe city, Missouri",
-   "sn85040720",
-   "topeka, Kansas"
-  ],
-  "states": [
-   "Arizona",
-   "Arkansas",
-   "Colorado",
-   "Indiana",
-   "Iowa",
-   "Kansas",
-   "Maine",
-   "Mississippi",
-   "Missouri",
-   "Montana",
-   "New Mexico",
-   "North Dakota",
-   "Ohio",
-   "Oklahoma",
-   "Texas",
-   "Wisconsin"
-  ],
-  "types": [
-   "fireball"
-  ],
-  "fireball": true,
-  "vetted": false,
-  "stones": false,
-  "fields": {
-   "time": 4,
-   "direction": 7,
-   "sound": 2,
-   "duration": 2,
-   "colour": 1,
-   "train": 3,
-   "burst": 1,
-   "lit_ground": 4
-  },
-  "quotes": [
-   {
-    "date": "1918-01-23",
-    "paper": "The Watertown news. [volume] (Watertown, Wis.) 1917-1919",
-    "when": "Jan. 23",
-    "where": "Peoria, ILL., Cedar Rapids, Ia, Kansas City and st. Joseph, Mo-, and Topeka, Kan.",
-    "quote": "Dispatches received last night from five cities-Peoria, ILL., Cedar Rapids, Ia, Kansas City and st. Joseph, Mo-, and Topeka, Kan.-told of large meteor travelling in an easterly direction.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/whi_elizabeth_ver01/data/sn85040720/00271769581/1918012301/0437.jp2",
-    "key": "faro_1918/1918-01-23_p1_sn85040720_00271769581_1918012301_0437.json#13"
-   },
-   {
-    "date": "1918-01-23",
-    "paper": "Albuquerque morning journal. [volume] (Albuquerque, N.M.) 19",
-    "when": "Jan. ga ... tonight",
-    "where": "Peoria, Ill.",
-    "quote": "brilliant meteor swept over the skies here at o'clock tonight, from a northwest crly direction.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/nmu_christie_ver01/data/sn84031081/00415626605/1918012301/0215.jp2",
-    "key": "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#15"
-   },
-   {
-    "date": "1918-01-23",
-    "paper": "Daily Kennebec journal.",
-    "when": "tonigh",
-    "where": "Missouri. Kansas and Illinois towns",
-    "quote": "A small piece of the meteor struck the earth at st. Joseph, Mo.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/me_forestcity_ver02/data/sn82014248/00513683157/1918012301/0207.jp2",
-    "key": "faro_1918/1918-01-23_p4_sn82014248_00513683157_1918012301_0207.json#23"
-   },
-   {
-    "date": "1918-01-23",
-    "paper": "The Alaska daily empire.",
-    "when": "last night",
-    "where": "dozens of towns in Missouri, Kansas and Illinois",
-    "quote": "The appearance of a brilliant meteor is reported from dozens of towns in Missouri, Kansas and Illinois last night.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/ak_jellymoss_ver01/data/sn84020657/0027952701A/1918012301/0166.jp2",
-    "key": "faro_1918/1918-01-23_p8_sn84020657_0027952701A_1918012301_0166.json#5"
-   },
-   {
-    "date": "1918-01-23",
-    "paper": "Evening star.",
-    "when": "January 2s.-... last night",
-    "where": "Missouri, Kansas and Illinois towns; st. Joseph, Mo.",
-    "quote": "A iarge brilliant meteor travelling with great raptdity, swept across the sky last night and was plainly visible in scores OF Missouri, Kansas and Illinois towns.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_gonzo_ver01/data/sn83045462/00280658339/1918012301/0402.jp2",
-    "key": "faro_1918/1918-01-23_p10_sn83045462_00280658339_1918012301_0402.json#3"
-   },
-   {
-    "date": "1918-01-23",
-    "paper": "South Bend news-times. (South Bend, Ind.) 1913-1938",
-    "when": "Tuesday night",
-    "where": "scores of Missouri. Kansas and Illinois towns",
-    "quote": "a large brilliant meteor. travelling with great rapiJity. swept across the sky Tuesday night and was plainly visible in scores of Missouri. Kansas and Illinois towns",
-    "scan": "",
-    "key": "faro_1918/1918-01-23_p3_sn87055779_00295872238_1918012301_0350.json#8"
-   },
-   {
-    "date": "1918-01-23",
-    "paper": "Arizona republican.",
-    "when": "Jan. 22.-A brilliant meteor swept over the skies here at 6 o'clock tonight",
-    "where": "PEORIA, H.",
-    "quote": "A brilliant meteor swept over the skies here at 6 o'clock tonight from a northwesterly direction.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/az_jojoba_ver01/data/sn84020558/00211107029/1918012301/0304.jp2",
-    "key": "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#59"
-   },
-   {
-    "date": "1918-01-23",
-    "paper": "Albuquerque morning journal. [volume] (Albuquerque, N.M.) 19",
-    "when": "Jan.",
-    "where": "ST. JOSEPH, MO.",
-    "quote": "A small piece of a meteor which flashed startling homeward bound crowds, hit the earth just east Of the city limits.",
-    "scan": "https://chroniclingamerica.loc.gov/data/batches/nmu_christie_ver01/data/sn84031081/00415626605/1918012301/0215.jp2",
-    "key": "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#11"
-   }
-  ],
-  "family_keys": [
-   [
-    "faro_1918/1918-01-24_p5_sn87057928_00340584521_1918012401_0522.json#4"
-   ],
-   [
-    "faro_1918/1918-01-23_p1_sn85040720_00271769581_1918012301_0437.json#13",
-    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#15",
-    "faro_1918/1918-01-23_p4_sn82014248_00513683157_1918012301_0207.json#23",
-    "faro_1918/1918-01-23_p8_sn84020657_0027952701A_1918012301_0166.json#5",
-    "faro_1918/1918-01-23_p10_sn83045462_00280658339_1918012301_0402.json#3",
-    "faro_1918/1918-01-23_p3_sn87055779_00295872238_1918012301_0350.json#8",
-    "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#59",
-    "faro_1918/1918-01-25_p4_sn88077067_00415665787_1918012501_0368.json#11",
-    "faro_1918/1918-01-26_p1_sn87065666_00383344335_1918012601_0268.json#8",
-    "faro_1918/1918-01-28_p4_sn96060004_00414185848_1918012801_0040.json#22",
-    "faro_1918/1918-04-05_p3_sn82014248_00513683169_1918040501_0318.json#37"
-   ],
-   [
-    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#11",
-    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#26",
-    "faro_1918/1918-01-23_p1_sn85042243_00212478659_1918012301_0168.json#14",
-    "faro_1918/1918-01-23_p2_sn85042224_00383346277_1918012301_0182.json#5",
-    "faro_1918/1918-01-23_p2_sn88084272_00280765247_1918012301_0153.json#14",
-    "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#23",
-    "faro_1918/1918-01-23_p1_sn83025316_00295860236_1918012301_0232.json#2",
-    "faro_1918/1918-01-24_p2_sn86086068_00414214940_1918012401_0534.json#9",
-    "faro_1918/1918-01-24_p1_sn87058308_00340584168_1918012401_0527.json#73",
-    "faro_1918/1918-01-25_p2_sn90051006_00414214320_1918012501_0162.json#32",
-    "faro_1918/1918-01-25_p2_sn90051006_00414214320_1918012501_0162.json#61",
-    "faro_1918/1918-01-26_p2_sn83025514_00340586372_1918012601_0450.json#18"
-   ],
-   [
-    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#12",
-    "faro_1918/1918-01-23_p2_sn89051285_00414212827_1918012301_0349.json#14",
-    "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#57",
-    "faro_1918/1918-01-23_p6_sn85042344_00200295067_1918012301_0594.json#17"
-   ],
-   [
-    "faro_1918/1918-01-23_p3_sn82016014_00295870096_1918012301_0200.json#8"
-   ],
-   [
-    "faro_1918/1918-01-23_p1_sn85042414_00295863353_1918012301_0193.json#42"
-   ],
-   [
-    "faro_1918/1918-01-24_p1_sn87057096_00295875550_1918012401_0572.json#11"
-   ],
-   [
-    "faro_1918/1918-01-23_p12_sn85049554_00295877078_1918012301_0521.json#38"
-   ],
-   [
-    "faro_1918/1918-01-31_p1_sn87057096_00295875550_1918013101_0582.json#10"
-   ],
-   [
-    "faro_1918/1918-01-25_p6_sn90061309_00200292248_1918012501_0341.json#12"
-   ],
-   [
-    "faro_1918/1918-01-23_p9_sn85049554_00295877078_1918012301_0518.json#17"
-   ],
-   [
-    "faro_1918/1918-01-23_p6_sn82016014_00295870096_1918012301_0203.json#3"
-   ],
-   [
-    "faro_1918/1918-01-23_p1_sn82016014_00295870096_1918012301_0198.json#78"
-   ]
-  ],
-  "spread_km": 1634
- },
- {
   "date_lo": "1897-06-20",
   "date_hi": "1897-06-20",
   "dated": true,
-  "date_votes": 13,
-  "date_families": 13,
+  "date_votes": 12,
+  "date_families": 12,
   "date_range_all": [
    "1897-06-13",
    "1897-06-27"
   ],
   "shower_night": false,
   "window": "sweep_1897",
-  "reports": 36,
+  "reports": 35,
   "papers": 26,
-  "families": 18,
+  "families": 17,
   "independent_cities": 8,
   "cities": [
    "butler, ",
@@ -4114,17 +3225,17 @@
    "fireball"
   ],
   "fireball": true,
-  "vetted": false,
+  "vetted": true,
   "stones": false,
   "fields": {
-   "time": 2,
-   "direction": 6,
+   "time": 1,
+   "direction": 5,
    "sound": 5,
    "duration": 2,
    "colour": 3,
-   "train": 5,
+   "train": 4,
    "burst": 0,
-   "lit_ground": 4
+   "lit_ground": 3
   },
   "quotes": [
    {
@@ -4203,9 +3314,6 @@
   "family_keys": [
    [
     "faro_1897/1897-06-24_p4_sn89066489_00294556680_1897062401_0517.json#17"
-   ],
-   [
-    "faro_1897/1897-06-23_p4_sn82014635_00280760596_1897062301_0449.json#2"
    ],
    [
     "faro_1897/1897-06-22_p5_sn82014635_00280760596_1897062201_0442.json#2"
@@ -5512,6 +4620,161 @@
   "spread_km": 1712
  },
  {
+  "date_lo": "1889-06-26",
+  "date_hi": "1889-06-26",
+  "dated": true,
+  "date_votes": 5,
+  "date_families": 6,
+  "date_range_all": [
+   "1889-06-19",
+   "1889-07-03"
+  ],
+  "shower_night": false,
+  "window": "sweep_1889",
+  "reports": 10,
+  "papers": 8,
+  "families": 10,
+  "independent_cities": 8,
+  "cities": [
+   "accomac, Virginia",
+   "milford, ",
+   "richmond, Virginia",
+   "smyrna, Delaware",
+   "snow hill, Maryland",
+   "washington, District of Columbia",
+   "wilmington, ",
+   "woodstock, Virginia"
+  ],
+  "states": [
+   "Delaware",
+   "District of Columbia",
+   "Virginia"
+  ],
+  "types": [
+   "fireball"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 2,
+   "direction": 3,
+   "sound": 5,
+   "duration": 1,
+   "colour": 4,
+   "train": 0,
+   "burst": 2,
+   "lit_ground": 5
+  },
+  "quotes": [
+   {
+    "date": "1889-06-27",
+    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
+    "when": "June pa large and very brilliant meteor was seen mere to-night",
+    "where": "PETERSBURG, Va",
+    "quote": "large and very brilliant meteor was seen mere to-night. Its starting point was near the zenith and its course nearly east",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_heart_ver01/data/sn85038614/00175030980/1889062701/0741.jp2",
+    "key": "faro_1889/1889-06-27_p3_sn85038614_00175030980_1889062701_0741.json#28"
+   },
+   {
+    "date": "1889-06-28",
+    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
+    "when": "late hour Wednesday night",
+    "where": "within the asylum park",
+    "quote": "Several employees at the st. Eliza beth asylum testify to seeing a meteor fall to the earth at late hour Wednesday night and nearng it explode as it planted itself in the low ground within the asylum park.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_rottweiler_ver01/data/sn83045462/00280654735/1889062801/0058.jp2",
+    "key": "faro_1889/1889-06-28_p8_sn83045462_00280654735_1889062801_0058.json#3"
+   },
+   {
+    "date": "1889-06-28",
+    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
+    "when": "about . o'clock last night",
+    "where": "NORFOLK",
+    "quote": "A brilliant meteor. about the size OF a barrel. emitting fringe of sparks in its course, and constant explosions, shot across the heavens about . o'clock last night.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_heart_ver01/data/sn85038614/00175030980/1889062801/0745.jp2",
+    "key": "faro_1889/1889-06-28_p3_sn85038614_00175030980_1889062801_0745.json#3"
+   },
+   {
+    "date": "1889-06-28",
+    "paper": "Milford chronicle.",
+    "when": "Wednesday evening",
+    "where": "Southern sky",
+    "quote": "ON Wednesday evening beautiful meteor appeared in the Southern sky and traversed a large arc Of aerial space, bursting in mid-air with splendid effect",
+    "scan": "",
+    "key": "faro_1889/1889-06-28_p1_sn87062224_00514156359_1889062801_0335.json#57"
+   },
+   {
+    "date": "1889-06-29",
+    "paper": "Peninsula enterprise. [volume] (Accomac, Va.) 1881-1965",
+    "when": "About 8 O'Clock on Wednesday night",
+    "where": "",
+    "quote": "A splendid aerolite, variously described as from one to two feet in diameter, shot across the sky from southeast to northwest.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_ivory_ver01/data/sn94060041/00175033981/1889062901/0253.jp2",
+    "key": "faro_1889/1889-06-29_p3_sn94060041_00175033981_1889062901_0253.json#1"
+   },
+   {
+    "date": "1889-06-29",
+    "paper": "Democratic messenger.",
+    "when": "about 8 o'clock Wednesday evening",
+    "where": "in this section ... in every section Of the county. In Snow Hill ... Our Berlin correspondent writes that the meteor Illuminated that town",
+    "quote": "One of the most brilliant meteOrs ever seen in this section was visible in the sky about 8 o'clock Wednesday evening.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/mdu_denton_ver01/data/sn84026758/00279522527/1889062901/0283.jp2",
+    "key": "faro_1889/1889-06-29_p3_sn84026758_00279522527_1889062901_0283.json#6"
+   },
+   {
+    "date": "1889-06-30",
+    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
+    "when": "Wednesday evening between and y o'clock",
+    "where": "ONANCOCK. Va.",
+    "quote": "larcv-3 and most brilliant meteor rs sen Do fiis SECTION fell somewhere hay bore Wednesday evening between and y o'clock.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_heart_ver01/data/sn85038614/00175030980/1889063001/0753.jp2",
+    "key": "faro_1889/1889-06-30_p3_sn85038614_00175030980_1889063001_0753.json#9"
+   },
+   {
+    "date": "1889-07-03",
+    "paper": "Smyrna times.",
+    "when": "Wednesday evening last",
+    "where": "Smyrna",
+    "quote": "The meteor which attracted so much attention on Wednesday evening last all over the peninsula about haifpast eight o'clock was seen by a number of persons in Smyrna",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/deu_batman_ver01/data/sn84020422/00332894997/1889070301/0484.jp2",
+    "key": "faro_1889/1889-07-03_p2_sn84020422_00332894997_1889070301_0484.json#20"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1889/1889-07-05_p2_sn85026941_00175032381_1889070501_0309.json#8"
+   ],
+   [
+    "faro_1889/1889-06-27_p3_sn85038614_00175030980_1889062701_0741.json#28"
+   ],
+   [
+    "faro_1889/1889-07-03_p2_sn84020422_00332894997_1889070301_0484.json#20"
+   ],
+   [
+    "faro_1889/1889-06-28_p8_sn83045462_00280654735_1889062801_0058.json#3"
+   ],
+   [
+    "faro_1889/1889-06-28_p3_sn85038614_00175030980_1889062801_0745.json#3"
+   ],
+   [
+    "faro_1889/1889-06-28_p1_sn87062224_00514156359_1889062801_0335.json#57"
+   ],
+   [
+    "faro_1889/1889-07-03_p3_sn84038114_00271741509_1889070301_0022.json#3"
+   ],
+   [
+    "faro_1889/1889-06-29_p3_sn94060041_00175033981_1889062901_0253.json#1"
+   ],
+   [
+    "faro_1889/1889-06-30_p3_sn85038614_00175030980_1889063001_0753.json#9"
+   ],
+   [
+    "faro_1889/1889-06-29_p3_sn84026758_00279522527_1889062901_0283.json#6"
+   ]
+  ],
+  "spread_km": 295
+ },
+ {
   "date_lo": "1899-11-15",
   "date_hi": "1899-11-15",
   "dated": true,
@@ -5869,6 +5132,200 @@
    ]
   ],
   "spread_km": 1711
+ },
+ {
+  "date_lo": "1918-01-22",
+  "date_hi": "1918-01-22",
+  "dated": true,
+  "date_votes": 9,
+  "date_families": 10,
+  "date_range_all": [
+   "1918-01-22",
+   "1918-01-29"
+  ],
+  "shower_night": false,
+  "window": "sweep_1918",
+  "reports": 35,
+  "papers": 25,
+  "families": 11,
+  "independent_cities": 7,
+  "cities": [
+   "albuquerque, New Mexico",
+   "audubon, Iowa",
+   "leon, Iowa",
+   "marshalltown, Iowa",
+   "monroe city, Missouri",
+   "sn85040720",
+   "topeka, Kansas"
+  ],
+  "states": [
+   "Arizona",
+   "Arkansas",
+   "Colorado",
+   "Indiana",
+   "Iowa",
+   "Kansas",
+   "Maine",
+   "Mississippi",
+   "Missouri",
+   "Montana",
+   "New Mexico",
+   "North Dakota",
+   "Ohio",
+   "Oklahoma",
+   "Texas",
+   "Wisconsin"
+  ],
+  "types": [
+   "fireball"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 4,
+   "direction": 7,
+   "sound": 2,
+   "duration": 2,
+   "colour": 1,
+   "train": 3,
+   "burst": 1,
+   "lit_ground": 4
+  },
+  "quotes": [
+   {
+    "date": "1918-01-23",
+    "paper": "The Watertown news. [volume] (Watertown, Wis.) 1917-1919",
+    "when": "Jan. 23",
+    "where": "Peoria, ILL., Cedar Rapids, Ia, Kansas City and st. Joseph, Mo-, and Topeka, Kan.",
+    "quote": "Dispatches received last night from five cities-Peoria, ILL., Cedar Rapids, Ia, Kansas City and st. Joseph, Mo-, and Topeka, Kan.-told of large meteor travelling in an easterly direction.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/whi_elizabeth_ver01/data/sn85040720/00271769581/1918012301/0437.jp2",
+    "key": "faro_1918/1918-01-23_p1_sn85040720_00271769581_1918012301_0437.json#13"
+   },
+   {
+    "date": "1918-01-23",
+    "paper": "Albuquerque morning journal. [volume] (Albuquerque, N.M.) 19",
+    "when": "Jan. ga ... tonight",
+    "where": "Peoria, Ill.",
+    "quote": "brilliant meteor swept over the skies here at o'clock tonight, from a northwest crly direction.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/nmu_christie_ver01/data/sn84031081/00415626605/1918012301/0215.jp2",
+    "key": "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#15"
+   },
+   {
+    "date": "1918-01-23",
+    "paper": "Daily Kennebec journal.",
+    "when": "tonigh",
+    "where": "Missouri. Kansas and Illinois towns",
+    "quote": "A small piece of the meteor struck the earth at st. Joseph, Mo.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/me_forestcity_ver02/data/sn82014248/00513683157/1918012301/0207.jp2",
+    "key": "faro_1918/1918-01-23_p4_sn82014248_00513683157_1918012301_0207.json#23"
+   },
+   {
+    "date": "1918-01-23",
+    "paper": "The Alaska daily empire.",
+    "when": "last night",
+    "where": "dozens of towns in Missouri, Kansas and Illinois",
+    "quote": "The appearance of a brilliant meteor is reported from dozens of towns in Missouri, Kansas and Illinois last night.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/ak_jellymoss_ver01/data/sn84020657/0027952701A/1918012301/0166.jp2",
+    "key": "faro_1918/1918-01-23_p8_sn84020657_0027952701A_1918012301_0166.json#5"
+   },
+   {
+    "date": "1918-01-23",
+    "paper": "Evening star.",
+    "when": "January 2s.-... last night",
+    "where": "Missouri, Kansas and Illinois towns; st. Joseph, Mo.",
+    "quote": "A iarge brilliant meteor travelling with great raptdity, swept across the sky last night and was plainly visible in scores OF Missouri, Kansas and Illinois towns.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_gonzo_ver01/data/sn83045462/00280658339/1918012301/0402.jp2",
+    "key": "faro_1918/1918-01-23_p10_sn83045462_00280658339_1918012301_0402.json#3"
+   },
+   {
+    "date": "1918-01-23",
+    "paper": "South Bend news-times. (South Bend, Ind.) 1913-1938",
+    "when": "Tuesday night",
+    "where": "scores of Missouri. Kansas and Illinois towns",
+    "quote": "a large brilliant meteor. travelling with great rapiJity. swept across the sky Tuesday night and was plainly visible in scores of Missouri. Kansas and Illinois towns",
+    "scan": "",
+    "key": "faro_1918/1918-01-23_p3_sn87055779_00295872238_1918012301_0350.json#8"
+   },
+   {
+    "date": "1918-01-23",
+    "paper": "Arizona republican.",
+    "when": "Jan. 22.-A brilliant meteor swept over the skies here at 6 o'clock tonight",
+    "where": "PEORIA, H.",
+    "quote": "A brilliant meteor swept over the skies here at 6 o'clock tonight from a northwesterly direction.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/az_jojoba_ver01/data/sn84020558/00211107029/1918012301/0304.jp2",
+    "key": "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#59"
+   },
+   {
+    "date": "1918-01-23",
+    "paper": "Albuquerque morning journal. [volume] (Albuquerque, N.M.) 19",
+    "when": "Jan.",
+    "where": "ST. JOSEPH, MO.",
+    "quote": "A small piece of a meteor which flashed startling homeward bound crowds, hit the earth just east Of the city limits.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/nmu_christie_ver01/data/sn84031081/00415626605/1918012301/0215.jp2",
+    "key": "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#11"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1918/1918-01-24_p5_sn87057928_00340584521_1918012401_0522.json#4"
+   ],
+   [
+    "faro_1918/1918-01-23_p1_sn85040720_00271769581_1918012301_0437.json#13",
+    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#15",
+    "faro_1918/1918-01-23_p4_sn82014248_00513683157_1918012301_0207.json#23",
+    "faro_1918/1918-01-23_p8_sn84020657_0027952701A_1918012301_0166.json#5",
+    "faro_1918/1918-01-23_p10_sn83045462_00280658339_1918012301_0402.json#3",
+    "faro_1918/1918-01-23_p3_sn87055779_00295872238_1918012301_0350.json#8",
+    "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#59",
+    "faro_1918/1918-01-25_p4_sn88077067_00415665787_1918012501_0368.json#11",
+    "faro_1918/1918-01-26_p1_sn87065666_00383344335_1918012601_0268.json#8",
+    "faro_1918/1918-01-28_p4_sn96060004_00414185848_1918012801_0040.json#22",
+    "faro_1918/1918-04-05_p3_sn82014248_00513683169_1918040501_0318.json#37"
+   ],
+   [
+    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#11",
+    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#26",
+    "faro_1918/1918-01-23_p1_sn85042243_00212478659_1918012301_0168.json#14",
+    "faro_1918/1918-01-23_p2_sn85042224_00383346277_1918012301_0182.json#5",
+    "faro_1918/1918-01-23_p2_sn88084272_00280765247_1918012301_0153.json#14",
+    "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#23",
+    "faro_1918/1918-01-23_p1_sn83025316_00295860236_1918012301_0232.json#2",
+    "faro_1918/1918-01-24_p2_sn86086068_00414214940_1918012401_0534.json#9",
+    "faro_1918/1918-01-24_p1_sn87058308_00340584168_1918012401_0527.json#73",
+    "faro_1918/1918-01-25_p2_sn90051006_00414214320_1918012501_0162.json#32",
+    "faro_1918/1918-01-25_p2_sn90051006_00414214320_1918012501_0162.json#61",
+    "faro_1918/1918-01-26_p2_sn83025514_00340586372_1918012601_0450.json#18"
+   ],
+   [
+    "faro_1918/1918-01-23_p1_sn84031081_00415626605_1918012301_0215.json#12",
+    "faro_1918/1918-01-23_p2_sn89051285_00414212827_1918012301_0349.json#14",
+    "faro_1918/1918-01-23_p1_sn84020558_00211107029_1918012301_0304.json#57",
+    "faro_1918/1918-01-23_p6_sn85042344_00200295067_1918012301_0594.json#17"
+   ],
+   [
+    "faro_1918/1918-01-23_p3_sn82016014_00295870096_1918012301_0200.json#8"
+   ],
+   [
+    "faro_1918/1918-01-24_p1_sn87057096_00295875550_1918012401_0572.json#11"
+   ],
+   [
+    "faro_1918/1918-01-23_p12_sn85049554_00295877078_1918012301_0521.json#38"
+   ],
+   [
+    "faro_1918/1918-01-31_p1_sn87057096_00295875550_1918013101_0582.json#10"
+   ],
+   [
+    "faro_1918/1918-01-25_p6_sn90061309_00200292248_1918012501_0341.json#12"
+   ],
+   [
+    "faro_1918/1918-01-23_p9_sn85049554_00295877078_1918012301_0518.json#17"
+   ],
+   [
+    "faro_1918/1918-01-23_p6_sn82016014_00295870096_1918012301_0203.json#3"
+   ]
+  ],
+  "spread_km": 1420
  },
  {
   "date_lo": "1907-08-18",
@@ -7043,6 +6500,158 @@
    ]
   ],
   "spread_km": 913
+ },
+ {
+  "date_lo": "1907-10-01",
+  "date_hi": "1907-10-01",
+  "dated": true,
+  "date_votes": 6,
+  "date_families": 6,
+  "date_range_all": [
+   "1907-09-24",
+   "1907-10-01"
+  ],
+  "shower_night": false,
+  "window": "sweep_1907",
+  "reports": 11,
+  "papers": 10,
+  "families": 7,
+  "independent_cities": 7,
+  "cities": [
+   "alexandria, Virginia",
+   "bloomsburg, Pennsylvania",
+   "reynoldsville, Pennsylvania",
+   "rockville, Maryland",
+   "shepherdstown, West Virginia",
+   "thurmont, Maryland",
+   "washington, District of Columbia"
+  ],
+  "states": [
+   "District of Columbia",
+   "Maryland",
+   "New Jersey",
+   "Pennsylvania",
+   "Virginia",
+   "West Virginia"
+  ],
+  "types": [
+   "fireball"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 4,
+   "direction": 2,
+   "sound": 2,
+   "duration": 0,
+   "colour": 2,
+   "train": 6,
+   "burst": 1,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1907-10-02",
+    "paper": "Alexandria gazette. [volume] (Alexandria, D.C.) 1834-1974",
+    "when": "last night",
+    "where": "vicinity Of Suferp, N. Y.",
+    "quote": "A heavenly body that had the appear ance of a huge sky rocket, and rose to a great height in the western sky over The Rsmapo Mountains, before it broke into half dozen pieces, was seen last night by many persons in the vicinity Of Suferp, N. Y.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_greenday_ver01/data/sn85025007/00175046999/1907100201/0052.jp2",
+    "key": "faro_1907/1907-10-02_p2_sn85025007_00175046999_1907100201_0052.json#29"
+   },
+   {
+    "date": "1907-10-02",
+    "paper": "The Washington herald. [volume] (Washington, D.C.) 1906-1939",
+    "when": "Oct IA ... tonight",
+    "where": "Suffern. \\. Y ... vicinity OF Suffern",
+    "quote": "A heavenly body that had the appearance Of a huge sky rocket, and rose to a great height in the Western sky over the Ramapo Mountains before it broke into 9 half dozen pieces, was seen tonight by mann persons in the vicinity OF Suffern.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/dlc_golf_ver01/data/sn83045433/100493287/1907100201/0277.jp2",
+    "key": "faro_1907/1907-10-02_p1_sn83045433_100493287_1907100201_0277.json#6"
+   },
+   {
+    "date": "1907-10-02",
+    "paper": "Evening star. [volume] (Washington, D.C.) 1854-1972",
+    "when": "October \"a meteor Of majestic proportions swept the western sky at almost precisely $50 O'Clock last night.",
+    "where": "NEW YORK",
+    "quote": "A meteor Of majestic proportions swept the western sky at almost precisely $50 O'Clock last night.",
+    "scan": "",
+    "key": "faro_1907/1907-10-02_p14_sn83045462_00280656173_1907100201_0042.json#5"
+   },
+   {
+    "date": "1907-10-02",
+    "paper": "The evening star and Newark advertiser. [volume] (Newark, N.",
+    "when": "early last night",
+    "where": "western sky",
+    "quote": "A meteor of majestic proportions swept the western sky early last night.",
+    "scan": "",
+    "key": "faro_1907/1907-10-02_p7_sn84020504_00332897159_1907100201_0024.json#23"
+   },
+   {
+    "date": "1907-10-02",
+    "paper": "The star. (Reynoldsville, Pa.) 1892-1946",
+    "when": "last evening",
+    "where": "",
+    "quote": "While they were standing talking near Franks Tavern a brilliant golden ball OF fire appeared suddenly In the northern part of the sky",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_mateer_ver01/data/sn87078321/00212477989/1907100201/0361.jp2",
+    "key": "faro_1907/1907-10-02_p5_sn87078321_00212477989_1907100201_0361.json#3"
+   },
+   {
+    "date": "1907-10-03",
+    "paper": "The Columbian. [volume] (Bloomsburg, Pa.) 1866-1910",
+    "when": "about halt past six o. clock Tuesday evening",
+    "where": "in this section",
+    "quote": "A meteoric display that surpassed anything seen in this section for many years, occurred about halt past six o. clock Tuesday evening",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_irvin_ver01/data/sn83032011/00280776890/1907100301/0772.jp2",
+    "key": "faro_1907/1907-10-03_p1_sn83032011_00280776890_1907100301_0772.json#4"
+   },
+   {
+    "date": "1907-10-03",
+    "paper": "Montour American. (Danville, Pa.) 1866-1920",
+    "when": "about half past six o'clock Tuesday evening",
+    "where": "this section",
+    "quote": "a meteoric display that surpassed any thing seen in this section for many years occurred about half past six o'clock Tuesday evening",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_dubois_ver01/data/sn86083264/00296026463/1907100301/0188.jp2",
+    "key": "faro_1907/1907-10-03_p1_sn86083264_00296026463_1907100301_0188.json#3"
+   },
+   {
+    "date": "1907-10-03",
+    "paper": "The Columbian. [volume] (Bloomsburg, Pa.) 1866-1910",
+    "when": "oct. 3.--A meteor OF majestic proportions swept the vest ern sky at sunset.",
+    "where": "New York",
+    "quote": "A meteor OF majestic proportions swept the vest ern sky at sunset.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/pst_irvin_ver01/data/sn83032011/00280776890/1907100301/0774.jp2",
+    "key": "faro_1907/1907-10-03_p3_sn83032011_00280776890_1907100301_0774.json#2"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1907/1907-10-04_p3_sn83016209_00332899041_1907100401_0295.json#21"
+   ],
+   [
+    "faro_1907/1907-10-02_p2_sn85025007_00175046999_1907100201_0052.json#29",
+    "faro_1907/1907-10-02_p1_sn83045433_100493287_1907100201_0277.json#6"
+   ],
+   [
+    "faro_1907/1907-10-03_p1_sn83032011_00280776890_1907100301_0772.json#4",
+    "faro_1907/1907-10-03_p1_sn86083264_00296026463_1907100301_0188.json#3"
+   ],
+   [
+    "faro_1907/1907-10-02_p14_sn83045462_00280656173_1907100201_0042.json#5",
+    "faro_1907/1907-10-02_p7_sn84020504_00332897159_1907100201_0024.json#23",
+    "faro_1907/1907-10-03_p3_sn83032011_00280776890_1907100301_0774.json#2"
+   ],
+   [
+    "faro_1907/1907-10-03_p3_sn84026824_00271767900_1907100301_0373.json#27"
+   ],
+   [
+    "faro_1907/1907-10-03_p3_sn84026688_00296029981_1907100301_0408.json#16"
+   ],
+   [
+    "faro_1907/1907-10-02_p5_sn87078321_00212477989_1907100201_0361.json#3"
+   ]
+  ],
+  "spread_km": 982
  },
  {
   "date_lo": "1919-06-13",
@@ -11809,6 +11418,114 @@
    ]
   ],
   "spread_km": 1331
+ },
+ {
+  "date_lo": "1907-10-05",
+  "date_hi": "1907-10-05",
+  "dated": true,
+  "date_votes": 5,
+  "date_families": 5,
+  "date_range_all": [
+   "1907-10-05",
+   "1907-10-05"
+  ],
+  "shower_night": false,
+  "window": "sweep_1907",
+  "reports": 5,
+  "papers": 5,
+  "families": 5,
+  "independent_cities": 5,
+  "cities": [
+   "bel air, Maryland",
+   "rising sun, Maryland",
+   "towson, ",
+   "westminster, Maryland",
+   "woodbury, New Jersey"
+  ],
+  "states": [
+   "Maryland"
+  ],
+  "types": [
+   "fireball"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 2,
+   "direction": 2,
+   "sound": 0,
+   "duration": 0,
+   "colour": 1,
+   "train": 1,
+   "burst": 0,
+   "lit_ground": 1
+  },
+  "quotes": [
+   {
+    "date": "1907-10-10",
+    "paper": "Gloucester County Democrat.",
+    "when": "last Saturday evening at about 10 Is p. N.",
+    "where": "our town",
+    "quote": "A meteor passed oyer our town last Sat urday evening at about 10 Is p. N. Those who saw il say it was wonderful electric display, lighting the streets for at least half square, and carrying in its train blazen streak or tail of fire.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/njr_furio_ver01/data/sn87068079/00332896568/1907101001/0115.jp2",
+    "key": "faro_1907/1907-10-10_p1_sn87068079_00332896568_1907101001_0115.json#11"
+   },
+   {
+    "date": "1907-10-11",
+    "paper": "The aegis &amp; intelligencer. [volume] (Bel Air, Md.) 1864-",
+    "when": "last Saturday night",
+    "where": "above our village",
+    "quote": "A meteor was observed in the heavens above our village last Saturday night.",
+    "scan": "",
+    "key": "faro_1907/1907-10-11_p3_sn83016107_00415625601_1907101101_0594.json#24"
+   },
+   {
+    "date": "1907-10-11",
+    "paper": "The Democratic advocate. [volume] (Westminster, Md.) 1865-19",
+    "when": "last Saturday night",
+    "where": "Snydersburg",
+    "quote": "The brilliant light, made by the meteor on last Saturday night, was seen by several OF our people.",
+    "scan": "",
+    "key": "faro_1907/1907-10-11_p3_sn85038292_00415624074_1907101101_0182.json#24"
+   },
+   {
+    "date": "1907-10-11",
+    "paper": "The midland journal. (Rising Sun, Md.) 1885-1947",
+    "when": "last Saturday night",
+    "where": "",
+    "quote": "Did you see the meteor last Saturday night.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/mdu_belair_ver01/data/sn89060136/00279522606/1907101101/0783.jp2",
+    "key": "faro_1907/1907-10-11_p1_sn89060136_00279522606_1907101101_0783.json#22"
+   },
+   {
+    "date": "1907-10-12",
+    "paper": "The Baltimore County union. [volume] (Towsontown, Md.) 1865-",
+    "when": "little before 10 o'clock on Saturday night last",
+    "where": "over Towson ... near Jockeys vile",
+    "quote": "THE large meteor that passed over Tow son little before 10 o'clock on Saturday night last was seen by many people.",
+    "scan": "",
+    "key": "faro_1907/1907-10-12_p1_sn83016368_00415627452_1907101201_0399.json#7"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1907/1907-10-10_p1_sn87068079_00332896568_1907101001_0115.json#11"
+   ],
+   [
+    "faro_1907/1907-10-12_p1_sn83016368_00415627452_1907101201_0399.json#7"
+   ],
+   [
+    "faro_1907/1907-10-11_p3_sn83016107_00415625601_1907101101_0594.json#24"
+   ],
+   [
+    "faro_1907/1907-10-11_p3_sn85038292_00415624074_1907101101_0182.json#24"
+   ],
+   [
+    "faro_1907/1907-10-11_p1_sn89060136_00279522606_1907101101_0783.json#22"
+   ]
+  ],
+  "spread_km": 160
  },
  {
   "date_lo": "1883-02-27",
@@ -83003,6 +82720,141 @@
   "spread_km": 349
  },
  {
+  "date_lo": "1887-06-12",
+  "date_hi": "1887-06-12",
+  "dated": true,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-12",
+   "1887-06-12"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 11,
+  "papers": 10,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "richmond, Virginia"
+  ],
+  "states": [
+   "California",
+   "Indiana",
+   "Minnesota",
+   "Nevada",
+   "South Dakota",
+   "Texas",
+   "Virginia"
+  ],
+  "types": [
+   "meteorite_fall"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": true,
+  "fields": {
+   "time": 0,
+   "direction": 0,
+   "sound": 0,
+   "duration": 0,
+   "colour": 1,
+   "train": 0,
+   "burst": 1,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-14",
+    "paper": "Richmond dispatch. [volume] (Richmond, Va.) 1884-1903",
+    "when": "Sunday morning",
+    "where": "near II. Joseph",
+    "quote": "An serolite Of great size fell near II. Joseph Sunday morning.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_tesla_ver01/data/sn85038614/00175030931/1887061401/0668.jp2",
+    "key": "faro_1887/1887-06-14_p4_sn85038614_00175030931_1887061401_0668.json#4"
+   },
+   {
+    "date": "1887-06-14",
+    "paper": "Alexandria gazette. [volume] (Alexandria, D.C.) 1834-1974",
+    "when": "Sunday morning",
+    "where": "near St. Joseph, Mo.",
+    "quote": "An rrolite OF great size fell near St. Joseph, Mo-. Sunday morning.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_pink_ver01/data/sn85025007/00175034304/1887061401/0563.jp2",
+    "key": "faro_1887/1887-06-14_p3_sn85025007_00175034304_1887061401_0563.json#2"
+   },
+   {
+    "date": "1887-06-14",
+    "paper": "Sacramento daily record-union. [volume] (Sacramento [Calif.]",
+    "when": "yesterday morning",
+    "where": "near st. Joseph, about ten miles from this city [Evansville Ind]",
+    "quote": "An aerolite of vast dimensions fell yesterday morning near st. Joseph, about ten miles from this city and about three miles from the nearest railway station.",
+    "scan": "",
+    "key": "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#139"
+   },
+   {
+    "date": "1887-06-14",
+    "paper": "Sacramento daily record-union. [volume] (Sacramento [Calif.]",
+    "when": "yesterday morn ing",
+    "where": "near st. Joseph",
+    "quote": "lite of vast dimensions fell yesterday morn ing near st. Joseph, about ten miles from this city and about three miles from the nearest railway station.",
+    "scan": "",
+    "key": "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#51"
+   },
+   {
+    "date": "1887-06-14",
+    "paper": "Press and daily Dakotaian. (Yankton, Dakota Territory [S.D.]",
+    "when": "june 12... this morning",
+    "where": "near st, Joseph, about ten miles from this city [Evansville, Ind]",
+    "quote": "An aerolite OF vast dimensions fell this morning near st, Joseph, about ten miles from this city and about three miles from the nearest railway station",
+    "scan": "",
+    "key": "faro_1887/1887-06-14_p2_sn91099608_00415623033_1887061401_0113.json#1"
+   },
+   {
+    "date": "1887-06-15",
+    "paper": "The silver state. [volume] (Unionville, Nev.) 1870-1903",
+    "when": "Monday",
+    "where": "near st. Joseph, about ten miles from Evansville, Ind.",
+    "quote": "An aerolite of vast dimensions fell Monday near st. Joseph, about ten miles from Evansville, Ind., and about three miles from the nearest railway station.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/nvln_bullfrog_ver01/data/sn84022060/00332890517/1887061501/0548.jp2",
+    "key": "faro_1887/1887-06-15_p1_sn84022060_00332890517_1887061501_0548.json#14"
+   },
+   {
+    "date": "1887-06-16",
+    "paper": "Fort Worth daily gazette. (Fort Worth, Tex.) 1882-1891",
+    "when": "June - ... this morning",
+    "where": "near St. Joseph, about ten miles from this city [Evansville], and about three miles from the nearest railway station.",
+    "quote": "An aerolite of vast dimensions fell this morning near St. Joseph, about ten miles from this city, and about three miles from the nearest railway station.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/txdn_echo_ver03/data/sn86064205/00206535593/1887061601/0274.jp2",
+    "key": "faro_1887/1887-06-16_p4_sn86064205_00206535593_1887061601_0274.json#4"
+   },
+   {
+    "date": "1887-06-18",
+    "paper": "Huntsville gazette.",
+    "when": "yesterday morning",
+    "where": "near St Joseph, Indiana",
+    "quote": "An aerolite Of vast dimensions fell yesterday morning near St Joseph, about ten miles from this city",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/au_inman_ver01/data/sn84020151/00340583620/1887061801/0596.jp2",
+    "key": "faro_1887/1887-06-18_p1_sn84020151_00340583620_1887061801_0596.json#3"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-14_p4_sn85038614_00175030931_1887061401_0668.json#4",
+    "faro_1887/1887-06-14_p3_sn85025007_00175034304_1887061401_0563.json#2",
+    "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#139",
+    "faro_1887/1887-06-14_p1_sn82014381_00175036532_1887061401_0243.json#51",
+    "faro_1887/1887-06-14_p2_sn91099608_00415623033_1887061401_0113.json#1",
+    "faro_1887/1887-06-15_p1_sn84022060_00332890517_1887061501_0548.json#14",
+    "faro_1887/1887-06-16_p4_sn86064205_00206535593_1887061601_0274.json#4",
+    "faro_1887/1887-06-18_p1_sn84020151_00340583620_1887061801_0596.json#3",
+    "faro_1887/1887-06-22_p2_sn89064939_00206537978_1887062201_0196.json#21",
+    "faro_1887/1887-06-24_p2_sn84023963_00200295900_1887062401_1032.json#8",
+    "faro_1887/1887-06-24_p1_sn99068076_00415623367_1887062401_0285.json#9"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
   "date_lo": "1870-08-18",
   "date_hi": "1870-08-18",
   "dated": true,
@@ -83065,6 +82917,73 @@
    [
     "faro_1870/1870-08-23_p5_sn84026050_00280776798_1870082301_0287.json#8",
     "faro_1870/1870-12-22_p8_sn83030313_00271743725_1870122201_1033.json#27"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-12",
+  "date_hi": "1887-06-12",
+  "dated": true,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-12",
+   "1887-06-12"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 2,
+  "papers": 2,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "paw paw, Michigan"
+  ],
+  "states": [
+   "Michigan",
+   "Montana"
+  ],
+  "types": [
+   "meteorite_fall"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": true,
+  "fields": {
+   "time": 1,
+   "direction": 0,
+   "sound": 0,
+   "duration": 0,
+   "colour": 0,
+   "train": 0,
+   "burst": 0,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-15",
+    "paper": "The true northerner. [volume] (Paw Paw, Mich.) 1855-1920",
+    "when": "Sunday morning",
+    "where": "village OF St Joseph, about nine miles north of that city [Evansville]",
+    "quote": "An aerolite of enormous di-mansions had fallen in the vicinity",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/mimtptc_gaylord_ver02/data/sn85033781/00296023784/1887061501/1028.jp2",
+    "key": "faro_1887/1887-06-15_p2_sn85033781_00296023784_1887061501_1028.json#15"
+   },
+   {
+    "date": "1887-06-22",
+    "paper": "Butte semi-weekly miner. [volume] (Butte, Mont.) 1886-1890",
+    "when": "this morning",
+    "where": "EVANSVILLE, Ind, ... village of st. Joceph about nine miles north OF this city",
+    "quote": "An aerolite OF dimensions had fallen in the vi cinity. It was soon located in a small piece of woods, where it was found, hav ing imbedded itself in the earth to the depth of fifteen or twenty feet.",
+    "scan": "",
+    "key": "faro_1887/1887-06-22_p1_sn84036034_00295860613_1887062201_0412.json#5"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-15_p2_sn85033781_00296023784_1887061501_1028.json#15",
+    "faro_1887/1887-06-22_p1_sn84036034_00295860613_1887062201_0412.json#5"
    ]
   ],
   "spread_km": 0
@@ -83343,6 +83262,398 @@
   "family_keys": [
    [
     "faro_1875/1875-07-02_p5_sn85033781_00296023747_1875070201_0938.json#3"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-05",
+  "date_hi": "1887-06-12",
+  "dated": false,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-05",
+   "1887-06-12"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 1,
+  "papers": 1,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "brattleboro, Vermont"
+  ],
+  "states": [
+   "Vermont"
+  ],
+  "types": [
+   "meteorite_fall"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": true,
+  "fields": {
+   "time": 0,
+   "direction": 0,
+   "sound": 1,
+   "duration": 0,
+   "colour": 0,
+   "train": 1,
+   "burst": 0,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-17",
+    "paper": "Vermont ph\u00c5\u201cnix. [volume] (Brattleboro, Vt.) 1834-1955",
+    "when": "last Sunday morning",
+    "where": "near Evansville, Indiana",
+    "quote": "A huge aerolite, estimated to weigh two tons, fell near Evansville, Indiana, last Sunday morning, and penetrated the earth 20 feet",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vtu_eden_ver01/data/sn98060050/00280777419/1887061701/0606.jp2",
+    "key": "faro_1887/1887-06-17_p2_sn98060050_00280777419_1887061701_0606.json#11"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-17_p2_sn98060050_00280777419_1887061701_0606.json#11"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-08",
+  "date_hi": "1887-06-15",
+  "dated": false,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-08",
+   "1887-06-15"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 1,
+  "papers": 1,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "kenosha, Wisconsin"
+  ],
+  "states": [
+   "Wisconsin"
+  ],
+  "types": [
+   "fireball"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 1,
+   "direction": 0,
+   "sound": 0,
+   "duration": 0,
+   "colour": 0,
+   "train": 0,
+   "burst": 0,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-17",
+    "paper": "The Kenosha telegraph. [volume] (Kenosha, Wis.) 1860-1888",
+    "when": "During the storm on Wednesday after noon of last week",
+    "where": "in her brothers house in Pleasant Prairie",
+    "quote": "she saw large ball of fire approaching AMI she felt shock which knocked her off the chair on which she was sitting",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/whi_engledinger_ver02/data/sn85033123/0051415210A/1887061701/0467.jp2",
+    "key": "faro_1887/1887-06-17_p3_sn85033123_0051415210A_1887061701_0467.json#17"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-17_p3_sn85033123_0051415210A_1887061701_0467.json#17"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-12",
+  "date_hi": "1887-06-13",
+  "dated": true,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-12",
+   "1887-06-13"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 1,
+  "papers": 1,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "indianapolis, Indiana"
+  ],
+  "states": [
+   "Indiana"
+  ],
+  "types": [
+   "meteorite_fall"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": true,
+  "fields": {
+   "time": 0,
+   "direction": 0,
+   "sound": 0,
+   "duration": 0,
+   "colour": 0,
+   "train": 0,
+   "burst": 1,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-13",
+    "paper": "The Indianapolis journal. [volume] (Indianapolis [Ind.]) 186",
+    "when": "June ia report reached tn is city, this evening. that meteoric stone had fallen St Joseph, in .his county, this morning",
+    "where": "St Joseph, in .his county",
+    "quote": "meteoric stone had fallen St Joseph, in .his county, this morning",
+    "scan": "",
+    "key": "faro_1887/1887-06-13_p2_sn82015679_00271745709_1887061301_0437.json#8"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-13_p2_sn82015679_00271745709_1887061301_0437.json#8"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-05",
+  "date_hi": "1887-06-12",
+  "dated": false,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-05",
+   "1887-06-12"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 1,
+  "papers": 1,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "russellville, "
+  ],
+  "states": [
+   "Arkansas"
+  ],
+  "types": [
+   "meteorite_fall"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": true,
+  "fields": {
+   "time": 0,
+   "direction": 0,
+   "sound": 0,
+   "duration": 0,
+   "colour": 0,
+   "train": 0,
+   "burst": 0,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-15",
+    "paper": "The Russellville Democrat.",
+    "when": "last Sunday morning",
+    "where": "near St. Joseph, Tenn",
+    "quote": "AN enormous aerolite fell near St. Joseph, Tenn, last Sunday morning, causing great excitement.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/arhi_igglybuff_ver01/data/sn84023017/00414212992/1887061501/0080.jp2",
+    "key": "faro_1887/1887-06-15_p2_sn84023017_00414212992_1887061501_0080.json#12"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-15_p2_sn84023017_00414212992_1887061501_0080.json#12"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-06",
+  "date_hi": "1887-06-13",
+  "dated": false,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-06",
+   "1887-06-13"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 1,
+  "papers": 1,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "staunton, Virginia"
+  ],
+  "states": [
+   "Virginia"
+  ],
+  "types": [
+   "meteorite_fall"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": true,
+  "fields": {
+   "time": 0,
+   "direction": 0,
+   "sound": 0,
+   "duration": 0,
+   "colour": 0,
+   "train": 0,
+   "burst": 0,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-17",
+    "paper": "Staunton vindicator. [volume] (Staunton, Va.) 1860-1896",
+    "when": "Last Monday evening during shower",
+    "where": "",
+    "quote": "Last Monday evening during shower, as Mrs. Cyrus Barger was going from the yard into the house, something supposed to be meteoric stone struck her on the shoulder, inflicting slight wound",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/vi_lippizaner_ver01/data/sn84024653/00393349578/1887061701/0294.jp2",
+    "key": "faro_1887/1887-06-17_p3_sn84024653_00393349578_1887061701_0294.json#4"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-17_p3_sn84024653_00393349578_1887061701_0294.json#4"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-05",
+  "date_hi": "1887-06-12",
+  "dated": false,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-05",
+   "1887-06-12"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 1,
+  "papers": 1,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "manitowoc, Wisconsin"
+  ],
+  "states": [
+   "Wisconsin"
+  ],
+  "types": [
+   "meteorite_fall"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": true,
+  "fields": {
+   "time": 0,
+   "direction": 0,
+   "sound": 0,
+   "duration": 0,
+   "colour": 0,
+   "train": 0,
+   "burst": 0,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-16",
+    "paper": "The Manitowoc pilot. [volume] (Manitowoc, Wis.) 1859-1932",
+    "when": "Sunday last",
+    "where": "a village in Indiana",
+    "quote": "AN aerolite startled the people of a vii lage in Indiana on Sunday last. 1t i'm bedded itself in the earth about twenty feet, making hole about 30 feet in diam eter.",
+    "scan": "https://chroniclingamerica.loc.gov/data/batches/whi_grace_ver01/data/sn85033139/00271769362/1887061601/0618.jp2",
+    "key": "faro_1887/1887-06-16_p2_sn85033139_00271769362_1887061601_0618.json#32"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-16_p2_sn85033139_00271769362_1887061601_0618.json#32"
+   ]
+  ],
+  "spread_km": 0
+ },
+ {
+  "date_lo": "1887-06-11",
+  "date_hi": "1887-06-18",
+  "dated": false,
+  "date_votes": 1,
+  "date_families": 1,
+  "date_range_all": [
+   "1887-06-11",
+   "1887-06-18"
+  ],
+  "shower_night": false,
+  "window": "sweep_1887",
+  "reports": 1,
+  "papers": 1,
+  "families": 1,
+  "independent_cities": 1,
+  "cities": [
+   "york, South Carolina"
+  ],
+  "states": [
+   "South Carolina"
+  ],
+  "types": [
+   "fireball"
+  ],
+  "fireball": true,
+  "vetted": true,
+  "stones": false,
+  "fields": {
+   "time": 1,
+   "direction": 1,
+   "sound": 0,
+   "duration": 0,
+   "colour": 1,
+   "train": 0,
+   "burst": 0,
+   "lit_ground": 0
+  },
+  "quotes": [
+   {
+    "date": "1887-06-22",
+    "paper": "Yorkville enquirer. [volume] (Yorkville, S.C.) 1855-2006",
+    "when": "about 8 o'clock last Saturday night",
+    "where": "in the southwestern skies",
+    "quote": "A beautiful and brilliant meteor was observ- ed in the southwestern skies about 8 o'clock last Saturday night.",
+    "scan": "",
+    "key": "faro_1887/1887-06-22_p2_sn84026925_00295861940_1887062201_0168.json#12"
+   }
+  ],
+  "family_keys": [
+   [
+    "faro_1887/1887-06-22_p2_sn84026925_00295861940_1887062201_0168.json#12"
    ]
   ],
   "spread_km": 0

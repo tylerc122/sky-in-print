@@ -106,11 +106,11 @@
     "lat": 33.47,
     "lon": -82.5,
     "location_basis": "Approximate reported locality; not an exact recovery site.",
-    "summary": "A recognized meteorite: contemporary evidence describes an observed fall, although the frozen catalogue lists a find. This is a possible record correction, not a new meteorite.",
+    "summary": "A recognized meteorite listed as a find. The finder B. F. Wilson wrote in November 1888 that it fell within thirty yards of him while he was at work (quoted by Merrill, 1910), and an 1888 newspaper confirms he brought the stone in for analysis. This is a possible record correction, not a new meteorite.",
     "sources": [
       {
-        "label": "Savannah Morning News, Nov. 7, 1888",
-        "url": "https://www.loc.gov/resource/sn86063034/1888-11-07/ed-1/"
+        "label": "Savannah Morning News, Nov. 7, 1888, p. 6 (Wilson brings the stone in)",
+        "url": "https://www.loc.gov/resource/sn86063034/1888-11-07/ed-1/?sp=6"
       },
       {
         "label": "G. P. Merrill, Smithsonian Miscellaneous Collections 52:473 (1910)",
@@ -276,8 +276,8 @@
         "url": "https://www.loc.gov/resource/sn84031492/1875-02-14/ed-1/"
       },
       {
-        "label": "The Toledo chronicle. [volume] (Toledo, Tama County, Iowa) 1",
-        "url": "https://www.loc.gov/resource/sn84038485/1875-02-18/ed-1/?sp=1"
+        "label": "Knoxville journal. [volume] (Knoxville, Iowa) 1874-1986",
+        "url": "https://www.loc.gov/resource/sn82015854/1875-02-18/ed-1/?sp=8"
       },
       {
         "label": "Meteoritical Bulletin entry",

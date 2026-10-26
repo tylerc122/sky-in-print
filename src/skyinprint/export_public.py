@@ -101,7 +101,9 @@ def make_track():
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
-    raw=json.loads((ROOT/'results/fireballs/events.json').read_text())
+    # the full-sweep grouping when it exists (results/fireballs/events_all.json), else the pilot events
+    src=ROOT/'results/fireballs/events_all.json'
+    raw=json.loads((src if src.exists() else ROOT/'results/fireballs/events.json').read_text())
     with (ROOT/'reference/newspapers/lccn_places.csv').open() as handle:
         places={r['lccn']:r for r in csv.DictReader(handle)}
     events=[]
@@ -131,7 +133,7 @@ def main():
     coverage=[]
     for path in sorted((ROOT/'data/sweep').glob('*/stats.json')):
         s=json.loads(path.read_text());coverage.append({k:s.get(k) for k in ['year','newspapers','articles']})
-    bundle=dict(falls=falls,events=events,coverage=coverage,track=make_track(),statuses=STATUSES,release='Pilot + curated follow-up, 22 October 2026',notes='Missing coverage years are unknown, not zero. Fireball selection: independent_cities >= 2 or vetted. Publishing-city counts are not verified witness independence.')
+    bundle=dict(falls=falls,events=events,coverage=coverage,track=make_track(),statuses=STATUSES,release='Full sweep 1770-1964 + curated follow-up, 26 October 2026',notes='Missing coverage years are unknown, not zero. Fireball selection: independent_cities >= 2 or vetted. Publishing-city counts are not verified witness independence.')
     for name,data in [('fall_reports',falls),('fireball_events',events),('coverage',coverage),('track',bundle['track'])]:
         (OUT/f'{name}.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
         if name in ['fall_reports','fireball_events']:
@@ -141,13 +143,13 @@ def main():
                 for row in data:writer.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(list,dict)) else v for k,v in row.items()})
     # Classic script intentionally supports opening index.html via file:// without fetch/CORS.
     (OUT/'catalog.js').write_text('window.SKY_DATA='+json.dumps(bundle,ensure_ascii=False).replace('<','\\u003c')+';\n')
-    (OUT/'README.md').write_text('''# Sky In Print · public pilot release
+    (OUT/'README.md').write_text('''# Sky In Print · public release
 
-Regenerate from the project root: `python -m skyinprint.export_public` (install the project first with `pip install -e .`). No sweep is required; missing local sweep statistics produce an empty coverage series. The fireball input remains the curated pilot events.json; running a sweep does not automatically re-cluster or vet new events. Refresh that upstream file deliberately before exporting a larger event release.
+Regenerate from the project root: `python -m skyinprint.export_public` (install the project first with `pip install -e .`). No sweep is required; missing local sweep statistics produce an empty coverage series. The fireball input is results/fireballs/events_all.json (full sweep, from `python -m skyinprint.fireballs --workdir all`), falling back to the pilot events.json. Only events marked human reviewed have been read; the rest are candidate groupings.
 
 ## Files and columns
 - fall_reports.csv / .json: curated public-brief cases.
-- fireball_events.csv / .json: pilot groups with independent_cities >= 2 or vetted.
+- fireball_events.csv / .json: full-sweep groups with independent_cities >= 2 or vetted.
 - coverage.json: year, newspapers (digitized titles in the available sweep statistics), articles (processed corpus articles). Absent years are unknown, never zero.
 - track.json: fitted great-circle coordinates [longitude, latitude], seven overhead witnesses, Rochester holdout coordinates, azimuth_deg (degrees clockwise from north), fit_rms_km, fit_residuals_km, checks_km_north_of_track, and the failed single-observer height estimate.
 - catalog.js: browser bundle of the same records for serverless file opening.

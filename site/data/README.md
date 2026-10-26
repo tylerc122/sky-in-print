@@ -1,10 +1,10 @@
-# Sky In Print · public pilot release
+# Sky In Print · public release
 
-Regenerate from the project root: `python -m skyinprint.export_public` (install the project first with `pip install -e .`). No sweep is required; missing local sweep statistics produce an empty coverage series. The fireball input remains the curated pilot events.json; running a sweep does not automatically re-cluster or vet new events. Refresh that upstream file deliberately before exporting a larger event release.
+Regenerate from the project root: `python -m skyinprint.export_public` (install the project first with `pip install -e .`). No sweep is required; missing local sweep statistics produce an empty coverage series. The fireball input is results/fireballs/events_all.json (full sweep, from `python -m skyinprint.fireballs --workdir all`), falling back to the pilot events.json. Only events marked human reviewed have been read; the rest are candidate groupings.
 
 ## Files and columns
 - fall_reports.csv / .json: curated public-brief cases.
-- fireball_events.csv / .json: pilot groups with independent_cities >= 2 or vetted.
+- fireball_events.csv / .json: full-sweep groups with independent_cities >= 2 or vetted.
 - coverage.json: year, newspapers (digitized titles in the available sweep statistics), articles (processed corpus articles). Absent years are unknown, never zero.
 - track.json: fitted great-circle coordinates [longitude, latitude], seven overhead witnesses, Rochester holdout coordinates, azimuth_deg (degrees clockwise from north), fit_rms_km, fit_residuals_km, checks_km_north_of_track, and the failed single-observer height estimate.
 - catalog.js: browser bundle of the same records for serverless file opening.

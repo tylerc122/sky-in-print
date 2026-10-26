@@ -25,7 +25,8 @@ class PublicReleaseTest(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_selection_and_csv_parity(self):
-        raw = json.loads((export.ROOT/'results/fireballs/events.json').read_text())
+        src = export.ROOT/'results/fireballs/events_all.json'
+        raw = json.loads((src if src.exists() else export.ROOT/'results/fireballs/events.json').read_text())
         self.assertEqual(len(self.events), sum(e.get('independent_cities',0)>=2 or bool(e.get('vetted')) for e in raw))
         self.assertEqual(len(self.falls),13)
         for name, rows in [('fall_reports',self.falls),('fireball_events',self.events)]:
