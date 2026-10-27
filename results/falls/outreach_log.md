@@ -17,7 +17,7 @@
 | 2026-10-26 | Kamiah Valley Historical Society | Nezperce/Peck, Idaho 1904 | 152-lb stone (Mulcahey, Kirby) | waiting |
 | 2026-10-26 | Hugoton Chamber of Commerce (for the museum) | Hugoton, Kan. 1894 | possible fall date for the Hugoton find | waiting |
 | 2026-10-26 | Seaford Historical Society | Seaford, Del. 1893 | stone at Wallace's store | waiting |
-| 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | waiting |
+| 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | replied 10-27: nothing found |
 | 2026-10-26 | Tyrrell Historical Library | Beaumont, Tex. 1907 | 67-lb piece brought into Beaumont | waiting |
 | 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | **2026-10-26: going to a Nomenclature Committee vote** to change Thomson to a fall (Jeff Grossman), after the Lincolnton same-day detonation report plus his own sources (Wilson letters; *Religio-Philosophical Journal*, 24 Nov 1888) |
 | 2026-10-26 | Yale Peabody Museum (mineralogy & meteoritics) | Danbury, Conn. 1896 (H. L. Fanton) | the 26-lb stone taken to Prof. H. A. Newton, May 1896 | **replied 2026-10-26:** no records of it. Suggests the H. A. Newton papers at Sterling Memorial Library (Manuscripts & Archives) |
@@ -65,3 +65,11 @@ queries.
   - Box 23 f.19 "W miscellaneous" (Wake, Clintonville 1903)
   - The Saline Co. 1917 finder is unnamed, so only the Meteorites folder applies.
   - Reference requests go to osiaref@si.edu.
+
+**2026-10-27, Morrison County Historical Society:**
+- They searched the county's three main papers from Nov 1898 and the Royalton history files. Nothing about a
+  meteorite.
+- They posted to Royalton social media in case anyone knows the story.
+- Our own corpus has only the single St. Paul Globe item (1898-11-19, p. 8), with no follow-ups or reprints.
+- Local silence about a several-hundred-pound fall that was put on show is strong negative evidence. The likely
+  reading is a canard in the St. Cloud column.

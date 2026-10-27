@@ -32,7 +32,7 @@ Every candidate got the follow-up search. No real debunking was found: every fla
 | **Nezperce, Idaho, late 1904** | 152 lb found by Dan Mulcahey; neighbours heard a roar and saw a light at night about 3 months earlier | shown at Kirby's store; owner Thomas Kirby of Peck planned to take it to the 1905 Lewis & Clark Exposition | **medium** |
 | **Seaford, Del., Aug 1893** | a 5-lb stone cut a tree limb 10 ft from ex-Rep. Wallace's son; the fireball was seen across the state | shown at Wallace's store | **medium** |
 | **Hugoton, Kan., Sept 1894** | coconut-sized stone fell "red hot" from a clear sky and set the prairie afire; a cowboy sold it to a schoolteacher | **a recognized 346-kg Hugoton meteorite (found 1927) exists. This may be a fall date for it, or a separate stone** | **medium (intriguing)** |
-| **Royalton, Minn., Nov 1898** | several hundred lb; search parties found it next day | pieces shown at the hotel | **medium** |
+| **Royalton, Minn., Nov 1898** | several hundred lb; search parties found it next day | pieces shown at the hotel | **weak**: county society found nothing in the 3 local papers or town files (2026-10-27); only source is the St. Paul Globe item |
 
 Further medium or weak candidates with named finders:
 - Mineral Point, Wis. 1893 (World's Fair, Wisconsin building)
