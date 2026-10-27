@@ -9,7 +9,7 @@
 | 2026-10-22 | UF Smathers Libraries (P. K. Yonge) | Middleburg, Fla. 1888 | Exposition materials, Times-Union | **replied 2026-10-22** (Steve Hersh): the official 1888 Exposition catalogue lists no meteorite for Clay County but does list "Sample Iron Rock, from Middleburg"; Times-Union 1888 is on microfilm only |
 | 2026-10-22 | Clay County Archives | Middleburg, Fla. 1888 | local records, Chalker/Budington families | **replied 2026-10-22** (Vishi Garig, Historical Archives Supervisor): she wrote a 2020 article on it and "never did find out what happened to the meteor"; sent family articles and photos. See `middleburg_trail.md` |
 | 2026-10-24 | Benedictine College archives (web form) | Valley Falls, Kan. 1910 | stone placed in the St. Benedict's college museum | waiting |
-| 2026-10-26 | Smithsonian NMNH Mineral Sciences | Cañon City, Colo. 1898; Clintonville, N.Y. 1903 | both said to be sent to the Smithsonian | waiting |
+| 2026-10-26 | Smithsonian NMNH Mineral Sciences | Cañon City, Colo. 1898; Clintonville, N.Y. 1903 | both said to be sent to the Smithsonian | replied 10-27: no record |
 | 2026-10-26 | Natural History Museum of Utah | Morgan, Utah 1898 | given to the state university museum | waiting |
 | 2026-10-26 | City of Fossil Museum | Muleshoe Mtn, Ore. 1903 | stone shown at the Fossil drug store | waiting |
 | 2026-10-26 | Foster County Historical Society | Carrington, N.D. 1910 | verdict; stone vanished Dec 1910 | waiting |
@@ -50,3 +50,18 @@ inquiry to Manuscripts & Archives (beinecke.library@yale.edu, the listed contact
 
 **2026-10-26, Yale Manuscripts & Archives (Danbury / Newton papers):** sent; auto-reply says 2-4 weeks for research
 queries.
+
+**2026-10-27, Smithsonian (Kelsey Falquero) reply:**
+- No documentation of receipt for Cañon City 1898, Clintonville 1903 or Saline Co. 1917, and nothing from the
+  people named.
+- Possibly never sent, or sent elsewhere. There is no MetBull match, so perhaps meteor-wrongs.
+- She suggests the Smithsonian Institution Archives, where former curators such as Merrill deposited their
+  correspondence.
+- Checked the RU 7177 (George P. Merrill Collection) finding aid. Series 6, general correspondence 1885-1929, is filed
+  by correspondent. No named folders for Sterling, Bowers, Beecher or Wake. Candidate folders:
+  - Box 20 f.13 "Meteorites (correspondence regarding), undated"
+  - Box 22 f.10-11 "Sa-Sl / Sm-Sz miscellaneous" (Sterling, Cañon City 1899)
+  - Box 16 f.3 "Ba-Bo miscellaneous" (Bowers, Beecher)
+  - Box 23 f.19 "W miscellaneous" (Wake, Clintonville 1903)
+  - The Saline Co. 1917 finder is unnamed, so only the Meteorites folder applies.
+  - Reference requests go to osiaref@si.edu.
