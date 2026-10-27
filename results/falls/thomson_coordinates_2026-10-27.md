@@ -127,3 +127,49 @@ What they show:
 - Place Thomas Armstrong's land, which bounds the homestead on the east. It may be described with a creek or road in
   his own deeds or estate (he died 1895).
 - Look for an 1880s Georgia militia-district map showing GMD 134's southern part.
+
+## Placing the homestead from the neighbour chain (2026-10-27, later)
+
+There is no plat of the Wilson place in the plat books: full-text search of the poor OCR found nothing. The deeds tie
+the neighbourhood together instead.
+
+**The neighbours connect.**
+- Hardaway to Adam Simons bond for title, 1874 (Deed Books 1875-1880, image 121): 172 acres "adjoining land of Joel
+  Humphrey, Elias Wilson J. E. Lang[ford] and Mrs. Rowland". This matches the homestead's south side (Simons,
+  Humphrey).
+
+**The anchor.**
+- New England Mortgage Security Co. to Thos. E. Watson, 13 Dec 1889 (Deed Books 1888-1895, image 187, pp. 286-287).
+  The land was first deeded 18 Dec 1882 and is recorded in Book C, pp. 558-559.
+- "The Seven Hundred (700) acres of Land Situate on Sweet water Creek and bounded on the North by the lands of Mrs.
+  Watson, James B. Neal and W. C. Dillon, on the East by lands of Albert Holliman, Georgia Railroad and W. H. Johnson;
+  on the South by the lands of J E Langford and Thomas M Armstrong - and on the west by the lands of A. B. Thrasher,
+  and Mrs. Burnside".
+- So Watson's Sweetwater Creek tract lies north of Langford and Armstrong and east of Thrasher. The Wilson homestead
+  lies south of Thrasher and west of Langford and Armstrong. The homestead therefore sits just southwest of Watson's
+  700 acres, across the Langford/Armstrong corner.
+
+**Where Watson's tract is.**
+- Sweetwater Creek runs south from near the Georgia Railroad: USGS 02197530 "nr Bonesville" at 33.438, -82.451;
+  USGS 02197540 at 33.416, -82.453; mouth about 33.367, -82.467.
+- The Georgia Railroad runs ESE from Thomson (33.466, -82.503) through Boneville (33.433, -82.439) to Dearing
+  (33.413, -82.385).
+- A tract "on Sweet water Creek" bounded east by the railroad sits on the upper creek just southwest of the line,
+  about 33.43-33.45 N, 82.45-82.47 W.
+
+**Where that puts the homestead.**
+- Southwest of Watson's tract: roughly 33.42-33.43 N, 82.47-82.49 W.
+- That is the Sweetwater church neighbourhood (church 33.435, -82.486). Elias, Ben, Miranda and Thos. Armstrong are
+  all buried there.
+- It is 2.5-3.5 miles SSE of central Thomson in a straight line, which is plausibly "4 miles" by road via the Wrens
+  road.
+
+**Revised estimate: about 33.425 N, 82.48 W (33° 25.5' N, 82° 29' W), roughly ±1.5 km.**
+- This is about 1.3 km from the earlier "4 miles due south" point and agrees with it. It now rests on the deed chain
+  (Elias Wilson homestead, then Martha A. Wilson) and not only on Wilson's distance.
+- Caveats:
+  - The chain links each tract only by named neighbours, and Watson's 700 acres (2.8 sq km) is itself only roughly
+    placed.
+  - "Wilson" by itself is common locally, so only the named tract links are used.
+  - A modern parcel or plat tie (Thrasher, Langford or Armstrong land in the 1890s plat books, or a 1900s county map)
+    would be needed to get below about 1 km.
