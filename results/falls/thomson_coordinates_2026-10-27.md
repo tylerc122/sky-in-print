@@ -80,3 +80,50 @@ What they show:
 - **Religio-Philosophical Journal clipping.** It prints "Ben Wilson brought to the office of the Thomson (Ga.)
   Journal ..." and "He was in the cotton field, and heard it whizzing as a minnie ball ..." as one item. That settles
   the displaced Savannah paragraph: it is the rest of the Wilson item.
+
+## County records (FamilySearch full-text search of McDuffie County books, read 2026-10-27)
+
+**Who "Mrs. M. A. Wilson" was: settled.**
+- McDuffie Will Books 1872-1927: "J. M. Wilson Last Will", April 1882. Item 3 gives "my beloved wife Martha A. Wilson"
+  his "entire property both real and personal". Item 4 names her Executrix.
+- Court minutes, 1882: "Martha A. Wilson duly qualified as Executor of ... James M. Wilson".
+
+**Tract A: not the fall site.**
+- 200 acres in the 134th District G.M., on Little Germany Creek, north of Thomson.
+- Bought 17 May 1883 from Henry Williams by Martha as executrix (Deed Books 1883-1886).
+- Sold by Martha A. Wilson to Chas. W. Fling on 15 Nov 1887 for $600. Bounded N by B. F. Reese, E by H. C. Fulton,
+  S by Thomas E. Watson, W by Henry Scott (Deed Books 1886-1889, image 297, p. 518).
+- She sold it eleven months before the fall, and it lies north of town.
+
+**Tract B: the Elias Wilson homestead. This is almost certainly "the place of Mrs. M. A. Wilson".**
+- Deed Books 1880-1883, image 98, pp. 104-105: E. R. Wilson, administrator de bonis non of Elias Wilson Jr, to
+  Henry O. Williams.
+  - Sold at public outcry on 2 Nov 1880 for $2,127.24; deed dated 6 Dec 1880.
+  - "two hundred and Eighty Nine (289) acres more or less, and bounded North by land of A. B. Thrasher, East by lands
+    of Thomas Armstrong and John E. Langford, South by lands of Adam Simons and Noel Humphreys, and West by lands of
+    J. C May being the same tract wherein the Said Elias Wilson Jr resided at the time of his death".
+  - Elias Wilson (1809-1879) is Ben's father.
+- Court writs 1879-1897 show a note from J. M. Wilson to H. O. Williams dated 6 Dec 1880, the same day, later paid by
+  "M A Wilson Extrx J. M. Wilson". So James apparently bought the homestead back from Williams on credit, and it
+  passed to Martha under the will.
+- Deed Books 1895-1900, image 275, p. 478: on 29 Oct 1898, H. McCorkle, administrator of H. O. Williams, quitclaims
+  the same 289 acres (same neighbours) to Martha A. Wilson. This clears the title.
+- So in Oct 1888 the place of Mrs. M. A. Wilson was Ben's late father's homestead. Ben was working his widowed
+  sister-in-law's farm, the farm he grew up on.
+- Thos. Armstrong, the east neighbour, is Ben's father-in-law (Miranda's father). He, Elias, Ben and Miranda are all
+  buried at Sweetwater Baptist Church, south of Thomson. That fits Wilson's "4 miles south".
+
+**Coordinates.** Unchanged at about 33° 25' N, 82° 29-30' W, roughly ±2 km.
+- 289 acres is about 1.2 sq km, so the farm itself is only about 1 km across. The remaining uncertainty is where the
+  homestead sat, not how big it was.
+
+**Not settled.**
+- Ben's own 1880 census page shows none of the deed's neighbour surnames.
+- Simons Road (OSM, 33.472, -82.561, west of town) is a family-name road but not tied to this Adam Simons.
+
+**Next steps to pin it down.**
+- McDuffie "Plat books, 1880-1916" are on FamilySearch. Look for a plat of the Elias Wilson / M. A. Wilson place or
+  of a neighbour (Thrasher, Armstrong, Langford, Simons, Humphrey, May).
+- Place Thomas Armstrong's land, which bounds the homestead on the east. It may be described with a creek or road in
+  his own deeds or estate (he died 1895).
+- Look for an 1880s Georgia militia-district map showing GMD 134's southern part.
