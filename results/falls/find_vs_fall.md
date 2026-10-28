@@ -98,3 +98,26 @@
   - Udden's bulletin.
   - Barnes's paper, for the find history.
   - Any terrestrial-age or weathering data. A stone that fell in 1917 and was found in 1918 should be nearly fresh.
+
+## Kimble County: MBDB and literature snippets (2026-10-27, later)
+
+- **MBDB, checked by hand:**
+  - Official, H6, 153.8 kg, found 1918, 30° 25' N, 99° 24' W, not an observed fall.
+  - **"Never published in the Meteoritical Bulletin."** The classification comes from the NHM Catalogue (2000) and
+    MetBase.
+  - No find circumstances are on record.
+- **V. E. Barnes, "The stony meteorite from Kimble County, Texas"**, Univ. Texas Publ. 3945 (Contributions to
+  Geology, 1939; issued Dec 1939 or June 1940), pp. 613-622. This is the primary source.
+  - Opening, from the IA full-text snippet: "During August, 1936, a large meteorite was brought [to the University]".
+  - So the stone reached scientists 18 years after the catalogued find year. "1918" presumably comes from the finder.
+  - The full text is an archive.org lending item (contributionstog0000ehse). Borrowing it needs an account and is free.
+- **USNM / Smithsonian annual report for FY1958:** "Specimen of the Kimble County meteorite found south of Noxville,
+  Kimble County, Tex. (210811)", received as an exchange. That is the Smithsonian's "Kimble stone" from Henderson's
+  1957 letter.
+- A Smithsonian list from about 1948-49 (IA dli.ministry.09419) appears to give "Many fragments. Kimble County, Tex."
+  The OCR is poor; confirm it.
+- **Still open, in order of value:**
+  1. Barnes 1939: who found it, where, when, and whether the finder tied it to the 1917 fireball.
+  2. Udden's UT Bulletin 1772 ($2.50, BEG): observer map and predicted fall area. Compare with Noxville, roughly
+     30.45 N, 99.42 W.
+  3. Weathering: Barnes's description of the crust and rust. A fall in Oct 1917 found in 1918 should be fresh.
