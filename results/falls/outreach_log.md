@@ -73,3 +73,12 @@ queries.
 - Our own corpus has only the single St. Paul Globe item (1898-11-19, p. 8), with no follow-ups or reprints.
 - Local silence about a several-hundred-pound fall that was put on show is strong negative evidence. The likely
   reading is a canard in the St. Cloud column.
+
+**2026-10-28, Smithsonian Institution Archives (Richard Gilreath, reference archivist):**
+- Won't review RU 7177 for us, but offers a reading-room appointment.
+- Hours: 9-3 weekdays, by appointment. The collection is on-site, so it could be as early as next week.
+- Folders to pull:
+  - Box 20 f.13 (Meteorites, undated)
+  - Box 22 f.10-11 (Sa-Sl, Sm-Sz misc)
+  - Box 16 f.3 (Ba-Bo misc)
+  - Box 23 f.19 (W misc)
