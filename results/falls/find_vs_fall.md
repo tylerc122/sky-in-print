@@ -62,3 +62,39 @@
   - The 1957 Allen and Henderson letters, which are digitized in the TCU repository.
   - Texas papers for Oct 1917 to 1918. Junction and Brady papers are not in our corpus; the Portal to Texas History
     may have them.
+
+## Kimble County follow-up (2026-10-27, later)
+
+- **E. P. Henderson (Smithsonian) to O. Monnig, 25 Jul 1957** (TCU Monnig papers, Series III Box 06, "Kimble County,
+  Texas - Jobes Ranch, 1957" folder; digitized):
+  > "I have written to Virgil Barnes asking for a representative sample of the Kimble County he described. I will also
+  > be happy to cut a section through your Junction stone ... It certainly will not make me unhappy to find out that
+  > our Kimble stone is different from the large one in the University of Texas, and also that your Junction stone is
+  > unlike either one."
+  - So by 1957 there were three stones from the area: a Smithsonian "Kimble stone", the large University of Texas
+    stone (the 153.8 kg Kimble County H6, described by V. E. Barnes), and Monnig's Junction stone.
+  - Henderson was testing whether they were one meteorite.
+- **Monnig "Notes on Junction meteorite"** (same archive; microprobe tables dated 6/28/84 and 7/2/84): olivine Fa about
+  24.6 (N=20), pyroxene Fs about 21.2. That is L-group. Junction is L, Kimble County is H, so they are different
+  meteorites, as Henderson suspected. At most one of them could be the 1917 fall.
+- **A. R. Allen to Monnig, 8 Jun 1957**, filed in the Kimble folder, is a motel booking in Trinidad, Colo. It is not
+  about Kimble County.
+- **V. E. Barnes** described shock veins in the Kimble County stone ("Pseudotachylyte in meteorites", UT
+  publication). That paper covers petrography, not the circumstances of the find.
+- **Udden, UT Bulletin 1772 (1917, 56 pp.)** is not free online: BEG sells the digital copy for $2.50. The archive.org
+  UT Bulletin 1917 volume (universityoftexas1917univ) does not contain it.
+- **Texas newspapers (Portal to Texas History)**
+  - The Junction Eagle is digitized only from Dec 1919. Its five "meteor" hits for 1920-24 are unrelated: a Paris
+    news item, a comet piece, the Odessa crater.
+  - Keyword searches of San Antonio and Austin papers for 1917-19 found no report of a stone recovered in Kimble
+    County. The Portal's search does not use proximity, so this is not exhaustive.
+
+**Status:**
+- The circumstantial link holds: a detonating fireball in 1917 whose end point Udden put "in or near Kimble County",
+  and a 153.8 kg H6 found in that county in 1918.
+- No direct evidence yet ties the stone to the fireball. The catalogued "Found 1918" date itself needs a source.
+- **Decisive next checks:**
+  - The MBDB and Meteoritical Bulletin write-up for Kimble County: who found it, where, when, weathering grade.
+  - Udden's bulletin.
+  - Barnes's paper, for the find history.
+  - Any terrestrial-age or weathering data. A stone that fell in 1917 and was found in 1918 should be nearly fresh.
