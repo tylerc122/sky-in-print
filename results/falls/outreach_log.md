@@ -16,7 +16,7 @@
 | 2026-10-26 | Tucumcari Historical Museum | Santa Rosa, N.M. 1907 | 80-lb fragment at the Tucumcari bank | waiting |
 | 2026-10-26 | Kamiah Valley Historical Society | Nezperce/Peck, Idaho 1904 | 152-lb stone (Mulcahey, Kirby) | waiting |
 | 2026-10-26 | Hugoton Chamber of Commerce (for the museum) | Hugoton, Kan. 1894 | possible fall date for the Hugoton find | waiting |
-| 2026-10-26 | Seaford Historical Society | Seaford, Del. 1893 | stone at Wallace's store | waiting |
+| 2026-10-26 | Seaford Historical Society | Seaford, Del. 1893 | stone at Wallace's store | replied 10-29: museum rock, likely flint |
 | 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | replied 10-27: nothing found |
 | 2026-10-26 | Tyrrell Historical Library | Beaumont, Tex. 1907 | 67-lb piece brought into Beaumont | waiting |
 | 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | **2026-10-26: going to a Nomenclature Committee vote** to change Thomson to a fall (Jeff Grossman), after the Lincolnton same-day detonation report plus his own sources (Wilson letters; *Religio-Philosophical Journal*, 24 Nov 1888) |
@@ -82,3 +82,16 @@ queries.
   - Box 22 f.10-11 (Sa-Sl, Sm-Sz misc)
   - Box 16 f.3 (Ba-Bo misc)
   - Box 23 f.19 (W misc)
+
+**2026-10-29, Seaford Historical Society (Dave Grantz, exec. director):**
+- He isn't sure the 1893 story is true, but the Seaford Museum has a rock said to be a "meteor" that landed in Seaford
+  in 1888 and was "later analyzed" as Krakatoa ejecta. There's no documentation.
+- He sent a photo (Rock.jpg). It shows conchoidal glassy fracture faces, a translucent grey interior and a pitted
+  rind like a nodule cortex: it looks like flint or chert, not a meteorite. There's no fusion crust and no visible
+  metal. Ship-ballast flint is a plausible way it got to a river port.
+- Our corpus has no Seaford meteor in 1883-95 other than Aug 1893 (Smyrna Times 1893-08-30 p.1, "Fragments of
+  Meteor": L. Wallace's son Walter, flash and explosion, "over three pounds"). The museum's "1888" may be the Wallace
+  stone with the wrong year.
+- A reply is drafted (not sent). It describes the article without links, since he doesn't click links, says the rock
+  looks like flint, and asks whether the label or accession record mentions Wallace or 1893, plus a magnet and weight
+  check.
