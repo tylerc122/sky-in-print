@@ -8,7 +8,7 @@
 | 2026-10-22 | Jacksonville Historical Society | Middleburg, Fla. 1888 (A. S. Chalker) | Sub-Tropical Exposition records | waiting |
 | 2026-10-22 | UF Smathers Libraries (P. K. Yonge) | Middleburg, Fla. 1888 | Exposition materials, Times-Union | **replied 2026-10-22** (Steve Hersh): the official 1888 Exposition catalogue lists no meteorite for Clay County but does list "Sample Iron Rock, from Middleburg"; Times-Union 1888 is on microfilm only |
 | 2026-10-22 | Clay County Archives | Middleburg, Fla. 1888 | local records, Chalker/Budington families | **replied 2026-10-22** (Vishi Garig, Historical Archives Supervisor): she wrote a 2020 article on it and "never did find out what happened to the meteor"; sent family articles and photos. See `middleburg_trail.md` |
-| 2026-10-24 | Benedictine College archives (web form) | Valley Falls, Kan. 1910 | stone placed in the St. Benedict's college museum | waiting |
+| 2026-10-24 | Benedictine College archives (web form) | Valley Falls, Kan. 1910 | stone placed in the St. Benedict's college museum | 10-30: web admin asked which page; reply drafted |
 | 2026-10-26 | Smithsonian NMNH Mineral Sciences | Cañon City, Colo. 1898; Clintonville, N.Y. 1903 | both said to be sent to the Smithsonian | replied 10-27: no record |
 | 2026-10-26 | Natural History Museum of Utah | Morgan, Utah 1898 | given to the state university museum | waiting |
 | 2026-10-26 | City of Fossil Museum | Muleshoe Mtn, Ore. 1903 | stone shown at the Fossil drug store | waiting |
@@ -95,3 +95,10 @@ queries.
 - A reply is drafted (not sent). It describes the article without links, since he doesn't click links, says the rock
   looks like flint, and asks whether the label or accession record mentions Wallace or 1893, plus a magnet and weight
   check.
+
+**2026-10-30, Benedictine College (Joseph Rioux, web administrator):**
+- He asked which page the reference is on; the site was loading slowly for him.
+- The original form linked the Deseret Evening News (Salt Lake City), 1910-01-18 p.1, not a Kansas paper. The Kansas
+  copy is the Topeka State Journal, 1910-01-19 p.2.
+- A reply is drafted (not sent). It quotes both texts and asks to be pointed to the archives or science department.
+- Finder or carrier named in the wire copy: W. W. Van Lawn (OCR "VanIsiewn" / "Van Lawn").
