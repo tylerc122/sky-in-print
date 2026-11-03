@@ -109,9 +109,11 @@ or science department). Waiting.
 **2026-11-02, Yale Manuscripts & Archives (Charles Rua, Beinecke):** checked the MS 1055 finding aid and container
 list, no mention of a meteor/meteorite, Danbury or Fanton. That's the end of the Yale trail for Danbury.
 
-**Thomson, still open:** Jeff Grossman wrote 10-28 asking whether we'd found the 1871 Georgia Archives map
-(vault.georgiaarchives.org, cmf collection id 152). No reply sent yet. Our coords from the deed chain are about
-33°25.5'N 82°29'W.
+**Thomson, 1871 map (Georgia Archives, Map of McDuffie County, cmf id 152):** checked 11-03. No Wilson label, but
+the deed neighbors cluster SSE of Thomson: Jas. May (just E of Sweetwater Church), Humphry Place and H. Langford by
+Salem Church, and a "Story Place" (Martha Ann's maiden name). Wilson tract should sit between May and Langford near
+Mimms Branch. Scaled off Thomson and Dearing: about 33.435, -82.474 (33°26'N 82°28.5'W), ~1 km NE of the deed-only
+estimate, good to ~1 km. Didn't find Thrasher or Armstrong on it. Sent Jeff a quick "will check" 11-03; the findings follow-up is drafted in Gmail, not sent.
 
 **Seaford:** the drafted reply to Dave Grantz still hasn't gone out as of 11-03.
 
