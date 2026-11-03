@@ -8,7 +8,7 @@
 | 2026-10-22 | Jacksonville Historical Society | Middleburg, Fla. 1888 (A. S. Chalker) | Sub-Tropical Exposition records | waiting |
 | 2026-10-22 | UF Smathers Libraries (P. K. Yonge) | Middleburg, Fla. 1888 | Exposition materials, Times-Union | **replied 2026-10-22** (Steve Hersh): the official 1888 Exposition catalogue lists no meteorite for Clay County but does list "Sample Iron Rock, from Middleburg"; Times-Union 1888 is on microfilm only |
 | 2026-10-22 | Clay County Archives | Middleburg, Fla. 1888 | local records, Chalker/Budington families | **replied 2026-10-22** (Vishi Garig, Historical Archives Supervisor): she wrote a 2020 article on it and "never did find out what happened to the meteor"; sent family articles and photos. See `middleburg_trail.md` |
-| 2026-10-24 | Benedictine College archives (web form) | Valley Falls, Kan. 1910 | stone placed in the St. Benedict's college museum | 10-30: web admin asked which page; reply drafted |
+| 2026-10-24 | Benedictine College archives (web form) | Valley Falls, Kan. 1910 | stone placed in the St. Benedict's college museum | 10-30: web admin asked which page; replied 11-01 with both texts, waiting |
 | 2026-10-26 | Smithsonian NMNH Mineral Sciences | Cañon City, Colo. 1898; Clintonville, N.Y. 1903 | both said to be sent to the Smithsonian | replied 10-27: no record |
 | 2026-10-26 | Natural History Museum of Utah | Morgan, Utah 1898 | given to the state university museum | waiting |
 | 2026-10-26 | City of Fossil Museum | Muleshoe Mtn, Ore. 1903 | stone shown at the Fossil drug store | waiting |
@@ -20,7 +20,7 @@
 | 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | replied 10-27: nothing found |
 | 2026-10-26 | Tyrrell Historical Library | Beaumont, Tex. 1907 | 67-lb piece brought into Beaumont | waiting |
 | 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | **2026-10-26: going to a Nomenclature Committee vote** to change Thomson to a fall (Jeff Grossman), after the Lincolnton same-day detonation report plus his own sources (Wilson letters; *Religio-Philosophical Journal*, 24 Nov 1888) |
-| 2026-10-26 | Yale Peabody Museum (mineralogy & meteoritics) | Danbury, Conn. 1896 (H. L. Fanton) | the 26-lb stone taken to Prof. H. A. Newton, May 1896 | **replied 2026-10-26:** no records of it. Suggests the H. A. Newton papers at Sterling Memorial Library (Manuscripts & Archives) |
+| 2026-10-26 | Yale Peabody Museum (mineralogy & meteoritics) | Danbury, Conn. 1896 (H. L. Fanton) | the 26-lb stone taken to Prof. H. A. Newton, May 1896 | **replied 2026-10-26:** no records of it. Suggests the H. A. Newton papers at Sterling Memorial Library (Manuscripts & Archives). **Newton papers, 11-02: nothing** |
 
 **Middleburg closed 2026-10-22:** Kunz identified the stone as limonite in Feb 1888 (Trans. N.Y. Acad. Sci. 7:135). The pending UF inquiry no longer matters for it.
 
@@ -102,3 +102,17 @@ queries.
   copy is the Topeka State Journal, 1910-01-19 p.2.
 - A reply is drafted (not sent). It quotes both texts and asks to be pointed to the archives or science department.
 - Finder or carrier named in the wire copy: W. W. Van Lawn (OCR "VanIsiewn" / "Van Lawn").
+
+**2026-11-01, Benedictine:** sent the reply to Joseph Rioux (both texts quoted, asked to be pointed to the archives
+or science department). Waiting.
+
+**2026-11-02, Yale Manuscripts & Archives (Charles Rua, Beinecke):** checked the MS 1055 finding aid and container
+list, no mention of a meteor/meteorite, Danbury or Fanton. That's the end of the Yale trail for Danbury.
+
+**Thomson, still open:** Jeff Grossman wrote 10-28 asking whether we'd found the 1871 Georgia Archives map
+(vault.georgiaarchives.org, cmf collection id 152). No reply sent yet. Our coords from the deed chain are about
+33°25.5'N 82°29'W.
+
+**Seaford:** the drafted reply to Dave Grantz still hasn't gone out as of 11-03.
+
+**Smithsonian Institution Archives:** no reply to Gilreath about booking a reading-room visit yet as of 11-03.
