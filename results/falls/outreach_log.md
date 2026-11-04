@@ -118,3 +118,7 @@ estimate, good to ~1 km. Didn't find Thrasher or Armstrong on it. Sent Jeff a qu
 **Seaford:** the drafted reply to Dave Grantz still hasn't gone out as of 11-03.
 
 **Smithsonian Institution Archives:** no reply to Gilreath about booking a reading-room visit yet as of 11-03.
+
+**2026-11-03, Thomson vote:** Jeff says the NomCom vote to recognize Thomson as an observed fall is 6-0, open about
+another week. Once it's accepted he'll draft a new Bulletin entry and revise the coordinates (map-based estimate
+33.435, -82.474). Check back mid-November in case he wants help with the entry.
