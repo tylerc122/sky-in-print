@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Every fireball and claimed meteorite fall found in American newspapers, 1770–1964, on one map, each linked to its original newspaper page."
+    />
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>The map · Sky In Print</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/style.css?v=27" />
+    <script src="assets/common.js?v=12"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="shell">
+      <header>
+        <a class="brand" href="index.html"
+          ><span class="brand-mark" aria-hidden="true"></span>Sky In Print</a
+        >
+        <nav aria-label="Main navigation">
+          <a href="index.html#cases">Cases</a
+          ><a href="archive.html" aria-current="page">The map</a
+          ><a href="fireball.html">The 1876 fireball</a
+          ><a href="about.html">How I did it</a
+          ><button class="theme" type="button">Night edition</button>
+        </nav>
+      </header>
+      <main id="main">
+        <section class="hero page-head">
+            <div>
+              <p class="eyebrow">The map</p>
+              <h1 data-split>Every report, on one map</h1>
+            </div>
+            <div class="hero-note">
+              <p>
+                Thirteen claimed falls, each followed to an ending, plus 821
+                fireballs reported from two or more towns. Click any point to
+                read the original newspaper.
+              </p>
+            </div>
+        </section>
+        <section class="atlas" id="atlas" aria-label="Map of every report">
+          
+          <div class="section-head">
+            <span class="sr-only">Results</span>
+            <small id="result-count" role="status" aria-live="polite"></small>
+          </div>
+          <div class="toolbar">
+            <div class="segmented" aria-label="Report type">
+              <button type="button" data-layer="fall" aria-pressed="true">
+                Fall cases</button
+              ><button type="button" data-layer="fireball" aria-pressed="false">
+                Fireballs</button
+              ><button type="button" data-layer="all" aria-pressed="false">
+                Both
+              </button>
+            </div>
+            <label class="sr-only" for="status-filter" hidden
+              >Fall outcome</label
+            ><select id="status-filter" aria-label="Filter by fall outcome">
+              <option value="all">Every outcome</option></select
+            ><input
+              type="search"
+              id="search"
+              aria-label="Search place, date or report"
+              placeholder="Search a place, year, or story…"
+            />
+          </div>
+          <div class="atlas-layout">
+            <div class="map-stage">
+              <span class="map-caption">The contiguous United States</span
+              ><svg
+                id="atlas-map"
+                viewBox="0 0 1000 560"
+                role="group"
+                aria-label="Interactive map of reports. Use the report list below as a keyboard alternative."
+              ></svg>
+              <div class="map-tools">
+                <button id="zoom-in" aria-label="Zoom map in">+</button
+                ><button id="zoom-out" aria-label="Zoom map out">−</button
+                ><button id="zoom-reset" aria-label="Reset map view">
+                  Reset
+                </button>
+              </div>
+              <span class="map-tag">Drag to pan · pinch or ⌘-scroll to zoom</span>
+            </div>
+            <aside
+              class="detail"
+              id="detail"
+              aria-label="Selected report"
+              tabindex="-1"
+            ></aside>
+          </div>
+          <div class="legend" aria-label="Map legend">
+            <span><i style="--c: var(--accent)"></i>Under investigation</span
+            ><span><i style="--c: var(--aqua)"></i>Recognized</span
+            ><span><i style="--c: var(--red)"></i>Hoax</span
+            ><span><i style="--c: var(--violet)"></i>Likely hoax</span
+            ><span
+              ><i style="--c: var(--muted)"></i>Not a meteorite /
+              unresolved</span
+            ><span
+              ><i style="--c: var(--text)"></i>Fireball · size = grouped
+              cities</span
+            >
+          </div>
+          <div class="timeline-box">
+            <div class="timeline-head">
+              <span class="timeline-label"
+                >REPORTS THROUGH TIME · DRAG TO SELECT</span
+              >
+              <div>
+                <label for="year-from">From </label
+                ><input
+                  id="year-from"
+                  type="number"
+                  min="1770"
+                  max="1964"
+                  value="1770"
+                /><label for="year-to"> to </label
+                ><input
+                  id="year-to"
+                  type="number"
+                  min="1770"
+                  max="1964"
+                  value="1964"
+                />
+              </div>
+              <button id="reset-filters">Reset filters</button>
+            </div>
+            <svg
+              id="timeline"
+              viewBox="0 0 1100 105"
+              role="img"
+              aria-label="Histogram of reports by year. Use From and To fields to select a year range with a keyboard."
+            ></svg>
+            <div class="timeline-label">
+              NEWSPAPER TITLES IN AVAILABLE SWEEP YEARS · GAPS ARE UNKNOWN
+            </div>
+            <svg
+              id="coverage"
+              viewBox="0 0 1100 45"
+              role="img"
+              aria-label="Digitized newspaper titles by year, shown separately from report counts"
+            ></svg>
+            <p class="coverage-note">
+              More dots can mean more digitized newspapers, not more meteors.
+              Fireball pins mark representative
+              <strong>publishing towns</strong>, not positions in the sky. City
+              counts do not prove independent witnesses.
+              <a href="about.html#coverage">Understand this map ↗</a>
+            </p>
+          </div>
+          <details class="results" open>
+            <summary id="list-summary">Browse the reports</summary>
+            <div class="result-list" id="result-list"></div>
+          </details>
+        </section>
+      </main>
+      <footer>
+        <p>
+          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
+        </p>
+        <div>
+          <a href="about.html#data">Download data ↗</a
+          ><a href="about.html#sources">Sources & credits</a>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/d3-7.9.0.min.js"></script>
+    <script src="assets/topojson-client-3.1.0.min.js"></script>
+    <script src="data/geography.js"></script>
+    <script src="data/catalog.js"></script>
+    <script src="assets/atlas.js?v=7"></script>
+  </body>
+</html>

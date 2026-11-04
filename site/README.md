@@ -3,12 +3,17 @@
 Open `index.html` directly in a browser, or serve this folder with any static web server. No application server, build step, account or API is required. JavaScript is required for the atlas and assembled stories. Data and geographic boundaries load from classic local scripts, so file opening does not depend on fetch permissions. Google Fonts is optional; readable system fonts are the fallback.
 
 ## Pages
-- `index.html`: atlas, search, outcome filters, brushed year range, coverage line and equivalent report list. Click a map marker or a list row for sources. Shared map points have a next-record control.
-- `stories.html`: Saco, Middleburg and Schroon Lake, with paragraph-level evidence links.
-- `fireball.html`: seven-town great-circle fit, Rochester holdout, optional replay and fourth story.
+- `index.html`: the microfilm reader. All thirteen followed cases are on its reel as real Library of Congress scans, with the passage bracketed in pencil. Turn the crank (drag, click, arrow keys or the buttons) or tap a frame on the film strip, and a typed slip gives the verdict. Below it: the Thomson story, all thirteen as index cards, how it was done, and links to the map and the 1876 page.
+- `case.html?c=<id>`: one case: the clipping, what it turned out to be, the long story where there is one, sources, a locator map, and links to the cases either side.
+- `archive.html`: the full map explorer: search, outcome filters, brushed year range, coverage line and an equivalent report list.
+- `fireball.html`: seven-town great-circle fit, Rochester holdout, optional replay and the write-up.
 - `about.html`: methods, caveats, status definitions, credits and downloads.
+- `stories.html`: a redirect; `stories.html#thomson` and the like go to the matching case page.
 
-The source files are the HTML/CSS/JS themselves. There is no template build tool. Change `assets/stories.js` for narrative text and `assets/style.css` for design tokens. Vendored map libraries are version-pinned and include license notices.
+## Scans
+`assets/scans/` and `data/scans.js` come from `python3 scripts/fetch_scans.py` (run from the project root). It pulls each case's page from loc.gov through IIIF, finds the article from the ALTO word coordinates, crops it, and keeps a small whole-page image for the film strip. Crops and pencil brackets that the OCR can't place get set by hand in the script's `CASES` table. Northport has no newspaper scan and shows a typed card instead.
+
+The source files are the HTML/CSS/JS themselves. There is no template build tool. Change `assets/cases.js` for case wording and verdicts, `assets/home.js` for the reader, `assets/stories.js` for the long stories, and `assets/style.css` for design tokens. Vendored map libraries are version-pinned and include license notices.
 
 ## Refresh the data
 From the project root, in an environment with this project installed:

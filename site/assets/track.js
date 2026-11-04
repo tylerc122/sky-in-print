@@ -30,7 +30,7 @@
     ["ILLINOIS", -89.4, 38.8],
     ["INDIANA", -86, 39.5],
     ["IOWA", -92.2, 41.9],
-    ["OHIO", -83.4, 40.3],
+    ["OHIO", -82.7, 40.5],
   ];
   svg
     .selectAll(".state-label")
@@ -47,6 +47,7 @@
   const line = svg
     .append("path")
     .attr("class", "track-line")
+    .attr("pathLength", 1)
     .attr("d", path(geo));
   const offsets = [
     [-20, 29],
@@ -112,6 +113,7 @@
     .attr("fill", "var(--aqua)")
     .attr("font-size", 11)
     .text("17 km south · held out of fit");
+  const trail = svg.append("path").attr("class", "track-trail").attr("opacity", 0);
   const meteor = svg
     .append("circle")
     .attr("class", "track-marker")
@@ -136,6 +138,12 @@
         .attr("cx", point.x)
         .attr("cy", point.y)
         .attr("opacity", progress < 1 ? 1 : 0);
+      // a short glowing tail behind the head
+      const tail = d3.range(0, 14).map((i) => {
+        const q = line.node().getPointAtLength(Math.max(0, progress * len - i * 6));
+        return [q.x, q.y];
+      });
+      trail.attr("d", d3.line()(tail)).attr("opacity", progress < 1 ? 0.8 : 0);
       if (progress < 1) frame = requestAnimationFrame(tick);
       else
         announce.textContent =
@@ -143,4 +151,14 @@
     }
     frame = requestAnimationFrame(tick);
   };
+  // play the path once on its own when the map first comes into view
+  const stage = document.querySelector(".track-stage");
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const io = new IntersectionObserver((entries) => {
+      if (!entries[0].isIntersecting) return;
+      io.disconnect();
+      setTimeout(() => document.getElementById("replay").click(), 2600);
+    }, { threshold: 0.4 });
+    io.observe(stage);
+  }
 })();

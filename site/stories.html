@@ -3,91 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
-    />
-    <meta name="theme-color" content="#f6f1e7" />
-    <title>Case studies · Sky In Print</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css?v=8" />
-    <script src="assets/common.js?v=4"></script>
+    <title>Stories moved · Sky In Print</title>
+    <meta http-equiv="refresh" content="0; url=index.html" />
+    <script>
+      // the long stories now live on their own case pages; old links keep working
+      var id = location.hash.slice(1);
+      location.replace(id && id !== "main" ? "case.html?c=" + encodeURIComponent(id) : "index.html");
+    </script>
   </head>
   <body>
-    <a class="skip" href="#main">Skip to content</a>
-    <div class="shell">
-      <header>
-        <a class="brand" href="index.html"
-          ><span class="brand-mark" aria-hidden="true"></span>Sky In Print</a
-        >
-        <nav aria-label="Main navigation">
-          <a href="index.html">Atlas</a
-          ><a href="stories.html" aria-current="page">Stories</a
-          ><a href="fireball.html">The 1876 fireball</a
-          ><a href="about.html">About</a
-          ><button class="theme" type="button">Light mode</button>
-        </nav>
-      </header>
-      <main id="main">
-        <section class="hero intro-motion">
-          <div>
-            <p class="eyebrow">Case studies</p>
-            <h1>Five reports and what became of them</h1>
-          </div>
-          <div class="hero-note">
-            <p>
-              Each starts with a newspaper report and follows it through later
-              papers, scientific journals and museum records.
-            </p>
-          </div>
-        </section>
-        <section class="story-index" aria-label="Choose a story">
-          <a class="story-row" href="#thomson"
-            ><span class="number">01</span>
-            <h2>Thomson, Georgia, 1888</h2>
-            <p>A find that fell · Under review</p>
-            <span class="arrow">↗</span></a
-          ><a class="story-row" href="#saco"
-            ><span class="number">02</span>
-            <h2>Saco, Maine, 1870</h2>
-            <p>A donated stone · Under investigation</p>
-            <span class="arrow">↗</span></a
-          ><a class="story-row" href="#middleburg"
-            ><span class="number">03</span>
-            <h2>Middleburg, Florida, 1888</h2>
-            <p>An exposition exhibit · Not a meteorite</p>
-            <span class="arrow">↗</span></a
-          ><a class="story-row" href="#schroon"
-            ><span class="number">04</span>
-            <h2>Schroon Lake, New York, 1880</h2>
-            <p>A red-hot stone · Hoax</p>
-            <span class="arrow">↗</span></a
-          ><a class="story-row" href="fireball.html#how"
-            ><span class="number">05</span>
-            <h2>The fireball of December 21, 1876</h2>
-            <p>Missouri to Indiana · Reconstruction</p>
-            <span class="arrow">↗</span></a
-          >
-        </section>
-        <div id="stories"></div>
-        <noscript
-          ><p>
-            Enable JavaScript to read the assembled stories, or
-            <a href="data/README.md">download the source-linked data release</a
-            >.
-          </p></noscript
-        >
-      </main>
-      <footer>
-        <p>
-          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
-        </p>
-        <div>
-          <a href="about.html#data">Download data ↗</a
-          ><a href="about.html#sources">Sources & credits</a>
-        </div>
-      </footer>
-    </div>
-    <script src="assets/stories.js?v=5"></script>
+    <p>The stories now live on their own case pages. <a href="index.html">See all 13 cases</a>.</p>
   </body>
 </html>

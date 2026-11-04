@@ -5,196 +5,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
+      content="I read 200 years of old American newspapers looking for rocks that fell from the sky, then followed thirteen of them to see what they really were."
     />
-    <meta name="theme-color" content="#f6f1e7" />
-    <title>Sky In Print · Meteor reports in American newspapers, 1770–1964</title>
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>Sky In Print · Rocks that fell from the sky, in old newspapers</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css?v=8" />
-    <script src="assets/common.js?v=4"></script>
+    <link rel="stylesheet" href="assets/style.css?v=27" />
+    <script src="assets/common.js?v=12"></script>
   </head>
-  <body>
-    <a class="skip" href="#main">Skip to content</a>
+  <body class="home">
+    <a class="skip" href="#cases">Skip to the list of cases</a>
     <div class="shell">
       <header>
         <a class="brand" href="index.html"
           ><span class="brand-mark" aria-hidden="true"></span>Sky In Print</a
         >
         <nav aria-label="Main navigation">
-          <a href="index.html" aria-current="page">Atlas</a
-          ><a href="stories.html">Stories</a
+          <a href="#cases">Cases</a
+          ><a href="archive.html">The map</a
           ><a href="fireball.html">The 1876 fireball</a
-          ><a href="about.html">About</a
-          ><button class="theme" type="button">Light mode</button>
+          ><a href="about.html">How I did it</a
+          ><button class="theme" type="button">Night edition</button>
         </nav>
       </header>
       <main id="main">
-        <section class="hero intro-motion">
-          <div>
-            <p class="eyebrow">1770–1964 · 245,000 articles</p>
-            <h1>Fireballs and meteorite falls in American newspapers</h1>
-          </div>
-          <div class="hero-note">
-            <p>
-              Newspaper articles that mention meteors, sorted into fireball
-              sightings and claimed falls. Each claimed fall is followed
-              to its outcome: a recognized meteorite, a hoax, an ordinary rock, or
-              still unresolved.
-            </p>
-            <a href="stories.html">Read the case studies ↗</a>
-          </div>
-        </section>
-        <a class="latest" href="stories.html#thomson"
-          ><span class="latest-tag">October 2026</span
-          ><span class="latest-text"
-            >Thomson, Georgia, catalogued as a find since 1888, goes to a vote
-            to be reclassified as an observed fall.</span
-          ><span class="arrow" aria-hidden="true">↗</span></a
-        >
-        <section class="atlas" aria-labelledby="atlas-heading">
-          <div class="section-head">
-            <h2 id="atlas-heading">Reports by place and year</h2>
-            <small id="result-count" role="status" aria-live="polite"></small>
-          </div>
-          <p class="atlas-intro">
-            The map opens on the 13 claimed falls, each followed to an outcome.
-            Switch to Fireballs for the 821 sightings reported from two or more
-            towns. Click any point for its sources.
-          </p>
-          <div class="toolbar">
-            <div class="segmented" aria-label="Report type">
-              <button type="button" data-layer="fall" aria-pressed="true">
-                Fall cases</button
-              ><button type="button" data-layer="fireball" aria-pressed="false">
-                Fireballs</button
-              ><button type="button" data-layer="all" aria-pressed="false">
-                Both
-              </button>
-            </div>
-            <label class="sr-only" for="status-filter" hidden
-              >Fall outcome</label
-            ><select id="status-filter" aria-label="Filter by fall outcome">
-              <option value="all">Every outcome</option></select
-            ><input
-              type="search"
-              id="search"
-              aria-label="Search place, date or report"
-              placeholder="Search a place, year, or story…"
-            />
-          </div>
-          <div class="atlas-layout">
-            <div class="map-stage">
-              <span class="map-caption">The contiguous United States</span
-              ><svg
-                id="atlas-map"
-                viewBox="0 0 1000 560"
-                role="group"
-                aria-label="Interactive map of reports. Use the report list below as a keyboard alternative."
-              ></svg>
-              <div class="map-tools">
-                <button id="zoom-in" aria-label="Zoom map in">+</button
-                ><button id="zoom-out" aria-label="Zoom map out">−</button
-                ><button id="zoom-reset" aria-label="Reset map view">
-                  Reset
-                </button>
-              </div>
-              <span class="map-tag">Drag to pan · pinch or ⌘-scroll to zoom</span>
-            </div>
-            <aside
-              class="detail"
-              id="detail"
-              aria-label="Selected report"
-              tabindex="-1"
-            ></aside>
-          </div>
-          <div class="legend" aria-label="Map legend">
-            <span><i style="--c: var(--accent)"></i>Under investigation</span
-            ><span><i style="--c: var(--aqua)"></i>Recognized</span
-            ><span><i style="--c: var(--red)"></i>Hoax</span
-            ><span><i style="--c: var(--violet)"></i>Likely hoax</span
-            ><span
-              ><i style="--c: var(--muted)"></i>Not a meteorite /
-              unresolved</span
-            ><span
-              ><i style="--c: var(--text)"></i>Fireball · size = grouped
-              cities</span
-            >
-          </div>
-          <div class="timeline-box">
-            <div class="timeline-head">
-              <span class="timeline-label"
-                >REPORTS THROUGH TIME · DRAG TO SELECT</span
+        <section class="opening" aria-labelledby="page-title">
+          <div class="opening-words">
+            <p class="kicker">A side project · American newspapers, 1770–1964</p>
+            <h1 id="page-title">
+              I read 200 years of old newspapers looking for rocks that fell
+              from the sky.
+            </h1>
+            <p class="opening-intro">
+              Thirteen of those stories I followed all the way to the end,
+              through later papers, science journals and museum records. Most
+              were hoaxes or ordinary rocks.
+              <strong
+                >One was a real meteorite the catalogue had wrong, and a vote to fix the record is underway.</strong
               >
-              <div>
-                <label for="year-from">From </label
-                ><input
-                  id="year-from"
-                  type="number"
-                  min="1770"
-                  max="1964"
-                  value="1770"
-                /><label for="year-to"> to </label
-                ><input
-                  id="year-to"
-                  type="number"
-                  min="1770"
-                  max="1964"
-                  value="1964"
-                />
+            </p>
+            <p class="opening-links">
+              <a href="#thomson-story">The one that got fixed</a
+              ><a href="#cases">All thirteen</a>
+            </p>
+          </div>
+
+          <!-- the microfilm reader: reader.js fills the film, the strip and the slip from the case data -->
+          <div class="reader-stage">
+            <div class="reader">
+              <div class="hood">
+                <div class="screen"><div class="film"></div></div>
+                <span class="plate" aria-hidden="true">Sky In Print · Model 1770</span>
               </div>
-              <button id="reset-filters">Reset filters</button>
+              <div class="deck">
+                <span class="reel left" aria-hidden="true"></span>
+                <div class="strip" role="group" aria-label="Film strip, one frame per case"><div class="strip-inner"></div></div>
+                <span class="reel right" aria-hidden="true"></span>
+                <span class="counter" aria-hidden="true"></span>
+              </div>
+              <button class="crank" type="button" role="slider" aria-label="Microfilm crank. Turn it, or use the arrow keys, to move between the thirteen cases"></button>
+              <div class="crank-steps">
+                <button type="button" data-step="-1" aria-label="Earlier case">◀</button
+                ><button type="button" data-step="1" aria-label="Later case">▶</button>
+              </div>
+              <p class="hint" aria-hidden="true">
+                turn the crank
+                <svg width="70" height="46" viewBox="0 0 70 46"><path d="M8 4 C 30 8, 52 18, 60 38" /><path d="M50 34 L61 40 L63 27" /></svg>
+              </p>
             </div>
-            <svg
-              id="timeline"
-              viewBox="0 0 1100 105"
-              role="img"
-              aria-label="Histogram of reports by year. Use From and To fields to select a year range with a keyboard."
-            ></svg>
-            <div class="timeline-label">
-              NEWSPAPER TITLES IN AVAILABLE SWEEP YEARS · GAPS ARE UNKNOWN
-            </div>
-            <svg
-              id="coverage"
-              viewBox="0 0 1100 45"
-              role="img"
-              aria-label="Digitized newspaper titles by year, shown separately from report counts"
-            ></svg>
-            <p class="coverage-note">
-              More dots can mean more digitized newspapers, not more meteors.
-              Fireball pins mark representative
-              <strong>publishing towns</strong>, not positions in the sky. City
-              counts do not prove independent witnesses.
-              <a href="about.html#coverage">Understand this map ↗</a>
-            </p>
+            <article class="slip" aria-live="polite"></article>
           </div>
-          <details class="results" open>
-            <summary id="list-summary">Browse the reports</summary>
-            <div class="result-list" id="result-list"></div>
-          </details>
         </section>
-        <section class="feature">
-          <div class="feature-text">
-            <p class="eyebrow">Reconstruction · December 21, 1876</p>
-            <h2>The fireball of December 21, 1876</h2>
+
+        <section class="thomson-story" id="thomson-story" aria-labelledby="thomson-title">
+          <div class="ts-text">
+            <p class="kicker">The one that got fixed</p>
+            <h2 id="thomson-title">A Georgia meteorite, catalogued wrong since 1888.</h2>
             <p>
-              Seven towns reported it passing overhead. Their positions give a
-              ground track that passes 17 km from the Rochester, Indiana
-              meteorite, which was left out of the fit.
+              The meteorite catalogue lists Thomson, Georgia as a find, a stone
+              picked up later with nobody seeing it come down. But in November
+              1888 the finder, B. F. Wilson, wrote that it fell within thirty
+              yards of him while he was picking cotton, and that he dug it out
+              with a spade.
             </p>
-            <a href="fireball.html">See the reconstruction ↗</a>
+            <p>
+              Three weeks later the Savannah Morning News ran a paragraph saying a man
+              in a cotton field "heard it whizzing as a minnie ball", and a paper
+              23 miles away reported a thundering noise at about 1 p.m. the same
+              day. I sent all of it to the Meteoritical Bulletin's database
+              editor, who dug up Wilson's original letters, and the committee is now voting on
+              listing Thomson as an observed fall.
+            </p>
+            <p class="ts-note">
+              It's a correction to a meteorite that was already known, not a new
+              one. Still pretty cool for a few old newspaper paragraphs.
+            </p>
+            <a class="text-link" href="case.html?c=thomson">Read the whole Thomson case →</a>
           </div>
-          <div class="feature-art" aria-hidden="true">
-            <div class="orbit"></div>
-            <div class="orbit"></div>
-            <div class="orbit"></div>
-            <div class="streak"></div>
-            <span>MISSOURI → ILLINOIS → INDIANA</span>
+          <figure class="ts-clip">
+            <div class="paper-clip">
+              <img src="assets/scans/thomson.jpg" alt="Scan of the Savannah Morning News, November 7, 1888: A Meteor Found Near Thomson, and the paragraph about the man who heard it whizzing as a minnie ball" />
+            </div>
+            <figcaption>Savannah Morning News, Nov. 7, 1888, p. 6. Library of Congress.</figcaption>
+          </figure>
+        </section>
+
+        <section class="all-cases" id="cases" tabindex="-1" aria-labelledby="cases-title">
+          <p class="kicker">All thirteen</p>
+          <h2 id="cases-title">Every stone I followed, and how it turned out.</h2>
+          <div class="tally" aria-hidden="true"></div>
+          <ol class="card-catalog"></ol>
+        </section>
+
+        <section class="how" aria-labelledby="how-title">
+          <div class="how-text">
+            <p class="kicker">How I did it</p>
+            <h2 id="how-title">A computer read the papers. Then I chased the good ones.</h2>
+            <p>
+              The Library of Congress has scanned millions of old newspaper
+              pages, and a research group at Harvard turned them into text. I
+              wrote a pipeline that searched all of it from 1770 to 1964 for
+              anything about meteors, used a local AI model to sort out the
+              actual sky reports, and then I read the interesting ones myself.
+            </p>
+            <p>
+              Every claimed fall then got followed forward: later papers,
+              science journals, museum accession records, and a lot of emails
+              to small-town historical societies.
+            </p>
+            <a class="text-link" href="about.html">The method, its limits, and the data →</a>
           </div>
+          <div class="tape" aria-label="The numbers">
+            <p>SKY IN PRINT · RUN 1770–1964</p>
+            <dl>
+              <div><dt>articles read</dt><dd data-from="articles">348.8 million</dd></div>
+              <div><dt>mention a meteor</dt><dd>245,247</dd></div>
+              <div><dt>say a stone fell</dt><dd>6,250</dd></div>
+              <div><dt>fireballs, 2+ towns</dt><dd data-from="events">821</dd></div>
+              <div class="tape-total"><dt>followed to the end</dt><dd data-from="falls">13</dd></div>
+            </dl>
+            <p>NO NEW METEORITE CONFIRMED</p>
+          </div>
+        </section>
+
+        <section class="also" aria-label="More to explore">
+          <a href="fireball.html"
+            ><span class="kicker">The 1876 fireball</span><strong>Seven towns saw it overhead.</strong><small>Their reports line up into a track across three states, and it passes 17 km from a known meteorite.</small></a
+          ><a href="archive.html"
+            ><span class="kicker">The map</span><strong>Every report, on one map.</strong><small>All thirteen falls and 821 fireballs, each linked to the newspaper page it came from.</small></a
+          >
         </section>
       </main>
       <footer>
         <p>
-          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
+          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964. Scans from the Library of Congress, Chronicling America.<br />No new meteorite has been confirmed.
         </p>
         <div>
           <a href="about.html#data">Download data ↗</a
@@ -202,10 +166,9 @@
         </div>
       </footer>
     </div>
-    <script src="assets/d3-7.9.0.min.js"></script>
-    <script src="assets/topojson-client-3.1.0.min.js"></script>
-    <script src="data/geography.js"></script>
     <script src="data/catalog.js"></script>
-    <script src="assets/atlas.js?v=5"></script>
+    <script src="data/scans.js?v=1"></script>
+    <script src="assets/cases.js?v=3"></script>
+    <script src="assets/home.js?v=5"></script>
   </body>
 </html>

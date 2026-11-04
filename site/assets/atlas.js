@@ -98,7 +98,7 @@
             )
             .join("")}</details>`
         : ""
-    }${d.story ? `<a class="button-link" href="stories.html#${d.story}">Follow the whole story ↗</a>` : ""}${d.kind === "fireball" && d.date_lo === "1876-12-21" ? '<a class="button-link" href="fireball.html">Explore the reconstruction ↗</a>' : ""}<p class="location-note">${esc(d.location_basis)}${d.kind === "fireball" && !d.dated ? " Date not securely resolved." : ""}</p>`;
+    }${d.kind === "fall" ? `<a class="button-link" href="case.html?c=${encodeURIComponent(d.id)}">Read the case ↗</a>` : ""}${d.kind === "fireball" && d.date_lo === "1876-12-21" ? '<a class="button-link" href="fireball.html">Explore the reconstruction ↗</a>' : ""}<p class="location-note">${esc(d.location_basis)}${d.kind === "fireball" && !d.dated ? " Date not securely resolved." : ""}</p>`;
     const nearby = filtered().filter((x) => x.lat === d.lat && x.lon === d.lon);
     if (nearby.length > 1) {
       const next = document.createElement("button");
@@ -169,9 +169,14 @@
         // dots set in chronologically on first draw (style.css .map-dot uses --i as a delay step)
         const p = enter
           .append("g")
-          .attr("class", "pin")
+          .attr("class", (d) => `pin ${d.kind}`)
           .style("--i", (d) => Math.round(((d.year - 1770) / 194) * 110));
         p.append("circle").attr("class", "point-target").attr("r", 12);
+        // fall cases breathe a slow ring so the eye finds them first
+        p.filter((d) => d.kind === "fall")
+          .append("circle")
+          .attr("class", "map-ring")
+          .attr("r", 6.5);
         p.append("circle").attr("class", "map-dot");
         p.append("title");
         p.filter((d) => d.kind === "fall")
@@ -203,11 +208,13 @@
             : 2.2,
       )
       .attr("fill", color)
+      .style("color", color)
       // with both layers on, fireballs sit back as faint context behind the fall cases
       .attr("opacity", (d) =>
         d.kind === "fall" ? 1 : layer === "fireball" ? 0.6 : 0.28,
       )
       .classed("selected", (d) => d.id === selected);
+    marks.select(".map-ring").style("color", color);
     marks
       .select("title")
       .text((d) => `${d.place} · ${d.date_lo} · ${d.status}`);

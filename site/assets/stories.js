@@ -19,6 +19,7 @@
   const stories = [
     {
       id: "thomson",
+      lede: "The catalogue says Thomson was found. The man who found it said he watched it fall.",
       number: "01",
       status: "Recognized · Under review as a fall · October 1888",
       title: "Thomson, Georgia, 1888",
@@ -30,10 +31,11 @@
 <p>The same column has an unattached paragraph: a man in a cotton field heard the stone whizzing like a bullet, and it buried itself three or four inches in the ground. The <em>Religio-Philosophical Journal</em> of November 24, 1888 printed the same item in one piece, which confirms the paragraph belongs to the Wilson story. It is still Wilson's own account.${cite("savannah")}</p>
 <h3>A second report</h3>
 <p>The <em>Lincolnton News</em>, 36 km to the north, reported that at about 1 p.m. on Monday, October 15, its citizens were "startled by a heavy thundering report accompanied by a rushing noise". It names no fireball and no witness, and the region was still feeling aftershocks from the 1886 Charleston earthquake, but the day and place fit.${cite("lincolnton")}</p>
-<div class="update"><h3>Update · October 2026</h3><p>The editor of the Meteoritical Bulletin Database has asked the Nomenclature Committee to vote on reclassifying Thomson as an observed fall. The vote has not happened yet. This would be a correction to a known meteorite, not a new one.</p></div>`,
+<div class="update"><h3>Update · November 2026</h3><p>The Meteoritical Society's Nomenclature Committee is now voting on reclassifying Thomson as an observed fall, after the Meteoritical Bulletin Database editor put it forward in October. This is a correction to a known meteorite, not a new one.</p></div>`,
     },
     {
       id: "saco",
+      lede: "Captain Ira Doe watched a meteor come down near his house, dug up a stone the next morning, and gave it to the local museum. The museum still has the paperwork.",
       number: "02",
       status: "Under investigation · October 1870",
       title: "Saco, Maine, 1870",
@@ -48,6 +50,7 @@
     },
     {
       id: "middleburg",
+      lede: "A 200-pound “meteorite” went on show at the 1888 Exposition in Jacksonville. A mineralogist said it was iron ore.",
       number: "03",
       status: "Not a meteorite · January 1888",
       title: "Middleburg, Florida, 1888",
@@ -63,6 +66,7 @@
     },
     {
       id: "schroon",
+      lede: "A red-hot stone landed beside a lakeside cottage. Two months later the papers called it a fake.",
       number: "04",
       status: "Hoax · September 1880",
       title: "Schroon Lake, New York, 1880",
@@ -84,12 +88,14 @@
 <p>The fireball dropped the Rochester, Indiana meteorite. Rochester was left out of the fit, and the fitted line passes about 17 km from it.${cite("track", "Rochester check")}</p>
 <h3>What did not work</h3>
 <p>Further east the line fails: Bucyrus, Ohio is about 132 km from the extended track. A height estimate from an Indianapolis observer's elevation angle gave 156 km, which is implausible, so no altitude is claimed. The animation shows the fitted ground path only, not the fireball's speed, height or timing.${cite("track")}</p>`;
+  // case pages read the long stories from here
+  window.SKY_STORIES = Object.fromEntries(stories.map((s) => [s.id, s]));
   const root = document.getElementById("stories");
   if (root)
     root.innerHTML = stories
       .map(
         (s) =>
-          `<article class="article" id="${s.id}"><p class="eyebrow">Case ${s.number}</p><span class="status">${s.status}</span><h2>${s.title}</h2>${s.body}<a class="back" href="#main">↑ All case studies</a></article>`,
+          `<article class="article" id="${s.id}"><p class="eyebrow">Case ${s.number}</p><span class="status">${s.status}</span><h2>${s.title}</h2><p class="lede">${s.lede}</p>${s.body}<a class="back" href="#main">↑ All case studies</a></article>`,
       )
       .join("");
   const track = document.getElementById("track-story");
