@@ -99,6 +99,32 @@ def make_track():
     witnesses=[dict(place=k,lat=v[0],lon=v[1],source=v[2]) for k,v in raw['overhead'].items()]
     return dict(**json.loads((ROOT/'results/fireballs/tracks.json').read_text())['1876-12-21'],coordinates=coordinates,witnesses=witnesses,rochester={'lat':41.08,'lon':-86.21})
 
+
+# Research notes quote private correspondence; the public copy keeps the facts and drops the quotes and names.
+PUBLIC_REWRITES={'results/falls/literature_check_2026-10-22.md':[
+    ('    A note to the database editors is scheduled for 2026-10-26.\n',''),
+    ("""  - **2026-10-26, the database editor replies** (Jeff Grossman): the Smithsonian looked at the stone ("fairly fresh
+    looking"), but there isn't enough documentation to reclassify it as a fall. "If you can find eyewitness accounts of
+    the fireball, that would change things."
+""","""  - **2026-10-26, the database editor's first reply:** not enough documentation yet to reclassify it as a fall;
+    eyewitness accounts of the fireball would change that.
+"""),
+    (' A reply to the database editor is drafted, not yet sent.',''),
+    ("""  - **2026-10-26, 5:18 p.m. ET: the database editor reverses his position.** Jeff Grossman (MetBull DB editor): "I
+    retract my negative letter ... I think we have a tight story now." He holds copies of the original Wilson letter(s)
+    and adds a story in the *Religio-Philosophical Journal*, 24 Nov 1888. "Combined with the explosions story, this is
+    better evidence of a fall than lots of other old accepted falls." **He will ask the Nomenclature Committee to vote
+    on changing Thomson to a fall.**""","""  - **2026-10-26, later that day: the database editor put Thomson forward for reclassification**, drawing on copies
+    of the original Wilson letter(s) and a matching story in the *Religio-Philosophical Journal*, 24 Nov 1888. **The
+    Nomenclature Committee is voting on changing Thomson to a fall.**"""),
+]}
+
+def public_text(rel,text):
+    for old,new in PUBLIC_REWRITES.get(rel,[]):
+        if old not in text: raise SystemExit(f'public rewrite no longer matches {rel}: {old[:60]!r}')
+        text=text.replace(old,new)
+    return text
+
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
     # the full-sweep grouping when it exists (results/fireballs/events_all.json), else the pilot events
@@ -173,7 +199,7 @@ Newspapers: Library of Congress / Chronicling America through American Stories (
     evidence=OUT/'evidence';evidence.mkdir(exist_ok=True)
     (evidence/'public_updates.md').write_text((ROOT/'docs/PUBLIC_UPDATES.md').read_text())
     for rel in ['results/fireballs/tracks.md','results/PILOT_REPORT.md','results/validation/known_falls_1870s.md','results/falls/ranker_blind_check.md','results/falls/credibility_test.md','results/falls/literature_check_2026-10-22.md','results/eyecheck/RESULTS.md']:
-        (evidence/Path(rel).name).write_text((ROOT/rel).read_text())
+        (evidence/Path(rel).name).write_text(public_text(rel,(ROOT/rel).read_text()))
     print(f'Exported {len(falls)} fall cases, {len(events)} fireball groups, {len(coverage)} coverage years.')
 
 if __name__=='__main__':main()
