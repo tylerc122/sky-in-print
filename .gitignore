@@ -21,3 +21,6 @@ drafts/
 
 # sweep outputs (pulled from Cygnus)
 data/sweep/
+
+# vercel project link
+.vercel

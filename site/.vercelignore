@@ -1,0 +1,5 @@
+# never upload local Vercel or env files
+.env*
+.vercel
+.gitignore
+.vercelignore
