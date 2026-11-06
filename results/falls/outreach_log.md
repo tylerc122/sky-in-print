@@ -122,3 +122,31 @@ estimate, good to ~1 km. Didn't find Thrasher or Armstrong on it. Sent Jeff a qu
 **2026-11-03, Thomson vote:** Jeff says the NomCom vote to recognize Thomson as an observed fall is 6-0, open about
 another week. Once it's accepted he'll draft a new Bulletin entry and revise the coordinates (map-based estimate
 33.435, -82.474). Check back mid-November in case he wants help with the entry.
+
+**2026-11-05, Smithsonian Institution Archives, RU 7177 (George P. Merrill Papers), reading-room visit:**
+- **Box numbers don't match the online finding aid.** The folders are labelled about one box lower (the "Meteorites,
+  undated" folder sits in what's labelled box 19, next to "Merrill, George"). Go by folder title, not number, next time.
+- **"Meteorites (correspondence regarding), undated"** is only a typed 5-page index of Merrill's meteorite letters:
+  meteorite, sender, date, mostly 1920s (one 1903 Farrington entry, one 1911 note). It points to letters filed under
+  the sender's name. **None of our three are in it**: no Cañon City (only Canyon Diablo), no Clintonville/Wake, no
+  Sterling/Bowers, nothing from Saline Co./Marshall. It mostly covers his later files, so it doesn't rule out 1899,
+  1903 or 1917 letters on its own.
+- **W miscellaneous:** no Wake, no Eugene Wilson (the Cañon City engineer), no B. F. Wilson (Thomson bonus).
+- **S correspondence (Sa–Sn, and "So–Sy, 1893–1925"):** no Sterling, nothing from Colorado or Missouri.
+- **Ba–Bo miscellaneous:** no Bowers, no Beecher.
+- **Merrill's carbon replies are filed right behind the incoming letters** (e.g. his Feb 3 1925 reply to Ralph Sachs
+  about the Pricetown, Ohio stone of Feb 13 1893, "never been described", now a recognized L6 fall), so a missing
+  letter means a missing reply too.
+- Seen in passing, not our cases: Johnstown, Colo. 1924 (recognized diogenite; letters from Woods and Sherwood, 1925);
+  a "Kilmarnock meteorite, June 17" letter (not in the catalogue; Kilmarnock, Va. is ~20 mi from the 1921 Sharps fall);
+  Merrill to Tom Shires, July 1920, on a Sharp County, Ark. "meteorite" said to have fallen in 1901, 30 ft across and
+  10 ft above ground (no recognized meteorite there, and far too big to be one).
+- **Reading:** Merrill's correspondence shows no sign of any of the three stones. Together with Mineral Sciences'
+  "no record of receipt" (10-27), the likeliest story for all three is that the stones were never actually sent, or
+  were sent somewhere else. Not proof: letters can go missing.
+- **Still open:** the U.S. National Museum accession records (I think RU 305), which would show a stone arriving even
+  with no letters; and the folders by other likely senders (Philadelphia analysts/dealers such as Foote; Colorado
+  School of Mines / Colorado Scientific Society; New York State Museum; Missouri Bureau of Geology and Mines).
+
+**2026-11-06:** accession-records question sent to Richard Gilreath (USNM accession records for 1899, 1903, 1917; names
+Sterling, Bowers, Wake, Marshall, Mo.). Waiting.
