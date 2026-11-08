@@ -12,7 +12,10 @@
 
   // ---------- numbers on the tape, from the release ----------
   const articles = D.coverage.reduce((n, d) => n + (Number(d.articles) || 0), 0);
-  if (articles) $('[data-from="articles"]').textContent = `${(articles / 1e6).toFixed(1)} million`;
+  if (articles) {
+    $('[data-from="articles"]').textContent = `${(articles / 1e6).toFixed(1)} million`;
+    $('[data-from="articles-short"]').textContent = `${Math.round(articles / 1e6)}M`;
+  }
   $('[data-from="events"]').textContent = D.events.length.toLocaleString("en-US");
   $('[data-from="falls"]').textContent = D.falls.length;
 
@@ -31,7 +34,9 @@
     slip = $(".slip"),
     crank = $(".crank"),
     stage = $(".reader-stage"),
-    reels = document.querySelectorAll(".reel");
+    reels = document.querySelectorAll(".reel"),
+    plateN = $(".plate-n"),
+    platePlace = $(".plate-place");
 
   film.innerHTML = cases
     .map((c, i) => `<div class="frame" data-i="${i}" style="top:${i * 100}%">${scans[c.id] ? clip(c, scans[c.id]) : card(c)}</div>`)
@@ -74,6 +79,8 @@
     reels.forEach((r) => r.style.setProperty("--spin", `${turns * 220}deg`));
     crank.style.setProperty("--turn", `${turns * 360}deg`);
     setYear(c.year);
+    plateN.textContent = `Case ${String(i + 1).padStart(2, "0")} / ${cases.length}`;
+    platePlace.textContent = c.place;
     crank.setAttribute("aria-valuenow", i + 1);
     crank.setAttribute("aria-valuetext", `${c.place}, ${c.date}: ${c.stamp}`);
     slip.classList.add("away");

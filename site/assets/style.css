@@ -209,28 +209,45 @@ header::after {
 .brand:hover {
   color: inherit;
 }
-/* stamp: a ruled box with a falling streak, drawn on like a press mark */
+/* meteorite: a pitted stone with its trail, the trail sweeps in after the stone lands */
 .brand-mark {
-  position: relative;
-  width: 26px;
-  height: 26px;
-  border: 1.5px solid currentColor;
+  width: 30px;
+  height: 30px;
   flex: none;
-  animation: stamp 520ms var(--ease-draw) both;
+  overflow: visible;
 }
-.brand-mark::after {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 15px;
-  left: 14px;
-  top: 2px;
-  background: var(--accent);
-  border-radius: 2px;
-  transform: rotate(38deg);
-  transform-origin: top;
-  box-shadow: 0 0 8px var(--accent);
-  animation: streakIn 420ms var(--ease) 420ms both;
+.brand-mark .rock,
+.brand-mark .pits,
+.brand-mark .rim {
+  animation: rockIn 480ms var(--ease) 260ms both;
+  transform-origin: 14px 20px;
+}
+.brand-mark .trail {
+  filter: drop-shadow(0 0 2.5px var(--accent));
+  animation: trailIn 520ms var(--ease) both;
+}
+.brand:hover .brand-mark .trail {
+  animation: trailIn 520ms var(--ease) both;
+}
+@keyframes trailIn {
+  from {
+    transform: translate(9px, -9px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes rockIn {
+  from {
+    transform: translate(5px, -5px) scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 nav {
   display: flex;
@@ -1204,27 +1221,6 @@ footer a {
     transform: scaleX(1);
   }
 }
-@keyframes stamp {
-  0% {
-    clip-path: inset(0 100% 100% 0);
-  }
-  50% {
-    clip-path: inset(0 0 100% 0);
-  }
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
-}
-@keyframes streakIn {
-  from {
-    transform: rotate(38deg) scaleY(0);
-    opacity: 0;
-  }
-  to {
-    transform: rotate(38deg) scaleY(1);
-    opacity: 1;
-  }
-}
 @keyframes dotIn {
   from {
     opacity: 0;
@@ -1704,22 +1700,107 @@ nav {
    The opening: words on the left, the microfilm reader on the right
    ====================================================================== */
 .opening {
+  position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-  gap: clamp(32px, 5vw, 80px);
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(32px, 5vw, 88px);
   align-items: center;
   min-height: calc(100svh - 70px);
-  padding: clamp(20px, 3vh, 40px) 0 clamp(40px, 6vh, 72px);
+  padding: clamp(28px, 5vh, 56px) 0 clamp(56px, 8vh, 96px);
+}
+.opening > * {
+  position: relative;
+  z-index: 1;
+}
+/* a few meteors cross the page now and then, the same streak as the logo */
+.opening > .sky {
+  position: absolute;
+  inset: 0 calc(-1 * var(--gutter));
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.sky i {
+  position: absolute;
+  top: -10%;
+  left: 62%;
+  width: 180px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent));
+  opacity: 0;
+  rotate: 152deg;
+  transform-origin: 100% 50%;
+  animation: meteor 11s var(--ease) infinite;
+}
+.sky i::after {
+  content: "";
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px 2px var(--accent);
+}
+.sky i:nth-child(2) {
+  left: 30%;
+  animation-delay: 4.2s;
+  animation-duration: 13s;
+  width: 120px;
+}
+.sky i:nth-child(3) {
+  left: 88%;
+  animation-delay: 8.1s;
+  animation-duration: 15s;
+  width: 220px;
+}
+@keyframes meteor {
+  0% {
+    opacity: 0;
+    translate: 0 0;
+  }
+  2% {
+    opacity: 0.55;
+  }
+  9% {
+    opacity: 0;
+    translate: -260px 480px;
+  }
+  100% {
+    opacity: 0;
+    translate: -260px 480px;
+  }
+}
+.dateline {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: 34em;
+  margin: 0 0 26px;
+  padding: 7px 0 6px;
+  border-top: 2px solid var(--text);
+  border-bottom: 1px solid var(--line-strong);
+  font: 600 11px/1.2 var(--sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text);
+  animation: rise 900ms var(--ease-film) both;
 }
 .opening h1 {
-  font-size: clamp(36px, 4vw, 58px);
-  line-height: 1.04;
-  letter-spacing: -0.025em;
+  font-size: clamp(40px, 4.6vw, 68px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
   font-weight: 400;
-  max-width: 15ch;
-  margin: 0 0 22px;
+  max-width: 14ch;
+  margin: 0 0 24px;
   text-wrap: balance;
-  animation: rise 900ms var(--ease-film) both;
+  animation: rise 900ms var(--ease-film) 60ms both;
+}
+.opening h1 em {
+  font-style: italic;
+  color: color-mix(in oklch, var(--accent) 80%, var(--text));
 }
 .opening-intro {
   font-size: 17.5px;
@@ -1733,32 +1814,109 @@ nav {
   color: var(--text);
   font-weight: 500;
 }
-.opening-links {
+.opening-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 26px;
+  gap: 12px;
   margin: 30px 0 0;
-  font-size: 15px;
   animation: rise 900ms var(--ease-film) 300ms both;
 }
-.opening-links a {
+.btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font: 500 15px/1 var(--sans);
+  color: var(--text);
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
+  transition:
+    background 200ms var(--ease),
+    color 200ms var(--ease),
+    transform 160ms var(--ease);
+}
+.btn:hover {
+  background: var(--raised);
+  color: var(--text);
+}
+.btn:active {
+  transform: scale(0.97);
+}
+.btn-solid {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--bg);
+}
+.btn-solid:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+.opening-stats {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: start;
+  gap: 0 clamp(18px, 2.4vw, 34px);
+  margin: 40px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  animation: rise 900ms var(--ease-film) 420ms both;
+}
+.opening-stats div {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 4px;
+}
+.opening-stats dd {
+  margin: 0;
+  font: 400 clamp(24px, 2.2vw, 30px) / 1 var(--serif);
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.opening-stats dt {
+  font-size: 12.5px;
+  color: var(--muted);
 }
 
 /* ---------- the machine ---------- */
 .reader-stage {
   --run: 1200ms;
   position: relative;
-  padding: 8px 76px 40px 0;
+  width: 100%;
+  max-width: 620px;
+  justify-self: end;
 }
+.reader-stage > .reader {
+  z-index: 1;
+}
+/* the machine: the viewer and deck, with a gearbox on the right that carries the crank */
 .reader {
   position: relative;
-  width: 100%;
-  max-width: 560px;
-  margin-left: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 78px;
+  align-items: end;
   animation: rise 1100ms var(--ease-film) 200ms both;
+}
+.body {
+  position: relative;
+  z-index: 1;
+}
+.side {
+  position: relative;
+  height: 210px;
+  margin: 0 0 14px -10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 26px 16px;
+  border-radius: 0 18px 18px 0;
+  background: linear-gradient(90deg, oklch(74% 0.04 84), var(--enamel-dark) 30%, var(--enamel) 70%, var(--enamel-dark));
+  box-shadow:
+    inset -2px 0 0 oklch(100% 0 0 / 0.35),
+    0 24px 40px -28px oklch(35% 0.04 70 / 0.6);
 }
 .hood {
   position: relative;
@@ -1770,20 +1928,33 @@ nav {
     inset 0 -8px 14px oklch(0% 0 0 / 0.06),
     0 40px 60px -36px oklch(35% 0.04 70 / 0.55);
 }
+/* a riveted nameplate that reads out the case on the film */
 .plate {
   position: absolute;
   left: 50%;
-  bottom: 9px;
+  bottom: 6px;
   translate: -50% 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 3px 12px;
+  border-radius: 3px;
   white-space: nowrap;
-  font: 500 9px/1 var(--sans);
-  letter-spacing: 0.24em;
+  font: 500 10px/1.3 var(--sans);
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: oklch(55% 0.03 80);
+  color: oklch(88% 0.02 85);
+  background: linear-gradient(#3b3933, #2a2824);
+  box-shadow: inset 0 1px 0 oklch(100% 0 0 / 0.12);
+}
+.plate b {
+  font-weight: 600;
+  color: oklch(84% 0.12 75);
 }
 .screen {
   position: relative;
-  aspect-ratio: 5 / 4;
+  aspect-ratio: 4 / 3;
   border-radius: 12px;
   overflow: hidden;
   background: radial-gradient(ellipse 70% 65% at 50% 46%, #fbf9ef 0%, #e6e5d6 55%, #b9bba9 100%);
@@ -2029,11 +2200,10 @@ nav {
 
 /* the crank */
 .crank {
-  position: absolute;
-  right: -66px;
-  bottom: 18px;
-  width: 74px;
-  height: 74px;
+  position: relative;
+  flex: none;
+  width: 58px;
+  height: 58px;
   border-radius: 50%;
   border: 0;
   padding: 0;
@@ -2054,9 +2224,9 @@ nav {
   content: "";
   position: absolute;
   left: 50%;
-  top: 8px;
-  width: 10px;
-  height: 32px;
+  top: 6px;
+  width: 8px;
+  height: 26px;
   translate: -50% 0;
   border-radius: 5px;
   background: #8d897d;
@@ -2065,9 +2235,9 @@ nav {
   content: "";
   position: absolute;
   left: 50%;
-  top: -10px;
-  width: 22px;
-  height: 22px;
+  top: -9px;
+  width: 20px;
+  height: 20px;
   translate: -50% 0;
   border-radius: 50%;
   background: radial-gradient(circle at 35% 30%, #c94c33, #8e2f1f);
@@ -2077,27 +2247,44 @@ nav {
   outline: 3px solid var(--pencil);
   outline-offset: 6px;
 }
+/* two little paddles under the crank, one case at a time */
 .crank-steps {
-  position: absolute;
-  right: -66px;
-  bottom: -32px;
   display: flex;
-  gap: 6px;
+  flex-direction: column;
+  gap: 5px;
 }
 .crank-steps button {
-  width: 34px;
-  height: 28px;
+  width: 40px;
+  height: 26px;
   padding: 0;
-  border-radius: 6px;
-  background: var(--paper);
-  color: var(--paper-ink);
+  border: 0;
+  border-radius: 5px;
+  background: linear-gradient(#3b3933, #2a2824);
+  color: oklch(88% 0.02 85);
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow:
+    0 2px 0 #151410,
+    inset 0 1px 0 oklch(100% 0 0 / 0.12);
+  transition: transform 120ms var(--ease);
+}
+.crank-steps button:hover {
+  color: oklch(84% 0.12 75);
+}
+.crank-steps button:active {
+  transform: translateY(2px);
+  box-shadow: inset 0 1px 0 oklch(100% 0 0 / 0.12);
+}
+.crank-steps button:focus-visible {
+  outline: 2px solid var(--pencil);
+  outline-offset: 2px;
 }
 .hint {
   position: absolute;
-  right: -84px;
-  bottom: 104px;
+  z-index: 3;
+  right: -34px;
+  bottom: 226px;
   margin: 0;
   font: 600 24px/1 var(--hand);
   color: var(--pencil);
@@ -2123,11 +2310,12 @@ nav {
 /* the verdict slip, typed, sliding out from under the deck */
 .slip {
   --ink: var(--accent);
+  /* fed out from under the deck like a printout: the deck overlaps its top edge */
   position: relative;
-  z-index: 2;
-  width: min(400px, 78%);
-  margin: -18px 0 0 calc(100% - 560px + 40px);
-  padding: 16px 18px 18px;
+  z-index: 0;
+  width: min(400px, 74%);
+  margin: -14px 0 0 54px;
+  padding: 24px 18px 16px;
   font-family: var(--type);
   font-size: 13.5px;
   line-height: 1.5;
@@ -2240,6 +2428,92 @@ nav {
 }
 .ts-clip figcaption {
   margin-top: 14px;
+  font-size: 13px;
+  color: var(--muted);
+}
+/* the catalogue entry, with the fix pencilled in */
+.ts-record {
+  margin: 0;
+}
+.record-card {
+  position: relative;
+  padding: 22px 26px 26px;
+  background:
+    repeating-linear-gradient(transparent 0 31px, oklch(80% 0.02 85 / 0.35) 31px 32px) 0 52px / 100% calc(100% - 52px)
+      no-repeat,
+    var(--paper);
+  color: var(--paper-ink);
+  font-family: var(--type);
+  box-shadow: 0 24px 40px -24px oklch(35% 0.04 70 / 0.5);
+  rotate: 1deg;
+}
+.record-card::before {
+  /* the red rule of an index card */
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  height: 2px;
+  background: oklch(62% 0.16 25 / 0.55);
+}
+.rc-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 22px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6f6a5f;
+}
+.record-card dl {
+  margin: 0;
+}
+.record-card dl > div {
+  display: grid;
+  grid-template-columns: 9.5em 1fr;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 14.5px;
+  line-height: 20px;
+}
+.record-card dt {
+  color: #6f6a5f;
+}
+.record-card dd {
+  margin: 0;
+}
+.rc-fix dd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+}
+.rc-fix s {
+  text-decoration-color: var(--pencil);
+  text-decoration-thickness: 2px;
+  color: #8a8478;
+}
+.rc-fix ins {
+  text-decoration: none;
+  font: 600 25px/1 var(--hand);
+  color: var(--pencil);
+  rotate: -3deg;
+}
+.rc-stamp {
+  display: inline-block;
+  margin: 18px 0 0;
+  padding: 4px 10px 3px;
+  border: 2px solid color-mix(in oklch, var(--aqua) 70%, black);
+  border-radius: 3px;
+  color: color-mix(in oklch, var(--aqua) 70%, black);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  rotate: -2deg;
+}
+.ts-record figcaption {
+  margin-top: 18px;
   font-size: 13px;
   color: var(--muted);
 }
@@ -2785,10 +3059,18 @@ nav {
   }
   .reader-stage {
     max-width: 640px;
+    margin: 0;
+    padding: 0;
   }
   .slip {
+    position: relative;
+    left: auto;
+    bottom: auto;
     width: min(400px, 100%);
     margin: -10px 0 0 8%;
+  }
+  .opening > .sky {
+    display: none;
   }
 }
 @media (max-width: 900px) {
@@ -2828,13 +3110,25 @@ nav {
     right: var(--gutter);
     top: 12px;
   }
-  /* the machine gets smaller; the crank tucks in beside the deck */
-  .reader-stage {
-    padding: 0 0 46px;
-  }
+  /* the machine gets smaller; the gearbox narrows */
   .reader {
-    width: calc(100% - 52px);
-    margin-left: 0;
+    grid-template-columns: minmax(0, 1fr) 58px;
+  }
+  .side {
+    height: 172px;
+    margin-bottom: 8px;
+    padding-block: 18px 10px;
+  }
+  .opening-stats {
+    grid-template-columns: repeat(2, auto);
+    gap: 16px 32px;
+  }
+  .dateline span:first-child {
+    display: none;
+  }
+  .record-card dl > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
   .hood {
     padding: 12px 12px 24px;
@@ -2865,26 +3159,26 @@ nav {
     bottom: 6px;
   }
   .crank {
-    right: -52px;
-    bottom: 10px;
-    width: 52px;
-    height: 52px;
+    width: 44px;
+    height: 44px;
   }
   .crank::before {
-    top: 6px;
-    width: 8px;
-    height: 22px;
+    top: 5px;
+    width: 7px;
+    height: 18px;
   }
   .crank::after {
-    width: 18px;
-    height: 18px;
-    top: -8px;
+    width: 16px;
+    height: 16px;
+    top: -7px;
   }
-  .crank-steps {
-    right: -50px;
-    bottom: auto;
-    top: 10px;
-    flex-direction: column;
+  .crank-steps button {
+    width: 34px;
+  }
+  .plate {
+    font-size: 9px;
+    gap: 6px;
+    padding: 2px 8px;
   }
   .hint {
     display: none;

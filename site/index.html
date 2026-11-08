@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#f5f1e8" />
     <title>Sky In Print · Rocks that fell from the sky, in old newspapers</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css?v=27" />
+    <link rel="stylesheet" href="assets/style.css?v=28" />
     <script src="assets/common.js?v=12"></script>
   </head>
   <body class="home">
@@ -18,7 +18,7 @@
     <div class="shell">
       <header>
         <a class="brand" href="index.html"
-          ><span class="brand-mark" aria-hidden="true"></span>Sky In Print</a
+          ><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="bm-flame" x1="1" y1="0" x2="0.35" y2="0.62"><stop offset="0" style="stop-color:var(--accent);stop-opacity:0"/><stop offset="1" style="stop-color:var(--accent);stop-opacity:1"/></linearGradient></defs><path class="trail" fill="url(#bm-flame)" d="M11.6 12.4 30.8 1.2 22.4 18.6C21.6 15.6 19.4 13.1 16.4 12.2C14.8 11.8 13.1 11.9 11.6 12.4Z"/><path class="rock" fill="currentColor" d="M7.4 15.4C9.3 12.7 12.6 11.2 15.8 11.6C17.4 11.8 18.4 12.9 19.9 13.6C21.6 14.5 22.6 16.6 22.3 18.9C22 21.7 20.8 24.1 18.6 25.8C16.5 27.5 13.5 28.1 10.9 27.4C8.6 26.8 6.6 25.2 5.8 22.9C5 20.4 5.9 17.5 7.4 15.4Z"/><g class="pits" fill="var(--bg)" opacity=".3"><ellipse cx="11.4" cy="18.4" rx="2.1" ry="1.6"/><ellipse cx="16.6" cy="21.8" rx="1.9" ry="1.4"/><ellipse cx="10.6" cy="23.6" rx="1.2" ry=".9"/><ellipse cx="17" cy="16.6" rx="1.1" ry=".85"/></g><path class="rim" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" d="M11.4 12.6C14.6 11 18.6 11.7 21 14.4C22 15.6 22.5 17 22.5 18.4"/></svg>Sky In Print</a
         >
         <nav aria-label="Main navigation">
           <a href="#cases">Cases</a
@@ -30,11 +30,12 @@
       </header>
       <main id="main">
         <section class="opening" aria-labelledby="page-title">
+          <div class="sky" aria-hidden="true"><i></i><i></i><i></i></div>
           <div class="opening-words">
-            <p class="kicker">A side project · American newspapers, 1770–1964</p>
+            <p class="dateline"><span>A side project</span><span>American newspapers</span><span>1770–1964</span></p>
             <h1 id="page-title">
-              I read 200 years of old newspapers looking for rocks that fell
-              from the sky.
+              I read 200 years of old newspapers looking for rocks that
+              <em>fell from the sky</em>.
             </h1>
             <p class="opening-intro">
               Thirteen of those stories I followed all the way to the end,
@@ -44,29 +45,39 @@
                 >One was a real meteorite the catalogue had wrong, and a vote to fix the record is underway.</strong
               >
             </p>
-            <p class="opening-links">
-              <a href="#thomson-story">The one that got fixed</a
-              ><a href="#cases">All thirteen</a>
+            <p class="opening-actions">
+              <a class="btn btn-solid" href="#thomson-story">The one that got fixed</a
+              ><a class="btn" href="#cases">All thirteen cases</a>
             </p>
+            <dl class="opening-stats">
+              <div><dt>articles searched</dt><dd data-from="articles-short">349M</dd></div>
+              <div><dt>mention a meteor</dt><dd>245,247</dd></div>
+              <div><dt>say a stone fell</dt><dd>6,250</dd></div>
+              <div><dt>followed to the end</dt><dd>13</dd></div>
+            </dl>
           </div>
 
-          <!-- the microfilm reader: reader.js fills the film, the strip and the slip from the case data -->
+          <!-- the microfilm reader: home.js fills the film, the strip, the plate and the slip from the case data -->
           <div class="reader-stage">
             <div class="reader">
-              <div class="hood">
-                <div class="screen"><div class="film"></div></div>
-                <span class="plate" aria-hidden="true">Sky In Print · Model 1770</span>
+              <div class="body">
+                <div class="hood">
+                  <div class="screen"><div class="film"></div></div>
+                  <p class="plate" aria-hidden="true"><b class="plate-n"></b><span class="plate-place"></span></p>
+                </div>
+                <div class="deck">
+                  <span class="reel left" aria-hidden="true"></span>
+                  <div class="strip" role="group" aria-label="Film strip, one frame per case"><div class="strip-inner"></div></div>
+                  <span class="reel right" aria-hidden="true"></span>
+                  <span class="counter" aria-hidden="true"></span>
+                </div>
               </div>
-              <div class="deck">
-                <span class="reel left" aria-hidden="true"></span>
-                <div class="strip" role="group" aria-label="Film strip, one frame per case"><div class="strip-inner"></div></div>
-                <span class="reel right" aria-hidden="true"></span>
-                <span class="counter" aria-hidden="true"></span>
-              </div>
-              <button class="crank" type="button" role="slider" aria-label="Microfilm crank. Turn it, or use the arrow keys, to move between the thirteen cases"></button>
-              <div class="crank-steps">
-                <button type="button" data-step="-1" aria-label="Earlier case">◀</button
-                ><button type="button" data-step="1" aria-label="Later case">▶</button>
+              <div class="side">
+                <button class="crank" type="button" role="slider" aria-label="Microfilm crank. Turn it, or use the arrow keys, to move between the thirteen cases"></button>
+                <div class="crank-steps">
+                  <button type="button" data-step="-1" aria-label="Earlier case">▲</button
+                  ><button type="button" data-step="1" aria-label="Later case">▼</button>
+                </div>
               </div>
               <p class="hint" aria-hidden="true">
                 turn the crank
@@ -102,11 +113,19 @@
             </p>
             <a class="text-link" href="case.html?c=thomson">Read the whole Thomson case →</a>
           </div>
-          <figure class="ts-clip">
-            <div class="paper-clip">
-              <img src="assets/scans/thomson.jpg" alt="Scan of the Savannah Morning News, November 7, 1888: A Meteor Found Near Thomson, and the paragraph about the man who heard it whizzing as a minnie ball" />
+          <figure class="ts-record">
+            <div class="record-card">
+              <p class="rc-head"><span>Meteorite catalogue</span><span>entry no. 23973</span></p>
+              <dl>
+                <div><dt>Name</dt><dd>Thomson</dd></div>
+                <div><dt>Where</dt><dd>McDuffie County, Georgia</dd></div>
+                <div><dt>Type</dt><dd>L6 ordinary chondrite, 218 g</dd></div>
+                <div class="rc-fix"><dt>Seen to fall?</dt><dd><s>No, found 1888</s><ins>Yes, Oct. 15, 1888</ins></dd></div>
+                <div><dt>Evidence</dt><dd>B. F. Wilson's letters, 1888 · Savannah Morning News, Nov. 7, 1888</dd></div>
+              </dl>
+              <p class="rc-stamp">Committee vote underway</p>
             </div>
-            <figcaption>Savannah Morning News, Nov. 7, 1888, p. 6. Library of Congress.</figcaption>
+            <figcaption>What the record says now, and what it should say. The correction is in the Nomenclature Committee's hands.</figcaption>
           </figure>
         </section>
 
@@ -169,6 +188,6 @@
     <script src="data/catalog.js"></script>
     <script src="data/scans.js?v=1"></script>
     <script src="assets/cases.js?v=3"></script>
-    <script src="assets/home.js?v=5"></script>
+    <script src="assets/home.js?v=6"></script>
   </body>
 </html>
