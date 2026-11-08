@@ -14,7 +14,7 @@
 | 2026-10-26 | City of Fossil Museum | Muleshoe Mtn, Ore. 1903 | stone shown at the Fossil drug store | waiting |
 | 2026-10-26 | Foster County Historical Society | Carrington, N.D. 1910 | verdict; stone vanished Dec 1910 | waiting |
 | 2026-10-26 | Tucumcari Historical Museum | Santa Rosa, N.M. 1907 | 80-lb fragment at the Tucumcari bank | waiting |
-| 2026-10-26 | Kamiah Valley Historical Society | Nezperce/Peck, Idaho 1904 | 152-lb stone (Mulcahey, Kirby) | waiting |
+| 2026-10-26 | Kamiah Valley Historical Society | Nezperce/Peck, Idaho 1904 | 152-lb stone (Mulcahey, Kirby) | **replied 2026-11-07** (Taffee Schaack): passed it to the Nezperce historical society, nothing in their archives. Suggests Peck City Hall, Clearwater County HS (Orofino), Nez Perce County HS (Lewiston) |
 | 2026-10-26 | Hugoton Chamber of Commerce (for the museum) | Hugoton, Kan. 1894 | possible fall date for the Hugoton find | waiting |
 | 2026-10-26 | Seaford Historical Society | Seaford, Del. 1893 | stone at Wallace's store | replied 10-29: museum rock, likely flint |
 | 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | replied 10-27: nothing found |
@@ -150,3 +150,10 @@ another week. Once it's accepted he'll draft a new Bulletin entry and revise the
 
 **2026-11-06:** accession-records question sent to Richard Gilreath (USNM accession records for 1899, 1903, 1917; names
 Sterling, Bowers, Wake, Marshall, Mo.). Waiting.
+
+**2026-11-06, follow-ups sent** (replies in each original thread): Saco (Anatole Brown, checking on the Doe stones,
+with a link to the public case page), Mercantile Library, NHMU, Fossil, Foster Co., Tucumcari, Kamiah, Hugoton,
+Tyrrell. Benedictine not nudged (Tyler replied 11-01).
+
+**Correction:** the Jacksonville History Center did reply, 2026-10-22 (Jason Robilio, research archivist): no records
+on the Middleburg stone. That row's "waiting" was wrong; Middleburg was already closed by Kunz.
