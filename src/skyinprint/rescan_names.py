@@ -26,16 +26,43 @@ TERMS = {
     # Saco 1870 (Capt. Ira C. Doe): the fall itself, his 1873 gift and the 1891 accession (1891.68), in any wording
     "saco_doe": r"york institute|ira c\.? doe|capt(ain|\.)? (ira )?doe\b|\bdoe\b.{0,300}(meteor|aerolit|stone|sky|heavens)"
                 r"|(meteor|aerolit|fire ?ball|ball of fire|shooting star).{0,300}\bsaco\b|\bsaco\b.{0,300}(meteor|aerolit|fire ?ball|ball of fire)",
+    # Rawlett's place, 15 mi N of Dallas, Mar 1878: any Rawlett/Rowlett mention, or a meteor near Dallas-area names
+    "rawlett_1878": r"\br[ao]u?wlett?s?\b|(meteor|aerolit).{0,400}(dallas|collin|plano|richardson|mckinney)"
+                    r"|(dallas|collin|plano|richardson|mckinney).{0,400}(meteor|aerolit)",
 }
+# Keyword-filter recall test (2026-11-08): recorded falls with local paper coverage but no keyword candidate.
+# Each name within 400 chars of any sky/stone/fall word, in either order, like the 1877 Cynthiana check.
+_SKY = r"(meteor|aerolit|stone|rock|fell|fall|sky|heavens|explosion|exploded|report|thunder|light|fire|flash|ball)"
+SKY_RX = re.compile(_SKY, re.I)
+NEAR = {}  # key -> name regex; matched as "name, then a sky word within 400 chars either side" (fast two-step)
+for _key, _names in {
+    "filt_bradford_woods_1886": r"bradford woods|(sewickley|bakerstown|wexford)",
+    "filt_cross_roads_1892": r"cross roads|wilson county|(black creek|stantonsburg)",
+    "filt_palahatchie_1910": r"palahatchie|pelahatchie|rankin county",
+    "filt_moore_county_1913": r"moore county|carthage, n",
+    "filt_norfork_1918": r"norfork|baxter county|mountain home, ark",
+    "filt_richardton_1918": r"richardton|\bmott\b|stark county|hebron, n",
+    "filt_st_marys_1919": r"st\.? mary'?s county|leonardtown",
+    "filt_baldwyn_1922": r"baldwyn|lee county, miss|tupelo",
+}.items():
+    NEAR[_key] = re.compile(_names, re.I)
 RX = {k: re.compile(v, re.I | re.S) for k, v in TERMS.items()}
+
+
+def near_hit(rx, t):
+    for m in rx.finditer(t):
+        if SKY_RX.search(t, max(0, m.start() - 400), m.end() + 400):
+            return True
+    return False
 
 
 def scan(year, only=None):
     """only: a lead-name prefix; scans just those terms and writes <year>_<only>.jsonl, so a new lead can be
     rescanned in a year that already has a rescan file."""
-    global RX
+    global RX, NEAR
     if only:
         RX = {k: rx for k, rx in RX.items() if k.startswith(only)}
+        NEAR = {k: rx for k, rx in NEAR.items() if k.startswith(only)}
     out = ROOT / "data/work/rescans" / (f"{year}_{only}.jsonl" if only else f"{year}.jsonl")
     if out.exists():
         print(year, "done already", flush=True)
@@ -56,7 +83,7 @@ def scan(year, only=None):
             base = m.name.split("/")[-1][:-5].split("_")
             for a in d.get("full articles", []):
                 t = a.get("article") or ""
-                hit = [k for k, rx in RX.items() if rx.search(t)]
+                hit = [k for k, rx in RX.items() if rx.search(t)] + [k for k, rx in NEAR.items() if near_hit(rx, t)]
                 if hit:
                     n += 1
                     f.write(json.dumps({"year": year, "date": base[0], "page_seq": base[1].lstrip("p"), "lccn": base[2],
