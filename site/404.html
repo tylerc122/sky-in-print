@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not here · Sky In Print</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#ebeae4">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css?v=31">
+<script src="/assets/common.js?v=14"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <a class="word" href="/">Sky In Print</a>
+  <nav aria-label="Main">
+    <a href="/#cases">Cases</a>
+    <a href="/archive">Map</a>
+    <a href="/fireball">1876 fireball</a>
+    <a href="/about">Method</a>
+  </nav>
+</header>
+
+<figure class="plate">
+  <canvas id="sky" width="1600" height="762" role="img"></canvas>
+  <figcaption></figcaption>
+</figure>
+
+<main id="main" class="wrap">
+  <div class="case-head">
+    <h1>This page came down somewhere I never found</h1>
+    <p class="lede">Happens a lot around here, plenty of the stones I chased just disappeared too.</p>
+  </div>
+  <div class="elsewhere">
+    <a href="/#cases"><strong>All thirteen cases</strong><span>The ones I did track down.</span></a>
+    <a href="/cases/thomson"><strong>Thomson, Georgia</strong><span>The one that changed the record.</span></a>
+    <a href="/archive"><strong>The map</strong><span>Every report, linked to its newspaper.</span></a>
+  </div>
+</main>
+
+<footer class="foot">
+  <p>Sky In Print · newspaper reports of fireballs and meteorite falls, 1770 to 1964. Paintings made in code.</p>
+  <nav aria-label="Footer"><a href="/about#data">Data</a><a href="/about#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
+</footer>
+
+<script src="/assets/paint.js?v=2"></script>
+<script src="/assets/scene-thomson.js?v=1"></script>
+<script src="/assets/scenes.js?v=5"></script>
+<script>
+  (() => {
+    const s = SKY_SCENES.lost;
+    const cv = document.getElementById("sky");
+    cv.setAttribute("aria-label", "Painting: " + s.alt);
+    document.querySelector(".plate figcaption").innerHTML = s.caption.map((t) => "<span>" + t + "</span>").join("");
+    paintScene(cv, "lost", { duration: 7000 });
+  })();
+</script>
+</body>
+</html>

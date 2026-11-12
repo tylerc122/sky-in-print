@@ -1080,6 +1080,107 @@
     };
   })();
 
+  // the 404 page: a stone coming down somewhere past the hills at dusk, and somebody with a lantern
+  // walking out across the meadow to look for it. Nobody wrote this one down.
+  S.lost = (() => {
+    const hy = 0.6;
+    const sky = [
+      [0, [236, 34, 20]],
+      [0.18, [240, 26, 30]],
+      [0.34, [262, 18, 44]],
+      [0.46, [330, 22, 58]],
+      [0.54, [20, 34, 68]],
+      [0.61, [44, 48, 78]],
+    ];
+    // a river winding down out of the hills toward us
+    const river = [[0.6, hy + 0.005], [0.52, 0.66], [0.62, 0.72], [0.46, 0.8], [0.6, 0.9], [0.5, 1.02]];
+    const along = (t) => {
+      const f = t * (river.length - 1);
+      const i = Math.min(river.length - 2, Math.floor(f));
+      const u = f - i;
+      const e = u * u * (3 - 2 * u);
+      return [lerp(river[i][0], river[i + 1][0], e), lerp(river[i][1], river[i + 1][1], u)];
+    };
+    const lantern = [0.25, 0.79];
+    return {
+      aspect: A,
+      ground: [250, 20, 40],
+      passes: [
+        K.sky({ stops: sky, hy, tilt: -0.04 }),
+        K.stars({ hy: 0.32, n: 160, seed: 401 }),
+        // a thin crescent moon high on the left
+        K.parts({ parts: [{ p0: [0.13, 0.15], p1: [0.13, 0.15], rad: 0.017, c: [50, 40, 92] }], n: 220, len: 0.004, width: 0.0025 }),
+        // the dark part of the moon, painted back over in the sky's own colour
+        K.parts({ parts: [{ p0: [0.141, 0.142], p1: [0.141, 0.142], rad: 0.0165, c: [237, 32, 22] }], n: 260, len: 0.0035, width: 0.0022 }),
+        K.glow({ x: 0.13, y: 0.15, r: 0.05, color: [50, 30, 80], n: 120, alpha: 0.05 }),
+        // long thin clouds catching the last light
+        K.bands({
+          seed: 402,
+          rows: [
+            { x0: 0.25, x1: 0.95, y: 0.38, h: 0.022, color: [280, 16, 46], lit: [350, 34, 72] },
+            { x0: -0.05, x1: 0.55, y: 0.47, h: 0.016, color: [300, 14, 52], lit: [20, 44, 76] },
+            { x0: 0.5, x1: 1.05, y: 0.52, h: 0.012, color: [320, 14, 56], lit: [36, 50, 80] },
+          ],
+          n: 1200,
+          len: 0.07,
+          width: 0.009,
+        }),
+        // the meteor, low, about to go down behind the far ridge
+        K.fireball({ from: [0.94, 0.12], to: [0.71, 0.5], head: [58, 60, 97], train: [200, 30, 82], glow: [50, 50, 80], width: 0.009, frags: 5, glowR: 0.06, glowA: 0.03, n: 700 }),
+        K.hills({ seed: 403, hy: hy + 0.005, height: 0.13, color: [262, 16, 40], top: [280, 16, 48], bumps: 5, n: 1300 }),
+        K.hills({ seed: 404, hy: hy + 0.01, height: 0.08, color: [240, 18, 30], top: [250, 16, 36], bumps: 7, n: 1200 }),
+        K.trees({ seed: 405, hy: hy + 0.015, height: 0.045, color: [220, 20, 20], light: [260, 16, 30], n: 1600 }),
+        // the meadow, cool in the dusk with a little warmth in it
+        K.ground({ y0: hy, y1: hy + 0.07, colors: [[200, 14, 24], [150, 14, 26], [250, 12, 30]], n: 1400, len: [0.02, 0.03], width: [0.005, 0.007] }),
+        K.ground({ y0: hy + 0.01, colors: [[150, 16, 24], [120, 14, 28], [200, 14, 22], [60, 18, 30]], light: 3 }),
+        {
+          // tall grass heads in the foreground
+          n: 1800,
+          at: (k) => [k.r() * 1.04 - 0.02, 0.8 + Math.pow(k.r(), 0.6) * 0.22],
+          color: (x, y, k) => jit(k.pick([[110, 16, 22], [80, 20, 30], [140, 12, 18], [40, 24, 38]]), k, 4, 3),
+          angle: (x, y, k) => -Math.PI / 2 + (k.r() - 0.5) * 0.6,
+          len: (x, y) => 0.01 + (y - 0.8) * 0.14,
+          width: 0.0018,
+        },
+        {
+          // the river, holding the sky's colours upside down
+          n: 2600,
+          at: (k) => {
+            const t = Math.pow(k.r(), 0.85);
+            const [x, y] = along(t);
+            const half = 0.004 + t * 0.07;
+            return [x + (k.r() - 0.5) * 2 * half, y];
+          },
+          color: (x, y, k) => {
+            const mirror = clamp(hy - (y - hy) * 1.5, 0.05, hy);
+            const c = ramp(sky, mirror);
+            return jit([c[0], c[1] * 0.9, c[2] - 6], k, 3, 3);
+          },
+          angle: (x, y, k) => (k.r() - 0.5) * 0.08,
+          len: (x, y) => 0.008 + clamp((y - hy) / (1 - hy)) * 0.05,
+          width: (x, y) => 0.002 + clamp((y - hy) / (1 - hy)) * 0.006,
+        },
+        K.reflection({ x: 0.53, y0: 0.66, y1: 0.86, color: [58, 50, 80], spread: 0.01, n: 120 }),
+        // somebody walking out with a lantern to find it
+        K.glow({ x: lantern[0] + 0.012, y: lantern[1] - 0.012, r: 0.07, color: [46, 60, 60], n: 260, alpha: 0.06 }),
+        K.parts({
+          parts: [
+            { p0: [0.247, 0.752], p1: [0.249, 0.795], rad: 0.0045, c: [230, 18, 12] },
+            { p0: [0.245, 0.795], p1: [0.241, 0.832], rad: 0.0028, c: [230, 18, 10] },
+            { p0: [0.252, 0.795], p1: [0.257, 0.83], rad: 0.0028, c: [230, 18, 10] },
+            { p0: [0.247, 0.741], p1: [0.247, 0.743], rad: 0.0036, c: [230, 16, 12] },
+            { p0: [0.242, 0.735], p1: [0.253, 0.736], rad: 0.0028, c: [230, 16, 10] },
+            { p0: [0.25, 0.762], p1: [0.262, 0.776], rad: 0.0016, c: [230, 18, 12] },
+          ],
+          n: 420,
+          len: 0.004,
+          width: 0.0022,
+        }),
+        K.parts({ parts: [{ p0: [0.263, 0.781], p1: [0.263, 0.787], rad: 0.0028, c: [48, 80, 72] }], n: 40, len: 0.003, width: 0.002 }),
+      ],
+    };
+  })();
+
   // ---------- captions ----------
   const CAPTIONS = {
     thomson: ["Near Thomson, Georgia. October 15, 1888, about 1 in the afternoon."],
@@ -1095,6 +1196,7 @@
     amsterdam: ["A street in Amsterdam, New York. November 1887."],
     middleburg: ["A road near Middleburg, Florida. January 1888, the morning after a thunderstorm."],
     jonesboro: ["The hills around Jonesboro, Illinois, around 1914.", "The hour and the season are guesses."],
+    lost: ["Somewhere past the hills, an evening nobody wrote down."],
   };
 
   const ALT = {
@@ -1111,6 +1213,7 @@
     amsterdam: "An overcast November street between brick buildings. A wagon heads away up the street, and a large grey stone sits in the road in front.",
     middleburg: "A pale sand road between tall pines and palmettos as a storm clears. A rust-brown stone lies in the road, broken in two.",
     jonesboro: "Dusk over layered hills and an orchard. A small meteor comes down toward the far ridge.",
+    lost: "Dusk in violet and rose over layered hills and a winding river. A meteor slips down behind the far ridge, and someone with a lantern walks out across the meadow to look for it.",
   };
 
   window.SKY_SCENES = Object.fromEntries(

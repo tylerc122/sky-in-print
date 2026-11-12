@@ -10,8 +10,15 @@
   const i = cases.findIndex((c) => c.id === id);
 
   if (i < 0) {
-    $("h1").textContent = "That case isn't here";
-    $(".lede").innerHTML = 'Try the <a href="/#cases">list of all 13 cases</a>.';
+    const lost = (window.SKY_SCENES || {}).lost;
+    if (lost) {
+      $(".plate").hidden = false;
+      $(".plate figcaption").innerHTML = lost.caption.map((t) => `<span>${esc(t)}</span>`).join("");
+      $("#sky").setAttribute("aria-label", `Painting: ${lost.alt}`);
+      paintScene($("#sky"), "lost", { duration: 7000 });
+    }
+    $("h1").textContent = "That case came down somewhere I never found";
+    $(".lede").innerHTML = 'There are thirteen, and they\'re all <a href="/#cases">on the front page</a>.';
     $(".case-body").remove();
     $(".case-sources").remove();
     return;

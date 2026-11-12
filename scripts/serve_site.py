@@ -18,6 +18,19 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             path = clean.rstrip("/") + ".html"
         return super().translate_path(path)
 
+    def send_error(self, code, message=None, explain=None):
+        # missing pages get the site's own 404, the way Vercel does it
+        page = os.path.join(SITE, "404.html")
+        if code == 404 and os.path.exists(page):
+            body = open(page, "rb").read()
+            self.send_response(404)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+        super().send_error(code, message, explain)
+
     def end_headers(self):
         self.send_header("Cache-Control", "no-store")
         super().end_headers()
