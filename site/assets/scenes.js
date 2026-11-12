@@ -1080,6 +1080,78 @@
     };
   })();
 
+  // a person mid-stride, about seven and a half heads tall, walking right with a lantern held out in
+  // front. Built from capsules at real joint positions so it reads as a body at any size.
+  const lanternWalker = ({ feet, height, ink = [232, 20, 9], rim = [38, 24, 22], lamp = [48, 82, 78] }) => {
+    const u = height / 7.5; // one head, in canvas heights
+    const P = ([hx, hy]) => [feet[0] + (hx * u) / A, feet[1] - hy * u];
+    const R = (r) => (r * u) / A;
+    const seg = (a, b, r, c = ink) => ({ p0: P(a), p1: P(b), rad: R(r), c });
+    const lampAt = [1.22, 2.85];
+    const body = [
+      seg([0.18, 7.0], [0.18, 7.0], 0.42), // head
+      seg([0.28, 6.95], [0.34, 6.9], 0.12), // nose and brow, so the head reads in profile
+      seg([-0.55, 7.42], [0.95, 7.38], 0.09), // hat brim
+      seg([0.0, 7.72], [0.36, 7.74], 0.32), // hat crown
+      seg([0.12, 6.55], [0.08, 6.25], 0.2), // neck
+      seg([0.12, 5.95], [0.02, 4.7], 0.78), // chest and shoulders, a coat
+      seg([0.02, 4.7], [-0.04, 3.85], 0.68), // waist
+      seg([-0.06, 3.85], [-0.12, 3.35], 0.74), // coat hem
+      // front leg reaching forward, back leg pushing off
+      seg([0.18, 3.6], [0.62, 1.95], 0.3),
+      seg([0.62, 1.95], [0.58, 0.22], 0.22),
+      seg([0.5, 0.1], [0.98, 0.06], 0.14),
+      seg([-0.22, 3.6], [-0.48, 1.95], 0.3),
+      seg([-0.48, 1.95], [-0.98, 0.4], 0.21),
+      seg([-1.08, 0.36], [-0.78, 0.08], 0.13),
+      // back arm swinging behind
+      seg([-0.32, 5.95], [-0.62, 4.7], 0.19),
+      seg([-0.62, 4.7], [-0.72, 3.75], 0.16),
+      // lantern arm, elbow bent, hand out front
+      seg([0.42, 5.95], [0.62, 4.7], 0.2),
+      seg([0.62, 4.7], [1.15, 3.95], 0.17),
+      seg([1.18, 3.9], [1.18, 3.9], 0.16),
+    ];
+    const light = [
+      // where the lantern catches the coat, the arm and the front leg
+      seg([0.7, 4.6], [1.12, 4.02], 0.035, rim),
+      seg([0.72, 1.9], [0.68, 0.4], 0.03, rim),
+      seg([0.72, 5.5], [0.66, 4.4], 0.035, rim),
+    ];
+    const [lx, ly] = P(lampAt);
+    return [
+      // a warm pool on the grass under the lantern
+      {
+        n: 260,
+        at: (k) => [lx + k.gauss() * 0.03, feet[1] + k.gauss() * 0.008],
+        color: (x, y, k) => [46, 44, 40 + k.gauss() * 6, 0.18],
+        angle: (x, y, k) => (k.r() - 0.5) * 0.3,
+        len: 0.01,
+        width: 0.003,
+      },
+      {
+        // lamplight, soft dabs falling off from the lantern
+        n: 320,
+        at: (k) => {
+          const a = k.r() * Math.PI * 2;
+          const rr = Math.pow(k.r(), 1.8) * 0.05;
+          return [lx + Math.cos(a) * rr, ly + Math.sin(a) * rr * A];
+        },
+        color: (x, y, k) => [46, 56, 60 + k.gauss() * 4, 0.06],
+        angle: (x, y, k) => k.r() * Math.PI,
+        len: 0.008,
+        width: 0.005,
+        bend: 0.1,
+      },
+      K.parts({ parts: body, n: 2400, len: 0.0022, width: 0.0013 }),
+      K.parts({ parts: light, n: 50, len: 0.002, width: 0.001 }),
+      // the bail and the lantern itself
+      K.lines({ segs: [[...P([1.18, 3.85]), ...P([1.22, 3.2]), 0.0008, ink]], reps: 2 }),
+      K.parts({ parts: [seg([1.22, 3.05], [1.22, 2.65], 0.2, lamp)], n: 90, len: 0.0022, width: 0.0014 }),
+      K.parts({ parts: [seg([1.19, 3.15], [1.25, 3.15], 0.12, ink), seg([1.19, 2.55], [1.25, 2.55], 0.12, ink)], n: 40, len: 0.002, width: 0.0012 }),
+    ];
+  };
+
   // the 404 page: a stone coming down somewhere past the hills at dusk, and somebody with a lantern
   // walking out across the meadow to look for it. Nobody wrote this one down.
   S.lost = (() => {
@@ -1160,23 +1232,22 @@
           len: (x, y) => 0.008 + clamp((y - hy) / (1 - hy)) * 0.05,
           width: (x, y) => 0.002 + clamp((y - hy) / (1 - hy)) * 0.006,
         },
-        K.reflection({ x: 0.53, y0: 0.66, y1: 0.86, color: [58, 50, 80], spread: 0.01, n: 120 }),
-        // somebody walking out with a lantern to find it
-        K.glow({ x: lantern[0] + 0.012, y: lantern[1] - 0.012, r: 0.07, color: [46, 60, 60], n: 260, alpha: 0.06 }),
-        K.parts({
-          parts: [
-            { p0: [0.247, 0.752], p1: [0.249, 0.795], rad: 0.0045, c: [230, 18, 12] },
-            { p0: [0.245, 0.795], p1: [0.241, 0.832], rad: 0.0028, c: [230, 18, 10] },
-            { p0: [0.252, 0.795], p1: [0.257, 0.83], rad: 0.0028, c: [230, 18, 10] },
-            { p0: [0.247, 0.741], p1: [0.247, 0.743], rad: 0.0036, c: [230, 16, 12] },
-            { p0: [0.242, 0.735], p1: [0.253, 0.736], rad: 0.0028, c: [230, 16, 10] },
-            { p0: [0.25, 0.762], p1: [0.262, 0.776], rad: 0.0016, c: [230, 18, 12] },
-          ],
-          n: 420,
-          len: 0.004,
+        {
+          // the meteor's light broken on the water, kept to the river's upper reach
+          n: 110,
+          at: (k) => {
+            const t = 0.03 + Math.pow(k.r(), 1.3) * 0.4;
+            const [x, y] = along(t);
+            const half = 0.004 + t * 0.07;
+            return [x + k.gauss() * half * 0.2, y + (k.r() - 0.5) * 0.006];
+          },
+          color: (x, y, k) => [56, 40, 80 + k.gauss() * 4, 0.2 + k.r() * 0.4],
+          angle: (x, y, k) => (k.r() - 0.5) * 0.06,
+          len: (x, y) => 0.006 + clamp((y - hy) / (1 - hy)) * 0.02,
           width: 0.0022,
-        }),
-        K.parts({ parts: [{ p0: [0.263, 0.781], p1: [0.263, 0.787], rad: 0.0028, c: [48, 80, 72] }], n: 40, len: 0.003, width: 0.002 }),
+        },
+        // somebody walking out with a lantern to find it
+        lanternWalker({ feet: [0.25, 0.86], height: 0.16 }),
       ],
     };
   })();
