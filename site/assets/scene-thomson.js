@@ -19,8 +19,6 @@ window.SCENE_THOMSON = (() => {
   const depth = (y) => Math.max(0, Math.min(1, (y - HY) / (1 - HY)));
   const towardVP = (x, y) => Math.atan2(VP[1] - y, VP[0] - x);
   const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
-  // the angle of a segment as it lands on the canvas (y is in heights, x in widths)
-  const segAngle = (x0, y0, x1, y1) => Math.atan2((y1 - y0) / A, x1 - x0);
 
   // a point along cotton row k, t=0 at the vanishing point, t=1 at the bottom edge
   const rowPoint = (k, t) => {
@@ -59,115 +57,30 @@ window.SCENE_THOMSON = (() => {
     };
   };
 
-  // Ben Wilson, bent over the row picking, sack strap over his shoulder and the long
-  // sack dragging in the furrow behind him. His head has come up at the noise.
-  // Built in head units, about 7.5 to a man, facing right toward where it hit.
-  const FEET = [0.275, 0.84];
-  const U = 0.19 / 7.5; // one head, in canvas heights
-  const P = ([hx, hy]) => [FEET[0] + (hx * U) / A, FEET[1] - hy * U];
-  const seg = (a, b, r, c) => ({ p0: P(a), p1: P(b), rad: (r * U) / A, c });
-  const SHIRT = [210, 30, 58];
-  const SHIRT_DK = [214, 26, 40];
-  const PANTS = [24, 24, 18];
-  const PANTS_DK = [24, 20, 12];
-  const SKIN = [22, 38, 40];
-  const STRAW = [44, 44, 72];
-  const STRAW_DK = [38, 34, 48];
-  const SACK = [38, 20, 74];
-  const SACK_DK = [32, 16, 54];
-  const BOOT = [20, 22, 13];
-  const FIG_BACK = [
-    // the sack, from his hip down into the furrow and back along it, stuffed lumpy
-    seg([-0.1, 3.9], [-0.9, 2.4], 0.42, SACK),
-    seg([-0.9, 2.4], [-2.1, 1.0], 0.62, SACK),
-    seg([-2.1, 0.75], [-3.8, 0.55], 0.72, SACK),
-    seg([-3.8, 0.5], [-5.4, 0.45], 0.62, SACK),
-    seg([-5.4, 0.42], [-5.9, 0.4], 0.45, SACK),
-    // the far arm, hanging down on the other side of him
-    seg([1.95, 5.15], [2.25, 4.0], 0.2, SHIRT_DK),
-    seg([2.25, 4.0], [2.55, 3.15], 0.17, SHIRT_DK),
-    seg([2.6, 3.0], [2.6, 3.0], 0.16, [20, 34, 30]),
-    // the far leg, weight on it
-    seg([0.0, 3.8], [-0.32, 2.0], 0.36, PANTS_DK),
-    seg([-0.32, 2.0], [-0.5, 0.28], 0.27, PANTS_DK),
-    seg([-0.78, 0.12], [-0.22, 0.09], 0.16, BOOT),
-  ];
-  const FIG_BODY = [
-    // near leg, knee bent forward
-    seg([0.35, 3.8], [0.95, 2.05], 0.37, PANTS),
-    seg([0.95, 2.05], [0.82, 0.28], 0.27, PANTS),
-    seg([0.62, 0.12], [1.25, 0.08], 0.16, BOOT),
-    // seat and hips
-    seg([0.0, 3.95], [0.45, 4.0], 0.58, PANTS),
-    // the back, bent well over, shirt pulled across it
-    seg([0.2, 4.15], [1.2, 4.85], 0.62, SHIRT),
-    seg([1.2, 4.85], [2.2, 5.3], 0.7, SHIRT),
-    // neck, lifted
-    seg([2.45, 5.5], [2.8, 5.9], 0.21, SKIN),
-    // head, turned up and to the right
-    seg([3.05, 6.2], [3.05, 6.2], 0.44, SKIN),
-    seg([3.45, 6.12], [3.52, 6.08], 0.1, SKIN),
-    seg([3.25, 5.85], [3.4, 5.85], 0.14, [22, 30, 30]),
-    // the hat, brim tipped back by the lift of his head
-    seg([2.35, 6.62], [3.85, 6.42], 0.11, STRAW),
-    seg([2.75, 6.88], [3.3, 6.8], 0.3, STRAW),
-    seg([2.8, 6.62], [3.25, 6.58], 0.07, STRAW_DK),
-  ];
-  const FIG_FRONT = [
-    // near arm, down into the plant, the hand on a boll
-    seg([2.35, 5.05], [2.8, 3.85], 0.21, SHIRT),
-    seg([2.8, 3.85], [3.05, 2.9], 0.17, SHIRT),
-    seg([3.1, 2.72], [3.12, 2.66], 0.17, SKIN),
-    // the strap, over his near shoulder and down to the sack
-    seg([2.05, 5.6], [1.1, 4.95], 0.07, SACK_DK),
-    seg([1.1, 4.95], [-0.05, 4.05], 0.07, SACK_DK),
-  ];
-  const FIG_LIGHT = [
-    // where the sun catches the top of his back, his shoulder and the hat crown
-    seg([0.45, 4.6], [1.3, 5.25], 0.12, [44, 30, 90]),
-    seg([1.3, 5.25], [2.2, 5.75], 0.13, [44, 30, 90]),
-    seg([2.8, 7.08], [3.25, 7.0], 0.09, [46, 60, 86]),
-    seg([2.35, 6.7], [2.9, 6.64], 0.05, [46, 60, 84]),
-  ];
-  const FIG_SHADOW = [
-    // the sack's underside, shaded and dirtied where it drags
-    seg([-2.1, 0.45], [-5.6, 0.25], 0.3, [30, 18, 44]),
-    seg([-0.9, 2.1], [-2.0, 0.7], 0.25, SACK_DK),
-  ];
-
-  // the near cotton plants, one at the foot of each row, coming up into the bottom of the frame
-  const nearPlants = (kit) => {
-    const plants = [];
-    for (let k = 0; k < ROWS; k++) {
-      const [x, y] = rowPoint(k + 0.5, 1.0 + kit.r() * 0.05);
-      if (x < -0.03 || x > 1.03) continue;
-      const h = 0.2 + kit.r() * 0.09;
-      const stalk = [];
-      const bolls = [];
-      const leaves = [];
-      const lean = (kit.r() - 0.5) * 0.025;
-      const top = [x + lean, y - h];
-      stalk.push([x, y, top[0], top[1]]);
-      // fruiting branches off alternate sides, shorter toward the top
-      const nb = 5 + Math.floor(kit.r() * 3);
-      for (let i = 0; i < nb; i++) {
-        const f = 0.22 + (i / nb) * 0.72;
-        const sx = x + lean * f;
-        const sy = y - h * f;
-        const side = (i + k) % 2 ? 1 : -1;
-        const bl = (0.026 + kit.r() * 0.018) * (1.15 - f * 0.55);
-        const ex = sx + side * bl;
-        const ey = sy - bl * A * (0.2 + kit.r() * 0.3);
-        stalk.push([sx, sy, ex, ey]);
-        if (kit.r() < 0.85) bolls.push([ex, ey - 0.008, 0.0085 + kit.r() * 0.004]);
-        if (kit.r() < 0.4) bolls.push([sx + side * bl * 0.45, sy - bl * A * 0.12 - 0.008, 0.007 + kit.r() * 0.003]);
-        for (let j = 0; j < 3; j++) leaves.push([sx + side * bl * kit.r(), sy - kit.r() * 0.03]);
-      }
-      bolls.push([top[0], top[1] - 0.006, 0.008]);
-      plants.push({ stalk, bolls, leaves });
-    }
-    return plants;
+  // capsule sampler for small shapes (house, figure), radius in canvas widths
+  const inCapsule = (kit, c) => {
+    const t = kit.r();
+    const ang = kit.r() * Math.PI * 2;
+    const rad = Math.sqrt(kit.r()) * c.rad;
+    const x = c.p0[0] + (c.p1[0] - c.p0[0]) * t + Math.cos(ang) * rad;
+    const y = c.p0[1] + (c.p1[1] - c.p0[1]) * t + Math.sin(ang) * rad * A;
+    return [x, y];
   };
+
+  // drawn small, then scaled up around his feet
+  const FA = [0.3, 0.8];
+  const FS = 1.75;
+  const fpt = ([x, y]) => [FA[0] + (x - FA[0]) * FS, FA[1] + (y - FA[1]) * FS];
+  const FIGURE_RAW = [
+    { p0: [0.286, 0.772], p1: [0.287, 0.808], rad: 0.0042, c: [218, 16, 24] }, // legs
+    { p0: [0.297, 0.772], p1: [0.302, 0.806], rad: 0.0042, c: [218, 16, 22] },
+    { p0: [0.289, 0.772], p1: [0.31, 0.748], rad: 0.0062, c: [206, 22, 52] }, // bent back, faded shirt
+    { p0: [0.309, 0.752], p1: [0.317, 0.782], rad: 0.0024, c: [206, 18, 46] }, // arm down to the plant
+    { p0: [0.316, 0.742], p1: [0.317, 0.744], rad: 0.0036, c: [24, 32, 36] }, // head
+    { p0: [0.31, 0.737], p1: [0.323, 0.739], rad: 0.0048, c: [44, 42, 76] }, // straw hat
+    { p0: [0.284, 0.778], p1: [0.248, 0.806], rad: 0.0058, c: [40, 14, 86] }, // cotton sack
+  ];
+  const FIGURE = FIGURE_RAW.map((c) => ({ ...c, p0: fpt(c.p0), p1: fpt(c.p1), rad: c.rad * FS }));
 
   return {
     aspect: A,
@@ -208,8 +121,9 @@ window.SCENE_THOMSON = (() => {
         treeFine: kit.noise(140),
         hard,
         clouds,
+        // the jets of dirt out of the hole, mostly upward, a couple low and wide
+        jets: Array.from({ length: 9 }, (_, i) => ({ a: (i / 8 - 0.5) * 2.2 + (kit.r() - 0.5) * 0.18, L: 0.034 + kit.r() * 0.036 })).map((j) => ({ ...j, L: j.L * (1 - Math.abs(j.a) * 0.4) })),
         pines: Array.from({ length: 46 }, () => ({ x: kit.r(), h: 0.008 + Math.pow(kit.r(), 1.6) * 0.045, w: 0.007 + kit.r() * 0.007 })),
-        near: nearPlants(kit),
       };
     },
     passes: [
@@ -540,201 +454,102 @@ window.SCENE_THOMSON = (() => {
         alpha: 0.92,
       },
       {
-        // his shadow, short at one o'clock, thrown off to the right along the row
-        n: 160,
+        // B. F. Wilson, bent over the row with his sack behind him
+        n: 900,
         at: (k) => {
-          const u = k.r();
-          return [FEET[0] - 0.012 + u * 0.06 + k.gauss() * 0.003, FEET[1] + 0.004 - u * 0.012 + k.gauss() * 0.003];
-        },
-        color: () => [16, 30, 18, 0.45],
-        angle: () => -0.2,
-        len: 0.01,
-        width: 0.004,
-      },
-      parts(FIG_SHADOW, { n: 160, len: 0.003, width: 0.0018 }),
-      parts(FIG_BACK, { n: 2000, len: 0.003, width: 0.0018, shade: 8 }),
-      parts(FIG_BODY, { n: 2400, len: 0.0028, width: 0.0017, shade: 8 }),
-      parts(FIG_FRONT, { n: 700, len: 0.0026, width: 0.0015, shade: 8 }),
-      parts(FIG_LIGHT, { n: 120, len: 0.002, width: 0.0011, shade: 2, alpha: 0.7 }),
-      {
-        // lumps of picked cotton showing at the sack's mouth
-        n: 50,
-        at: (k) => {
-          const [x, y] = P([-0.15, 3.95]);
-          return [x + k.gauss() * 0.004, y + k.gauss() * 0.006];
-        },
-        color: (x, y, k) => [44, 20, 93],
-        angle: (x, y, k) => (k.r() - 0.5) * 3,
-        len: 0.003,
-        width: 0.0022,
-      },
-      {
-        // the row he's standing in, leaves and bolls in front of his shins
-        n: 130,
-        at: (k) => {
-          const u = (k.r() - 0.4) * 0.07;
-          return [FEET[0] + u, FEET[1] - 0.002 - Math.pow(k.r(), 2) * 0.03];
+          const c = k.pick(FIGURE);
+          const p = inCapsule(k, c);
+          p.push(c);
+          return p;
         },
         color: (x, y, k) => {
-          const r = k.r();
-          if (r < 0.2) return [44, 18, 90 + k.gauss() * 3];
-          return r < 0.65 ? [14, 36, 28] : [56, 20, 36];
+          let best = FIGURE[0];
+          let bd = 9;
+          for (const c of FIGURE) {
+            const mx = (c.p0[0] + c.p1[0]) / 2;
+            const my = (c.p0[1] + c.p1[1]) / 2;
+            const d = Math.hypot(x - mx, (y - my) / A) - c.rad;
+            if (d < bd) (bd = d), (best = c);
+          }
+          return [best.c[0], best.c[1], best.c[2] + k.gauss() * 4, 0.95];
         },
         angle: (x, y, k) => (k.r() - 0.5) * 3,
-        len: 0.0055,
-        width: 0.004,
-      },
-      {
-        // where it went in: a dark scar in the row
-        n: 70,
-        at: (k) => [0.5 + k.gauss() * 0.008, 0.712 + k.gauss() * 0.004],
-        color: (x, y, k) => [16, 32, 20],
-        angle: (x, y, k) => (k.r() - 0.5) * 0.4,
-        len: 0.007,
+        len: 0.006,
         width: 0.003,
       },
       {
-        // the dirt it threw up
-        n: 700,
+        // fresh red clay spattered over the white cotton all round the hole
+        n: 260,
         at: (k) => {
-          const h = Math.pow(k.r(), 1.1);
-          return [0.5 + k.gauss() * (0.004 + h * 0.022), 0.71 - h * 0.095];
+          const a = k.r() * Math.PI * 2;
+          const rr = 0.006 + Math.pow(k.r(), 0.9) * 0.032;
+          return [0.5 + Math.cos(a) * rr, 0.713 + Math.sin(a) * rr * 0.32];
         },
-        color: (x, y, k) => {
-          const h = (0.71 - y) / 0.095;
-          if (k.r() < 0.08) return [16, 30, 26, 0.85];
-          return [22 + h * 8, 36 - h * 16, 42 + h * 30 + k.gauss() * 5, 0.62 - h * 0.18];
-        },
-        angle: (x, y, k) => -Math.PI / 2 + (x - 0.5) * 14 + (k.r() - 0.5) * 0.7,
-        len: 0.009,
-        width: 0.004,
-        bend: 0.4,
+        color: (x, y, k) => [14 + k.gauss() * 4, 46, 30 + k.gauss() * 5, 0.85],
+        angle: (x, y, k) => Math.atan2(y - 0.713, x - 0.5) + (k.r() - 0.5) * 0.5,
+        len: 0.005,
+        width: 0.003,
       },
       {
-        // the dust of it drifting off to the right on the breeze
-        n: 90,
-        at: (k) => {
-          const u = k.r();
-          return [0.505 + u * 0.035 + k.gauss() * 0.005, 0.65 - u * 0.008 + k.gauss() * 0.01];
-        },
-        color: (x, y, k) => [30, 20, 72, 0.12],
-        angle: (x, y, k) => -0.1 + (k.r() - 0.5) * 0.4,
-        len: 0.016,
-        width: 0.006,
-        bend: 0.4,
+        // where it went in: a dark hole in the row
+        n: 120,
+        at: (k) => [0.5 + k.gauss() * 0.007, 0.713 + k.gauss() * 0.0025],
+        color: (x, y, k) => [12, 40, 12 + k.gauss() * 3],
+        angle: (x, y, k) => (k.r() - 0.5) * 0.4,
+        len: 0.006,
+        width: 0.003,
       },
       {
-        // clods and knocked-loose cotton thrown out in arcs, the last thing painted
-        n: 60,
+        // dust rolling out low along the row from the hole
+        n: 260,
         at: (k) => {
-          // each one on its own arc out of the hole
-          const a = (k.r() - 0.5) * 1.8;
-          const v = 0.04 + k.r() * 0.05;
-          const s = 0.15 + k.r() * 0.85;
-          return [0.5 + Math.sin(a) * v * s * 0.5, 0.712 - (Math.cos(a) * v * s - v * 0.7 * s * s)];
+          const u = k.gauss();
+          return [0.5 + u * 0.03, 0.708 - Math.abs(k.gauss()) * 0.012 * (1 - Math.min(1, Math.abs(u)) * 0.5)];
         },
-        color: (x, y, k) => (k.r() < 0.3 ? [44, 16, 92, 0.9] : [18, 34, 24 + k.gauss() * 4, 0.9]),
-        angle: (x, y, k) => k.r() * Math.PI,
-        len: 0.0025,
-        width: 0.0022,
-      },
-      // the near plants, big at the bottom edge: stalks, a few turned leaves, burs and bolls
-      {
-        n: 3600,
-        fixed: true,
-        at: (k, e) => {
-          const p = k.pick(e.near);
-          const s = k.pick(p.stalk);
-          const t = k.r();
-          return [s[0] + (s[2] - s[0]) * t, s[1] + (s[3] - s[1]) * t];
-        },
-        color: (x, y, k) => (k.r() < 0.2 ? [18, 30, 40] : [12 + k.gauss() * 4, 36, 20 + k.gauss() * 4]),
-        angle: (x, y, k, e) => {
-          // find the stalk this dab sits on so the stroke runs along it
-          let best = null;
-          let bd = 9;
-          for (const p of e.near)
-            for (const s of p.stalk) {
-              const vx = s[2] - s[0];
-              const vy = (s[3] - s[1]) / A;
-              const wx = x - s[0];
-              const wy = (y - s[1]) / A;
-              const t = clamp((wx * vx + wy * vy) / (vx * vx + vy * vy || 1));
-              const d = Math.hypot(wx - vx * t, wy - vy * t);
-              if (d < bd) (bd = d), (best = s);
-            }
-          return segAngle(best[0], best[1], best[2], best[3]);
-        },
+        color: (x, y, k) => [26, 26, 62 + k.gauss() * 4, 0.4],
+        angle: (x, y, k) => (k.r() - 0.5) * 0.4,
         len: 0.012,
-        width: 0.0032,
+        width: 0.005,
+        bend: 0.4,
       },
       {
+        // the dirt it threw up: jets of clay fanning out of the hole, dark and thick
+        // at the bottom, breaking into clumps and paling to dust toward the ends
         n: 1500,
-        fixed: true,
         at: (k, e) => {
-          const p = k.pick(e.near);
-          const l = k.pick(p.leaves);
-          return [l[0] + k.gauss() * 0.008, l[1] + k.gauss() * 0.014];
-        },
-        color: (x, y, k) => {
-          const c = k.pick([[14, 42, 30], [10, 38, 24], [32, 44, 38], [62, 22, 30], [24, 30, 20]]);
-          return [c[0], c[1], c[2] + (k.r() < 0.2 ? 14 : 0)];
-        },
-        angle: (x, y, k) => (k.r() - 0.5) * 3,
-        len: 0.011,
-        width: 0.008,
-        bend: 0.5,
-      },
-      {
-        // the burs, dried and split open, dark points behind each boll
-        n: 1100,
-        fixed: true,
-        at: (k, e) => {
-          const p = k.pick(e.near);
-          const b = k.pick(p.bolls);
-          const a = (Math.floor(k.r() * 5) / 5) * Math.PI * 2 + 0.3;
-          const rr = b[2] * (0.8 + k.r() * 0.5);
-          return [b[0] + Math.cos(a) * rr, b[1] + Math.sin(a) * rr * A + 0.003];
-        },
-        color: (x, y, k) => [18, 38, 15 + k.gauss() * 3],
-        angle: (x, y, k) => k.r() * Math.PI,
-        len: 0.007,
-        width: 0.0028,
-      },
-      {
-        // the locks of lint, four or five to a boll, white where the sun hits
-        n: 3400,
-        fixed: true,
-        at: (k, e) => {
-          const p = k.pick(e.near);
-          const b = k.pick(p.bolls);
-          const lock = Math.floor(k.r() * 4);
-          const a = (lock / 4) * Math.PI * 2 + 0.6;
-          const c = [b[0] + Math.cos(a) * b[2] * 0.55, b[1] + Math.sin(a) * b[2] * 0.55 * A];
-          const a2 = k.r() * Math.PI * 2;
-          const rr = Math.sqrt(k.r()) * b[2] * 0.6;
-          const pt = [c[0] + Math.cos(a2) * rr, c[1] + Math.sin(a2) * rr * A];
-          pt.push(b);
+          const jet = k.pick(e.jets);
+          const t = Math.pow(k.r(), 0.75);
+          const spread = (0.001 + t * 0.0035) * k.gauss();
+          const dx = Math.sin(jet.a);
+          const dy = -Math.cos(jet.a);
+          const pt = [0.5 + dx * jet.L * t - dy * spread, 0.712 + (dy * jet.L * t + dx * spread) * A];
+          pt.push(t);
           return pt;
         },
         color: (x, y, k, e) => {
-          // nearest boll, to shade the lower right of each one
-          let b = null;
-          let bd = 9;
-          for (const p of e.near)
-            for (const q of p.bolls) {
-              const d = Math.hypot(x - q[0], (y - q[1]) / A);
-              if (d < bd) (bd = d), (b = q);
-            }
-          const lower = (x - b[0]) / b[2] + (y - b[1]) / (b[2] * A);
-          if (lower > 0.7) return [222, 12, 70 + k.gauss() * 3, 0.95];
-          if (lower > 0.1) return [40, 14, 86 + k.gauss() * 2, 0.95];
-          return [46, 40, 96 + k.gauss(), 0.95];
+          const t = clamp(Math.hypot(x - 0.5, (y - 0.712) / A) / 0.06);
+          return [14 + t * 12, 48 - t * 22, 22 + t * 40 + k.gauss() * 4, 0.95 - t * 0.45];
         },
-        angle: (x, y, k) => (k.r() - 0.5) * 3,
-        len: 0.0065,
-        width: 0.0048,
-        bend: 0.6,
+        angle: (x, y, k) => Math.atan2(y - 0.712, (x - 0.5) * A || 1e-4) + (k.r() - 0.5) * 0.15,
+        len: 0.011,
+        width: 0.0024,
+        bend: 0.2,
+      },
+      {
+        // clods flying off the ends of the jets, the last thing painted
+        n: 110,
+        at: (k, e) => {
+          const jet = k.pick(e.jets);
+          const t = 0.8 + k.r() * 0.7;
+          const a = jet.a + k.gauss() * 0.12;
+          // falling away a little past the end of each jet
+          const drop = Math.max(0, t - 1) * Math.max(0, t - 1) * 0.05;
+          return [0.5 + Math.sin(a) * jet.L * t, 0.712 - Math.cos(a) * jet.L * t * A + drop];
+        },
+        color: (x, y, k) => [14, 42, 16 + k.gauss() * 4, 0.95],
+        angle: (x, y, k) => k.r() * Math.PI,
+        len: 0.0028,
+        width: 0.0026,
       },
     ],
   };
