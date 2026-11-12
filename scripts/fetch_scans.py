@@ -42,8 +42,8 @@ CASES = {
         "paper": "Daily State Journal, Aug. 10, 1872, p. 3",
         "words": ["Murdoch", "meteor", "Mercantile"],
         "mark": ["meteor", "Mercantile"],
-        "crop": [70, 900, 737, 1060],
-        "brackets": [[235, 375], [715, 775]],
+        "crop": [90, 380, 690, 1640],
+        "brackets": [[280, 570], [775, 850], [1245, 1295]],
     },
     "homestead": {
         "url": "https://www.loc.gov/resource/sn84031492/1875-02-14/ed-1/?sp=2",
@@ -64,8 +64,8 @@ CASES = {
         "paper": "Plymouth Democrat, Jan. 23, 1879, p. 1",
         "words": ["meteor", "killed"],
         "mark": ["meteor", "killed"],
-        "crop": [3100, 1070, 760, 1020],
-        "brackets": [[300, 560]],
+        "crop": [3080, 1360, 900, 3010],
+        "brackets": [[0, 300], [2110, 2700]],
     },
     "estherville": {
         "url": "https://www.loc.gov/resource/sn84022144/1879-05-13/ed-1/?sp=4",
@@ -115,8 +115,8 @@ CASES = {
         "paper": "Cairo Bulletin, Dec. 11, 1914, p. 2",
         "words": ["meteorite", "Cook"],
         "mark": ["meteorite"],
-        "crop": [405, 1450, 678, 1000],
-        "brackets": [[395, 590]],
+        "crop": [400, 1290, 680, 1880],
+        "brackets": [[555, 750], [1640, 1795]],
     },
 }
 

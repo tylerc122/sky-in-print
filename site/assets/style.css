@@ -178,7 +178,7 @@ button:hover { border-color: var(--ink); }
 .section-intro { max-width: 40rem; color: var(--muted); }
 
 /* ---------- homepage ---------- */
-.intro { padding: clamp(2.5rem, 6vw, 4.5rem) 0 0; display: grid; gap: 2rem 4rem; }
+.intro { padding: clamp(2rem, 5vw, 3.5rem) 0 0; display: grid; gap: 2rem 4rem; }
 @media (min-width: 960px) { .intro { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); align-items: end; } }
 .intro h1 {
   font-size: clamp(2.4rem, 5.6vw, 4.4rem);
@@ -218,14 +218,14 @@ button:hover { border-color: var(--ink); }
 }
 .case-row[hidden] { display: none; }
 @media (min-width: 760px) {
-  .case-row { grid-template-columns: minmax(0, 0.95fr) minmax(0, 1fr); align-items: center; }
-  .case-row:nth-child(even) .thumb { order: 2; }
+  .case-row { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr); align-items: center; gap: 1rem 2rem; padding: 1.2rem 0; }
 }
 .thumb { display: block; background: var(--plate); aspect-ratio: 2.1; overflow: hidden; }
 .thumb canvas { display: block; width: 100%; height: 100%; }
 .row-meta { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin: 0 0 0.4rem; }
 .row-meta b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
-.case-row h3 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); font-weight: 400; line-height: 1.15; margin: 0 0 0.7rem; }
+.case-row h3 { font-size: clamp(1.35rem, 2.4vw, 1.75rem); font-weight: 400; line-height: 1.15; margin: 0 0 0.5rem; }
+.case-row h3 + .outcome + p { font-size: 1.02rem; line-height: 1.5; color: var(--muted); }
 .case-row h3 a { color: var(--ink); text-decoration: none; }
 .case-row h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
 .case-row p { margin: 0; }
@@ -408,3 +408,13 @@ blockquote footer { font-family: var(--sans); font-size: 0.85rem; color: var(--m
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
 }
+
+/* a line in the margin beside the part of the clipping worth reading */
+.clip { position: relative; display: block; padding-left: 14px; }
+.clip .mark { position: absolute; left: 0; width: 4px; background: var(--v-open); }
+.clip img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); filter: grayscale(1) contrast(1.05); }
+.scan.wide { max-width: 32rem; }
+.story .scan .cap { margin-bottom: 1rem; }
+
+/* jumping to a section shouldn't draw a focus box around the whole thing */
+section:focus, main:focus { outline: none; }

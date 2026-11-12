@@ -22,22 +22,26 @@ window.SKY_SCANS = {
  "laclede": {
   "src": "assets/scans/laclede.jpg",
   "page": "assets/scans/laclede-page.jpg",
-  "w": 737,
-  "h": 1060,
+  "w": 690,
+  "h": 1640,
   "at": [
-   0.014,
-   0.1345,
-   0.1475,
-   0.1584
+   0.018,
+   0.0568,
+   0.1381,
+   0.2451
   ],
   "brackets": [
    [
-    235,
-    375
+    280,
+    570
    ],
    [
-    715,
-    775
+    775,
+    850
+   ],
+   [
+    1245,
+    1295
    ]
   ],
   "paper": "Daily State Journal, Aug. 10, 1872, p. 3",
@@ -66,18 +70,22 @@ window.SKY_SCANS = {
  "newton": {
   "src": "assets/scans/newton.jpg",
   "page": "assets/scans/newton-page.jpg",
-  "w": 760,
-  "h": 1020,
+  "w": 900,
+  "h": 3010,
   "at": [
-   0.3885,
-   0.1071,
-   0.0952,
-   0.1021
+   0.386,
+   0.1361,
+   0.1128,
+   0.3013
   ],
   "brackets": [
    [
-    300,
-    560
+    0,
+    300
+   ],
+   [
+    2110,
+    2700
    ]
   ],
   "paper": "Plymouth Democrat, Jan. 23, 1879, p. 1",
@@ -210,18 +218,22 @@ window.SKY_SCANS = {
  "jonesboro": {
   "src": "assets/scans/jonesboro.jpg",
   "page": "assets/scans/jonesboro-page.jpg",
-  "w": 678,
-  "h": 1000,
+  "w": 680,
+  "h": 1880,
   "at": [
-   0.077,
-   0.2026,
-   0.1289,
-   0.1397
+   0.076,
+   0.1802,
+   0.1293,
+   0.2627
   ],
   "brackets": [
    [
-    395,
-    590
+    555,
+    750
+   ],
+   [
+    1640,
+    1795
    ]
   ],
   "paper": "Cairo Bulletin, Dec. 11, 1914, p. 2",

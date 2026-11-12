@@ -8,255 +8,122 @@
       content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
     />
     <meta name="theme-color" content="#ebeae4" />
-    <title>Methods, limits and open data · Sky In Print</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <title>How I did it · Sky In Print</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/style.css?v=30" />
-    <script src="assets/common.js?v=13"></script>
+    <link rel="stylesheet" href="/assets/style.css?v=31" />
+    <script src="/assets/common.js?v=14"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="mast">
-      <a class="word" href="index.html">Sky In Print</a>
+      <a class="word" href="/">Sky In Print</a>
       <nav aria-label="Main">
-        <a href="index.html#cases">Cases</a>
-        <a href="archive.html">Map</a>
-        <a href="fireball.html">1876 fireball</a>
-        <a href="about.html">Method</a>
+        <a href="/#cases">Cases</a>
+        <a href="/archive">Map</a>
+        <a href="/fireball">1876 fireball</a>
+        <a href="/about">Method</a>
       </nav>
     </header>
       <main id="main" class="wrap">
         <section class="page-head">
-          <h1>About the project</h1>
+          <h1>How I did it</h1>
           <div>
-            <p>
-              Sky In Print follows reported fireballs and meteorite falls
-              through American newspapers, scientific literature and collection
-              records.
-            </p>
-            <a href="#data">Download the data</a>
+            <p>A computer read the papers, I read the good bits, and then I chased every claimed fall through later papers, journals, museum records and a lot of emails to small-town historical societies.</p>
+            <a href="#data">Get the data</a>
           </div>
         </section>
+
         <section class="method-grid">
-          <h2>Method</h2>
+          <h2>The method</h2>
           <div>
             <div class="method-step">
               <span class="number">01</span>
               <div>
                 <h3>Find the reports</h3>
-                <p>
-                  Keyword patterns search OCR text in
-                  <a
-                    href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories"
-                    >American Stories</a
-                  >, drawn from the Library of Congress. A local model, Flint,
-                  helps triage candidate articles. The pipeline is a filter, not
-                  an authority on whether a stone came from space.
-                  <a href="data/evidence/PILOT_REPORT.md">Pilot report </a>
-                </p>
+                <p>Keyword patterns search the OCR text of <a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">American Stories</a>, a research group's transcription of the Library of Congress newspaper scans. A model running on my own machine (Flint) sorts the actual sky reports from everything else. All it does is narrow the pile, it doesn't decide whether anything came from space. <a href="/data/evidence/PILOT_REPORT.md">Pilot report</a></p>
               </div>
             </div>
             <div class="method-step">
               <span class="number">02</span>
               <div>
-                <h3>Read the evidence</h3>
-                <p>
-                  Reports are grouped, reprints compared, and interesting leads
-                  read by a person. The top fireball events received additional
-                  review. A newspaper's publishing city is not necessarily a
-                  witness's location, and several papers may print one account.
-                  <a href="data/evidence/PILOT_REPORT.md"
-                    >Grouping and review results </a
-                  >
-                </p>
+                <h3>Read them</h3>
+                <p>Reports get grouped, reprints get compared, and I read the interesting ones myself, with extra review on the biggest fireballs. A paper's hometown isn't always where the witness was, and lots of papers reprinted the same account, so a dozen clippings can be one person. <a href="/data/evidence/PILOT_REPORT.md">Grouping and review</a></p>
               </div>
             </div>
             <div class="method-step">
               <span class="number">03</span>
               <div>
                 <h3>Follow what happened next</h3>
-                <p>
-                  A fall report is followed through later newspapers, scientific
-                  publications and institutional records. A correction can
-                  settle a case. A named collection can turn an old story into a
-                  search for an object. None of the open leads is a newly
-                  confirmed meteorite.
-                  <a href="index.html">Follow the thirteen cases </a>
-                </p>
+                <p>Every claimed fall gets chased forward through later papers, science journals and museum records. Sometimes a retraction settles it. Sometimes a named museum or library turns an old story into a hunt for an actual object. None of the open leads is a confirmed new meteorite. <a href="/#cases">The thirteen cases</a></p>
               </div>
             </div>
           </div>
         </section>
+
         <section class="method-grid" id="coverage">
-          <h2>Limits of the map</h2>
+          <h2>What the map can't tell you</h2>
           <div>
-            <h3>It maps the record, not meteor frequency</h3>
-            <p>
-              Digitized newspaper coverage varies greatly by year and state.
-              Reprints and OCR quality also affect the dots. The timeline's separate coverage line shows
-              newspaper-title counts from available local sweep statistics.
-              Missing years are unknown, not zero. The article counts are
-              available in <a href="data/coverage.json">coverage.json</a>.
-            </p>
-            <h3>Two different kinds of pin</h3>
-            <p>
-              Fall cases use approximate reported localities. Fireball groups
-              use one representative publishing town: the resolved newspaper
-              location closest to the other publishing locations in that group.
-              These points are not impact sites or reconstructed witness
-              positions. Fireball marker size uses the upstream grouped-city
-              count, which is only a proxy for independent reporting.
-              <a href="data/README.md">Read the field definitions </a>
-            </p>
-            <h3>Not a complete census</h3>
-            <p>
-              The atlas includes groups with at least two grouped publishing
-              cities, or a human-review flag. Some candidate groups can still
-              contain misclassified or unrelated sky reports. Dates retain the
-              input's precision and uncertainty. The 1770–1964 axis describes
-              the project's scope, not continuous observations.
-              <a href="data/README.md">Release selection and limits </a>
-            </p>
+            <h3>More dots usually means more newspapers</h3>
+            <p>How many papers got digitized swings a lot by year and state, and reprints and OCR quality move the dots around too, so the map shows what got printed and survived, which has little to do with how often meteors fell. The timeline has a separate line for newspaper titles per year from the sweep, and a missing year means I don't know. Article counts are in <a href="/data/coverage.json">coverage.json</a>.</p>
+            <h3>Two kinds of pin</h3>
+            <p>Fall cases sit at the rough place the papers named. Each fireball group sits at one publishing town, the one closest to the other towns that printed it, so those pins are where papers were and have nothing to do with where anything landed or where people stood. Fireball pins get bigger with the number of towns, which is only a rough stand-in for how many separate people saw it. <a href="/data/README.md">Field definitions</a></p>
+            <h3>It's not everything</h3>
+            <p>The map has fireball groups printed in at least two towns, plus anything I flagged by hand. Some of those groups probably still mix up unrelated sky reports. Dates are only as exact as the papers were, and 1770 to 1964 is just the range I searched, with plenty of gaps inside it. <a href="/data/README.md">Selection and limits</a></p>
           </div>
         </section>
+
         <section class="method-grid">
-          <h2>Measuring what we miss</h2>
+          <h2>How much it misses</h2>
           <div>
-            <h3>Five of seven known falls recovered</h3>
-            <p>
-              The 1870s recovery test found five of seven recorded U.S. falls:
-              71%, with a wide approximate 95% interval of 36–92%. A full-year
-              name rescan found no relevant reports of the two misses. The
-              project attributes them to corpus coverage, although reports lost
-              or garbled by OCR cannot be ruled out. Five out of five among
-              recoverable cases is not evidence of perfect overall recall.
-              <a href="data/evidence/known_falls_1870s.md"
-                >Recovery test and rescan </a
-              >
-            </p>
-            <h3>The blind check changed the method</h3>
-            <p>
-              A sample of 100 low-ranked fall reports found seven specimen
-              destinations the ranker had missed. The rules were revised.
-              Because that sample was used to tune the changes, it cannot
-              independently validate the revised rules.
-              <a href="data/evidence/ranker_blind_check.md"
-                >Blind-check results </a
-              >
-            </p>
-            <h3>Human review has limits, too</h3>
-            <p>
-              In a blind excerpt review, the human reader agreed with 22 of 24
-              decided model judgements; four more were undecidable. That small
-              comparison is not a general accuracy score. Garbled OCR, clipped
-              excerpts and plausible hoaxes remain sources of error.
-              <a href="data/evidence/RESULTS.md">Human check </a> ·
-              <a href="data/evidence/PILOT_REPORT.md"
-                >Audits and pilot limits </a
-              >
-            </p>
+            <h3>Five of seven known falls</h3>
+            <p>I tested the search on the 1870s and it found five of the seven recorded U.S. falls, 71%, with a wide 95% interval of 36 to 92%. A full-year rescan for the two it missed found nothing about them at all, so I think those papers just aren't in the collection, though OCR mangling them is possible too. Five for five on the ones that are in there is a good sign and that's all it is. <a href="/data/evidence/known_falls_1870s.md">Recovery test and rescan</a></p>
+            <h3>A blind check changed the rules</h3>
+            <p>I read 100 fall reports the ranker had scored low and found seven that named where the stone ended up, which it should have caught. I changed the rules after that. Since I tuned on that same sample, it can't double as proof the new rules work. <a href="/data/evidence/ranker_blind_check.md">Blind check</a></p>
+            <h3>I make mistakes too</h3>
+            <p>In a blind review of excerpts I agreed with the model on 22 of the 24 it decided, and four more I couldn't call either way. That's a small sample. Garbled OCR, clipped excerpts and good hoaxes still trip both of us up. <a href="/data/evidence/RESULTS.md">The check</a> · <a href="/data/evidence/PILOT_REPORT.md">Audits and limits</a></p>
           </div>
         </section>
+
         <section class="method-grid">
-          <h2>Outcome categories</h2>
+          <h2>What the outcomes mean</h2>
           <div id="status-definitions"></div>
         </section>
+
         <section class="method-grid" id="paintings">
           <h2>The paintings</h2>
           <div>
-            <p>
-              Each case has a painting at the top, made in code one brushstroke at a time. They're all by the same invented
-              painter, a regional painter of the 1890s who gives the sky most of the canvas, works in short dry strokes and keeps
-              to a small palette, so the thirteen hang together as a set.
-            </p>
-            <p>
-              Every painting is built from that case's sources: the time of day where it's known, the season, the ground, who was
-              there, and what people said they saw and heard. If a case turned out to be a hoax, nothing falls in the picture.
-              Thomson came down in daylight and nobody reported a light, so there's no fireball in it. Where the record doesn't
-              give the hour or the season, the caption says the painting guessed. The same seed always gives the same painting.
-            </p>
+            <p>Each case has a painting at the top, made in code one brushstroke at a time. They're all by the same made-up painter, somebody from the 1890s who gives the sky most of the canvas, works in short dry strokes and sticks to a small palette, so the thirteen hang together as a set.</p>
+            <p>Each one is built from that case's sources: the hour if it's known, the season, the ground, who was there, what people said they saw and heard. If the case was a hoax nothing falls in the picture, and if the papers don't give the hour or the season the caption says so. The same seed always gives the same painting.</p>
           </div>
         </section>
+
         <section class="method-grid" id="data">
-          <h2>Data</h2>
+          <h2>The data</h2>
           <div>
-            <p>
-              The release includes the 13 curated fall cases, selected pilot
-              fireball groups, source links and coverage statistics. Nested CSV
-              fields contain JSON. Source text excerpts are short and preserve
-              OCR unless a correction is explicitly marked. The release is a
-              snapshot, not a live feed.
-            </p>
-            <div class="download-links">
-              <a class="button-link" href="data/fall_reports.csv" download
-                >Fall reports CSV</a
-              ><a class="button-link" href="data/fireball_events.csv" download
-                >Fireball groups CSV</a
-              ><a class="button-link" href="data/README.md"
-                >Data dictionary </a
-              >
-            </div>
-            <p>
-              Regenerate from the project root with
-              <code>python -m skyinprint.export_public</code>. New sweep
-              statistics are picked up automatically; expanding the event
-              catalogue requires updating the upstream grouped and reviewed
-              events first. <a href="data/README.md">Reproduction details </a>
-            </p>
+            <p>The release has the 13 cases, the fireball groups, source links and coverage numbers. CSV fields that hold lists are JSON. Quotes are short and keep the original OCR unless a fix is marked. It's a snapshot and won't update on its own.</p>
+            <p class="download-links"><a class="button-link" href="/data/fall_reports.csv" download>Fall reports (CSV)</a><a class="button-link" href="/data/fireball_events.csv" download>Fireball groups (CSV)</a><a class="button-link" href="/data/README.md">Data dictionary</a></p>
+            <p>To rebuild it, run <code>python -m skyinprint.export_public</code> from the project root. New sweep numbers get picked up automatically, and new fireball events have to be grouped and reviewed upstream first. <a href="/data/README.md">Details</a></p>
           </div>
         </section>
+
         <section class="method-grid" id="sources">
           <h2>Sources and credits</h2>
           <div>
-            <p>
-              <a href="https://www.loc.gov/collections/chronicling-america/"
-                >Library of Congress / Chronicling America</a
-              >
-              provides the newspaper scans.
-              <a
-                href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories"
-                >American Stories (Dell et al.)</a
-              >
-              provides the OCR corpus. The reference meteorite snapshot comes
-              from NASA's Meteorite Landings dataset and the
-              <a href="https://www.lpi.usra.edu/meteor/"
-                >Meteoritical Bulletin</a
-              >.
-            </p>
-            <p>
-              Historical newspaper astronomy has predecessors. The
-              <a href="https://arxiv.org/abs/1511.00464"
-                >Historical Fireballs project</a
-              >, along with the Nininger and Monnig collections, informs this
-              work's source-checking approach. The pilot makes no claim to be
-              the first project to study newspaper fireballs.
-            </p>
-            <p>
-              Map boundaries:
-              <a href="https://github.com/topojson/us-atlas">US Atlas 3.0.1</a>,
-              from U.S. Census Bureau cartography. Maps use vendored D3 7.9.0
-              and topojson-client 3.1.0. Type: <a href="https://fonts.google.com/specimen/Old+Standard+TT">Old Standard TT</a> and <a href="https://fonts.google.com/specimen/Libre+Franklin">Libre Franklin</a>, with system fallbacks. Derived data: CC BY 4.0; project
-              code: MIT.
-            </p>
-            <p>
-              Institutional updates are attributed to the institution, dated,
-              and distinguished from publicly available historical sources.
-              Private correspondence, staff identities, outreach logs and
-              supplied attachments are excluded.
-              <a href="data/evidence/public_updates.md"
-                >Read the public update record </a
-              >
-            </p>
+            <p>Newspaper scans come from the <a href="https://www.loc.gov/collections/chronicling-america/">Library of Congress, Chronicling America</a>. The text comes from <a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">American Stories (Dell et al.)</a>. The list of known meteorites comes from NASA's Meteorite Landings dataset and the <a href="https://www.lpi.usra.edu/meteor/">Meteoritical Bulletin</a>.</p>
+            <p>Other people have dug through old papers for fireballs before me. The <a href="https://arxiv.org/abs/1511.00464">Historical Fireballs project</a> and the Nininger and Monnig collections shaped how I check sources, and I'm not claiming to be first.</p>
+            <p>Maps use <a href="https://github.com/topojson/us-atlas">US Atlas 3.0.1</a> from Census Bureau shapes, drawn with D3 7.9.0 and topojson-client 3.1.0. Type is <a href="https://fonts.google.com/specimen/Old+Standard+TT">Old Standard TT</a> and <a href="https://fonts.google.com/specimen/Libre+Franklin">Libre Franklin</a>. Derived data is CC BY 4.0 and the code is MIT.</p>
+            <p>When a museum or archive tells me something, it shows up here credited to the institution and dated. Private emails, staff names, my outreach log and anything people sent me stay private. <a href="/data/evidence/public_updates.md">Public update record</a></p>
           </div>
         </section>
       </main>
       <footer class="foot">
       <p>Sky In Print · newspaper reports of fireballs and meteorite falls, 1770 to 1964. Scans from the Library of Congress, Chronicling America. The paintings are made in code from each case's sources.</p>
-      <nav aria-label="Footer"><a href="about.html#data">Data</a><a href="about.html#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
+      <nav aria-label="Footer"><a href="/about#data">Data</a><a href="/about#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
     </footer>
-    <script src="data/catalog.js?v=2"></script>
+    <script src="/data/catalog.js?v=2"></script>
     <script>
       document.getElementById("status-definitions").innerHTML = Object.entries(
         SKY_DATA.statuses,

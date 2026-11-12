@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stories moved · Sky In Print</title>
-    <meta http-equiv="refresh" content="0; url=index.html" />
+    <meta http-equiv="refresh" content="0; url=/" />
     <script>
-      // the long stories now live on their own case pages; old links keep working
+      // the long stories live on their own case pages now, old links still work
       var id = location.hash.slice(1);
-      location.replace(id && id !== "main" ? "case.html?c=" + encodeURIComponent(id) : "index.html");
+      location.replace(id && id !== "main" ? "/cases/" + encodeURIComponent(id) : "/");
     </script>
   </head>
   <body>
-    <p>The stories now live on their own case pages. <a href="index.html">See all 13 cases</a>.</p>
+    <p>The stories live on their own case pages now. <a href="/">See all 13 cases</a>.</p>
   </body>
 </html>

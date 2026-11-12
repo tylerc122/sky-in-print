@@ -13,17 +13,13 @@
   // numbers from the release
   const articles = D.coverage.reduce((n, d) => n + (Number(d.articles) || 0), 0);
   if (articles) $('[data-from="articles"]').textContent = `${Math.round(articles / 1e6)} million`;
-  $('[data-from="falls"]').textContent = D.falls.length;
 
   // the big painting
   const hero = $("#hero");
   const t = scenes.thomson;
   if (t) {
     hero.setAttribute("aria-label", `Painting: ${t.alt}`);
-    const [where, note] = t.caption;
-    const cap = document.querySelectorAll(".plate figcaption span");
-    cap[0].textContent = where;
-    cap[1].textContent = note;
+    document.querySelector(".plate figcaption").innerHTML = t.caption.map((x) => `<span>${esc(x)}</span>`).join("");
     paintScene(hero, "thomson", { duration: 7500 });
   }
 
@@ -34,10 +30,10 @@
       (c) => `<li class="case-row v-${c.verdict}" data-group="${c.group}">
   <a class="thumb" href="${c.href}" tabindex="-1" aria-hidden="true"><canvas width="840" height="400" data-scene="${c.id}"></canvas></a>
   <div>
-    <p class="row-meta"><b>${c.year}</b> · ${esc(c.place)}</p>
+    <p class="row-meta"><b>${c.year}</b> ${esc(c.place)}</p>
     <h3><a href="${c.href}">${esc(c.headline)}</a></h3>
     <p class="outcome">${esc(c.stamp)}</p>
-    <p>${esc(c.ending)}</p>
+    <p>${esc(c.hook)}</p>
   </div>
 </li>`,
     )

@@ -1,10 +1,10 @@
 # Sky In Print · static public site
 
-Open `index.html` directly in a browser, or serve this folder with any static web server. No application server, build step, account or API is required. JavaScript is required for the atlas and assembled stories. Data and geographic boundaries load from classic local scripts, so file opening does not depend on fetch permissions. Google Fonts is optional; readable system fonts are the fallback.
+Plain HTML, CSS and JS with no build step. Pages use clean URLs (`/`, `/archive`, `/fireball`, `/about`, `/cases/<id>`) and root paths for assets, set up in `vercel.json`, so opening files straight from disk won't work. Run `python3 scripts/serve_site.py` from the project root to serve it locally the same way Vercel does, on port 8766.
 
 ## Pages
 - `index.html`: Thomson painted across the top, the Thomson fix with the before and after catalogue entry, all thirteen cases oldest first (each with its own painting, filterable by outcome), the open leads, and links to the map, the 1876 page and the method.
-- `case.html?c=<id>`: one case: its painting, the outcome, the long story where there is one (else the summary with the clipping), a locator map, the record in order for Thomson, sources, and the cases either side.
+- `/cases/<id>` (served by `case.html`, old `case.html?c=<id>` links still work): one case: its painting, the outcome, the long story where there is one (else the summary with the clipping), a locator map, the record in order for Thomson, sources, and the cases either side.
 - `archive.html`: the full map explorer: search, outcome filters, brushed year range, coverage line and an equivalent report list.
 - `fireball.html`: the Rochester painting, the seven-town great-circle fit, Rochester holdout, optional replay and the write-up.
 - `about.html`: methods, caveats, how the paintings are made, status definitions, credits and downloads.

@@ -32,7 +32,7 @@
           "'": "&#39;",
         })[c],
     );
-  const url = (s) => (s.startsWith("evidence/") ? "data/" + s : s);
+  const url = (s) => (s.startsWith("evidence/") ? "/data/" + s : s);
   const features = topojson
     .feature(SKY_GEOGRAPHY, SKY_GEOGRAPHY.objects.states)
     .features.filter(
@@ -98,7 +98,7 @@
             )
             .join("")}</details>`
         : ""
-    }${d.kind === "fall" ? `<a class="button-link" href="case.html?c=${encodeURIComponent(d.id)}">Read the case</a>` : ""}${d.kind === "fireball" && d.date_lo === "1876-12-21" ? '<a class="button-link" href="fireball.html">Explore the reconstruction</a>' : ""}<p class="location-note">${esc(d.location_basis)}${d.kind === "fireball" && !d.dated ? " Date not securely resolved." : ""}</p>`;
+    }${d.kind === "fall" ? `<a class="button-link" href="/cases/${encodeURIComponent(d.id)}">Read the case</a>` : ""}${d.kind === "fireball" && d.date_lo === "1876-12-21" ? '<a class="button-link" href="/fireball">Explore the reconstruction</a>' : ""}<p class="location-note">${esc(d.location_basis)}${d.kind === "fireball" && !d.dated ? " Date not securely resolved." : ""}</p>`;
     const nearby = filtered().filter((x) => x.lat === d.lat && x.lon === d.lon);
     if (nearby.length > 1) {
       const next = document.createElement("button");

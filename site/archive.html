@@ -9,33 +9,29 @@
     />
     <meta name="theme-color" content="#ebeae4" />
     <title>The map · Sky In Print</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/style.css?v=30" />
-    <script src="assets/common.js?v=13"></script>
+    <link rel="stylesheet" href="/assets/style.css?v=31" />
+    <script src="/assets/common.js?v=14"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="mast">
-      <a class="word" href="index.html">Sky In Print</a>
+      <a class="word" href="/">Sky In Print</a>
       <nav aria-label="Main">
-        <a href="index.html#cases">Cases</a>
-        <a href="archive.html">Map</a>
-        <a href="fireball.html">1876 fireball</a>
-        <a href="about.html">Method</a>
+        <a href="/#cases">Cases</a>
+        <a href="/archive">Map</a>
+        <a href="/fireball">1876 fireball</a>
+        <a href="/about">Method</a>
       </nav>
     </header>
       <main id="main" class="wrap">
         <section class="page-head">
           <h1>Every report, on one map</h1>
           <div>
-              <p>
-                Thirteen claimed falls, each followed to an ending, plus 821
-                fireballs reported from two or more towns. Click any point to
-                read the original newspaper.
-              </p>
+              <p>All thirteen cases plus 821 fireballs printed in two or more towns. Click any dot to read the newspaper it came from.</p>
             </div>
         </section>
         <section class="atlas" id="atlas" aria-label="Map of every report">
@@ -134,7 +130,7 @@
               aria-label="Histogram of reports by year. Use From and To fields to select a year range with a keyboard."
             ></svg>
             <div class="timeline-label">
-              Newspaper titles in the sweep, by year. Gaps are unknown, not zero.
+              Newspaper titles in the sweep, by year. A gap means I don't know.
             </div>
             <svg
               id="coverage"
@@ -142,13 +138,7 @@
               role="img"
               aria-label="Digitized newspaper titles by year, shown separately from report counts"
             ></svg>
-            <p class="coverage-note">
-              More dots can mean more digitized newspapers, not more meteors.
-              Fireball pins mark representative
-              <strong>publishing towns</strong>, not positions in the sky. City
-              counts do not prove independent witnesses.
-              <a href="about.html#coverage">Understand this map </a>
-            </p>
+            <p class="coverage-note">More dots in a year mostly means more newspapers got scanned for it. Fireball pins sit on towns that printed the story, which isn't where anything landed, and lots of towns can be reprinting one witness. <a href="/about#coverage">More on that</a></p>
           </div>
           <details class="results" open>
             <summary id="list-summary">Browse the reports</summary>
@@ -158,12 +148,12 @@
       </main>
       <footer class="foot">
       <p>Sky In Print · newspaper reports of fireballs and meteorite falls, 1770 to 1964. Scans from the Library of Congress, Chronicling America. The paintings are made in code from each case's sources.</p>
-      <nav aria-label="Footer"><a href="about.html#data">Data</a><a href="about.html#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
+      <nav aria-label="Footer"><a href="/about#data">Data</a><a href="/about#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
     </footer>
-    <script src="assets/d3-7.9.0.min.js"></script>
-    <script src="assets/topojson-client-3.1.0.min.js"></script>
-    <script src="data/geography.js"></script>
-    <script src="data/catalog.js?v=2"></script>
-    <script src="assets/atlas.js?v=9"></script>
+    <script src="/assets/d3-7.9.0.min.js"></script>
+    <script src="/assets/topojson-client-3.1.0.min.js"></script>
+    <script src="/data/geography.js"></script>
+    <script src="/data/catalog.js?v=2"></script>
+    <script src="/assets/atlas.js?v=10"></script>
   </body>
 </html>

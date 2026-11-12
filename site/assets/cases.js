@@ -7,94 +7,94 @@
       id: "northport",
       verdict: "rock",
       stamp: "Copper slag",
-      headline: "A fireball over Maine, and fragments picked up decades later",
-      ending: "A Bowdoin chemist tested the fragments in 1888. Copper slag, probably ship's ballast.",
+      headline: "Pieces of an 1850 fireball, picked up thirty years later",
+      hook: "People on Penobscot Bay remembered a fireball dropping into the water, so when odd lumps turned up on the shore in the 1880s everyone knew what they were. A chemist at Bowdoin had other ideas.",
     },
     {
       id: "saco",
       verdict: "open",
       stamp: "Still open",
-      headline: "A meteor, a bang, and a stone in the meadow by morning",
-      ending: "Capt. Ira Doe gave the stone to the York Institute in 1873. The museum it became found the accession records in 2026. The stones haven't turned up yet.",
+      headline: "A meteor lands behind Capt. Doe's house",
+      hook: "He found it the next morning by poking the scorched ground with a pitchfork, gave it to the local museum, and the museum still has the paperwork.",
     },
     {
       id: "laclede",
       verdict: "open",
       stamp: "Still open",
-      headline: "A 12-pound stone with a black crust, dug up from 13 feet down",
-      ending: "The finder meant to give it to the Mercantile Library in St. Louis. Whether it ever got there is still unknown.",
+      headline: "A mystery hole in a hay meadow, thirteen feet deep",
+      hook: "They dug it out and found a metal ball the size of a cannonball, which was supposed to go to a library in St. Louis and then just vanishes from the record.",
     },
     {
       id: "homestead",
       verdict: "real",
       stamp: "Real meteorite",
-      headline: "Stones fall across Iowa County",
-      ending: "A real fall, already in the meteorite catalogue. Finding it in the papers is one of the ways I checked the search actually works.",
+      headline: "A fireball breaks apart over Iowa City",
+      hook: "It split into pieces in front of everyone and the booms came three minutes later. A real fall, and one of the ways I checked the search works.",
     },
     {
       id: "rochester",
       verdict: "real",
       stamp: "Real meteorite",
-      headline: "One fireball, seen overhead in seven towns",
-      ending: "Put the seven towns on a map and they line up. The line passes 17 km from where the Rochester meteorite came down, and Rochester wasn't used to draw it.",
-      more: { href: "fireball.html", label: "See how the line was drawn" },
+      headline: "One fireball, overhead in seven towns",
+      hook: "Put the seven towns on a map and they line up, and the line runs 17 km from where the Rochester meteorite came down.",
+      more: { href: "/fireball", label: "How the line was drawn" },
     },
     {
       id: "newton",
       verdict: "hoax",
       stamp: "Hoax",
       headline: "Farmer killed in his bed by a meteorite",
-      ending: "The story was widely reprinted. It never happened.",
+      hook: "A twenty-pound stone through the roof, dug up from five feet under the floor \"stained with blood\". Papers everywhere ran it and none of it happened.",
     },
     {
       id: "estherville",
       verdict: "real",
       stamp: "Real meteorite",
-      headline: "A meteorite comes down near Estherville, Iowa",
-      ending: "A real fall, already in the meteorite catalogue, and all over the papers that spring.",
+      headline: "Yankton watches a meteor land in the wrong river",
+      hook: "People in Yankton were sure it dropped into the Jim River outside town. It came down more than a hundred miles east, in Iowa.",
     },
     {
       id: "schroon",
       verdict: "hoax",
       stamp: "Hoax",
-      headline: "A red-hot, 125-pound stone lands beside a lakeside cottage",
-      ending: "Two months later the papers called it a fake.",
+      headline: "A red-hot stone lands beside a lake cottage",
+      hook: "The room lit up like daytime, the house shook, and there was a 125-pound stone in the yard. Two months later it turned out to be quartz soaked in kerosene.",
     },
     {
       id: "st-joseph",
       verdict: "maybe",
       stamp: "Probably a hoax",
-      headline: "A two-ton aerolite, in twenty-odd papers",
-      ending: "No stone, no analysis and no retraction ever turned up.",
+      headline: "Two tons, going by the size of the hole",
+      hook: "Twenty-odd papers ran a giant aerolite near Evansville, and as far as I can tell nobody ever actually saw the stone.",
     },
     {
       id: "amsterdam",
       verdict: "hoax",
       stamp: "Fell off a wagon",
       headline: "A three-ton aerolite lands outside a bank",
-      ending: "It was a big stone that fell off a wagon.",
+      hook: "A heavy stone fell off a wagon, and by the next morning papers across the country had it falling from the sky.",
     },
     {
       id: "middleburg",
       verdict: "rock",
       stamp: "Iron ore",
-      headline: "A 200-pound “meteorite” heads to the Jacksonville Exposition",
-      ending: "The mineralogist G. F. Kunz looked at it and called it iron ore.",
+      headline: "A 206-pound stone in the middle of the road",
+      hook: "Everyone figured the thunderstorm dropped it, so it got shipped to the Jacksonville exposition, where a mineralogist took one look and called it iron ore.",
     },
     {
       id: "thomson",
       verdict: "real",
-      stamp: "Real, and now listed as a fall",
-      headline: "A stone falls thirty yards from a man picking cotton",
+      stamp: "Real, and now an observed fall",
+      headline: "A stone lands thirty yards from a man picking cotton",
       quote: "heard it whizzing as a minnie ball",
-      ending: "The catalogue had Thomson as found, not seen falling. The finder's 1888 letter said otherwise, and on November 11, 2026 the record was changed to an observed fall.",
+      hook: "The catalogue had it as a find for over a century, even though the guy who dug it up watched it land. That got fixed on November 11.",
     },
     {
       id: "jonesboro",
       verdict: "open",
       stamp: "Still open",
-      headline: "A. V. Cook gives the library a meteorite he saw fall",
-      ending: "Where the stone went after that is still unknown.",
+      headline: "A meteorite for the Cairo library",
+      hook: "A. V. Cook said he watched it fall and gave it to the library in 1914. Where it went after that, nobody knows yet.",
     },
   ];
 
@@ -112,7 +112,7 @@
     if (!m) return String(y);
     return day ? `${MONTHS[m - 1]} ${day}, ${y}` : `${MONTHS[m - 1]} ${y}`;
   };
-  const sourceUrl = (u) => (u.startsWith("evidence/") ? "data/" + u : u);
+  const sourceUrl = (u) => (u.startsWith("evidence/") ? "/data/" + u : u);
   const byId = new Map(window.SKY_DATA.falls.map((f) => [f.id, f]));
 
   window.SKY_GROUPS = GROUPS;
@@ -132,7 +132,7 @@
       quote: c.quote || f.quote || "",
       sources: f.sources.map((s) => ({ ...s, url: sourceUrl(s.url) })),
       group: GROUPS.find((g) => g.verdicts.includes(c.verdict)).key,
-      href: `case.html?c=${c.id}`,
+      href: `/cases/${c.id}`,
     };
   });
 })();

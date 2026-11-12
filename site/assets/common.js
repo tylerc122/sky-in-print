@@ -9,9 +9,10 @@
   if (saved === "light" || saved === "dark") root.dataset.theme = saved;
 
   document.addEventListener("DOMContentLoaded", () => {
-    const here = location.pathname.split("/").pop() || "index.html";
+    const here = location.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
     document.querySelectorAll(".mast nav a").forEach((a) => {
-      if (a.getAttribute("href") === here) a.setAttribute("aria-current", "page");
+      const to = a.getAttribute("href");
+      if (to === here || (to === "/#cases" && here.startsWith("/cases"))) a.setAttribute("aria-current", "page");
     });
     const b = document.querySelector(".theme");
     if (!b) return;

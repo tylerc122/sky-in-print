@@ -9,22 +9,22 @@
     />
     <meta name="theme-color" content="#ebeae4" />
     <title>Tracking the fireball of 1876 · Sky In Print</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/style.css?v=30" />
-    <script src="assets/common.js?v=13"></script>
+    <link rel="stylesheet" href="/assets/style.css?v=31" />
+    <script src="/assets/common.js?v=14"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="mast">
-      <a class="word" href="index.html">Sky In Print</a>
+      <a class="word" href="/">Sky In Print</a>
       <nav aria-label="Main">
-        <a href="index.html#cases">Cases</a>
-        <a href="archive.html">Map</a>
-        <a href="fireball.html">1876 fireball</a>
-        <a href="about.html">Method</a>
+        <a href="/#cases">Cases</a>
+        <a href="/archive">Map</a>
+        <a href="/fireball">1876 fireball</a>
+        <a href="/about">Method</a>
       </nav>
     </header>
     <figure class="plate">
@@ -35,12 +35,8 @@
         <section class="page-head">
           <h1>The fireball of December 21, 1876</h1>
           <div>
-            <p>
-              Seven towns reported the fireball overhead. The track fitted to
-              them passes 17 km from the Rochester, Indiana meteorite, which was
-              not used in the fit.
-            </p>
-            <a href="#how">How the track was fitted</a>
+            <p>Seven towns said it went right over them. Put them on a map and they line up, and the line runs 17 km from the Rochester meteorite, which I left out on purpose.</p>
+            <a href="#how">How I drew the line</a>
           </div>
         </section>
         <section
@@ -57,10 +53,7 @@
             <button class="active" id="replay" type="button">
               Replay the path
             </button>
-            <p>
-              Illustrative motion only. Speed, duration and altitude are not
-              reconstructed.
-            </p>
+            <p>The moving dot just follows the line. It says nothing about speed, timing or height.</p>
             <span
               id="track-announcement"
               role="status"
@@ -69,45 +62,26 @@
           </div>
         </section>
         <div class="legend">
-          <span
-            ><i style="--c: var(--accent)"></i>Seven overhead towns · used in
-            fit</span
-          ><span
-            ><i style="--c: var(--aqua)"></i>Rochester meteorite · independent
-            check</span
-          ><span>Line = fitted great circle · not a measured flight path</span>
+          <span><i style="--c: var(--accent)"></i>The seven overhead towns, used to fit the line</span><span><i style="--c: var(--aqua)"></i>Rochester meteorite, left out as a check</span><span>The line is a fitted great circle, a best guess at the ground path</span>
         </div>
         <section class="track-facts">
           <div>
             <h2>Direction</h2>
-            <p>
-              The fitted track runs west-southwest to east-northeast, at an
-              azimuth of 67.9°.
-              <a href="data/evidence/tracks.md">Fit notes </a>
-            </p>
+            <p>West-southwest to east-northeast, at 67.9°. <a href="/data/evidence/tracks.md">Fit notes</a></p>
           </div>
           <div>
-            <h2>Holdout check</h2>
-            <p>
-              Rochester lies 17 km south of the fitted track. Its location was
-              held out of the fit.
-              <a href="data/evidence/tracks.md">Independent checks </a>
-            </p>
+            <h2>The check</h2>
+            <p>Rochester sits 17 km south of the line, and I never used it to draw the line. <a href="/data/evidence/tracks.md">Checks</a></p>
           </div>
           <div>
-            <h2>Uncertainty</h2>
-            <p>
-              The overhead towns scatter by about 26 km RMS. This is a ground
-              track, not an orbit.
-              <a href="data/track.json">Reconstruction data </a>
-            </p>
+            <h2>How rough it is</h2>
+            <p>The towns sit about 26 km off the line on average. It's a path along the ground, so there's no orbit here. <a href="/data/track.json">The numbers</a></p>
           </div>
         </section>
         <div class="evidence-wrap">
           <table class="evidence-table">
             <caption>
-              Seven towns used in the fit, with approximate town-centre
-              coordinates
+              The seven towns, measured from their town centers
             </caption>
             <thead>
               <tr>
@@ -122,30 +96,28 @@
         <article class="article" id="how">
           <h2>Tracking a fireball with 1876 newspapers.</h2>
           <div id="track-story"></div>
-          <p><a href="index.html#cases">All thirteen cases</a></p>
+          <p><a href="/#cases">All thirteen cases</a></p>
         </article>
       </main>
       <footer class="foot">
       <p>Sky In Print · newspaper reports of fireballs and meteorite falls, 1770 to 1964. Scans from the Library of Congress, Chronicling America. The paintings are made in code from each case's sources.</p>
-      <nav aria-label="Footer"><a href="about.html#data">Data</a><a href="about.html#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
+      <nav aria-label="Footer"><a href="/about#data">Data</a><a href="/about#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
     </footer>
-    <script src="assets/d3-7.9.0.min.js"></script>
-    <script src="assets/topojson-client-3.1.0.min.js"></script>
-    <script src="data/geography.js"></script>
-    <script src="data/catalog.js?v=2"></script>
-    <script src="assets/stories.js?v=8"></script>
-    <script src="assets/track.js?v=6"></script>
-    <script src="assets/paint.js?v=2"></script>
-    <script src="assets/scene-thomson.js?v=1"></script>
-    <script src="assets/scenes.js?v=3"></script>
+    <script src="/assets/d3-7.9.0.min.js"></script>
+    <script src="/assets/topojson-client-3.1.0.min.js"></script>
+    <script src="/data/geography.js"></script>
+    <script src="/data/catalog.js?v=2"></script>
+    <script src="/assets/stories.js?v=10"></script>
+    <script src="/assets/track.js?v=6"></script>
+    <script src="/assets/paint.js?v=2"></script>
+    <script src="/assets/scene-thomson.js?v=1"></script>
+    <script src="/assets/scenes.js?v=4"></script>
     <script>
       (() => {
         const s = SKY_SCENES.rochester;
         const cv = document.getElementById("sky");
         cv.setAttribute("aria-label", "Painting: " + s.alt);
-        const cap = document.querySelectorAll(".plate figcaption span");
-        cap[0].textContent = s.caption[0];
-        cap[1].textContent = s.caption[1];
+        document.querySelector(".plate figcaption").innerHTML = s.caption.map((t) => "<span>" + t + "</span>").join("");
         paintScene(cv, "rochester", { duration: 6500 });
       })();
     </script>

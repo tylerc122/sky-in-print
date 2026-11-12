@@ -1,16 +1,17 @@
-// one case page, from ?c=<id>: the painting, the headline and outcome, the story (or the summary),
-// the clipping, a locator map, the record for cases that have one, sources, and the cases either side
+// one case page, from /cases/<id> (or ?c=<id>): the painting, the headline and outcome, the story,
+// the clipping with the part to read marked in the margin, a locator map, sources, and the cases either side
 (() => {
   const $ = (s) => document.querySelector(s);
   const esc = (s) =>
     String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const cases = [...window.SKY_CASES].sort((a, b) => a.year - b.year);
-  const id = new URLSearchParams(location.search).get("c");
+  const fromPath = location.pathname.match(/^\/cases\/([^/]+)/);
+  const id = fromPath ? decodeURIComponent(fromPath[1]) : new URLSearchParams(location.search).get("c");
   const i = cases.findIndex((c) => c.id === id);
 
   if (i < 0) {
     $("h1").textContent = "That case isn't here";
-    $(".lede").innerHTML = 'Try the <a href="index.html#cases">list of all 13 cases</a>.';
+    $(".lede").innerHTML = 'Try the <a href="/#cases">list of all 13 cases</a>.';
     $(".case-body").remove();
     $(".case-sources").remove();
     return;
@@ -20,6 +21,8 @@
   const scene = (window.SKY_SCENES || {})[c.id];
   document.title = `${c.town}, ${c.year} · Sky In Print`;
   document.body.classList.add(`v-${c.verdict}`);
+  // old ?c= links settle on the clean address
+  if (!fromPath && location.protocol !== "file:") history.replaceState(null, "", `/cases/${c.id}`);
 
   // the painting
   if (scene) {
@@ -27,35 +30,34 @@
     plate.hidden = false;
     const cv = $("#sky");
     cv.setAttribute("aria-label", `Painting: ${scene.alt}`);
-    const cap = plate.querySelectorAll("figcaption span");
-    cap[0].textContent = scene.caption[0];
-    cap[1].textContent = scene.caption[1];
+    plate.querySelector("figcaption").innerHTML = scene.caption.map((t) => `<span>${esc(t)}</span>`).join("");
     paintScene(cv, c.id, { duration: 6500 });
   }
 
-  $("h1").textContent = story ? story.title : c.headline;
+  $("h1").textContent = c.headline;
   const metbull = c.sources.find((s) => /metbull/.test(s.url));
   $(".status-line").innerHTML =
     `<b>${esc(c.stamp)}.</b> ${esc(c.place)}, ${esc(c.date)}.` +
     (metbull ? ` <a href="${esc(metbull.url)}" target="_blank" rel="noopener">The Bulletin entry</a>` : "");
-  $(".lede").textContent = story ? story.lede : c.ending;
+  $(".lede").textContent = c.hook;
 
-  // the clipping
+  // the clipping, with a line in the margin beside each passage worth reading
   const scan = (window.SKY_SCANS || {})[c.id];
   const paper = c.sources.find((s) => /loc\.gov|galileo/i.test(s.url)) || c.sources[0];
+  const marks = scan
+    ? scan.brackets
+        .map(([a, b]) => `<span class="mark" style="top:${((a / scan.h) * 100).toFixed(2)}%;height:${(((b - a) / scan.h) * 100).toFixed(2)}%"></span>`)
+        .join("")
+    : "";
   const clipping = scan
-    ? `<a href="${esc(scan.url)}" target="_blank" rel="noopener"><img src="${scan.src}" width="${scan.w}" height="${scan.h}" alt="Scan of the ${esc(scan.paper)} report"></a><p class="cap">${esc(scan.paper)}. Library of Congress, Chronicling America.</p>`
+    ? `<a class="clip" href="${esc(scan.url)}" target="_blank" rel="noopener">${marks}<img src="/${scan.src}?v=3" width="${scan.w}" height="${scan.h}" alt="Scan of the ${esc(scan.paper)} report"></a><p class="cap">${esc(scan.paper)}. The line in the margin marks the part to read, and clicking opens the whole page at the Library of Congress.</p>`
     : `<p class="cap">No newspaper scan for this one. The record is ${esc(paper.label)}.</p>`;
 
-  // the long story with the clipping beside it, or for the shorter cases the clipping itself in the main column
-  if (story) {
-    $(".story").innerHTML = story.body;
-    $(".scan").innerHTML = clipping;
-  } else {
-    $(".story").innerHTML =
-      `<p>${esc(c.summary)}</p>${c.quote ? `<blockquote><p>“${esc(c.quote)}”</p></blockquote>` : ""}` +
-      (c.more ? `<p><a href="${c.more.href}">${esc(c.more.label)}</a></p>` : "") +
-      `<h2>What the paper printed</h2><div class="scan">${clipping}</div>`;
+  $(".story").innerHTML = story ? story.body : `<p>${esc(c.summary)}</p>`;
+  $(".scan").innerHTML = clipping;
+  // tall clippings read better in the main column than squeezed into the side
+  if (scan && scan.h / scan.w > 1.8) {
+    $(".story").insertAdjacentHTML("beforeend", `<h2>The clipping</h2><div class="scan wide">${clipping}</div>`);
     $(".case-side .scan").remove();
   }
 
@@ -70,12 +72,10 @@
 
   $(".case-sources ul").innerHTML = c.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("");
 
-  const fall = window.SKY_DATA.falls.find((f) => f.id === c.id);
   $(".facts").innerHTML = [
     ["Where", c.place],
     ["When", c.date],
     ["Outcome", c.stamp],
-    ["Location", fall.location_basis],
   ]
     .map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`)
     .join("");

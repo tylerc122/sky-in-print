@@ -846,36 +846,42 @@
   })();
 
   S.schroon = (() => {
+    // 10 at night under heavy cloud, "not a ray of starlight", and Granger up writing a letter by lamplight
     const hy = 0.52;
     const sky = [
-      [0, [222, 26, 34]],
-      [0.3, [214, 22, 50]],
-      [0.5, [44, 22, 70]],
-      [0.56, [30, 24, 66]],
+      [0, [226, 14, 9]],
+      [0.3, [224, 12, 12]],
+      [0.55, [220, 12, 16]],
     ];
     return {
       aspect: A,
-      ground: [215, 18, 30],
+      ground: [222, 14, 10],
       passes: [
-        K.sky({ stops: sky, hy }),
-        K.stars({ hy: 0.2, n: 40, seed: 81 }),
-        K.hills({ seed: 82, hy: hy + 0.01, height: 0.24, color: [228, 14, 46], top: [250, 12, 54], x0: 0, x1: 1, bumps: 5, n: 1400 }),
-        K.hills({ seed: 83, hy: hy + 0.02, height: 0.12, color: [214, 18, 30], top: [220, 16, 36], x0: 0.3, x1: 1, bumps: 6, n: 1100 }),
-        K.trees({ seed: 84, hy: hy + 0.03, height: 0.05, color: [180, 22, 12], kind: "spruce", x0: 0.3, x1: 1, count: 60, n: 1500 }),
-        K.water({ y0: hy + 0.03, stops: sky, hy, dark: 8 }),
-        // the shore under the cottage
-        K.ground({ y0: 0.82, colors: [[150, 18, 14], [200, 14, 12], [40, 12, 18]], n: 800, x0: -0.05, x1: 0.42 }),
-        K.trees({ seed: 85, hy: 0.84, height: 0.3, color: [170, 22, 10], kind: "spruce", x0: 0.0, x1: 0.12, count: 5, n: 800 }),
-        K.house({ x: 0.15, y: 0.71, w: 0.12, h: 0.1, roofH: 0.06, wall: [30, 10, 30], roof: [222, 16, 14], side: [30, 10, 24], windows: [[0.2, 0.3, 0.12, 0.3], [0.6, 0.3, 0.12, 0.3]] }),
+        K.sky({ stops: sky, hy, tilt: -0.02 }),
+        K.bands({
+          seed: 81,
+          rows: [
+            { x0: -0.1, x1: 0.7, y: 0.12, h: 0.09, color: [226, 10, 7], lit: [224, 10, 13] },
+            { x0: 0.3, x1: 1.1, y: 0.3, h: 0.08, color: [226, 10, 8], lit: [224, 10, 14] },
+          ],
+          n: 1400,
+        }),
+        K.hills({ seed: 82, hy: hy + 0.01, height: 0.24, color: [224, 12, 13], top: [222, 10, 17], x0: 0, x1: 1, bumps: 5, n: 1400 }),
+        K.hills({ seed: 83, hy: hy + 0.02, height: 0.12, color: [214, 14, 9], x0: 0.3, x1: 1, bumps: 6, n: 1100 }),
+        K.trees({ seed: 84, hy: hy + 0.03, height: 0.05, color: [190, 18, 7], kind: "spruce", x0: 0.3, x1: 1, count: 60, n: 1500 }),
+        K.water({ y0: hy + 0.03, stops: sky, hy, dark: 3 }),
+        K.ground({ y0: 0.82, colors: [[150, 14, 8], [200, 12, 7], [40, 10, 10]], n: 800, x0: -0.05, x1: 0.42 }),
+        K.trees({ seed: 85, hy: 0.84, height: 0.3, color: [180, 18, 6], kind: "spruce", x0: 0.0, x1: 0.12, count: 5, n: 800 }),
+        K.house({ x: 0.15, y: 0.71, w: 0.12, h: 0.1, roofH: 0.06, wall: [30, 8, 14], roof: [222, 14, 8], side: [30, 8, 11], windows: [[0.2, 0.3, 0.12, 0.3], [0.6, 0.3, 0.12, 0.3]], lit: [44, 70, 62] }),
         K.lines({
           segs: [
-            [0.15, 0.81, 0.27, 0.81, 0.003, [30, 10, 22]],
-            [0.27, 0.81, 0.36, 0.83, 0.003, [30, 12, 26]],
-            [0.36, 0.83, 0.36, 0.86, 0.0016, [30, 12, 20]],
+            [0.15, 0.81, 0.27, 0.81, 0.003, [30, 8, 10]],
+            [0.27, 0.81, 0.36, 0.83, 0.003, [30, 8, 12]],
+            [0.36, 0.83, 0.36, 0.86, 0.0016, [30, 8, 10]],
           ],
           reps: 3,
         }),
-        K.reflection({ x: 0.21, y0: 0.83, y1: 0.98, color: [30, 10, 24], spread: 0.03, n: 120 }),
+        K.reflection({ x: 0.23, y0: 0.83, y1: 0.97, color: [44, 60, 50], spread: 0.02, n: 90 }),
       ],
     };
   })();
@@ -1076,19 +1082,19 @@
 
   // ---------- captions ----------
   const CAPTIONS = {
-    thomson: ["Near Thomson, McDuffie County, Georgia. Monday, October 15, 1888, about 1 in the afternoon.", "Nobody reported a light, only the noise, so there's no fireball in the picture."],
-    northport: ["Penobscot Bay off Northport, Maine. A night in 1850.", "The papers give the year, not the hour, so night is a guess. The fragments picked up thirty years later were copper slag, probably ballast."],
-    saco: ["Behind Capt. Ira Doe's house, Saco, Maine. An evening in October 1870.", "He saw it come at the house, heard it whizz and burst, and found scorched grass in the meadow the next morning."],
-    laclede: ["John J. Murdoch's farm near Laclede Station, Missouri. Summer 1872.", "Nobody saw anything fall. The stone came up out of a hole thirteen feet deep."],
-    homestead: ["Over Iowa County, Iowa. Friday, February 12, 1875, late at night.", "It broke up overhead and stones were picked up off the snow afterward."],
-    rochester: ["Over Fulton County, Indiana. Thursday, December 21, 1876, in the evening.", "Seven towns saw it pass overhead going east-northeast. It dropped the Rochester meteorite."],
-    newton: ["A farmhouse near Newtown, Indiana. January 1879.", "The papers said a meteorite came through the roof and killed a farmer in his bed. None of it happened, so nothing's falling here."],
-    estherville: ["Emmet County, Iowa, by the Des Moines River. Saturday, May 10, 1879, late afternoon.", "It came down in daylight, so what's painted is the smoke trail it left."],
-    schroon: ["Lakeside Cottage on Schroon Lake, New York. September 1880.", "The red-hot stone turned out to be quartz doused in kerosene and sulphur, so there's no light in this sky."],
-    "st-joseph": ["Farm country near St. Joseph, Indiana. June 1887.", "Twenty-odd papers ran the two-ton aerolite. Nobody ever produced a stone, so the field's empty."],
-    amsterdam: ["A street in Amsterdam, New York. November 1887.", "The three-ton aerolite outside the bank was a big stone that fell off a wagon, so that's what's painted."],
-    middleburg: ["A road near Middleburg, Florida. January 1888, after a thunderstorm.", "Nobody saw it fall, people just blamed the storm. G. F. Kunz said it was limonite, a common iron ore."],
-    jonesboro: ["The hills around Jonesboro, Illinois. Around 1914.", "A. V. Cook said he saw it fall. The hour and the season are guesses."],
+    thomson: ["Near Thomson, Georgia. October 15, 1888, about 1 in the afternoon."],
+    northport: ["Penobscot Bay off Northport, Maine, 1850.", "The papers don't give the hour, so night's a guess."],
+    saco: ["Behind Capt. Ira Doe's house, Saco, Maine. An evening in October 1870."],
+    laclede: ["John J. Murdoch's hay meadow near Laclede Station, Missouri. Summer 1872."],
+    homestead: ["Over Iowa County, Iowa. February 12, 1875, 10:30 at night."],
+    rochester: ["Over Fulton County, Indiana. December 21, 1876, in the evening."],
+    newton: ["A farmhouse near Newtown, Indiana. January 1879.", "Nothing's falling because nothing fell."],
+    estherville: ["Emmet County, Iowa. May 10, 1879, late afternoon."],
+    schroon: ["Lake-Side Cottage on Schroon Lake, New York. September 1880, 10 at night.", "It was a hoax, so the sky's empty."],
+    "st-joseph": ["Near St. Joseph, Indiana. June 1887.", "No stone ever turned up, so the field's empty."],
+    amsterdam: ["A street in Amsterdam, New York. November 1887."],
+    middleburg: ["A road near Middleburg, Florida. January 1888, the morning after a thunderstorm."],
+    jonesboro: ["The hills around Jonesboro, Illinois, around 1914.", "The hour and the season are guesses."],
   };
 
   const ALT = {
@@ -1100,7 +1106,7 @@
     rochester: "A night sky crossed left to right by a long fireball train shedding pieces, above bare trees and a few lit windows of a small town.",
     newton: "A quiet winter night: a dark farmhouse under stars, bare trees and a rail fence. Nothing in the sky.",
     estherville: "A late afternoon spring prairie. A long grey smoke trail bends down the sky to a thin column of smoke rising by the river trees.",
-    schroon: "Dusk on a mountain lake. A dark cottage sits on the near shore among spruce, and the water holds the evening light. Nothing in the sky.",
+    schroon: "A black, overcast night on a mountain lake. A cottage on the near shore has two lamplit windows. Nothing in the sky.",
     "st-joseph": "A summer evening over a ripening wheat field and a line of trees. Nothing in the sky and nothing in the field.",
     amsterdam: "An overcast November street between brick buildings. A wagon heads away up the street, and a large grey stone sits in the road in front.",
     middleburg: "A pale sand road between tall pines and palmettos as a storm clears. A rust-brown stone lies in the road, broken in two.",
