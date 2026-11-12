@@ -22,9 +22,7 @@ that a person has to clear, so they were not searched.
     that Ben Wilson brought in "a meteoric stone to be analysed" with a dark sooty crust. **Correction (2026-10-26):**
     it does not describe the fall itself, as this note first said. The fall rests on Wilson's letter.
   - The British Museum catalogue (Prior, 1923) also lists "Found 1888".
-  - **Live Meteoritical Bulletin Database, checked 2026-10-26: "Observed fall: No".** The correction is still open.
-  - **2026-10-26, the database editor's first reply:** not enough documentation yet to reclassify it as a fall;
-    eyewitness accounts of the fireball would change that.
+  - **Published outcome (2026-11-11):** Thomson is now listed as an observed fall in the [Meteoritical Bulletin](https://www.lpi.usra.edu/meteor/metbull.cfm?code=23973). This corrects the historical catalogue classification; it is not a new meteorite.
   - **Re-read of the same Savannah page (1888-11-07, p. 6).** The column deck reads "A Meteor Found Near Thomson". The
     OCR, scrambled across columns, also has "He was in the cotton field, and heard it whizzing as a minnie ball, and
     when it fell it burrowed about three or four inches in the earth." That is very likely the rest of the Pitts /
@@ -35,7 +33,7 @@ that a person has to clear, so they were not searched.
     The column's only meteor headline is "A Meteor Found Near Thomson", and the Pitts/Wilson item is five paragraphs
     down. **Most likely a misplaced continuation of the Wilson item, a strong inference but not proven.** It is still
     the finder's own account, not an independent witness.
-  - **Independent sound report (found 2026-10-26, `thomson_ghn_2026-10-26.md`):** Lincolnton News, Fri 1888-10-19, p. 3:
+  - **Independent sound report (found 2026-10-26, Lincolnton News, 19 October 1888, p. 3):** Lincolnton News, Fri 1888-10-19, p. 3:
     "About 1 o'clock p. m. last Monday our citizens were startled by a heavy thundering report accompanied by a rushing
     noise." That is Oct 15, about 1 p.m., 36 km north of Thomson. Verified from the page image. Caveats:
     - no fireball or named witness;
@@ -43,14 +41,10 @@ that a person has to clear, so they were not searched.
     - 1886 Charleston aftershocks were still felt regionally.
     **Correction:** the Thomson paper's editor in 1888 was J. E. White. W. M. Pitts was only the person quoted.
     The Oct 1888 Thomson issues are not digitized, so ask UGA for the microfilm.
-  - **2026-10-26, later that day: the database editor put Thomson forward for reclassification**, drawing on copies
-    of the original Wilson letter(s) and a matching story in the *Religio-Philosophical Journal*, 24 Nov 1888. **The
-    Nomenclature Committee is voting on changing Thomson to a fall.** This is the project's first record correction to reach the official catalogue
-    process.
   - **No other Oct 1888 fireball or detonation report from GA/SC is in the corpus.** The Augusta Chronicle and the
     Thomson Journal / McDuffie Journal are the papers that would have one. They are on Georgia Historic Newspapers,
     not Chronicling America.
-  - This is a record correction (fell, not found), not a new meteorite. Next step: check the current Meteoritical
+  - This is a record correction (fell, not found), not a new meteorite. See the current Meteoritical
     Bulletin entry. The frozen NASA snapshot may differ from it.
 - **Washington Co., Kan.:** every literature hit concerns **Farmington**, the recognized fall of 1890-06-25. Our two
   1888 reports (Marshall Democrat, Sept 1888; Hanover Democrat via WaKeeney, Oct 1888, Steele City, Neb.) predate it

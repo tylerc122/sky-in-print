@@ -1,6 +1,6 @@
 # Sky In Print · public release
 
-Regenerate from the project root: `python -m skyinprint.export_public` (install the project first with `pip install -e .`). No sweep is required; missing local sweep statistics produce an empty coverage series. The fireball input is results/fireballs/events_all.json (full sweep, from `python -m skyinprint.fireballs --workdir all`), falling back to the pilot events.json. Only events marked human reviewed have been read; the rest are candidate groupings.
+This repository includes the published data snapshot and upstream research code. The private release exporter is not included. New candidate groupings require review before inclusion in the published dataset.
 
 ## Files and columns
 - fall_reports.csv / .json: curated public-brief cases.
@@ -26,7 +26,7 @@ CSV nested values are JSON. Blank coordinates mean unresolved, not 0,0. Fall coo
 Fireball review labels are separate: human reviewed or candidate grouping. They are not fall outcomes.
 
 ## Coverage and limits
-More dots in a year can reflect more digitized newspapers, changing selection, or reprints, not more meteors. This release cannot measure meteor frequency. A fall case and a fireball group may refer to the same event; record totals are not unique event totals. The 1770–1964 axis is a research scope, not a claim of continuous coverage. No new meteorite is confirmed. Saco accession information is attributed to the institution in the public brief; correspondence, staff identities, attachments and outreach logs are excluded. The statements about current investigation are a dated snapshot, not live updates.
+More dots in a year can reflect more digitized newspapers, changing selection, or reprints, not more meteors. This release cannot measure meteor frequency. A fall case and a fireball group may refer to the same event; record totals are not unique event totals. The 1770–1964 axis is a research scope, not a claim of continuous coverage. No new meteorite is confirmed. Saco accession information is attributed to the institution on the case page; correspondence and institution-supplied attachments are not distributed. The statements about current investigation are a dated snapshot, not live updates.
 
 ## Sources and credit
 Newspapers: Library of Congress / Chronicling America through American Stories (Dell et al., 2023), CC BY 4.0. Derived data: CC BY 4.0. Reference meteorites: NASA frozen Meteorite Landings snapshot / Meteoritical Bulletin. Geography: US Atlas 3.0.1 (ISC), derived from US Census Bureau cartography. D3 7.9.0 and topojson-client 3.1.0 (ISC) are vendored in assets; their license notices are included there. The source project documents are included only through an explicit public evidence allowlist.

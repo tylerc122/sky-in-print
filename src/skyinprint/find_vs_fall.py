@@ -1,7 +1,7 @@
 """Catalogued US "finds" that the newspapers may show were seen to fall (the Thomson pattern).
 
 Thomson (Ga.) was listed as Found 1888, but the finder wrote that it fell thirty yards from him while he picked
-cotton, and that went to a Nomenclature Committee vote (2026-10-26). This checks every Valid US find in the frozen
+cotton; the published catalogue now records an observed fall (2026-11-11). This checks every Valid US find in the frozen
 snapshot, 1770-1964: candidate articles from two years before to one year after the find year are kept if they name
 the meteorite within NEAR characters of a meteor word, and each kept passage is scored for fall language (seen or
 heard to fall, hot, buried) and debunking language.

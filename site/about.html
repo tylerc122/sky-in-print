@@ -92,20 +92,12 @@
           <div id="status-definitions"></div>
         </section>
 
-        <section class="method-grid" id="paintings">
-          <h2>The paintings</h2>
-          <div>
-            <p>Each case has a painting at the top, made in code one brushstroke at a time. They're all by the same made-up painter, somebody from the 1890s who gives the sky most of the canvas, works in short dry strokes and sticks to a small palette, so the thirteen hang together as a set.</p>
-            <p>Each one is built from that case's sources: the hour if it's known, the season, the ground, who was there, what people said they saw and heard. If the case was a hoax nothing falls in the picture, and if the papers don't give the hour or the season the caption says so. The same seed always gives the same painting.</p>
-          </div>
-        </section>
-
         <section class="method-grid" id="data">
           <h2>The data</h2>
           <div>
             <p>The release has the 13 cases, the fireball groups, source links and coverage numbers. CSV fields that hold lists are JSON. Quotes are short and keep the original OCR unless a fix is marked. It's a snapshot and won't update on its own.</p>
             <p class="download-links"><a class="button-link" href="/data/fall_reports.csv" download>Fall reports (CSV)</a><a class="button-link" href="/data/fireball_events.csv" download>Fireball groups (CSV)</a><a class="button-link" href="/data/README.md">Data dictionary</a></p>
-            <p>To rebuild it, run <code>python -m skyinprint.export_public</code> from the project root. New sweep numbers get picked up automatically, and new fireball events have to be grouped and reviewed upstream first. <a href="/data/README.md">Details</a></p>
+            <p>The downloadable data is the published snapshot. See the <a href="/data/README.md">data dictionary</a> for fields, sources and limitations.</p>
           </div>
         </section>
 
@@ -115,7 +107,6 @@
             <p>Newspaper scans come from the <a href="https://www.loc.gov/collections/chronicling-america/">Library of Congress, Chronicling America</a>. The text comes from <a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">American Stories (Dell et al.)</a>. The list of known meteorites comes from NASA's Meteorite Landings dataset and the <a href="https://www.lpi.usra.edu/meteor/">Meteoritical Bulletin</a>.</p>
             <p>Other people have dug through old papers for fireballs before me. The <a href="https://arxiv.org/abs/1511.00464">Historical Fireballs project</a> and the Nininger and Monnig collections shaped how I check sources, and I'm not claiming to be first.</p>
             <p>Maps use <a href="https://github.com/topojson/us-atlas">US Atlas 3.0.1</a> from Census Bureau shapes, drawn with D3 7.9.0 and topojson-client 3.1.0. Type is <a href="https://fonts.google.com/specimen/Old+Standard+TT">Old Standard TT</a> and <a href="https://fonts.google.com/specimen/Libre+Franklin">Libre Franklin</a>. Derived data is CC BY 4.0 and the code is MIT.</p>
-            <p>When a museum or archive tells me something, it shows up here credited to the institution and dated. Private emails, staff names, my outreach log and anything people sent me stay private. <a href="/data/evidence/public_updates.md">Public update record</a></p>
           </div>
         </section>
       </main>

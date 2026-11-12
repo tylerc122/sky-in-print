@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-src/skyinprint/__init__.py
-src/skyinprint.egg-info/PKG-INFO
-src/skyinprint.egg-info/SOURCES.txt
-src/skyinprint.egg-info/dependency_links.txt
-src/skyinprint.egg-info/requires.txt
-src/skyinprint.egg-info/top_level.txt

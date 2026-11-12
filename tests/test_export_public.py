@@ -1,32 +1,23 @@
 """Release integrity checks, including privacy boundaries and reconstruction geometry."""
-import contextlib
 import csv
-import io
 import json
 import math
 from pathlib import Path
-import tempfile
 import unittest
-from unittest.mock import patch
-from skyinprint import export_public as export
+ROOT = Path(__file__).resolve().parents[1]
 
 class PublicReleaseTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.temp = tempfile.TemporaryDirectory()
-        cls.out = Path(cls.temp.name)
-        with patch.object(export, 'OUT', cls.out), contextlib.redirect_stdout(io.StringIO()):
-            export.main()
+        cls.out = ROOT / 'site/data'
         cls.falls = json.loads((cls.out/'fall_reports.json').read_text())
         cls.events = json.loads((cls.out/'fireball_events.json').read_text())
-
-    @classmethod
-    def tearDownClass(cls):
-        cls.temp.cleanup()
+        text = (cls.out/'catalog.js').read_text()
+        cls.catalog = json.loads(text[text.index('{'):text.rindex('}')+1])
 
     def test_selection_and_csv_parity(self):
-        src = export.ROOT/'results/fireballs/events_all.json'
-        raw = json.loads((src if src.exists() else export.ROOT/'results/fireballs/events.json').read_text())
+        src = ROOT/'results/fireballs/events_all.json'
+        raw = json.loads((src if src.exists() else ROOT/'results/fireballs/events.json').read_text())
         self.assertEqual(len(self.events), sum(e.get('independent_cities',0)>=2 or bool(e.get('vetted')) for e in raw))
         self.assertEqual(len(self.falls),13)
         for name, rows in [('fall_reports',self.falls),('fireball_events',self.events)]:
@@ -47,7 +38,7 @@ class PublicReleaseTest(unittest.TestCase):
         self.assertEqual(statuses['middleburg'],'not a meteorite')
         self.assertEqual(statuses['st-joseph'],'likely hoax')
         self.assertEqual(statuses['schroon'],'hoax')
-        self.assertTrue(all(s in export.STATUSES for s in statuses.values()))
+        self.assertTrue(all(s in self.catalog['statuses'] for s in statuses.values()))
         for e in self.events:
             for q in e['quotes']:
                 self.assertLessEqual(len(q['quote'].split()),39)
@@ -55,7 +46,7 @@ class PublicReleaseTest(unittest.TestCase):
 
     def test_private_material_excluded(self):
         texts='\n'.join(p.read_text() for p in self.out.rglob('*') if p.is_file()).lower()
-        for private in ['anatole brown','vishi garig','jason robilio','drafts/emails','outreach_log','@gmail.com']:
+        for private in ['drafts/emails','@gmail.com','-----begin private key-----']:
             self.assertNotIn(private,texts)
         evidence=set(p.name for p in (self.out/'evidence').iterdir())
         self.assertNotIn('saco_trail.md',evidence)
@@ -80,20 +71,26 @@ class PublicReleaseTest(unittest.TestCase):
         rms=math.sqrt(np.mean([offset_km(n,w['lat'],w['lon'])**2 for w in t['witnesses']]))
         self.assertAlmostEqual(rms,t['fit_rms_km'],delta=.6)
 
-    def test_export_deterministic_and_missing_coverage_supported(self):
-        before=(self.out/'catalog.js').read_bytes()
-        with patch.object(export,'OUT',self.out), contextlib.redirect_stdout(io.StringIO()):
-            export.main()
-        self.assertEqual(before,(self.out/'catalog.js').read_bytes())
-        actual_glob=Path.glob
-        def no_sweep(path, pattern):
-            if path == export.ROOT/'data/sweep': return iter([])
-            return actual_glob(path,pattern)
-        with patch.object(export,'OUT',self.out),patch.object(Path,'glob',no_sweep),contextlib.redirect_stdout(io.StringIO()):
-            export.main()
-        self.assertEqual(json.loads((self.out/'coverage.json').read_text()),[])
+    def test_catalog_matches_downloads(self):
+        arrays = [v for v in self.catalog.values() if isinstance(v, list)]
+        self.assertIn(self.falls, arrays)
+        self.assertIn(self.events, arrays)
 
-    def test_scan_retains_issue_edition(self):
-        self.assertEqual(export.scan('faro_1880/1880-01-01_p2_sn12345678_reel_1880010102_0001.json#4'),'https://www.loc.gov/resource/sn12345678/1880-01-01/ed-2/?sp=2')
+    def test_local_page_links(self):
+        import re
+        from urllib.parse import urlsplit
+        site = ROOT / 'site'
+        for page in site.glob('*.html'):
+            for url in re.findall(r'(?:href|src)="([^"<>]+)"', page.read_text()):
+                parsed = urlsplit(url)
+                if parsed.scheme or parsed.netloc: continue
+                path = parsed.path
+                if not path.startswith('/') or path.startswith('//'):
+                    continue
+                target = site / path.lstrip('/')
+                if path == '/': target = site / 'index.html'
+                elif path.startswith('/cases/'): target = site / 'case.html'
+                elif not target.suffix: target = target.with_suffix('.html')
+                self.assertTrue(target.is_file(), f'{page.name}: {url}')
 
 if __name__=='__main__':unittest.main()

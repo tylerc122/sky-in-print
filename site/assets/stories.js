@@ -10,7 +10,7 @@
     retraction: "https://www.loc.gov/resource/sn87076843/1880-11-26/ed-1/?sp=3",
     late: "https://www.loc.gov/resource/sn84022770/1881-02-04/ed-1/?sp=3",
     track: "/data/evidence/tracks.md",
-    museum: "/data/evidence/public_updates.md",
+    museum: "/cases/saco",
     fort: "https://www.gutenberg.org/ebooks/22472",
     merrill: "https://archive.org/details/smithsonianmisce521910smit/page/473/mode/1up",
     savannah: "https://www.loc.gov/resource/sn86063034/1888-11-07/ed-1/?sp=6",
@@ -131,7 +131,7 @@ ${quote("heard it whizzing as a minnie ball", "Savannah Morning News, November 7
 <h2>A second report</h2>
 <p>The Lincolnton News, 36 km north, said that around 1 p.m. on Monday, October 15, folks there were "startled by a heavy thundering report accompanied by a rushing noise". It names no fireball and no witness, and the area was still getting aftershocks from the 1886 Charleston earthquake, but the day and the place line up.${cite("lincolnton", "Lincolnton News, October 19, 1888")}</p>
 <h2>Getting it changed</h2>
-<p>I sent all of this to the Meteoritical Bulletin Database editors in October. The database editor took it to the Nomenclature Committee with his own sources, including Wilson's original letters, and the vote came back 6 to 0. I'd also worked out roughly where the Wilson farm was from the county deed books and an 1871 map of McDuffie County. The new entry went up on November 11, 2026 with Thomson listed as an observed fall, the first time anything out of this project has changed the official record.${cite("metbull", "The entry")}</p>`,
+<p>I sent all of this to the Meteoritical Bulletin Database editors in October. I'd also worked out roughly where the Wilson farm was from the county deed books and an 1871 map of McDuffie County. The new entry went up on November 11, 2026 with Thomson listed as an observed fall, the first time anything out of this project has changed the official record.${cite("metbull", "The entry")}</p>`,
       record: [
         ["Oct 15, 1888", "The stone comes down near Wilson in the early afternoon."],
         ["Oct 19, 1888", "Lincolnton News reports a thundering noise at about 1 p.m. that Monday."],
@@ -139,7 +139,7 @@ ${quote("heard it whizzing as a minnie ball", "Savannah Morning News, November 7
         ["Nov 24, 1888", "Religio-Philosophical Journal prints the whole item together."],
         ["Nov 26, 1888", "Wilson writes that it fell within thirty yards of him."],
         ["1910", "Merrill quotes the letter. The catalogue still lists Thomson as a find."],
-        ["Oct 2026", "I send the newspaper trail to the Bulletin editors, and the committee votes."],
+        ["Oct 2026", "I submit the newspaper trail to the Bulletin editors."],
         ["Nov 11, 2026", "Republished as an observed fall."],
       ],
     },

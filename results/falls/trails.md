@@ -1,4 +1,4 @@
-# Specimen trails (spec §5), started 2026-10-21
+# Specimen trails started 2026-10-21
 
 Checks per lead:
 - **(a) Corpus follow-ups:** later or earlier newspaper mentions in our data.
@@ -16,7 +16,7 @@ Checks per lead:
 | Smithfield, Jefferson Co., Ohio, 1871 (Ong; piece held by Mr. Edgerton) | 2 reports, June 1871 | none ("Concord, Ohio" 1871 is a different, earlier fall) | none | report only | Jefferson Co. Historical Assoc.; Barnesville Enterprise 1871 |
 | South Bend, Ind., 1876 (Prof. Wheeler to analyze) | 2 (headline implies an earlier article) | none | not yet | report only | Search the South Bend Register, July 1876, and any Wheeler analysis |
 | Romney, Ind., 1873 (Harter) | 10 papers, 95 days | none | none | **downgraded: hoax markers ("molten mass")** | None |
-| Wakefield, Mass., 1911 | | | none | **downgraded: Tyler judged it doubtful** | None |
+| Wakefield, Mass., 1911 | | | none | **downgraded: judged doubtful during review** | None |
 | Yakima/Wenas 1890, Hooper 1911, Washington Island 1914, Jonesboro 1914 | rescanning whole years for names (running) | none | none | pending | Wisconsin Geological Survey (Washington Island); Nebraska State Museum and Fremont-area colleges (Hooper, Prof. Mohler) |
 
 **So far:** no lead has a contemporary scientific description. Every 1870s lead stopped at the newspaper report, except
@@ -39,5 +39,5 @@ physical specimen, and the next step needs a person to contact the museum.
   Grade: **weakened (cinder-like suggests slag)**.
 - **Wakefield, Mass., 1911:** only the same syndicated item (Jan-Apr 1911). Remains doubtful.
 
-**Specimen-trail leads with a named destination:** Saco 1870 (York Institute → Saco Museum; inquiry drafted) and Jonesboro 1914
+**Specimen-trail leads with a named destination:** Saco 1870 (York Institute → Saco Museum) and Jonesboro 1914
 (Cairo Public Library). Washington Island 1914 has a named buyer.

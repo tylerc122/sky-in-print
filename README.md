@@ -1,49 +1,45 @@
 # Sky In Print
 
-**The American sky in print, 1774–1963.**
+[Sky In Print](https://www.skyinprint.com) follows American newspaper reports of fireballs and alleged meteorite falls through original scans, scientific literature and museum records.
 
-For almost two centuries, when something strange appeared in the sky (a fireball, stones falling from
-space, the northern lights reaching unusually far south), people wrote to their local newspaper about it.
-Sky In Print reconstructs those observations from the Library of Congress's digitized newspapers
-(the [American Stories](https://huggingface.co/datasets/dell-research-harvard/AmericanStories) corpus,
-about 280M articles), links every report to its original page scan, and checks it against the scientific
-record.
+The public site presents thirteen cases, a map of newspaper reports, and a reconstruction of the 21 December 1876 fireball. The first published catalogue correction is **Thomson, Georgia (1888)**: the [Meteoritical Bulletin](https://www.lpi.usra.edu/meteor/metbull.cfm?code=23973) now records it as an observed fall. This is a correction to a recognized meteorite's history, not the discovery of a new meteorite. Other specimen leads remain unresolved.
 
-Focus:
-1. **Fireballs and meteorite falls** (the discovery focus). Reconstruct fireball events from scattered
-   reports, and follow reported meteorite falls through later records (finders, sales, donations,
-   museum accessions) to see whether any match no recognized meteorite.
-2. **Auroras**: a descriptive map of where people reported seeing them.
-3. **Eclipses**: a control layer for date accuracy.
-4. **Comets and meteor showers**: timeline features.
+## View the site locally
 
-Status: **pilot** (see [`docs/SPEC.md`](docs/SPEC.md), sections 6 and 10).
+Python 3.12 or later:
 
-## Layout
-
-- `docs/SPEC.md`: the reviewed project spec
-- `prereg/`: pilot windows and rules, committed before the data in them was examined
-- `reference/`: frozen reference catalogs, with their source and retrieval date
-- `src/skyinprint/`: pipeline code
-- `results/`: pilot outputs
-- `data/` (git-ignored): downloaded newspaper archives and intermediate files
-
-## Reproducing
-
-```bash
-uv venv && uv pip install -e .
+```sh
+python3 scripts/serve_site.py
 ```
 
-Newspaper archives are downloaded one year at a time from Hugging Face at a pinned revision
-(see `prereg/`), filtered, then deleted.
+Open http://localhost:8766. The static website needs no package installation or build step. Deploy only `site/`; its Vercel configuration supplies clean URLs and case-page routing.
 
-## Licenses and credit
+## Repository contents
 
-Newspaper text: American Stories (Dell et al. 2023), CC BY 4.0, built from Library of Congress Chronicling
-America scans. Code: MIT. Derived data: CC BY 4.0.
+- `site/`: website, downloadable data and public evidence summaries.
+- `src/skyinprint/`: newspaper filtering, model triage, grouping and follow-up research tools.
+- `prereg/`: research rules, prompts and pinned input manifests. Some historical notes reference working artifacts not distributed in this release.
+- `reference/`: reference catalogs and source notices.
+- `results/`: selected research outputs and sanitized institutional inquiry summaries.
+- `tests/`: checks of the distributed data, evidence links and reconstruction.
 
-## Public site
+The public release is a curated snapshot. Raw newspaper downloads, private correspondence, deployment configuration and working review queues are not included. The original release exporter is also omitted; this repository does not claim a one-command rebuild of the full published release.
 
-The static public site is in `site/`. Open `site/index.html` directly, or serve that directory with any static web server. It includes the interactive atlas, four sourced stories, the 1876 reconstruction, methods and downloadable data.
+## Research tools
 
-Regenerate the release with `python -m skyinprint.export_public`. Run release integrity checks with `python -m unittest discover -s tests -v`. See `site/README.md` for editing and reproduction notes. Only `site/` is intended for hosting.
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e .
+python -m unittest discover -s tests -v
+```
+
+Download and triage jobs are separate from viewing the site. They require the newspaper inputs described in `prereg/` and can take substantial storage and computation. Module docstrings describe their inputs and commands; some tools expect intermediate outputs from earlier stages.
+
+Model triage requires `SKY_MODEL_BASE_URL`, `SKY_MODEL_NAME` and `SKY_LANE_URL` in the environment or an untracked `local.env` at the repository root. The included client expects an OpenAI-compatible model API and a private-network availability service exposing `/lane`; it is specific to that shared-compute workflow. Neither service nor credentials are supplied. The client checks private addresses and yields to other workloads; actual network access must be controlled at the server.
+
+## Interpretation and credit
+
+Newspaper coverage, OCR errors and reprinting affect what appears in the data. Publishing towns are not necessarily witness locations. Candidate groupings and reported stones are not confirmed meteorites. See the [data dictionary](site/data/README.md) and site methods page for limitations.
+
+Newspaper text: [American Stories](https://huggingface.co/datasets/dell-research-harvard/AmericanStories), Dell et al. (2023), based on Library of Congress / Chronicling America scans. Code: MIT, see [LICENSE](LICENSE). Derived data: CC BY 4.0. Third-party reference data and libraries retain their source notices and applicable terms.

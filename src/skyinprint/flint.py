@@ -1,12 +1,8 @@
-"""Client for Tyler's shared Ollama on Flint, with the shared-GPU courtesy rules.
+"""Client for a shared, private-network model endpoint.
 
-Rules (from the platform notes and Cambrian's lane policy):
-  * one request at a time, never in parallel
-  * only GET /lane with no query string; never send demand=1
-  * yield while estate work is waiting, wait while estate units run, fail closed if unreachable
-  * use the model alias Financial Memory already uses, and never change num_ctx, so no swaps
-  * if a different model is loaded (someone else's work), wait instead of forcing a swap
-Endpoints come from local.env (git-ignored).
+Uses an availability endpoint to yield to other workloads and avoid model swaps.
+Endpoint URLs and the model name come from environment variables or local.env.
+This client-side check is not a substitute for server access controls.
 """
 import ipaddress
 import json

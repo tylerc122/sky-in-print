@@ -6,14 +6,8 @@
   and found scorched grass and broken earth in the meadow the next morning.
 - About 15 lb, dull lead-coloured, "pebbled" or shrivelled surface.
 
-## Saco Museum reply (2026-10-22, Anatole Brown)
-- **Two accession records for Ira C. Doe:**
-  - **1873.111**, a meteorite. The record includes the story printed in the newspapers.
-  - **1891.68**, another meteorite donation. Doe died in 1893; perhaps a second piece of the same material.
-- **Where they probably are:** the York Institute's Victorian natural-science collection, which has a large lithic
-  collection that "has not been catalogued properly in modern times". A geology student identified part of it about
-  12 years ago, but no expert has examined it since. Anatole is "almost certain" Doe's donations are there and is
-  looking.
+## Institutional outcome (2026-10-22)
+The Saco Museum identified two accession records associated with Ira C. Doe: 1873.111 and 1891.68. These records establish a collection trail, not a scientific identification. The objects have not been located and examined for this project.
 
 ## Status
 **This is the furthest any trail has gone:** an institutional accession record for a stone the newspaper sweep
@@ -38,7 +32,7 @@ flagged, which may physically survive.
   cool. The surface has the appearance of being pebbled or shrivelled."
 - The last detail is a fair lay description of fusion crust with regmaglypts (thumbprint-like dents). Neither
   Middleburg's ironstone nor Northport's slag was described this way.
-- Caution: "scorched" grass is a common folklore marker (see the "hot" signal in `credibility_test.md`).
+- Caution: "scorched" grass is a common folklore marker .
 
 **2. No independent fireball report near Saco in October 1870 (yet).**
 - Oct 20-23, 1870 was very active in New England:
@@ -68,17 +62,9 @@ flagged, which may physically survive.
 Cabinets shall be entered on their several records, with description, date of gift, and name of Donor." The
 Institute's own *Publications* (vol. 1, 1884-85) don't mention the stone.
 
-**5. Expert route, for when photos exist.** Not contacted yet.
-- **Maine Mineral & Gem Museum, Bethel** is the natural fit. It holds the world's largest collection of lunar and
-  Martian meteorites, has a meteorite division (Darryl Pitt was named its head in 2023 coverage), and in 2023
-  offered a $25,000 reward for a Maine fireball's remains, so Maine falls interest them. Confirm current contacts on
-  their website first.
-- Alternatives: a university geology department (most identify samples), or the Washington University in St. Louis
-  meteorite self-check pages to screen photos first.
-
 ## Laclede and Cairo, re-searched with destination terms
 "Mercantile Library" + meteorite/aerolite, Murdoch + aerolite, "Cairo Public Library" + meteorite, "A. V. Cook" +
-meteorite: nothing relevant in the digitized journals or histories. The emails to those libraries remain the route.
+meteorite: nothing relevant in the digitized journals or histories. Institutional inquiries remain an avenue for further research.
 
 ## Unfiltered rescans, 1870, 1871 and 1891 (2026-10-26)
 `rescan_names.py --only saco` kept every article, with or without a meteor word, that names the York Institute, Ira

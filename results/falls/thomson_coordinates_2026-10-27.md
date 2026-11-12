@@ -1,6 +1,6 @@
 # Thomson, Ga.: refining the fall coordinates (2026-10-27)
 
-The database editor asked whether we could improve the catalogue position, 33° 28' N, 82° 29' W.
+This note evaluates the earlier catalogue position, 33° 28' N, 82° 29' W, using published historical records.
 
 ## What the sources say
 
@@ -62,24 +62,6 @@ The database editor asked whether we could improve the catalogue position, 33° 
 - Four miles due south gives 33.413, -82.505.
 - Either way: **about 33° 25' N, 82° 29-30' W, roughly ±2 km**.
 - The catalogue longitude was already about right; the latitude is about 3' (5-6 km) too far north.
-
-## The editor's attachments (read 2026-10-27)
-
-The database editor's 2026-10-26 email attached four items:
-- 1888-nov6-Wilson_letter.pdf
-- 1888-dec14-Wilson_letter.pdf
-- the Lincolnton News clipping
-- a Religio-Philosophical Journal clipping of 24 Nov 1888
-
-What they show:
-- **Nov 1888 letter (Smithsonian registrar's file, accession 50522).** The original of Merrill's quote: "on the place
-  of Mrs M. A. Wilson in McDuffie Co, 4 miles south of Thomson. It fell within thirty yards of where the writer was at
-  work." It adds no other location detail.
-- **Dec 14 1888 letter to I. C. Plant (1st Nat. Bank, Macon).** Wilson asks to buy the stone back at cost: he had
-  been offered more, and he sold it because of "distressed circumstances". Nothing on location.
-- **Religio-Philosophical Journal clipping.** It prints "Ben Wilson brought to the office of the Thomson (Ga.)
-  Journal ..." and "He was in the cotton field, and heard it whizzing as a minnie ball ..." as one item. That settles
-  the displaced Savannah paragraph: it is the rest of the Wilson item.
 
 ## County records (FamilySearch full-text search of McDuffie County books, read 2026-10-27)
 

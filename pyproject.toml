@@ -9,4 +9,5 @@ dependencies = [
   "pyarrow",
   "requests",
   "numpy",
+  "scikit-learn",
 ]
