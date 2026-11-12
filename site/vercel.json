@@ -1,5 +1,5 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [{ "source": "/cases/:id", "destination": "/case.html" }]
+  "rewrites": [{ "source": "/cases/:id", "destination": "/case" }]
 }
