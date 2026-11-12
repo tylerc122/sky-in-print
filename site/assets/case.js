@@ -57,7 +57,7 @@
         .join("")
     : "";
   const clipping = scan
-    ? `<a class="clip" href="${esc(scan.url)}" target="_blank" rel="noopener">${marks}<img src="/${scan.src}?v=3" width="${scan.w}" height="${scan.h}" alt="Scan of the ${esc(scan.paper)} report"></a><p class="cap">${esc(scan.paper)}. The line in the margin marks the part to read, and clicking opens the whole page at the Library of Congress.</p>`
+    ? `<a class="clip" href="${esc(scan.url)}" target="_blank" rel="noopener">${marks}<img src="/${scan.src}?v=3" width="${scan.w}" height="${scan.h}" alt="Scan of the ${esc(scan.paper)} report"></a><p class="cap">${esc(scan.paper)}.</p>`
     : `<p class="cap">No newspaper scan for this one. The record is ${esc(paper.label)}.</p>`;
 
   $(".story").innerHTML = story ? story.body : `<p>${esc(c.summary)}</p>`;
