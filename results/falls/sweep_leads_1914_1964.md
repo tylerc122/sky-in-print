@@ -84,7 +84,8 @@ Dropped:
 - Carlsbad, N.M. 1914: flesh-coloured, cuts glass.
 - Tuolumne, Calif. 1914: "opalite".
 - Searcy Co., Ark. 1920: a clinker.
-- Newport, Ark. 1920: "gold"; the same Scheiss family's tree story as 1916.
+- Newport, Ark. 1920: "gold"; the same Scheiss family's tree story as 1916. **Reopened 2026-11-10:** the Newport
+  pallasite is catalogued from this town, "found 1923". See `local_queue_2026-11-10.md`.
 - Lawrenceville, Ga. 1918: a hollow "grenade".
 - Beaumont, Tex. 1929: a clear crystal.
 

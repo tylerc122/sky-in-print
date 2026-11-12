@@ -19,3 +19,5 @@
 {"event": "end", "batch": "fireballs-all-top", "who": "claude", "at": "2026-10-26T05:02:30+00:00", "items": 16, "seconds": 72}
 {"event": "start", "batch": "fireball-falls-3city", "who": "claude", "at": "2026-10-26T05:20:42+00:00"}
 {"event": "end", "batch": "fireball-falls-3city", "who": "claude", "at": "2026-10-26T05:21:14+00:00", "items": 100, "seconds": 32}
+{"event": "start", "batch": "local-falls-tail", "who": "claude", "at": "2026-11-10T16:53:42+00:00"}
+{"event": "end", "batch": "local-falls-tail", "who": "claude", "at": "2026-11-10T17:01:31+00:00", "items": 230, "seconds": 469}

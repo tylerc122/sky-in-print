@@ -13,6 +13,8 @@ text is local news ("near here", "fifteen miles north of this city") naming no o
 ## New leads
 
 ### Estacado (H6, 290 kg, "found 1883", Hale Co., Tex.; main mass AMNH): **strong, a Thomson-type correction**
+**Downgraded 2026-11-10:** the 1906 description already prints the 1882 fireball story, and nobody saw the stone land.
+What is left is the second piece sold to Foote in 1912. See `local_queue_2026-11-10.md`.
 - *Lubbock Avalanche* 1912-01-25: B. O. McWhorter brought in a piece of "a meteor that fell near the Merrill farm north of
   Lubbock"; "a number of people who resided in the Estacado country saw this meteor when it fell and later found the
   stone ... near the Merrill farm in south part of Hale county".

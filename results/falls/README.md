@@ -17,4 +17,10 @@
 "Lead" means only that the report has the shape of a real fall (date, place, named finder or specimen) and no
 match in the frozen snapshot. It is not a claim. Next: check each lead against the Meteoritical Bulletin's doubtful
 and pseudometeorite listings, the Nininger and Monnig archives and the literature, then follow specimen trails (spec §5).
-The 447 single-paper families are not yet read.
+The 447 single-paper families were read on 2026-10-21 (`leads.md`).
+
+**Full sweep, as of 2026-11-10:** three queues decide what gets read: the destination ranker (`sweep_*_leads*.md`), the
+multi-city fireball queue (`audit_followup_2026-10-26.md`, `queue2_read_2026-11-08.md`) and the local-news queue
+(`local_queue_2026-11-10.md`). The local-news queue was read to the bottom on 2026-11-10. Still unread by anyone: 743
+texts whose quote names no object or impact, 223 tagged as famous recognized meteorites, and the reports the triage model
+rejected.

@@ -11,15 +11,15 @@
 | 2026-10-24 | Benedictine College archives (web form) | Valley Falls, Kan. 1910 | stone placed in the St. Benedict's college museum | 10-30: web admin asked which page; replied 11-01 with both texts, waiting |
 | 2026-10-26 | Smithsonian NMNH Mineral Sciences | Cañon City, Colo. 1898; Clintonville, N.Y. 1903 | both said to be sent to the Smithsonian | replied 10-27: no record |
 | 2026-10-26 | Natural History Museum of Utah | Morgan, Utah 1898 | given to the state university museum | waiting |
-| 2026-10-26 | City of Fossil Museum | Muleshoe Mtn, Ore. 1903 | stone shown at the Fossil drug store | waiting |
-| 2026-10-26 | Foster County Historical Society | Carrington, N.D. 1910 | verdict; stone vanished Dec 1910 | waiting |
+| 2026-10-26 | City of Fossil Museum | Muleshoe Mtn, Ore. 1903 | stone shown at the Fossil drug store | **replied 2026-11-09** (Cistie Shaffer): never heard of it; the Fossil Museum is now housed in the old drug store itself |
+| 2026-10-26 | Foster County Historical Society | Carrington, N.D. 1910 | verdict; stone vanished Dec 1910 | **replied 2026-11-09:** no info on it ("several in area years later"); pointed to the Carrington City Library digital newspaper archive, carringtonlibrary.advantage-preservation.com |
 | 2026-10-26 | Tucumcari Historical Museum | Santa Rosa, N.M. 1907 | 80-lb fragment at the Tucumcari bank | waiting |
 | 2026-10-26 | Kamiah Valley Historical Society | Nezperce/Peck, Idaho 1904 | 152-lb stone (Mulcahey, Kirby) | **replied 2026-11-07** (Taffee Schaack): passed it to the Nezperce historical society, nothing in their archives. Suggests Peck City Hall, Clearwater County HS (Orofino), Nez Perce County HS (Lewiston) |
 | 2026-10-26 | Hugoton Chamber of Commerce (for the museum) | Hugoton, Kan. 1894 | possible fall date for the Hugoton find | waiting |
 | 2026-10-26 | Seaford Historical Society | Seaford, Del. 1893 | stone at Wallace's store | replied 10-29: museum rock, likely flint |
 | 2026-10-26 | Morrison County Historical Society | Royalton, Minn. 1898 | pieces shown at the Royalton hotel | replied 10-27: nothing found |
 | 2026-10-26 | Tyrrell Historical Library | Beaumont, Tex. 1907 | 67-lb piece brought into Beaumont | waiting |
-| 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | **2026-10-26: going to a Nomenclature Committee vote** to change Thomson to a fall (Jeff Grossman), after the Lincolnton same-day detonation report plus his own sources (Wilson letters; *Religio-Philosophical Journal*, 24 Nov 1888) |
+| 2026-10-26 | Meteoritical Bulletin Database editors | Thomson, Ga. 1888 (recognized) | record correction: listed as Found, but B. F. Wilson's 1888 letter says it fell beside him | **Published 2026-11-11 as an observed fall:** https://www.lpi.usra.edu/meteor/metbull.cfm?code=23973 (Jeff emailed 11-11, thanked him the same day). 2026-10-26: went to a Nomenclature Committee vote to change Thomson to a fall (Jeff Grossman), after the Lincolnton same-day detonation report plus his own sources (Wilson letters; *Religio-Philosophical Journal*, 24 Nov 1888) |
 | 2026-10-26 | Yale Peabody Museum (mineralogy & meteoritics) | Danbury, Conn. 1896 (H. L. Fanton) | the 26-lb stone taken to Prof. H. A. Newton, May 1896 | **replied 2026-10-26:** no records of it. Suggests the H. A. Newton papers at Sterling Memorial Library (Manuscripts & Archives). **Newton papers, 11-02: nothing** |
 
 **Middleburg closed 2026-10-22:** Kunz identified the stone as limonite in Feb 1888 (Trans. N.Y. Acad. Sci. 7:135). The pending UF inquiry no longer matters for it.
@@ -157,3 +157,142 @@ Tyrrell. Benedictine not nudged (Tyler replied 11-01).
 
 **Correction:** the Jacksonville History Center did reply, 2026-10-22 (Jason Robilio, research archivist): no records
 on the Middleburg stone. That row's "waiting" was wrong; Middleburg was already closed by Kunz.
+
+**2026-11-09, Carrington City Library digital archive** (carringtonlibrary.advantage-preservation.com; local papers not in
+our corpus: Carrington Weekly Independent, Carrington Record, Foster County Independent, Kensal Journal, Sykeston):
+- **Carrington 1910, closed as lost (likely terrestrial).** *Weekly Independent* 1910-01-27 p1: visitors to the Mowery farm
+  said it looked "very similar to a piece of iron ore", ~3 ft and ~600 lb, smaller than first reported; a rumor "that the
+  meteor never fell" (the paper denied it); the *Bismarck Tribune* mocked it ("Carrington has a press agent"). 02-24 p1:
+  a letter in *Scientific American* from J. J. Rott of Streeter; the paper wanted to send "all matter relating to the
+  Carrington meteor to the cannery for pickling". 12-15 p1 "Carrington Meteor Gulped": gone from the sidewalk in front
+  of the Beck Clothing Co., maybe shoveled into the Main Street sewer ditch; frozen ground stopped any dig; "another
+  version" that it was bought "in the interest of science" is "hardly probable". Nothing later except 1921-06-30 (Chris
+  Albus hurt his back years before "lifting the famous Carrington meteor").
+- **NEW LEAD: Melville, N.D., spring ~1882-83 (Samuel Fawcett).** *Foster County Independent* 1933-09-21 p1, "Melville
+  Meteor Added to Rock Garden at Camp": Fawcett, an early Melville settler, saw a "shooting star" strike the ground near
+  his homestead shack one spring evening ~50 years before; next morning found a ~100-lb rock half embedded in the
+  prairie, still too hot to handle; dug it up days later, kept it at home and then in his Melville yard; in Sept 1933 gave
+  it to Harry Hayashi for the **Rainbow Gardens Tourist Camp** rock collection in Carrington. Nearest catalogue meteorite
+  is 94 km away (Niagara, Jamestown irons). Rainbow Gardens is being restored by the nonprofit Carrington Rainbow Gardens
+  (visitor center planned, opening ~fall 2027), so the stone may still be on the grounds. Draft: drafts/emails/melville_rainbow_gardens.md.
+
+**2026-11-10, email check:** nothing new since the Fossil and Foster County replies. The Monnig Gallery email (Allen /
+Rawlett) went out 11-09. Gmail holds no drafts, so the Seaford reply, the Melville / Rainbow Gardens inquiry and the
+Kamiah next steps (Peck City Hall, Clearwater Co. HS, Nez Perce Co. HS) are still unsent; their text is in
+drafts/emails/. No answer yet from Richard Gilreath (11-06) or Jeff Grossman on the Thomson entry.
+
+**2026-11-10, USNM printed accession lists:** the National Museum's annual reports for the fiscal years ending June
+1899, 1900, 1903, 1904, 1908, 1917 and 1918 (archive.org) list no meteorite from Cañon City, Clintonville or Saline
+Co., Mo., and none of the names in our reports. The lists do carry rejects ("pseudo-meteoric iron" 1904, "supposed
+meteorites" 1918). A stone examined and returned would not appear. Details in `local_queue_2026-11-10.md`. This covers
+most of the question put to Gilreath; when he answers, ask only about examined-and-returned records and Berwyn 1907.
+
+**2026-11-10, new leads with a named trail, no email yet** (`local_queue_2026-11-10.md`):
+- Cotton Plant, Ark. 1917 (First National Bank): Woodruff County Historical Society; Arkansas Geological Survey.
+- Newport, Ark. pallasite and the Scheiss "meteor" of 1916-20: Arkansas State Archives (Gov. Brough's capitol display),
+  Jackson County Historical Society.
+- Cuero, Tex. 1875 and 1895: DeWitt County Historical Museum; UT Bureau of Economic Geology (Barnes's files).
+- Burlington, Iowa 1903 (Carl Leopold, public library): Des Moines County Heritage Museum.
+- Bigelow, Minn. 1936 (Frank Cross, Colorado Museum of Natural History): Denver Museum of Nature & Science archives;
+  Nobles County Historical Society.
+
+**2026-11-10 (later), from the rest of the local-news queue** (`local_queue_2026-11-10.md`, third batch):
+- **Seaford:** a 1921 Wilmington paper has a coconut-sized "meteor" with a marble-sized hole, kept by Mrs. Henrietta
+  McNeilly since it fell in front of her porch about 1894, and shown to the Seaford school children in May 1921. Add
+  it to the reply to Dave Grantz, which is still unsent: it is probably their rock.
+- **New trails, no email yet:**
+  - Cornish, N.H. stone (Capt. Larnard Powers 1883; given by F. A. Tifft): Fairbanks Museum & Planetarium, St. Johnsbury.
+  - Frank Mathwig's 30-lb stone, Lake Fremont Twp., shown at a Fairmont hotel in Feb 1911 (possible Estherville mass):
+    Martin County Historical Society, Fairmont.
+  - Sanford's irons, Brooke Co., W.Va. 1888: Brooke County Historical Museum; the Wheeling papers.
+  - Rockensock's stone, Lake Plantagenet 1914: Beltrami County Historical Society, Bemidji.
+  - Herman Bean's stone, Gilead, Me. 1920: Bethel Historical Society.
+- **Tyrrell Library (Beaumont 1907), if they answer:** the piece was sold to a Beaumont hardware company for $75.
+
+**2026-11-10, drafts written (not sent):** eight are in Gmail Drafts (Seaford as a reply in the thread, Martin County,
+State Geologist, DeWitt County, Des Moines County, Nobles County, Beltrami County, Bethel); Fairbanks, Jackson County and
+Brooke County have no email address and are only in the file. `drafts/emails/new_trails_2026-11-10.md` has eleven: the
+Seaford reply (with the McNeilly stone), Fairbanks Museum (contact form only), Martin County HS, the Arkansas Office
+of the State Geologist (Cotton Plant and Newport in one), Jackson County HS, DeWitt County Historical Museum, Des
+Moines County HS, Nobles County HS, Beltrami County HS, Bethel HS and the Brooke County museum (phone or letter, no
+email found). Quotes are from OCR; open each scan before sending.
+
+**2026-11-10 (evening), email check:** all eight Gmail drafts went out ~12:35pm ET (Seaford reply, Martin County,
+Arkansas State Geologist, DeWitt County, Des Moines County, Nobles County, Beltrami County, Bethel). Replies the same day:
+- **Smithsonian accession records, closed.** Richard Gilreath (SIA) searched the internal index to the accession records:
+  no 1899 accession from Sterling or Bowers, nothing from George Wake, nothing from Saline Co., Mo. in 1917. With the
+  printed USNM lists, the Smithsonian trail is closed for Cañon City, Clintonville and Saline Co. Berwyn 1907 was never
+  asked about; it's still open if worth a separate email.
+- **Nobles County HS (Bigelow 1936):** Patrick (volunteer) hadn't seen the story and will keep digging. He sent Globe
+  pages 1937-06-07 p1 and p6 ("original story"), 1937-06-14 p1 and p5 (a follow-up), and 1937-12-12 p1 (his note: "dates
+  don't line up for that one although the location is close"). PDFs are in the Gmail thread, not read yet.
+- **Bethel HS (Gilead 1920):** William Chapman has found no other newspaper references yet, will keep looking; forwarded
+  the question to Chrys Snogren and a Patrick (pleverone@mainemineralmuseum.org) at the Maine Mineral & Gem Museum, Tyler cc'd.
+- **Martin County HS (Mathwig 1911):** curator Jim Marushin will look.
+- No reply yet: Arkansas State Geologist, DeWitt County, Des Moines County, Beltrami County, Seaford (Dave).
+
+**2026-11-10, Bigelow: the Globe pages Patrick sent** (newspapers.com clippings, read in Gmail's viewer):
+- *Globe* 1937-06-07 p1 + p6, "Scientists Seek Data on Meteorite That Fell Here": Ralph Wood, "now of Ocheyedan, Ia.",
+  found the green stone on Harm Stopsack's farm near Bigelow "last fall" (fall 1936). Cross's letter reached the Globe
+  the week before. The museum "identified [it] as a type of meteorite heretofore unknown to science" and wants the
+  circumstances of the fall; it believes it fell late 1935 or early 1936, maybe a year earlier. Asks anyone who saw a
+  large fireball to report size, color, direction, sounds, date and hour, to the Globe or to Cross at the Colorado
+  Museum of Natural History, Denver.
+- *Globe* 1937-06-14 p1 + p5, "Says He Saw Meteor Fall in October, 1934": first response. Ube Habben of Worthington saw
+  a ball of fire fall to earth about 9:30 pm, the last week of October 1934, while unloading corn on the Eric Thorn
+  farm, about 3 miles west of the Stopsack farm. No noise; it seemed to come from the south. The museum is still
+  investigating.
+- *Globe* 1937-12-12 p1, "Reports Seeing Meteor Fall Here": Ed Ehlers of Worthington saw a bright meteor, probably
+  south of Lake Okabena, about 5 pm "Thursday" (Dec 9, 1937). Unrelated to Bigelow (Patrick: "dates don't line up").
+- Takeaways: the Wood (Ocheyedan, Ia.) and Stopsack names are confirmed; there's a candidate fall date of late Oct 1934
+  with a witness 3 mi away. Nothing yet on what the museum concluded. Next: DMNS archives (Frank C. Cross / Colorado
+  Museum meteorite correspondence 1936-37; check whether Nininger was involved, he worked with that museum in the 1930s), and later Globe issues for a result.
+
+**2026-11-11, email check:**
+- **Thomson, published.** Jeff Grossman sent the new MetBull entry (code=23973) at 11:43am ET; Tyler thanked him at
+  12:07. Thomson is now an observed fall in the Bulletin. Done.
+- **Gilead 1920 (Maine Mineral & Gem Museum):** Patrick Leverone (Meteorite Outreach Manager) and Chrys Snogren didn't
+  know the report or any stone matching it, so it isn't a published find. Pitted fusion crust is promising, "nickel"
+  less so, and the article never says if it was magnetic. If the stone turns up MMGM or someone else could test it.
+  He wants to hear about any other mentions, or which college got the piece. Roberta Hunt will check her Bean family
+  genealogy for a Herman Bean. Next: find where the lab piece went (later Oxford Democrat / Bethel Citizen issues).
+- **Bigelow 1936 (Nobles County HS):** Pat sent Harm Stopsack's obituary (*Globe* 1954-08-03 p8, PDF, not read yet)
+  and a 1930 plat showing his land in section 18, Bigelow township. The Stopsack family was gone from the county by
+  the 1980s. Pat will ask around but isn't hopeful. DMNS archives is the better trail now.
+- **Fairbanks Museum (Cornish):** the contact form went through (autoreply 11-10, "within one business day").
+- Still no reply: Monnig Gallery (Dr. Mayne, sent 11-09), Saco (Anatole, nudged 11-06), Arkansas State Geologist,
+  DeWitt County, Des Moines County, Beltrami County, Seaford (Dave).
+
+**2026-11-12, email check:**
+- **Martin County HS (Mathwig 1911):** Jim Marushin forwarded 10 files a volunteer (Lenny) pulled. Read in Gmail via
+  Claude in Chrome:
+  - *Martin County Independent* 1911-02-15 p1, "A Strange Visitor From the Skies": the original story. L. H. Pomeroy
+    (Fairmont Drain Tile and Brick Co.) brought the stone to the Independent office; it's on exhibit at the **Heidel
+    Hotel**. In the **fall of 1879** Frank Mathwig, then about nine, was herding cattle for his father on land he now
+    owns (NW 1/4 sec. 22, Lake Fremont twp.), heard a strange noise, and saw an object trailing smoke fall into a pond a
+    short distance away. His parents thought he'd dreamed it. The pond has since been drained and is pasture. Last fall
+    (1910) he dug a well at the spot and hit the stone at about six feet. About 30 lb, dark gray, "similar to that of a
+    rock", not as hard as granite, "resembles iron ore"; apparently "much sulphate of iron", metallic ring like pounded
+    steel. Prof. Kennedy examined it and said it looked very like the meteorite at the state university museum. Paper
+    suggests Pomeroy donate it to the high school or the Fairmont library.
+  - *Independent* 1911-03-08 p1, "The Emmet Co. Meteor Described": reprints Editor Dillman of the *Blue Earth Post* on
+    Estherville (1900 lb, Birge of Keokuk, sold to Berlin(?) for $20,000; U of M bought a piece for $700 via Gov.
+    Pillsbury). Dillman thinks the Fairmont stone is "a part of the 1900 pounder". Calls it "a small meteor that was
+    excavated near Dunnell", still at the Heidel, no chemical analysis yet.
+  - *Martin County Sentinel* 1879-05-16 p1 and 1890-05-09 p7, *Fairmont Daily Sentinel* 1931-08-05 p1+p4 and
+    1938-02-18 p1: Estherville fall coverage, the 1890 Forest City fall, a 1931 fireball, and Estherville getting a
+    piece back from U of M. No Mathwig in any of them.
+  - Mathwig himself: obituary (*Sentinel* 17 Oct 1964, "F. C. Mathwig Of Fairmont Dies at 94"): Frank C. Mathwig, born
+    24 July 1870 in a sod house in Emmet Co., Ia., moved at age one to Lake Fremont twp. near Dunnell; married Amelia
+    Grupe 1899; farmed near Dunnell until 1945, then 441 Willow St., Fairmont. Children: Mrs. D. H. Duncan, Mrs. Adella
+    Theobald, Mrs. M. W. Miller (all Fairmont) and Lyle Mathwig (rural Dunnell). (The file name's "1870 - 1904" is a
+    misread of 1964.) Also a 1932 Diamond Jubilee "Honor Roll of Pioneers" (Frank Mathwig, 1871, Lake Fremont) and his
+    MCHS pioneer card (age 88). The obit doesn't mention the stone.
+  - Takeaways: the dates line up (Estherville fell 10 May 1879, late afternoon; Frank was 8 going on 9; the paper's
+    "fall of 1879" may just be the season slipping over 31 years). A 30-lb mass would be a big find for Estherville
+    (mesosiderite, so "resembles iron ore" and the metallic ring fit). Nobody tested it. Last known: Heidel Hotel,
+    Feb-Mar 1911, held by Pomeroy. Next: ask Jim whether the stone ever went to the high school/library/MCHS, any later
+    Pomeroy or Heidel Hotel mention, and whether Lyle Mathwig's family is still around Dunnell.
+- **Gilead 1920:** no reply sent to Patrick yet (his 11-11 email). The Oxford Democrat text (county notes, p2) only says
+  Bean sent a piece "to a college laboratory for analysis", no college named. Draft reply in
+  `drafts/emails/replies_2026-11-12.md`; that reply and a follow-up to Jim are in Gmail Drafts (threaded), not sent.

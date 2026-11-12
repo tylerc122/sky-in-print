@@ -108,6 +108,8 @@
   - No find circumstances are on record.
 - **V. E. Barnes, "The stony meteorite from Kimble County, Texas"**, Univ. Texas Publ. 3945 (Contributions to
   Geology, 1939; issued Dec 1939 or June 1940), pp. 613-622. This is the primary source.
+  - **Correction 2026-11-10:** pp. 613-622 is Barnes's Cuero paper; the Kimble County paper follows it in the same
+    volume. The opening quoted below is the Kimble paper's. See `local_queue_2026-11-10.md` for the Cuero lead.
   - Opening, from the IA full-text snippet: "During August, 1936, a large meteorite was brought [to the University]".
   - So the stone reached scientists 18 years after the catalogued find year. "1918" presumably comes from the finder.
   - The full text is an archive.org lending item (contributionstog0000ehse). Borrowing it needs an account and is free.
