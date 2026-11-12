@@ -1,85 +1,81 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="One newspaper report of a stone falling from the sky, followed to what it really was."
-    />
-    <meta name="theme-color" content="#f5f1e8" />
-    <title>Case · Sky In Print</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css?v=28" />
-    <script src="assets/common.js?v=12"></script>
-  </head>
-  <body>
-    <a class="skip" href="#main">Skip to content</a>
-    <div class="shell">
-      <header>
-        <a class="brand" href="index.html"
-          ><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="bm-flame" x1="1" y1="0" x2="0.35" y2="0.62"><stop offset="0" style="stop-color:var(--accent);stop-opacity:0"/><stop offset="1" style="stop-color:var(--accent);stop-opacity:1"/></linearGradient></defs><path class="trail" fill="url(#bm-flame)" d="M11.6 12.4 30.8 1.2 22.4 18.6C21.6 15.6 19.4 13.1 16.4 12.2C14.8 11.8 13.1 11.9 11.6 12.4Z"/><path class="rock" fill="currentColor" d="M7.4 15.4C9.3 12.7 12.6 11.2 15.8 11.6C17.4 11.8 18.4 12.9 19.9 13.6C21.6 14.5 22.6 16.6 22.3 18.9C22 21.7 20.8 24.1 18.6 25.8C16.5 27.5 13.5 28.1 10.9 27.4C8.6 26.8 6.6 25.2 5.8 22.9C5 20.4 5.9 17.5 7.4 15.4Z"/><g class="pits" fill="var(--bg)" opacity=".3"><ellipse cx="11.4" cy="18.4" rx="2.1" ry="1.6"/><ellipse cx="16.6" cy="21.8" rx="1.9" ry="1.4"/><ellipse cx="10.6" cy="23.6" rx="1.2" ry=".9"/><ellipse cx="17" cy="16.6" rx="1.1" ry=".85"/></g><path class="rim" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" d="M11.4 12.6C14.6 11 18.6 11.7 21 14.4C22 15.6 22.5 17 22.5 18.4"/></svg>Sky In Print</a
-        >
-        <nav aria-label="Main navigation">
-          <a href="index.html#cases">Cases</a
-          ><a href="archive.html">The map</a
-          ><a href="fireball.html">The 1876 fireball</a
-          ><a href="about.html">How I did it</a
-          ><button class="theme" type="button">Night edition</button>
-        </nav>
-      </header>
-      <main id="main">
-        <section class="case-head">
-          <a class="back-link" href="index.html">← All 13 cases</a>
-          <p class="case-dateline"></p>
-          <h1 class="case-title"></h1>
-          <span class="stamp case-stamp"></span>
-        </section>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case · Sky In Print</title>
+<meta name="description" content="One newspaper report of a stone falling from the sky, followed to what it really was.">
+<meta name="theme-color" content="#ebeae4">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=30">
+<script src="assets/common.js?v=13"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <a class="word" href="index.html">Sky In Print</a>
+  <nav aria-label="Main">
+    <a href="index.html#cases">Cases</a>
+    <a href="archive.html">Map</a>
+    <a href="fireball.html">1876 fireball</a>
+    <a href="about.html">Method</a>
+  </nav>
+</header>
 
-        <div class="case-body">
-          <div class="case-main">
-            <section aria-labelledby="said">
-              <h2 id="said">What the papers said</h2>
-              <div class="case-said"></div>
-            </section>
-            <section aria-labelledby="was">
-              <h2 id="was">What it turned out to be</h2>
-              <div class="case-was"></div>
-            </section>
-            <section class="case-story" aria-labelledby="story" hidden>
-              <h2 id="story">The whole story</h2>
-              <div class="article case-article"></div>
-            </section>
-            <section aria-labelledby="sources">
-              <h2 id="sources">Sources</h2>
-              <ul class="case-sources"></ul>
-            </section>
-          </div>
-          <aside class="case-side" aria-label="Case facts">
-            <svg class="case-map" role="img"></svg>
-            <dl class="case-facts"></dl>
-          </aside>
-        </div>
+<figure class="plate" hidden>
+  <canvas id="sky" width="1600" height="762" role="img"></canvas>
+  <figcaption><span></span><span></span></figcaption>
+</figure>
 
-        <nav class="case-pager" aria-label="Other cases"></nav>
-      </main>
-      <footer>
-        <p>
-          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
-        </p>
-        <div>
-          <a href="about.html#data">Download data ↗</a
-          ><a href="about.html#sources">Sources & credits</a>
-        </div>
-      </footer>
-    </div>
-    <script src="assets/d3-7.9.0.min.js"></script>
-    <script src="assets/topojson-client-3.1.0.min.js"></script>
-    <script src="data/geography.js"></script>
-    <script src="data/catalog.js"></script>
-    <script src="data/scans.js?v=1"></script>
-    <script src="assets/cases.js?v=3"></script>
-    <script src="assets/stories.js?v=8"></script>
-    <script src="assets/case.js?v=3"></script>
-  </body>
+<main id="main" class="wrap">
+  <div class="case-head">
+    <h1></h1>
+    <p class="status-line"></p>
+    <p class="lede"></p>
+  </div>
+
+  <div class="case-body">
+    <div class="story"></div>
+    <aside class="case-side" aria-label="The clipping and the facts">
+      <div class="scan"></div>
+      <figure class="locator">
+        <svg role="img"></svg>
+      </figure>
+      <dl class="facts"></dl>
+    </aside>
+  </div>
+
+  <section class="record" hidden aria-labelledby="record-title">
+    <h2 id="record-title">The record, in order</h2>
+    <ol></ol>
+  </section>
+
+  <section class="case-sources" aria-labelledby="sources-title">
+    <h2 id="sources-title">Sources</h2>
+    <ul></ul>
+  </section>
+
+  <nav class="pager" aria-label="Other cases"></nav>
+</main>
+
+<footer class="foot">
+  <p>Sky In Print · newspaper reports of fireballs and meteorite falls, 1770 to 1964. Scans from the Library of Congress, Chronicling America. The paintings are made in code from each case's sources, and if it isn't in the record it isn't in the painting.</p>
+  <nav aria-label="Footer"><a href="about.html#data">Data</a><a href="about.html#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
+</footer>
+
+<script src="assets/d3-7.9.0.min.js"></script>
+<script src="assets/topojson-client-3.1.0.min.js"></script>
+<script src="data/geography.js"></script>
+<script src="data/catalog.js?v=2"></script>
+<script src="data/scans.js?v=1"></script>
+<script src="assets/cases.js?v=4"></script>
+<script src="assets/stories.js?v=9"></script>
+<script src="assets/paint.js?v=2"></script>
+<script src="assets/scene-thomson.js?v=1"></script>
+<script src="assets/scenes.js?v=3"></script>
+<script src="assets/case.js?v=5"></script>
+</body>
 </html>

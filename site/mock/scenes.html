@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8"><title>all scenes</title>
+<style>body{margin:0;background:#222;font:12px sans-serif;color:#ccc}div{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:6px}canvas{width:100%;aspect-ratio:2.1;display:block}</style>
+<div id="g"></div>
+<script src="../assets/paint.js"></script><script src="../assets/scene-thomson.js"></script><script src="../assets/scenes.js"></script>
+<script>
+const g=document.getElementById('g');
+const only=new URLSearchParams(location.search).get('s');
+for(const [id,v] of Object.entries(SKY_SCENES)){ if(only&&only!==id)continue;
+ const f=document.createElement('figure');f.style.margin=0;const c=document.createElement('canvas');f.append(c);f.append(id);g.append(f);
+ try{Painter.paint(c,v.scene,{seed:v.seed,animate:false,density:only?1:0.5,maxWidth:only?2000:900});}catch(e){f.append(' ERR '+e.message);console.error(id,e)}}
+if(only)g.style.gridTemplateColumns='1fr';
+</script>

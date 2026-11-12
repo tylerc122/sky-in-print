@@ -91,7 +91,7 @@
       .text(d.place.split(",")[0]);
     const row = document.createElement("tr");
     const residual = t.fit_residuals_km[d.place];
-    row.innerHTML = `<th scope="row">${d.place}</th><td>${Math.abs(residual)} km ${residual < 0 ? "south" : "north"}</td><td><a href="${sourceLinks[i]}" target="_blank" rel="noopener">${d.source} ↗</a></td>`;
+    row.innerHTML = `<th scope="row">${d.place}</th><td>${Math.abs(residual)} km ${residual < 0 ? "south" : "north"}</td><td><a href="${sourceLinks[i]}" target="_blank" rel="noopener">${d.source}</a></td>`;
     document.getElementById("witness-rows").append(row);
   });
   const r = projection([t.rochester.lon, t.rochester.lat]);

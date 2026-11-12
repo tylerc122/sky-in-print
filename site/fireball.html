@@ -7,40 +7,40 @@
       name="description"
       content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
     />
-    <meta name="theme-color" content="#f5f1e8" />
+    <meta name="theme-color" content="#ebeae4" />
     <title>Tracking the fireball of 1876 · Sky In Print</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css?v=28" />
-    <script src="assets/common.js?v=12"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css?v=30" />
+    <script src="assets/common.js?v=13"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <div class="shell">
-      <header>
-        <a class="brand" href="index.html"
-          ><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="bm-flame" x1="1" y1="0" x2="0.35" y2="0.62"><stop offset="0" style="stop-color:var(--accent);stop-opacity:0"/><stop offset="1" style="stop-color:var(--accent);stop-opacity:1"/></linearGradient></defs><path class="trail" fill="url(#bm-flame)" d="M11.6 12.4 30.8 1.2 22.4 18.6C21.6 15.6 19.4 13.1 16.4 12.2C14.8 11.8 13.1 11.9 11.6 12.4Z"/><path class="rock" fill="currentColor" d="M7.4 15.4C9.3 12.7 12.6 11.2 15.8 11.6C17.4 11.8 18.4 12.9 19.9 13.6C21.6 14.5 22.6 16.6 22.3 18.9C22 21.7 20.8 24.1 18.6 25.8C16.5 27.5 13.5 28.1 10.9 27.4C8.6 26.8 6.6 25.2 5.8 22.9C5 20.4 5.9 17.5 7.4 15.4Z"/><g class="pits" fill="var(--bg)" opacity=".3"><ellipse cx="11.4" cy="18.4" rx="2.1" ry="1.6"/><ellipse cx="16.6" cy="21.8" rx="1.9" ry="1.4"/><ellipse cx="10.6" cy="23.6" rx="1.2" ry=".9"/><ellipse cx="17" cy="16.6" rx="1.1" ry=".85"/></g><path class="rim" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" d="M11.4 12.6C14.6 11 18.6 11.7 21 14.4C22 15.6 22.5 17 22.5 18.4"/></svg>Sky In Print</a
-        >
-        <nav aria-label="Main navigation">
-          <a href="index.html#cases">Cases</a
-          ><a href="archive.html">The map</a
-          ><a href="fireball.html" aria-current="page">The 1876 fireball</a
-          ><a href="about.html">How I did it</a
-          ><button class="theme" type="button">Night edition</button>
-        </nav>
-      </header>
-      <main id="main">
-        <section class="hero page-head">
+    <header class="mast">
+      <a class="word" href="index.html">Sky In Print</a>
+      <nav aria-label="Main">
+        <a href="index.html#cases">Cases</a>
+        <a href="archive.html">Map</a>
+        <a href="fireball.html">1876 fireball</a>
+        <a href="about.html">Method</a>
+      </nav>
+    </header>
+    <figure class="plate">
+      <canvas id="sky" width="1600" height="762" role="img"></canvas>
+      <figcaption><span></span><span></span></figcaption>
+    </figure>
+      <main id="main" class="wrap">
+        <section class="page-head">
+          <h1>The fireball of December 21, 1876</h1>
           <div>
-            <p class="eyebrow">Reconstruction · December 21, 1876</p>
-            <h1 data-split>The fireball of December 21, 1876</h1>
-          </div>
-          <div class="hero-note">
             <p>
               Seven towns reported the fireball overhead. The track fitted to
               them passes 17 km from the Rochester, Indiana meteorite, which was
               not used in the fit.
             </p>
-            <a href="#how">How the track was fitted ↓</a>
+            <a href="#how">How the track was fitted</a>
           </div>
         </section>
         <section
@@ -55,7 +55,7 @@
           ></svg>
           <div class="track-controls">
             <button class="active" id="replay" type="button">
-              ▶ Replay the path
+              Replay the path
             </button>
             <p>
               Illustrative motion only. Speed, duration and altitude are not
@@ -83,7 +83,7 @@
             <p>
               The fitted track runs west-southwest to east-northeast, at an
               azimuth of 67.9°.
-              <a href="data/evidence/tracks.md">Fit notes ↗</a>
+              <a href="data/evidence/tracks.md">Fit notes </a>
             </p>
           </div>
           <div>
@@ -91,7 +91,7 @@
             <p>
               Rochester lies 17 km south of the fitted track. Its location was
               held out of the fit.
-              <a href="data/evidence/tracks.md">Independent checks ↗</a>
+              <a href="data/evidence/tracks.md">Independent checks </a>
             </p>
           </div>
           <div>
@@ -99,7 +99,7 @@
             <p>
               The overhead towns scatter by about 26 km RMS. This is a ground
               track, not an orbit.
-              <a href="data/track.json">Reconstruction data ↗</a>
+              <a href="data/track.json">Reconstruction data </a>
             </p>
           </div>
         </section>
@@ -120,27 +120,34 @@
           </table>
         </div>
         <article class="article" id="how">
-          <p class="eyebrow">Field notes / 04</p>
           <h2>Tracking a fireball with 1876 newspapers.</h2>
           <div id="track-story"></div>
-          <a href="index.html" class="back">← All 13 cases</a>
+          <p><a href="index.html#cases">All thirteen cases</a></p>
         </article>
       </main>
-      <footer>
-        <p>
-          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
-        </p>
-        <div>
-          <a href="about.html#data">Download data ↗</a
-          ><a href="about.html#sources">Sources & credits</a>
-        </div>
-      </footer>
-    </div>
+      <footer class="foot">
+      <p>Sky In Print · newspaper reports of fireballs and meteorite falls, 1770 to 1964. Scans from the Library of Congress, Chronicling America. The paintings are made in code from each case's sources.</p>
+      <nav aria-label="Footer"><a href="about.html#data">Data</a><a href="about.html#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
+    </footer>
     <script src="assets/d3-7.9.0.min.js"></script>
     <script src="assets/topojson-client-3.1.0.min.js"></script>
     <script src="data/geography.js"></script>
-    <script src="data/catalog.js"></script>
+    <script src="data/catalog.js?v=2"></script>
     <script src="assets/stories.js?v=8"></script>
-    <script src="assets/track.js?v=4"></script>
+    <script src="assets/track.js?v=6"></script>
+    <script src="assets/paint.js?v=2"></script>
+    <script src="assets/scene-thomson.js?v=1"></script>
+    <script src="assets/scenes.js?v=3"></script>
+    <script>
+      (() => {
+        const s = SKY_SCENES.rochester;
+        const cv = document.getElementById("sky");
+        cv.setAttribute("aria-label", "Painting: " + s.alt);
+        const cap = document.querySelectorAll(".plate figcaption span");
+        cap[0].textContent = s.caption[0];
+        cap[1].textContent = s.caption[1];
+        paintScene(cv, "rochester", { duration: 6500 });
+      })();
+    </script>
   </body>
 </html>

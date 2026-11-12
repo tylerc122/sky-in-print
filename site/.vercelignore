@@ -3,3 +3,5 @@
 .vercel
 .gitignore
 .vercelignore
+.claude
+mock

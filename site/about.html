@@ -7,40 +7,36 @@
       name="description"
       content="Follow American newspaper reports of fireballs and meteorite falls through original scans, scientific verdicts and museum records."
     />
-    <meta name="theme-color" content="#f5f1e8" />
+    <meta name="theme-color" content="#ebeae4" />
     <title>Methods, limits and open data · Sky In Print</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/style.css?v=28" />
-    <script src="assets/common.js?v=12"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css?v=30" />
+    <script src="assets/common.js?v=13"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <div class="shell">
-      <header>
-        <a class="brand" href="index.html"
-          ><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="bm-flame" x1="1" y1="0" x2="0.35" y2="0.62"><stop offset="0" style="stop-color:var(--accent);stop-opacity:0"/><stop offset="1" style="stop-color:var(--accent);stop-opacity:1"/></linearGradient></defs><path class="trail" fill="url(#bm-flame)" d="M11.6 12.4 30.8 1.2 22.4 18.6C21.6 15.6 19.4 13.1 16.4 12.2C14.8 11.8 13.1 11.9 11.6 12.4Z"/><path class="rock" fill="currentColor" d="M7.4 15.4C9.3 12.7 12.6 11.2 15.8 11.6C17.4 11.8 18.4 12.9 19.9 13.6C21.6 14.5 22.6 16.6 22.3 18.9C22 21.7 20.8 24.1 18.6 25.8C16.5 27.5 13.5 28.1 10.9 27.4C8.6 26.8 6.6 25.2 5.8 22.9C5 20.4 5.9 17.5 7.4 15.4Z"/><g class="pits" fill="var(--bg)" opacity=".3"><ellipse cx="11.4" cy="18.4" rx="2.1" ry="1.6"/><ellipse cx="16.6" cy="21.8" rx="1.9" ry="1.4"/><ellipse cx="10.6" cy="23.6" rx="1.2" ry=".9"/><ellipse cx="17" cy="16.6" rx="1.1" ry=".85"/></g><path class="rim" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" d="M11.4 12.6C14.6 11 18.6 11.7 21 14.4C22 15.6 22.5 17 22.5 18.4"/></svg>Sky In Print</a
-        >
-        <nav aria-label="Main navigation">
-          <a href="index.html#cases">Cases</a
-          ><a href="archive.html">The map</a
-          ><a href="fireball.html">The 1876 fireball</a
-          ><a href="about.html" aria-current="page">How I did it</a
-          ><button class="theme" type="button">Night edition</button>
-        </nav>
-      </header>
-      <main id="main">
-        <section class="hero page-head">
+    <header class="mast">
+      <a class="word" href="index.html">Sky In Print</a>
+      <nav aria-label="Main">
+        <a href="index.html#cases">Cases</a>
+        <a href="archive.html">Map</a>
+        <a href="fireball.html">1876 fireball</a>
+        <a href="about.html">Method</a>
+      </nav>
+    </header>
+      <main id="main" class="wrap">
+        <section class="page-head">
+          <h1>About the project</h1>
           <div>
-            <p class="eyebrow">Methods, limits and data</p>
-            <h1 data-split>About the project</h1>
-          </div>
-          <div class="hero-note">
             <p>
               Sky In Print follows reported fireballs and meteorite falls
               through American newspapers, scientific literature and collection
               records.
             </p>
-            <a href="#data">Download the data ↓</a>
+            <a href="#data">Download the data</a>
           </div>
         </section>
         <section class="method-grid">
@@ -58,7 +54,7 @@
                   >, drawn from the Library of Congress. A local model, Flint,
                   helps triage candidate articles. The pipeline is a filter, not
                   an authority on whether a stone came from space.
-                  <a href="data/evidence/PILOT_REPORT.md">Pilot report ↗</a>
+                  <a href="data/evidence/PILOT_REPORT.md">Pilot report </a>
                 </p>
               </div>
             </div>
@@ -72,7 +68,7 @@
                   review. A newspaper's publishing city is not necessarily a
                   witness's location, and several papers may print one account.
                   <a href="data/evidence/PILOT_REPORT.md"
-                    >Grouping and review results ↗</a
+                    >Grouping and review results </a
                   >
                 </p>
               </div>
@@ -87,7 +83,7 @@
                   settle a case. A named collection can turn an old story into a
                   search for an object. None of the open leads is a newly
                   confirmed meteorite.
-                  <a href="index.html">Follow the thirteen cases ↗</a>
+                  <a href="index.html">Follow the thirteen cases </a>
                 </p>
               </div>
             </div>
@@ -112,7 +108,7 @@
               These points are not impact sites or reconstructed witness
               positions. Fireball marker size uses the upstream grouped-city
               count, which is only a proxy for independent reporting.
-              <a href="data/README.md">Read the field definitions ↗</a>
+              <a href="data/README.md">Read the field definitions </a>
             </p>
             <h3>Not a complete census</h3>
             <p>
@@ -121,7 +117,7 @@
               contain misclassified or unrelated sky reports. Dates retain the
               input's precision and uncertainty. The 1770–1964 axis describes
               the project's scope, not continuous observations.
-              <a href="data/README.md">Release selection and limits ↗</a>
+              <a href="data/README.md">Release selection and limits </a>
             </p>
           </div>
         </section>
@@ -137,7 +133,7 @@
               or garbled by OCR cannot be ruled out. Five out of five among
               recoverable cases is not evidence of perfect overall recall.
               <a href="data/evidence/known_falls_1870s.md"
-                >Recovery test and rescan ↗</a
+                >Recovery test and rescan </a
               >
             </p>
             <h3>The blind check changed the method</h3>
@@ -147,7 +143,7 @@
               Because that sample was used to tune the changes, it cannot
               independently validate the revised rules.
               <a href="data/evidence/ranker_blind_check.md"
-                >Blind-check results ↗</a
+                >Blind-check results </a
               >
             </p>
             <h3>Human review has limits, too</h3>
@@ -156,9 +152,9 @@
               decided model judgements; four more were undecidable. That small
               comparison is not a general accuracy score. Garbled OCR, clipped
               excerpts and plausible hoaxes remain sources of error.
-              <a href="data/evidence/RESULTS.md">Human check ↗</a> ·
+              <a href="data/evidence/RESULTS.md">Human check </a> ·
               <a href="data/evidence/PILOT_REPORT.md"
-                >Audits and pilot limits ↗</a
+                >Audits and pilot limits </a
               >
             </p>
           </div>
@@ -166,6 +162,22 @@
         <section class="method-grid">
           <h2>Outcome categories</h2>
           <div id="status-definitions"></div>
+        </section>
+        <section class="method-grid" id="paintings">
+          <h2>The paintings</h2>
+          <div>
+            <p>
+              Each case has a painting at the top, made in code one brushstroke at a time. They're all by the same invented
+              painter, a regional painter of the 1890s who gives the sky most of the canvas, works in short dry strokes and keeps
+              to a small palette, so the thirteen hang together as a set.
+            </p>
+            <p>
+              Every painting is built from that case's sources: the time of day where it's known, the season, the ground, who was
+              there, and what people said they saw and heard. If a case turned out to be a hoax, nothing falls in the picture.
+              Thomson came down in daylight and nobody reported a light, so there's no fireball in it. Where the record doesn't
+              give the hour or the season, the caption says the painting guessed. The same seed always gives the same painting.
+            </p>
+          </div>
         </section>
         <section class="method-grid" id="data">
           <h2>Data</h2>
@@ -179,11 +191,11 @@
             </p>
             <div class="download-links">
               <a class="button-link" href="data/fall_reports.csv" download
-                >Fall reports ↓ CSV</a
+                >Fall reports CSV</a
               ><a class="button-link" href="data/fireball_events.csv" download
-                >Fireball groups ↓ CSV</a
+                >Fireball groups CSV</a
               ><a class="button-link" href="data/README.md"
-                >Data dictionary ↗</a
+                >Data dictionary </a
               >
             </div>
             <p>
@@ -191,7 +203,7 @@
               <code>python -m skyinprint.export_public</code>. New sweep
               statistics are picked up automatically; expanding the event
               catalogue requires updating the upstream grouped and reviewed
-              events first. <a href="data/README.md">Reproduction details ↗</a>
+              events first. <a href="data/README.md">Reproduction details </a>
             </p>
           </div>
         </section>
@@ -225,9 +237,7 @@
               Map boundaries:
               <a href="https://github.com/topojson/us-atlas">US Atlas 3.0.1</a>,
               from U.S. Census Bureau cartography. Maps use vendored D3 7.9.0
-              and topojson-client 3.1.0. Typeface:
-              <a href="https://fonts.google.com/specimen/Barlow">Barlow</a>,
-              with local system-font fallbacks. Derived data: CC BY 4.0; project
+              and topojson-client 3.1.0. Type: <a href="https://fonts.google.com/specimen/Old+Standard+TT">Old Standard TT</a> and <a href="https://fonts.google.com/specimen/Libre+Franklin">Libre Franklin</a>, with system fallbacks. Derived data: CC BY 4.0; project
               code: MIT.
             </p>
             <p>
@@ -236,30 +246,24 @@
               Private correspondence, staff identities, outreach logs and
               supplied attachments are excluded.
               <a href="data/evidence/public_updates.md"
-                >Read the public update record ↗</a
+                >Read the public update record </a
               >
             </p>
           </div>
         </section>
       </main>
-      <footer>
-        <p>
-          Sky In Print · Newspaper reports of fireballs and meteorite falls, 1770–1964.<br />No new meteorite has been confirmed.
-        </p>
-        <div>
-          <a href="about.html#data">Download data ↗</a
-          ><a href="about.html#sources">Sources & credits</a>
-        </div>
-      </footer>
-    </div>
-    <script src="data/catalog.js"></script>
+      <footer class="foot">
+      <p>Sky In Print · newspaper reports of fireballs and meteorite falls, 1770 to 1964. Scans from the Library of Congress, Chronicling America. The paintings are made in code from each case's sources.</p>
+      <nav aria-label="Footer"><a href="about.html#data">Data</a><a href="about.html#sources">Sources and credits</a><button class="theme" type="button">Dark pages</button></nav>
+    </footer>
+    <script src="data/catalog.js?v=2"></script>
     <script>
       document.getElementById("status-definitions").innerHTML = Object.entries(
         SKY_DATA.statuses,
       )
         .map(
           ([name, definition]) =>
-            `<div class="method-step"><span class="number">↗</span><div><h3>${name[0].toUpperCase() + name.slice(1)}</h3><p>${definition}</p></div></div>`,
+            `<h3>${name[0].toUpperCase() + name.slice(1)}</h3><p>${definition}</p>`,
         )
         .join("");
     </script>

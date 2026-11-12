@@ -86,7 +86,7 @@
       .slice(0, 3)
       .map(
         (s) =>
-          `<a class="source-link" href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`,
+          `<a class="source-link" href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.label)}</a>`,
       )
       .join("")}${
       d.quotes?.length
@@ -94,11 +94,11 @@
             .slice(0, 3)
             .map(
               (q) =>
-                `<blockquote>“${esc(q.quote)}”</blockquote><p class="date">Uncorrected OCR · ${esc(q.date)}</p><a class="source-link" href="${esc(q.url)}" target="_blank" rel="noopener">Read the newspaper page ↗</a>`,
+                `<blockquote>“${esc(q.quote)}”</blockquote><p class="date">Uncorrected OCR · ${esc(q.date)}</p><a class="source-link" href="${esc(q.url)}" target="_blank" rel="noopener">Read the newspaper page</a>`,
             )
             .join("")}</details>`
         : ""
-    }${d.kind === "fall" ? `<a class="button-link" href="case.html?c=${encodeURIComponent(d.id)}">Read the case ↗</a>` : ""}${d.kind === "fireball" && d.date_lo === "1876-12-21" ? '<a class="button-link" href="fireball.html">Explore the reconstruction ↗</a>' : ""}<p class="location-note">${esc(d.location_basis)}${d.kind === "fireball" && !d.dated ? " Date not securely resolved." : ""}</p>`;
+    }${d.kind === "fall" ? `<a class="button-link" href="case.html?c=${encodeURIComponent(d.id)}">Read the case</a>` : ""}${d.kind === "fireball" && d.date_lo === "1876-12-21" ? '<a class="button-link" href="fireball.html">Explore the reconstruction</a>' : ""}<p class="location-note">${esc(d.location_basis)}${d.kind === "fireball" && !d.dated ? " Date not securely resolved." : ""}</p>`;
     const nearby = filtered().filter((x) => x.lat === d.lat && x.lon === d.lon);
     if (nearby.length > 1) {
       const next = document.createElement("button");
@@ -225,7 +225,7 @@
     )) {
       const b = document.createElement("button");
       b.className = "result-row";
-      b.innerHTML = `<span>${esc(d.place)}<small>${esc(d.date_lo)} · ${esc(d.status)}${d.lat === null ? " · not mapped" : ""}</small></span><span class="arrow" aria-hidden="true">↗</span>`;
+      b.innerHTML = `<span>${esc(d.place)}<small>${esc(d.date_lo)} · ${esc(d.status)}${d.lat === null ? " · not mapped" : ""}</small></span>`;
       b.onclick = () => select(d, true);
       list.append(b);
     }

@@ -84,10 +84,10 @@
     {
       id: "thomson",
       verdict: "real",
-      stamp: "Real, and it fell",
+      stamp: "Real, and now listed as a fall",
       headline: "A stone falls thirty yards from a man picking cotton",
       quote: "heard it whizzing as a minnie ball",
-      ending: "The catalogue lists Thomson as found, not seen falling. The finder's 1888 letter says otherwise, and a vote to correct the record is underway.",
+      ending: "The catalogue had Thomson as found, not seen falling. The finder's 1888 letter said otherwise, and on November 11, 2026 the record was changed to an observed fall.",
     },
     {
       id: "jonesboro",
