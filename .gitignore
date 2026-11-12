@@ -24,3 +24,9 @@ data/sweep/
 
 # vercel project link
 .vercel
+
+# newswire downloads and sweep outputs
+data/newswire_raw/
+data/newswire/
+data/*_DONE
+data/*recall.json
