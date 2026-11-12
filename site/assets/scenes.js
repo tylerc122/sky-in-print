@@ -1271,7 +1271,7 @@
   };
 
   const ALT = {
-    thomson: "A wide October sky with tall white clouds over a pine line and a field of open cotton. A man bends over a row with a sack behind him, and further down the row a small spray of dirt rises.",
+    thomson: "A wide October sky with tall white clouds over pines and turning hardwoods, with a farmhouse, an oak and a rail fence at the far edge of a field of open cotton. A man bent over a row, his long picking sack trailing behind him, looks up as a spray of dirt rises further down the field.",
     northport: "Night over a bay. A pale green fireball cuts down the sky toward dark spruce on the far shore, its light broken on the water beside a schooner at anchor.",
     saco: "Dusk over a farmhouse with two lit windows and a dark line of trees. A small bright meteor comes down behind the house toward a meadow crossed by a stone wall.",
     laclede: "A summer farm under white clouds. A wooden windlass stands over a hole beside a heap of red clay, with a dark stone sitting on top of the heap.",

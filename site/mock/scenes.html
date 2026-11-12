@@ -7,6 +7,9 @@ const g=document.getElementById('g');
 const only=new URLSearchParams(location.search).get('s');
 for(const [id,v] of Object.entries(SKY_SCENES)){ if(only&&only!==id)continue;
  const f=document.createElement('figure');f.style.margin=0;const c=document.createElement('canvas');f.append(c);f.append(id);g.append(f);
- try{Painter.paint(c,v.scene,{seed:v.seed,animate:false,density:only?1:0.5,maxWidth:only?2000:900});}catch(e){f.append(' ERR '+e.message);console.error(id,e)}}
+ try{Painter.paint(c,v.scene,{seed:v.seed,animate:false,density:only?1:0.5,maxWidth:only?(+new URLSearchParams(location.search).get('w')||2000):900});}catch(e){f.append(' ERR '+e.message);console.error(id,e)}}
 if(only)g.style.gridTemplateColumns='1fr';
+// ?crop=x0,y0,x1,y1 blows a region of the painting up to fill the window
+const cr=new URLSearchParams(location.search).get('crop');
+if(cr){const [x0,y0,x1,y1]=cr.split(',').map(Number);const src=document.querySelector('canvas');const c=document.createElement('canvas');c.style.cssText='position:fixed;inset:0;width:100vw;height:100vh;background:#000';c.width=innerWidth*2;c.height=innerHeight*2;document.body.append(c);const W=src.width,H=src.height,sw=(x1-x0)*W,sh=(y1-y0)*H,s=Math.min(c.width/sw,c.height/sh);c.getContext('2d').drawImage(src,x0*W,y0*H,sw,sh,0,0,sw*s,sh*s);}
 </script>
