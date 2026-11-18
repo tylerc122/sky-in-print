@@ -28,8 +28,20 @@ for meteor, aerolite, Eger/Egger, Engel, Robinett and "Chronicle office". Nothin
 - 1895-08-17 p4: reprint from the Gold Beach (Ore.) Gazette, a bright meteor/aerolite that burst near Doyle's on the
   Rogue River; fragments fell. Unrelated to Dayton, but a possible new lead for the sweep.
 
+**Records for Simon Egger (2026-11-17, Washington State Digital Archives, free, no login):**
+- 1879: naturalization case, Walla Walla County (Frontier Justice WAL-6581, orig. case 1960). Index only, no image.
+- 1884: civil suit, Columbia County, Egger as plaintiff, collection/contract (COL-1037).
+- 1889 Columbia County territorial census, Dayton precinct (p. 79, line 23, enumerated 5 Apr 1889): Simon Egger, 51
+  (born ~1838), white male, single, US citizen over 21, birthplace indexed "Australia" (almost surely Austria; Egger is
+  a Tyrolean/Carinthian name).
+- Not him: Simon Egger, d. Tacoma 23 Mar 1943 aged 78 (born ~1865).
+- Nothing in Columbia Co. auditor death records 1891-1906 or on Find a Grave (US). FamilySearch needs a login (Tyler's
+  Chrome isn't signed in there), so the 1900 federal census is unchecked.
+So: a single Austrian-born trapper, ~55 in 1893, no known family. The stone went to the Chronicle office anyway, so
+Egger's own line matters less than the paper's.
+
 **Next:**
-- Search census/records under **Egger** (1900 Columbia Co., Wash.; also Idaho, given Little Salmon).
+- 1900 census (FamilySearch, needs Tyler's login) for Egger's whereabouts / death; Idaho too (Little Salmon).
 - Chronicle 1896+ if worth it (the files go to 1927).
 - Simon Eger in the 1900 census / Columbia Co. records; the spelling change probably explains Blue Mountain HS finding
   no "Eyer".
