@@ -18,8 +18,19 @@ OCR: Apple Vision on ~1100x1500 tiles (full pages get downscaled and lose most t
 Engel, aerolite, Robinett. Nothing more on the stone. Unrelated: 1893-10-07 p3, a brilliant meteor with a roaring
 noise passed north "Monday evening" (Oct 2); no landing claimed.
 
+**1894-1895 read too (2026-11-17), plus the missing 1893-08-12:** all 105 issues OCR'd (15,210 tiles) and searched
+for meteor, aerolite, Eger/Egger, Engel, Robinett and "Chronicle office". Nothing more on the stone. What turned up:
+- The man is spelled **Simon Egger** in later items: "Simon Egger, the well-known pioneer trapper and hunter" (1894-01-06
+  p1, a mountain correspondence column, trapping marten on the head of Little Salmon); "Simon Egger is hunting and
+  trapping" (1895-11-30 p2); back from a hunt (1895-12-14 p2). So he was still around Dayton's mountain country in 1895.
+- 1894-02-24 p2 "falling meteor ... at the foot of a steep hill" on Johnson Hollow is a joke about a man falling down a
+  hill (boots, red head), not a meteor.
+- 1895-08-17 p4: reprint from the Gold Beach (Ore.) Gazette, a bright meteor/aerolite that burst near Doyle's on the
+  Rogue River; fragments fell. Unrelated to Dayton, but a possible new lead for the sweep.
+
 **Next:**
-- 1894-1895 Chronicle for the stone at the newspaper office (a sale, a gift to a college or the World's Fair, etc.).
+- Search census/records under **Egger** (1900 Columbia Co., Wash.; also Idaho, given Little Salmon).
+- Chronicle 1896+ if worth it (the files go to 1927).
 - Simon Eger in the 1900 census / Columbia Co. records; the spelling change probably explains Blue Mountain HS finding
   no "Eyer".
 - Who owned the Chronicle in 1893 (where its office cabinet went).
