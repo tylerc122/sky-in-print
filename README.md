@@ -22,7 +22,7 @@ Whenever a report says somebody picked up a stone, I follow it through later pap
 
 ### Checking what it misses
 
-To see how much slips through I checked it against the 114 recorded US falls in the years I swept. Of those, 48 show up with a real report somewhere in the keyword candidates and the model caught 47 of them, and the other 66 never reached the model at all, mostly because their papers aren't in the corpus or the OCR mangled them too badly to match. I also did a blind check of the model's calls and agreed with it on 22 of 24. Details are in `results/validation/` and `results/eyecheck/`.
+To see how much slips through I checked it against the 114 recorded US falls in the years I swept. Of those, 48 show up with a real report somewhere in the keyword candidates and the model caught 47 of them, and the other 66 never reached the model at all, because their papers aren't in the corpus, the OCR mangled them or the keyword search missed them (I've only rescanned a handful to see which). I also did a blind check of the model's calls and agreed with it on 22 of 24. Details are in `results/validation/` and `results/eyecheck/`.
 
 ### The 1876 fireball
 
