@@ -9,7 +9,7 @@
     doubts: "https://www.loc.gov/resource/sn83045462/1880-10-09/ed-1/?sp=5",
     retraction: "https://www.loc.gov/resource/sn87076843/1880-11-26/ed-1/?sp=3",
     late: "https://www.loc.gov/resource/sn84022770/1881-02-04/ed-1/?sp=3",
-    track: "/data/evidence/tracks.md",
+    track: "https://github.com/tylerc122/sky-in-print/blob/main/results/fireballs/tracks.md",
     museum: "/cases/saco",
     fort: "https://www.gutenberg.org/ebooks/22472",
     merrill: "https://archive.org/details/smithsonianmisce521910smit/page/473/mode/1up",

@@ -48,15 +48,11 @@ class PublicReleaseTest(unittest.TestCase):
         texts='\n'.join(p.read_text() for p in self.out.rglob('*') if p.is_file()).lower()
         for private in ['drafts/emails','@gmail.com','-----begin private key-----']:
             self.assertNotIn(private,texts)
-        evidence=set(p.name for p in (self.out/'evidence').iterdir())
-        self.assertNotIn('saco_trail.md',evidence)
-        self.assertNotIn('middleburg_trail.md',evidence)
+        self.assertFalse((self.out/'evidence').exists())
         for row in self.falls+self.events:
             for source in row['sources']:
                 url=source['url']
-                self.assertTrue(url.startswith(('https://','evidence/')))
-                if url.startswith('evidence/'):
-                    self.assertTrue((self.out/url).is_file())
+                self.assertTrue(url.startswith('https://'))
 
     def test_track_is_fitted_great_circle(self):
         import numpy as np

@@ -43,14 +43,14 @@
               <span class="number">01</span>
               <div>
                 <h3>Find the reports</h3>
-                <p>Keyword patterns search the OCR text of <a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">American Stories</a>, a research group's transcription of the Library of Congress newspaper scans. A model running on my own machine (Flint) sorts the actual sky reports from everything else. All it does is narrow the pile, it doesn't decide whether anything came from space. <a href="/data/evidence/PILOT_REPORT.md">Pilot report</a></p>
+                <p>Keyword patterns search the OCR text of <a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">American Stories</a>, a research group's transcription of the Library of Congress newspaper scans. A model running on my own machine (Flint) sorts the actual sky reports from everything else. All it does is narrow the pile, it doesn't decide whether anything came from space.</p>
               </div>
             </div>
             <div class="method-step">
               <span class="number">02</span>
               <div>
                 <h3>Read them</h3>
-                <p>Reports get grouped, reprints get compared, and I read the interesting ones myself, with extra review on the biggest fireballs. A paper's hometown isn't always where the witness was, and lots of papers reprinted the same account, so a dozen clippings can be one person. <a href="/data/evidence/PILOT_REPORT.md">Grouping and review</a></p>
+                <p>Reports get grouped, reprints get compared, and I read the interesting ones myself, with extra review on the biggest fireballs. A paper's hometown isn't always where the witness was, and lots of papers reprinted the same account, so a dozen clippings can be one person.</p>
               </div>
             </div>
             <div class="method-step">
@@ -69,21 +69,22 @@
             <h3>More dots usually means more newspapers</h3>
             <p>How many papers got digitized swings a lot by year and state, and reprints and OCR quality move the dots around too, so the map shows what got printed and survived, which has little to do with how often meteors fell. The timeline has a separate line for newspaper titles per year from the sweep, and a missing year means I don't know. Article counts are in <a href="/data/coverage.json">coverage.json</a>.</p>
             <h3>Two kinds of pin</h3>
-            <p>Fall cases sit at the rough place the papers named. Each fireball group sits at one publishing town, the one closest to the other towns that printed it, so those pins are where papers were and have nothing to do with where anything landed or where people stood. Fireball pins get bigger with the number of towns, which is only a rough stand-in for how many separate people saw it. <a href="/data/README.md">Field definitions</a></p>
+            <p>Fall cases sit at the rough place the papers named. Each fireball group sits at one publishing town, the one closest to the other towns that printed it, so those pins are where papers were and have nothing to do with where anything landed or where people stood. Fireball pins get bigger with the number of towns, which is only a rough stand-in for how many separate people saw it.</p>
             <h3>It's not everything</h3>
-            <p>The map has fireball groups printed in at least two towns, plus anything I flagged by hand. Some of those groups probably still mix up unrelated sky reports. Dates are only as exact as the papers were, and 1770 to 1964 is just the range I searched, with plenty of gaps inside it. <a href="/data/README.md">Selection and limits</a></p>
+            <p>The map has fireball groups printed in at least two towns, plus anything I flagged by hand. Some of those groups probably still mix up unrelated sky reports. Dates are only as exact as the papers were, and 1770 to 1964 is just the range I searched, with plenty of gaps inside it.</p>
           </div>
         </section>
 
         <section class="method-grid">
           <h2>How much it misses</h2>
           <div>
-            <h3>Five of seven known falls</h3>
-            <p>I tested the search on the 1870s and it found five of the seven recorded U.S. falls, 71%, with a wide 95% interval of 36 to 92%. A full-year rescan for the two it missed found nothing about them at all, so I think those papers just aren't in the collection, though OCR mangling them is possible too. Five for five on the ones that are in there is a good sign and that's all it is. <a href="/data/evidence/known_falls_1870s.md">Recovery test and rescan</a></p>
+            <h3>Checked against 114 known falls</h3>
+            <p>I took the 114 recorded U.S. falls from the years I searched and looked for each one in the results. 48 of them have a real report somewhere in what the keyword search pulled, and the model caught 47 of those. The other 66 never got that far, either because their papers aren't in the collection, the OCR mangled them or the keyword search missed them, and I've only rescanned a handful to see which, so overall it finds 47 of the 114.</p>
             <h3>A blind check changed the rules</h3>
-            <p>I read 100 fall reports the ranker had scored low and found seven that named where the stone ended up, which it should have caught. I changed the rules after that. Since I tuned on that same sample, it can't double as proof the new rules work. <a href="/data/evidence/ranker_blind_check.md">Blind check</a></p>
+            <p>I read 100 fall reports the ranker had scored low and found seven that named where the stone ended up, which it should have caught. I changed the rules after that. Since I tuned on that same sample, it can't double as proof the new rules work.</p>
             <h3>I make mistakes too</h3>
-            <p>In a blind review of excerpts I agreed with the model on 22 of the 24 it decided, and four more I couldn't call either way. That's a small sample. Garbled OCR, clipped excerpts and good hoaxes still trip both of us up. <a href="/data/evidence/RESULTS.md">The check</a> · <a href="/data/evidence/PILOT_REPORT.md">Audits and limits</a></p>
+            <p>In a blind review of excerpts I agreed with the model on 22 of the 24 it decided, and four more I couldn't call either way. That's a small sample. Garbled OCR, clipped excerpts and good hoaxes still trip both of us up.</p>
+            <p>The full audits, recall checks and working notes are in the <a href="https://github.com/tylerc122/sky-in-print/tree/main/results">results folder on GitHub</a>.</p>
           </div>
         </section>
 
@@ -96,8 +97,7 @@
           <h2>The data</h2>
           <div>
             <p>The release has the 13 cases, the fireball groups, source links and coverage numbers. CSV fields that hold lists are JSON. Quotes are short and keep the original OCR unless a fix is marked. It's a snapshot and won't update on its own.</p>
-            <p class="download-links"><a class="button-link" href="/data/fall_reports.csv" download>Fall reports (CSV)</a><a class="button-link" href="/data/fireball_events.csv" download>Fireball groups (CSV)</a><a class="button-link" href="/data/README.md">Data dictionary</a></p>
-            <p>The downloadable data is the published snapshot. See the <a href="/data/README.md">data dictionary</a> for fields, sources and limitations.</p>
+            <p class="download-links"><a class="button-link" href="/data/fall_reports.csv" download>Fall reports (CSV)</a><a class="button-link" href="/data/fireball_events.csv" download>Fireball groups (CSV)</a><a class="button-link" href="https://github.com/tylerc122/sky-in-print/blob/main/site/data/README.md">Data dictionary</a></p>
           </div>
         </section>
 
