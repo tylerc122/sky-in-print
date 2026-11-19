@@ -1,6 +1,3 @@
-<a href="https://www.skyinprint.com"><img src="docs/readme/thomson-1888.jpg" alt="Painting of a farmer in a Georgia cotton field as a stone hits the dirt a few rows over" width="100%"></a>
-<sub>Near Thomson, Georgia, 15 October 1888, about 1 in the afternoon. Painted in code from the newspaper accounts, like every case on the site.</sub>
-
 # Sky In Print
 
 In November 2026 the [Meteoritical Bulletin](https://www.lpi.usra.edu/meteor/metbull.cfm?code=23973) changed the Thomson, Georgia (1888) meteorite from a find to an observed fall, after I sent them the 1888 newspaper reports of it coming down, so a stone that was already in the catalogue finally has the right story attached, and that's the first thing this project has actually changed in the record.
