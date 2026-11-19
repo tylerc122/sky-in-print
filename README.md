@@ -1,45 +1,37 @@
 # Sky In Print
 
-[Sky In Print](https://www.skyinprint.com) follows American newspaper reports of fireballs and alleged meteorite falls through original scans, scientific literature and museum records.
+In November 2026 the [Meteoritical Bulletin](https://www.lpi.usra.edu/meteor/metbull.cfm?code=23973) changed the Thomson, Georgia (1888) meteorite from a find to an observed fall, after I sent them the 1888 newspaper reports of it coming down. It's a known meteorite getting its history fixed, not a new one, but it's the first thing this project actually changed in the record.
 
-The public site presents thirteen cases, a map of newspaper reports, and a reconstruction of the 21 December 1876 fireball. The first published catalogue correction is **Thomson, Georgia (1888)**: the [Meteoritical Bulletin](https://www.lpi.usra.edu/meteor/metbull.cfm?code=23973) now records it as an observed fall. This is a correction to a recognized meteorite's history, not the discovery of a new meteorite. Other specimen leads remain unresolved.
+Sky In Print is me reading about two hundred years of American newspapers for fireballs and meteorite falls, then chasing every claimed stone forward to find out what really happened to it. The results live at **[skyinprint.com](https://www.skyinprint.com)**: thirteen cases told through the original scans, a map of every fireball printed in more than one town, and a reconstruction of the great fireball of 21 December 1876.
 
-## View the site locally
+## How I did it
 
-Python 3.12 or later:
+**Finding the reports.** The text comes from [American Stories](https://huggingface.co/datasets/dell-research-harvard/AmericanStories), a research group's OCR of the Library of Congress newspaper scans. Keyword patterns pull out anything that might be about the sky, and then a local model (Flint, running on my own machine) sorts real sky reports from the pile of horse races, ads and fiction. The model only narrows things down, it never decides whether something came from space. Before the full run I did a pilot on pre-registered windows, with the rules and prompts committed in `prereg/` before I'd read any of the evaluation data, so I couldn't quietly tune it to look good.
 
-```sh
-python3 scripts/serve_site.py
-```
+The full sweep covers 1770 to 1964 (with plenty of gaps). For falls it triaged 245,249 candidate articles down to 6,250 fall reports, and on the fireball side it ended up with 24,391 reports grouped into 11,307 events, 807 of them printed in two or more cities.
 
-Open http://localhost:8766. The static website needs no package installation or build step. Deploy only `site/`; its Vercel configuration supplies clean URLs and case-page routing.
+**Reading them.** Papers reprinted each other constantly, so a dozen clippings can be one guy's story, and the paper's hometown usually isn't where the witness was standing. Reports get grouped into reprint families with OCR-tolerant copy detection, and then I read the families myself and graded them.
 
-## Repository contents
+**Chasing the stones.** Any report that says a stone was picked up gets followed through later papers, science journals, museum accession records and a lot of emails to small-town historical societies and librarians. Most trails die. The Seaford, Delaware stone turned out to be chalcedony, Middleburg, Florida was limonite, the Smithsonian has no record of three stones that supposedly went there, and others just vanish. A few are still open, like the Saco, Maine stone that went to what's now the Saco Museum. The running record is in `results/falls/`.
 
-- `site/`: website, downloadable data and public evidence summaries.
-- `src/skyinprint/`: newspaper filtering, model triage, grouping and follow-up research tools.
-- `prereg/`: research rules, prompts and pinned input manifests. Some historical notes reference working artifacts not distributed in this release.
-- `reference/`: reference catalogs and source notices.
-- `results/`: selected research outputs and sanitized institutional inquiry summaries.
-- `tests/`: checks of the distributed data, evidence links and reconstruction.
+**Checking what it misses.** I tested recall against the 114 recorded US falls in the years I swept. 48 of them have a real report somewhere in the keyword candidates, and the model caught 47 of those. The other 66 never reached the model at all, mostly because the papers aren't in the corpus or the OCR mangled them. In a blind check I agreed with the model on 22 of 24 calls. The details are in `results/validation/` and `results/eyecheck/`.
 
-The public release is a curated snapshot. Raw newspaper downloads, private correspondence, deployment configuration and working review queues are not included. The original release exporter is also omitted; this repository does not claim a one-command rebuild of the full published release.
+**The 1876 fireball.** It's the biggest event in the data, 25 independent sources. Fitting a ground track from seven towns that saw it pass overhead gives a path that runs 17 km from the Rochester, Indiana meteorite site, which I didn't use in the fit. That's the reconstruction on the [fireball page](https://www.skyinprint.com/fireball).
 
-## Research tools
+## What's in here
 
-```sh
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -e .
-python -m unittest discover -s tests -v
-```
+- `site/` is the website, plus the downloadable data ([data dictionary](site/data/README.md)).
+- `src/skyinprint/` has the pipeline: filtering, model triage, reprint grouping, fireball tracks and follow-up tools.
+- `prereg/` has the pre-registration, keyword patterns, triage prompts and pinned corpus manifests.
+- `results/` has the pilot report, recall checks, fall trails and the outreach log.
+- `reference/` has the meteorite catalogue snapshot and other reference lists.
 
-Download and triage jobs are separate from viewing the site. They require the newspaper inputs described in `prereg/` and can take substantial storage and computation. Module docstrings describe their inputs and commands; some tools expect intermediate outputs from earlier stages.
+This is a curated snapshot, so raw newspaper downloads, private emails and working review queues aren't here, and the triage step is wired to my own model server. It's mostly here to show the work rather than to rerun it.
 
-Model triage requires `SKY_MODEL_BASE_URL`, `SKY_MODEL_NAME` and `SKY_LANE_URL` in the environment or an untracked `local.env` at the repository root. The included client expects an OpenAI-compatible model API and a private-network availability service exposing `/lane`; it is specific to that shared-compute workflow. Neither service nor credentials are supplied. The client checks private addresses and yields to other workloads; actual network access must be controlled at the server.
+## Caveats
 
-## Interpretation and credit
+The map shows what got printed and survived, which tracks how many papers were digitized a lot more than how often things fell. Publishing towns aren't witness locations, fireball groupings can still mix unrelated reports, and none of the open stone leads is a confirmed meteorite.
 
-Newspaper coverage, OCR errors and reprinting affect what appears in the data. Publishing towns are not necessarily witness locations. Candidate groupings and reported stones are not confirmed meteorites. See the [data dictionary](site/data/README.md) and site methods page for limitations.
+## Credits and license
 
-Newspaper text: [American Stories](https://huggingface.co/datasets/dell-research-harvard/AmericanStories), Dell et al. (2023), based on Library of Congress / Chronicling America scans. Code: MIT, see [LICENSE](LICENSE). Derived data: CC BY 4.0. Third-party reference data and libraries retain their source notices and applicable terms.
+Newspaper text from [American Stories](https://huggingface.co/datasets/dell-research-harvard/AmericanStories) (Dell et al., 2023), built on Library of Congress [Chronicling America](https://chroniclingamerica.loc.gov) scans. Known meteorites from NASA's Meteorite Landings dataset and the Meteoritical Bulletin. Code is MIT ([LICENSE](LICENSE)), derived data is CC BY 4.0, and third-party data keeps its own terms.
