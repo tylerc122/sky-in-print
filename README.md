@@ -6,9 +6,7 @@
 In November 2026 the [Meteoritical Bulletin](https://www.lpi.usra.edu/meteor/metbull.cfm?code=23973) changed the Thomson, Georgia (1888) meteorite from a find to an observed fall, after I sent them the 1888 newspaper reports of it coming down, so a stone that was already in the catalogue finally has the right story attached, and that's the first thing this project has actually changed in the record.
 
 <p>
-<img src="site/assets/scans/thomson.jpg" alt="Savannah Morning News clipping: he was in the cotton field and heard it whizzing as a minnie ball, and when it fell it burrowed three or four inches in the earth" height="250">
-&nbsp;
-<img src="results/falls/assets/thomson_ghn_2026-10-26/lincolnton_oct19_report.png" alt="Lincolnton News clipping: about 1 o'clock last Monday our citizens were startled by a heavy thundering report accompanied by a rushing noise" height="250">
+<img src="docs/readme/thomson-clippings.png" alt="Two clippings. Savannah Morning News: he was in the cotton field and heard it whizzing as a minnie ball, and when it fell it burrowed three or four inches in the earth. Lincolnton News: about 1 o'clock last Monday our citizens were startled by a heavy thundering report accompanied by a rushing noise" width="100%">
 <br>
 <sub>Left, the <a href="https://www.loc.gov/resource/sn86063034/1888-11-07/ed-1/?sp=6">Savannah Morning News</a> on Wilson hearing it come in. Right, the <a href="https://gahistoricnewspapers.galileo.usg.edu/lccn/sn90052031/1888-10-19/ed-1/seq-3/">Lincolnton News</a> that Friday, from a town 36 km north, where "our citizens were startled" by a heavy report at 1 p.m. that same Monday.</sub>
 </p>
